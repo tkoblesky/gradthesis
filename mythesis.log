@@ -1,0 +1,883 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 AUG 2016 17:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**mythesis.tex
+(./mythesis.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./thesis.cls
+Document Class: thesis 2014/03/27
+
+--------------------------------------------------------------
+ +---+ Thesis Style (thesis.cls) version 1.13
+ +---+ for University of Colorado Ph.D. theses/dissertations.
+ * Conforms to the University of Colorado at Boulder Graduate
+ * School "SPECIFICATIONS for Preparation of Master's Thesis
+ * and Doctoral Dissertations" (rev. March 2014).
+--------------------------------------------------------------
+ URL: http://www.colorado.edu/oit/software-hardware/tex-latex
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box26
+\UL@hyphenbox=\box27
+\UL@skip=\skip43
+\UL@hook=\toks14
+\UL@height=\dimen103
+\UL@pe=\count88
+\UL@pixel=\dimen104
+\ULC@box=\box28
+Package: ulem 2012/05/18
+\ULdepth=\dimen105
+)
+\c@th@SecNum=\count89
+\c@th@SectionSave=\count90
+\th@SubSubSecSpc=\skip44
+\c@th@storepage=\count91
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen108
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count95
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count96
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen109
+\Fld@menulength=\count97
+\Field@Width=\dimen110
+\Fld@charsize=\dimen111
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip45
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen112
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen113
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count103
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count104
+\leftroot@=\count105
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count106
+\DOTSCASE@=\count107
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
+\dotsspace@=\muskip11
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
+\tag@help=\toks18
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
+\andhelp@=\toks19
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks20
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(./mythesis.aux)
+\openout1 = `mythesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen121
+\scratchbox=\box31
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen122
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 81.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count121
+)
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
+
+(./mythesis.out) (./mythesis.out)
+\@outlinefile=\write3
+\openout3 = `mythesis.out'.
+
+
+Making Title Page
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Making Approval Page
+[1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Making Abstract Page
+[2
+
+]
+Making Dedication Page
+[3
+
+]
+centered
+Making Acknowledgement Page
+[4
+
+
+]
+centered
+Making ToC Page
+[5
+
+
+]
+centered
+(./mythesis.toc [6
+
+] [7])
+\tf@toc=\write4
+\openout4 = `mythesis.toc'.
+
+
+Making LoT Page
+[8]
+centered
+(./mythesis.lot)
+\tf@lot=\write5
+\openout5 = `mythesis.lot'.
+
+
+Making LoF Page
+[9
+
+]
+centered
+(./mythesis.lof [10
+
+] [11])
+\tf@lof=\write6
+\openout6 = `mythesis.lof'.
+
+
+
+
+-------------------Beginning Body----------------------
+
+
+[12]
+Putting page number on short ToC
+centered
+(./mythesis.toc)
+\tf@toc=\write7
+\openout7 = `mythesis.toc'.
+
+
+Putting page number on short LoF
+Putting page number on short LoT
+(./chapter1.tex [1
+
+
+]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
+centered
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+[2
+
+]
+
+LaTeX Warning: Citation `Fermi01071950' on page 3 undefined on input line 19.
+
+<figs/qgp_evolution_timeline.png, id=463, 602.25pt x 397.485pt>
+File: figs/qgp_evolution_timeline.png Graphic file (type png)
+
+<use figs/qgp_evolution_timeline.png>
+Package pdftex.def Info: figs/qgp_evolution_timeline.png used on input line 37.
+
+(pdftex.def)             Requested size: 258.36667pt x 170.52704pt.
+ [3]) (./chapter2.tex [4 <./figs/qgp_evolution_timeline.png>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
+centered
+<figs/elliptical_flow_cartoon.png, id=474, 482.80376pt x 173.64874pt>
+File: figs/elliptical_flow_cartoon.png Graphic file (type png)
+
+<use figs/elliptical_flow_cartoon.png>
+Package pdftex.def Info: figs/elliptical_flow_cartoon.png used on input line 5.
+
+(pdftex.def)             Requested size: 211.3883pt x 76.02942pt.
+ [5
+
+ <./figs/elliptical_flow_cartoon.png>]
+
+LaTeX Warning: Citation `PhysRevLett.115.142301' on page 6 undefined on input l
+ine 48.
+
+<figs/he3au_simulation.png, id=480, 899.36pt x 230.8625pt>
+File: figs/he3au_simulation.png Graphic file (type png)
+
+<use figs/he3au_simulation.png>
+Package pdftex.def Info: figs/he3au_simulation.png used on input line 52.
+(pdftex.def)             Requested size: 211.3883pt x 54.26326pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/initial_conditions.png, id=481, 414.54875pt x 690.58pt>
+File: figs/initial_conditions.png Graphic file (type png)
+
+<use figs/initial_conditions.png>
+Package pdftex.def Info: figs/initial_conditions.png used on input line 61.
+(pdftex.def)             Requested size: 211.3883pt x 352.13844pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter3.tex [6] [7 <./figs/he3au_simulation.png> <./figs/initial_conditio
+ns.png>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
+centered
+[8
+
+] <figs/phenix_schematic.png, id=510, 616.3025pt x 373.395pt>
+File: figs/phenix_schematic.png Graphic file (type png)
+
+<use figs/phenix_schematic.png>
+Package pdftex.def Info: figs/phenix_schematic.png used on input line 19.
+(pdftex.def)             Requested size: 234.87749pt x 142.30179pt.
+Missing character: There is no ± in font cmr10!
+ [9 <./figs/phenix_schematic.png>]
+<figs/bbc_ring_schematic.png, id=518, 496.85625pt x 329.23pt>
+File: figs/bbc_ring_schematic.png Graphic file (type png)
+
+<use figs/bbc_ring_schematic.png>
+Package pdftex.def Info: figs/bbc_ring_schematic.png used on input line 61.
+(pdftex.def)             Requested size: 187.89912pt x 124.50586pt.
+
+<figs/bbc_rings.png, id=519, 707.64375pt x 672.5125pt>
+File: figs/bbc_rings.png Graphic file (type png)
+
+<use figs/bbc_rings.png>
+Package pdftex.def Info: figs/bbc_rings.png used on input line 62.
+(pdftex.def)             Requested size: 187.89912pt x 178.56386pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/fvtx_cutaway.png, id=520, 545.03625pt x 323.2075pt>
+File: figs/fvtx_cutaway.png Graphic file (type png)
+
+<use figs/fvtx_cutaway.png>
+Package pdftex.def Info: figs/fvtx_cutaway.png used on input line 75.
+(pdftex.def)             Requested size: 187.89912pt x 111.42287pt.
+ [10]
+Missing character: There is no µ in font cmr10!
+ [11 <./figs/bbc_ring_schematic.png> <./figs/bbc_rings.png>] [12 <./figs/fvtx_c
+utaway.png>]
+<figs/pc3dphi.png, id=537, 617.30624pt x 295.1025pt>
+File: figs/pc3dphi.png Graphic file (type png)
+ <use figs/pc3dphi.png>
+Package pdftex.def Info: figs/pc3dphi.png used on input line 131.
+(pdftex.def)             Requested size: 216.06041pt x 103.28741pt.
+
+<figs/pc3dz.png, id=538, 633.36626pt x 287.0725pt>
+File: figs/pc3dz.png Graphic file (type png)
+ <use figs/pc3dz.png>
+Package pdftex.def Info: figs/pc3dz.png used on input line 132.
+(pdftex.def)             Requested size: 221.6815pt x 100.47687pt.
+
+<figs/zvtx_distributions.png, id=539, 581.17125pt x 552.0625pt>
+File: figs/zvtx_distributions.png Graphic file (type png)
+
+<use figs/zvtx_distributions.png>
+Package pdftex.def Info: figs/zvtx_distributions.png used on input line 141.
+(pdftex.def)             Requested size: 203.41298pt x 193.22476pt.
+ [13]
+<figs/bbc_q_comp.png, id=545, 625.33624pt x 433.62pt>
+File: figs/bbc_q_comp.png Graphic file (type png)
+
+<use figs/bbc_q_comp.png>
+Package pdftex.def Info: figs/bbc_q_comp.png used on input line 148.
+(pdftex.def)             Requested size: 218.87096pt x 151.76927pt.
+
+<figs/beam_angle.png, id=546, 941.5175pt x 236.885pt>
+File: figs/beam_angle.png Graphic file (type png)
+
+<use figs/beam_angle.png>
+Package pdftex.def Info: figs/beam_angle.png used on input line 155.
+(pdftex.def)             Requested size: 305.33788pt x 76.82043pt.
+
+<figs/tilt_effect.png, id=547, 844.15375pt x 348.30125pt>
+File: figs/tilt_effect.png Graphic file (type png)
+
+<use figs/tilt_effect.png>
+Package pdftex.def Info: figs/tilt_effect.png used on input line 161.
+(pdftex.def)             Requested size: 305.33788pt x 125.98358pt.
+) (./chapter4.tex [14 <./figs/pc3dphi.png> <./figs/pc3dz.png>] [15 <./figs/zvtx
+_distributions.png> <./figs/bbc_q_comp.png> <./figs/beam_angle.png>] [16 <./fig
+s/tilt_effect.png>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
+centered
+[17
+
+] [18] [19] <figs/flattened_example.png, id=594, 622.325pt x 437.635pt>
+File: figs/flattened_example.png Graphic file (type png)
+
+<use figs/flattened_example.png>
+Package pdftex.def Info: figs/flattened_example.png used on input line 82.
+(pdftex.def)             Requested size: 305.33788pt x 214.72348pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20] [21 <./figs/flattened_example.png>]
+<figs/flatten_calib_iteration.png, id=607, 1202.4925pt x 788.9475pt>
+File: figs/flatten_calib_iteration.png Graphic file (type png)
+
+<use figs/flatten_calib_iteration.png>
+Package pdftex.def Info: figs/flatten_calib_iteration.png used on input line 12
+4.
+(pdftex.def)             Requested size: 305.33788pt x 200.33025pt.
+
+<figs/bbc_ep_bf_af.png, id=608, 936.49875pt x 539.01375pt>
+File: figs/bbc_ep_bf_af.png Graphic file (type png)
+
+<use figs/bbc_ep_bf_af.png>
+Package pdftex.def Info: figs/bbc_ep_bf_af.png used on input line 130.
+(pdftex.def)             Requested size: 305.33788pt x 175.74489pt.
+ [22]
+<figs/fvtx_ew_diff_bf.png, id=615, 503.8825pt x 538.01pt>
+File: figs/fvtx_ew_diff_bf.png Graphic file (type png)
+
+<use figs/fvtx_ew_diff_bf.png>
+Package pdftex.def Info: figs/fvtx_ew_diff_bf.png used on input line 137.
+(pdftex.def)             Requested size: 187.89912pt x 200.62036pt.
+
+<figs/bbc_ew_diff_bf.png, id=616, 525.965pt x 538.01pt>
+File: figs/bbc_ew_diff_bf.png Graphic file (type png)
+
+<use figs/bbc_ew_diff_bf.png>
+Package pdftex.def Info: figs/bbc_ew_diff_bf.png used on input line 138.
+(pdftex.def)             Requested size: 187.89912pt x 192.20576pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/fvtx_rot_vtx.png, id=617, 432.61626pt x 364.36125pt>
+File: figs/fvtx_rot_vtx.png Graphic file (type png)
+
+<use figs/fvtx_rot_vtx.png>
+Package pdftex.def Info: figs/fvtx_rot_vtx.png used on input line 144.
+(pdftex.def)             Requested size: 187.89912pt x 158.25124pt.
+
+<figs/bbc_rot_vtx.png, id=618, 445.665pt x 365.365pt>
+File: figs/bbc_rot_vtx.png Graphic file (type png)
+
+<use figs/bbc_rot_vtx.png>
+Package pdftex.def Info: figs/bbc_rot_vtx.png used on input line 145.
+(pdftex.def)             Requested size: 187.89912pt x 154.0432pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/comparison_of_weights.png, id=619, 597.23125pt x 598.235pt>
+File: figs/comparison_of_weights.png Graphic file (type png)
+
+<use figs/comparison_of_weights.png>
+Package pdftex.def Info: figs/comparison_of_weights.png used on input line 151.
+
+(pdftex.def)             Requested size: 234.87749pt x 235.2733pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pp_pau_bbc_comparison.png, id=620, 779.91376pt x 387.4475pt>
+File: figs/pp_pau_bbc_comparison.png Graphic file (type png)
+
+<use figs/pp_pau_bbc_comparison.png>
+Package pdftex.def Info: figs/pp_pau_bbc_comparison.png used on input line 157.
+
+(pdftex.def)             Requested size: 281.85585pt x 140.01898pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/fvtx_correction_summary.png, id=621, 597.23125pt x 590.205pt>
+File: figs/fvtx_correction_summary.png Graphic file (type png)
+
+<use figs/fvtx_correction_summary.png>
+Package pdftex.def Info: figs/fvtx_correction_summary.png used on input line 16
+3.
+(pdftex.def)             Requested size: 234.87749pt x 232.11526pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/fvtx_corrected.png, id=622, 762.85pt x 305.14pt>
+File: figs/fvtx_corrected.png Graphic file (type png)
+
+<use figs/fvtx_corrected.png>
+Package pdftex.def Info: figs/fvtx_corrected.png used on input line 169.
+(pdftex.def)             Requested size: 234.87749pt x 93.94987pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/bbc_correction_summary.png, id=623, 655.44875pt x 630.355pt>
+File: figs/bbc_correction_summary.png Graphic file (type png)
+
+<use figs/bbc_correction_summary.png>
+Package pdftex.def Info: figs/bbc_correction_summary.png used on input line 175
+.
+(pdftex.def)             Requested size: 234.87749pt x 225.87921pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/bbc_pp_correction.png, id=624, 704.6325pt x 288.07625pt>
+File: figs/bbc_pp_correction.png Graphic file (type png)
+
+<use figs/bbc_pp_correction.png>
+Package pdftex.def Info: figs/bbc_pp_correction.png used on input line 181.
+(pdftex.def)             Requested size: 234.87749pt x 96.0237pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<figs/fvtx_incl_v2_comparison_corrections.png, id=625, 532.99126pt x 657.45625p
+t>
+File: figs/fvtx_incl_v2_comparison_corrections.png Graphic file (type png)
+ <use figs/fvtx_incl_v2_comparison_corrections.png>
+Package pdftex.def Info: figs/fvtx_incl_v2_comparison_corrections.png used on i
+nput line 187.
+(pdftex.def)             Requested size: 234.87749pt x 289.72305pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pau_correlation_central_fvtx.png, id=626, 955.57pt x 243.91125pt>
+File: figs/pau_correlation_central_fvtx.png Graphic file (type png)
+
+<use figs/pau_correlation_central_fvtx.png>
+Package pdftex.def Info: figs/pau_correlation_central_fvtx.png used on input li
+ne 195.
+(pdftex.def)             Requested size: 281.85585pt x 71.94202pt.
+ [23 <./figs/flatten_calib_iteration.png> <./figs/bbc_ep_bf_af.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pp_correlation_minbias_fvtx.png, id=633, 459.7175pt x 552.0625pt>
+File: figs/pp_correlation_minbias_fvtx.png Graphic file (type png)
+
+<use figs/pp_correlation_minbias_fvtx.png>
+Package pdftex.def Info: figs/pp_correlation_minbias_fvtx.png used on input lin
+e 201.
+(pdftex.def)             Requested size: 281.85585pt x 338.49292pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/non_flow.pdf, id=634, 569.12625pt x 450.68375pt>
+File: figs/non_flow.pdf Graphic file (type pdf)
+ <use figs/non_flow.pdf>
+Package pdftex.def Info: figs/non_flow.pdf used on input line 207.
+(pdftex.def)             Requested size: 281.85585pt x 223.20947pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/example_pile_up_event.png, id=635, 910.40125pt x 304.13625pt>
+File: figs/example_pile_up_event.png Graphic file (type png)
+
+<use figs/example_pile_up_event.png>
+Package pdftex.def Info: figs/example_pile_up_event.png used on input line 214.
+
+(pdftex.def)             Requested size: 281.85585pt x 94.1606pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter5.tex [24 <./figs/fvtx_ew_diff_bf.png> <./figs/bbc_ew_diff_bf.png> 
+<./figs/fvtx_rot_vtx.png> <./figs/bbc_rot_vtx.png>]
+Overfull \vbox (59.2926pt too high) has occurred while \output is active []
+
+
+[25 <./figs/comparison_of_weights.png> <./figs/pp_pau_bbc_comparison.png>]
+[26 <./figs/fvtx_correction_summary.png> <./figs/fvtx_corrected.png>] [27 <./fi
+gs/bbc_correction_summary.png> <./figs/bbc_pp_correction.png>] [28 <./figs/fvtx
+_incl_v2_comparison_corrections.png> <./figs/pau_correlation_central_fvtx.png>]
+[29 <./figs/pp_correlation_minbias_fvtx.png> <./figs/non_flow.pdf, page is rota
+ted 90 degrees>] [30 <./figs/example_pile_up_event.png>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
+centered
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+<figs/pau_points.png, id=722, 684.5575pt x 667.49374pt>
+File: figs/pau_points.png Graphic file (type png)
+
+<use figs/pau_points.png>
+Package pdftex.def Info: figs/pau_points.png used on input line 6.
+(pdftex.def)             Requested size: 234.87749pt x 229.02263pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+<figs/three_system_comparison_result.pdf, id=723, 569.12625pt x 549.05125pt>
+File: figs/three_system_comparison_result.pdf Graphic file (type pdf)
+
+<use figs/three_system_comparison_result.pdf>
+Package pdftex.def Info: figs/three_system_comparison_result.pdf used on input 
+line 14.
+(pdftex.def)             Requested size: 234.87749pt x 226.59534pt.
+
+<figs/indepth_theory_comparison.png, id=724, 1170.3725pt x 469.755pt>
+File: figs/indepth_theory_comparison.png Graphic file (type png)
+
+<use figs/indepth_theory_comparison.png>
+Package pdftex.def Info: figs/indepth_theory_comparison.png used on input line 
+24.
+(pdftex.def)             Requested size: 281.85585pt x 113.13057pt.
+) (./chapter6.tex [31
+
+] [32 <./figs/pau_points.png> <./figs/three_system_comparison_result.pdf, page 
+is rotated 90 degrees>] [33 <./figs/indepth_theory_comparison.png>]
+ \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 6.
+centered
+)
+No file mythesis.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
+[34
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+ (./mythesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package rerunfilecheck Info: File `mythesis.out' has not changed.
+(rerunfilecheck)             Checksum: 47FE7D734A117B50133944FB3F534419;4440.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+ ) 
+Here is how much of TeX's memory you used:
+ 6801 strings out of 493089
+ 99420 string characters out of 6134842
+ 182825 words of memory out of 5000000
+ 9980 multiletter control sequences out of 15000+600000
+ 12724 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,11n,41p,956b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on mythesis.pdf (46 pages, 6211858 bytes).
+PDF statistics:
+ 865 PDF objects out of 1000 (max. 8388607)
+ 681 compressed objects within 7 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 672 words of extra memory for PDF output out of 10000 (max. 10000000)
+

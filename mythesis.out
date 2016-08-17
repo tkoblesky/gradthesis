@@ -1,0 +1,62 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{The Standard Model}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Quantum Chromodynamics}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Heavy Ion Collisions}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Collectivity in QCD}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Conceptual Understanding of Flow}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Mathematical Introduction}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{A Review of Flow Measurements in Heavy Ion Collisions}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{Collectivity in Small QCD Systems}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.4.1}{Monte-Carlo Initial Condition Characterization}{section.2.4}% 10
+\BOOKMARK [0][-]{chapter.3}{Experimental Setup}{}% 11
+\BOOKMARK [1][-]{section.3.1}{RHIC}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{PHENIX }{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{Event Categorization Detectors}{section.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.1.1}{Beam Beam Counter \(BBC\)}{subsection.3.2.1}% 15
+\BOOKMARK [2][-]{subsection.3.2.2}{Forward Rapidity Detectors}{section.3.2}% 16
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Forward Vertex Detector \(FVTX\)}{subsection.3.2.2}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{FVTX Clustering}{subsection.3.2.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.3}{Midrapidity Detectors}{section.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Drift Chamber}{subsection.3.2.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.3.2}{Pad Chambers}{subsection.3.2.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.3.3}{Ring Imaging Cherenkov Detector}{subsection.3.2.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.2.3.4}{EM Cal}{subsection.3.2.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.2.3.5}{Silicon Vertex Detector \(SVX\)}{subsection.3.2.3}% 24
+\BOOKMARK [2][-]{subsection.3.2.4}{DAQ}{section.3.2}% 25
+\BOOKMARK [3][-]{subsubsection.3.2.4.1}{Triggering}{subsection.3.2.4}% 26
+\BOOKMARK [1][-]{section.3.3}{Event Reconstruction and Characterization}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.1}{Central Arm Tracking}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.2}{CNT Tracks Simulation}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.3}{Centrality Determination}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.4}{Vertex Determination}{section.3.3}% 31
+\BOOKMARK [1][-]{section.3.4}{Run15 pAu Dataset}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.4.1}{Beam Geometry Effects}{section.3.4}% 33
+\BOOKMARK [0][-]{chapter.4}{Analysis}{}% 34
+\BOOKMARK [1][-]{section.4.1}{Direct Observables: Building Blocks of the Measurement}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.1.1}{Central Arm Tracks}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.2}{FVTX Clusters}{section.4.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.3}{BBC PMTs}{section.4.1}% 38
+\BOOKMARK [1][-]{section.4.2}{Event Plane Method}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.2.1}{Event Plane Flattening Calibration}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.2}{Event Plane Resolution Calculation}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{good run list}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.4}{luminosity over time}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.5}{bbc charge}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.6}{central events}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.6.1}{Correcting for Beam Geometry}{section.4.6}% 46
+\BOOKMARK [1][-]{section.4.7}{Systematic Error Estimate}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.7.1}{Non-flow Estimate}{section.4.7}% 48
+\BOOKMARK [2][-]{subsection.4.7.2}{Pile Up}{section.4.7}% 49
+\BOOKMARK [2][-]{subsection.4.7.3}{Beam Angle}{section.4.7}% 50
+\BOOKMARK [2][-]{subsection.4.7.4}{Track Background}{section.4.7}% 51
+\BOOKMARK [2][-]{subsection.4.7.5}{Event Plane Detectors Agreement}{section.4.7}% 52
+\BOOKMARK [0][-]{chapter.5}{Discussion of Results}{}% 53
+\BOOKMARK [1][-]{section.5.1}{v2 Measurement}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.1.1}{v2 vs pT}{section.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.1.2}{v2 vs Multiplicity}{section.5.1}% 56
+\BOOKMARK [1][-]{section.5.2}{Comparison with Theory}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.2.1}{SONIC}{section.5.2}% 58
+\BOOKMARK [2][-]{subsection.5.2.2}{AMPT}{section.5.2}% 59
+\BOOKMARK [2][-]{subsection.5.2.3}{IP-Glasma with Hydro}{section.5.2}% 60
+\BOOKMARK [1][-]{section.5.3}{Comparison with Other Species}{chapter.5}% 61
+\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 62

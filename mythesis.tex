@@ -1,0 +1,120 @@
+\documentclass[defaultstyle,11pt]{thesis}
+
+\usepackage{amssymb}		% to get all AMS symbols
+\usepackage{graphicx}		% to insert figures
+\usepackage{hyperref}		% PDF hyperreferences??
+\usepackage{amsmath}
+%\usepackage[utf8]{inputenc}
+%\usepackage{bm}% bold math
+%\usepackage{tocloft}
+%%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
+
+\newcommand{\pt}{\mbox{$p_T$}\xspace}
+\newcommand{\raa}{\mbox{$R_{\rm AA}$}\xspace}
+\newcommand{\raap}{\mbox{$R_{\rm AA}^{N_{\rm part}}$}\xspace}
+\newcommand{\Npart}{\mbox{$N_{\rm part}$}\xspace}
+\newcommand{\Ncoll}{\mbox{$N_{\rm coll}$}\xspace}
+\newcommand{\Nch}{\mbox{$N_{\rm ch}$}\xspace}
+\newcommand{\Et}{\mbox{${\rm E}_T$}\xspace}
+\newcommand{\meanpt}{\mbox{$\langle p_T \rangle$}\xspace}
+\newcommand{\meanet}{\mbox{$\langle {\rm E}_T \rangle$}\xspace}
+\newcommand{\mNcoll}{\mbox{$\langle N_{\rm coll} \rangle$}\xspace}
+\newcommand{\sqs}{\mbox{$\sqrt{s}$}\xspace}
+\newcommand{\sqsn}{\mbox{$\sqrt{s_{_{NN}}}$}\xspace}
+\newcommand{\dau}{\mbox{$d$+Au}\xspace}
+\newcommand{\dpb}{\mbox{$d$+Pb}\xspace}
+\newcommand{\pau}{\mbox{$p$+Au}\xspace}
+\newcommand{\pal}{\mbox{$p$+Al}\xspace}
+\newcommand{\hau}{\mbox{$^3\text{He}$+Au}\xspace}
+\newcommand{\pp}{\mbox{$p$+$p$}\xspace}
+\newcommand{\ppb}{\mbox{$p$+Pb}\xspace}
+\newcommand{\pa}{\mbox{$p+A$}\xspace}
+\newcommand{\rdau}{\mbox{$R_{dAu}$}\xspace}
+\newcommand{\pda}{\mbox{$p(d)+A$}\xspace}
+\newcommand{\rpda}{\mbox{$R_{p(d)+A}$}\xspace}
+\newcommand{\bbceta}{\mbox{$3.0<|\eta|<3.9$}\xspace}
+
+%\widowpenalty=9999
+%\clubpenalty=9999
+
+%%% Set the numbering down to the subsubsection level (3)                                                                        
+\setcounter{secnumdepth}{3}
+
+%%% Similarly set the table of contents numbering down to the                                                                    
+%%% subsubsection level (3)                                                                                                      
+\setcounter{tocdepth}{3}
+
+%\usepackage[titletoc]{appendix}
+
+\title{$v_2$ vs $p_T$ and $\eta$ in p+Au and $^3He$+Au 200 GeV at RHIC}
+\author{Theodore}{Koblesky}
+\otherdegrees{B.S., University of Illinois, 2011 }
+\degree{Doctor of Philosophy}		%  #1 {long descr.}
+	{Ph.D., High Energy Nuclear Physics}		%  #2 {short descr.}
+\dept{Department of}			%  #1 {designation}
+	{Physics}		%  #2 {name}
+\advisor{Prof.}				%  #1 {title}
+	{James Nagle}			%  #2 {name}
+\reader{Prof.~Standin}		%  2nd person to sign thesis
+\readerThree{Ms.~Standin}		%  3rd person to sign thesis
+
+
+%\frontmatter
+
+
+%\maketitle
+%\makecommitteepage
+
+\abstract{\OnePageChapter	% because it is very short
+	Abstract page
+	}
+
+
+\dedication[Dedication]{	% NEVER use \OnePageChapter here.
+	To some of the of the fluffy kitties.
+	}
+
+\acknowledgements{	\OnePageChapter	% *MUST* BE ONLY ONE PAGE!
+	People
+	}
+
+\begin{document}
+
+%\IRBprotocol{E927F29.001X}	% optional!
+
+\ToCisShort	% use this only for 1-page Table of Contents
+\tableofcontents
+
+\LoFisShort	% use this only for 1-page Table of Figures
+% \emptyLoF	% use this if there is no List of Figures
+
+\LoTisShort	% use this only for 1-page Table of Tables
+% \emptyLoT	% use this if there is no List of Tables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%         BEGIN DOCUMENT...                                                             %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\mainmatter
+
+%\input macros.tex
+\input chapter1.tex
+\input chapter2.tex
+\input chapter3.tex
+\input chapter4.tex
+\input chapter5.tex
+\input chapter6.tex
+
+%%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
+\bibliographystyle{plain}	% or "siam", or "alpha", etc.
+\nocite{*}		% list all refs in database, cited or not
+\bibliography{refs}		% Bib database in "refs.bib"
+
+%%%%%%%%%   then the Appendices, if any   %%%%%%%%%
+\appendix
+%\input appendixA.tex
+%\input appendixB.tex
+
+
+\end{document}
+
