@@ -39,17 +39,17 @@
 \BOOKMARK [1][-]{section.4.2}{Event Plane Method}{chapter.4}% 39
 \BOOKMARK [2][-]{subsection.4.2.1}{Event Plane Flattening Calibration}{section.4.2}% 40
 \BOOKMARK [2][-]{subsection.4.2.2}{Event Plane Resolution Calculation}{section.4.2}% 41
-\BOOKMARK [1][-]{section.4.3}{good run list}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.4}{luminosity over time}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.5}{bbc charge}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.6}{central events}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.6.1}{Correcting for Beam Geometry}{section.4.6}% 46
-\BOOKMARK [1][-]{section.4.7}{Systematic Error Estimate}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.7.1}{Non-flow Estimate}{section.4.7}% 48
-\BOOKMARK [2][-]{subsection.4.7.2}{Pile Up}{section.4.7}% 49
-\BOOKMARK [2][-]{subsection.4.7.3}{Beam Angle}{section.4.7}% 50
-\BOOKMARK [2][-]{subsection.4.7.4}{Track Background}{section.4.7}% 51
-\BOOKMARK [2][-]{subsection.4.7.5}{Event Plane Detectors Agreement}{section.4.7}% 52
+\BOOKMARK [2][-]{subsection.4.2.3}{Dataset Quality Assurance}{section.4.2}% 42
+\BOOKMARK [2][-]{subsection.4.2.4}{luminosity over time}{section.4.2}% 43
+\BOOKMARK [1][-]{section.4.3}{bbc charge}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.4}{central events}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.1}{Correcting for Beam Geometry}{section.4.4}% 46
+\BOOKMARK [1][-]{section.4.5}{Systematic Error Estimate}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.5.1}{Non-flow Estimate}{section.4.5}% 48
+\BOOKMARK [2][-]{subsection.4.5.2}{Pile Up}{section.4.5}% 49
+\BOOKMARK [2][-]{subsection.4.5.3}{Beam Angle}{section.4.5}% 50
+\BOOKMARK [2][-]{subsection.4.5.4}{Track Background}{section.4.5}% 51
+\BOOKMARK [2][-]{subsection.4.5.5}{Event Plane Detectors Agreement}{section.4.5}% 52
 \BOOKMARK [0][-]{chapter.5}{Discussion of Results}{}% 53
 \BOOKMARK [1][-]{section.5.1}{v2 Measurement}{chapter.5}% 54
 \BOOKMARK [2][-]{subsection.5.1.1}{v2 vs pT}{section.5.1}% 55

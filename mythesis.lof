@@ -16,23 +16,26 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces On the left is a cartoon diagram illustrating $\eta $ acceptance shift due to a beam offset in one of the FVTXs layers. The right plot shows the AMPT distribution of particles for pAu @ 200 GeV and the shifted $\eta $ acceptance. }}{16}{figure.3.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces This is the FVTX-S $\Psi _2$ distribution projected over all z-vertex bins at different steps during the calibration. The range of the $\Psi _2$ resolution is from -$\frac {\pi }{2}$ to $\frac {\pi }{2}$ because of the periodicity. The raw (in red) $\Psi _2$ distribution has a sinusoidal shape. The re-centered (in green) $\Psi _2$ distribution moves the peak to 0.0 radians and changes the width. The flattened (in blue) $\Psi _2$ distribution spread out the counts so that there is uniformity. Each calibration step preserves the integral.}}{21}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces TBA}}{23}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces BBC Psi2 EP distribution in different z vertex bins red before flattening, blue after flattening.}}{23}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The left plot shows the FVTX EP East West Difference without any corrections and the right plot shows the BBC EP East West Difference without any corrections.}}{24}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces The left plot shows the FVTX EP East West Difference with beam rotation and vertex offset corrections and the right plot shows the BBC EP East West Difference with the same corrections.}}{24}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces TBA}}{25}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces These figures show the phi distribution of BBC PMT charge in a) the Run15 pp dataset and in b) the Run15 pAu dataset.}}{25}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces TBA}}{26}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces FVTX EP corrected with inverse $\phi $ weighting and 20 $\%$ cut.}}{26}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces TBA}}{27}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces BBC EP corrected with pp, pau ratio weighting.}}{27}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces A comparison of FVTX EP $v_2$ corrections on the inclusive measurement.}}{28}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces TBA}}{28}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces TBA}}{29}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces TBA}}{29}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces The left plot is an example of a normal event, the right plot is an example pile up event.}}{30}{figure.4.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The distribution of the length of physics runs.}}{23}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Integrated luminosity from the p+Au dataset.}}{23}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Real data for BBC Charge South (Au-going direction) shown as open circles and Glauber Monte Carlo + NBD. The colors correspond to the various percentiles relative to the total inelastic p+Au cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Leve-1 trigger efficiency in all inelastic collisions and inelastic collisions producing a particle at midrapidity, respectively. The best fit NBD parameters are mu = 3.14, k = 0.47 , and the trigger firing on 84 +/- 3$\%$ of the total inelastic cross section [sigma = 1.76 barns].}}{24}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces TBA}}{25}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces BBC Psi2 EP distribution in different z vertex bins red before flattening, blue after flattening.}}{25}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The left plot shows the FVTX EP East West Difference without any corrections and the right plot shows the BBC EP East West Difference without any corrections.}}{26}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The left plot shows the FVTX EP East West Difference with beam rotation and vertex offset corrections and the right plot shows the BBC EP East West Difference with the same corrections.}}{26}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces TBA}}{27}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces These figures show the phi distribution of BBC PMT charge in a) the Run15 pp dataset and in b) the Run15 pAu dataset.}}{27}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces TBA}}{28}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces FVTX EP corrected with inverse $\phi $ weighting and 20 $\%$ cut.}}{28}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces TBA}}{29}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces BBC EP corrected with pp, pau ratio weighting.}}{29}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces A comparison of FVTX EP $v_2$ corrections on the inclusive measurement.}}{30}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces TBA}}{30}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces TBA}}{31}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces TBA}}{31}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces The left plot is an example of a normal event, the right plot is an example pile up event.}}{32}{figure.4.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces TBA}}{32}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces TBA}}{32}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces TBA}}{33}{figure.5.3}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces TBA}}{34}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces TBA}}{34}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces TBA}}{35}{figure.5.3}
 \addvspace {10\p@ }
