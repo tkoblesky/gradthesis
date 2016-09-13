@@ -1,41 +1,24 @@
 \contentsline {part} {\figurenameToC }{\relax }{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces TBA}}{4}{figure.1.1}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces TBA }}{5}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces TBA }}{7}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces a) IP-glasma. b) MC-KLN. c) MC-Glauber.}}{7}{figure.2.3}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces TBA}}{9}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces TBA}}{11}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces FVTX/VTX cut}}{12}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces TBA}}{14}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces TBA}}{15}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces TBA}}{15}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces A vector diagram illustrating the yellow and blue beam angle.}}{15}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces On the left is a cartoon diagram illustrating $\eta $ acceptance shift due to a beam offset in one of the FVTXs layers. The right plot shows the AMPT distribution of particles for pAu @ 200 GeV and the shifted $\eta $ acceptance. }}{16}{figure.3.8}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces This is the FVTX-S $\Psi _2$ distribution projected over all z-vertex bins at different steps during the calibration. The range of the $\Psi _2$ resolution is from -$\frac {\pi }{2}$ to $\frac {\pi }{2}$ because of the periodicity. The raw (in red) $\Psi _2$ distribution has a sinusoidal shape. The re-centered (in green) $\Psi _2$ distribution moves the peak to 0.0 radians and changes the width. The flattened (in blue) $\Psi _2$ distribution spread out the counts so that there is uniformity. Each calibration step preserves the integral.}}{21}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The distribution of the length of physics runs.}}{23}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Integrated luminosity from the p+Au dataset.}}{23}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Real data for BBC Charge South (Au-going direction) shown as open circles and Glauber Monte Carlo + NBD. The colors correspond to the various percentiles relative to the total inelastic p+Au cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Leve-1 trigger efficiency in all inelastic collisions and inelastic collisions producing a particle at midrapidity, respectively. The best fit NBD parameters are mu = 3.14, k = 0.47 , and the trigger firing on 84 +/- 3$\%$ of the total inelastic cross section [sigma = 1.76 barns].}}{24}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces TBA}}{25}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces BBC Psi2 EP distribution in different z vertex bins red before flattening, blue after flattening.}}{25}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The left plot shows the FVTX EP East West Difference without any corrections and the right plot shows the BBC EP East West Difference without any corrections.}}{26}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces The left plot shows the FVTX EP East West Difference with beam rotation and vertex offset corrections and the right plot shows the BBC EP East West Difference with the same corrections.}}{26}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces TBA}}{27}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces These figures show the phi distribution of BBC PMT charge in a) the Run15 pp dataset and in b) the Run15 pAu dataset.}}{27}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces TBA}}{28}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces FVTX EP corrected with inverse $\phi $ weighting and 20 $\%$ cut.}}{28}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces TBA}}{29}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces BBC EP corrected with pp, pau ratio weighting.}}{29}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces A comparison of FVTX EP $v_2$ corrections on the inclusive measurement.}}{30}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces TBA}}{30}{figure.4.16}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces TBA}}{31}{figure.4.17}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces TBA}}{31}{figure.4.18}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces The left plot is an example of a normal event, the right plot is an example pile up event.}}{32}{figure.4.19}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces TBA}}{34}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces TBA}}{34}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces TBA}}{35}{figure.5.3}
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces This is the FVTX-S $\Psi _2$ distribution projected over all z-vertex bins at different steps during the calibration. The range of the $\Psi _2$ resolution is from -$\frac {\pi }{2}$ to $\frac {\pi }{2}$ because of the periodicity. The raw (in red) $\Psi _2$ distribution has a sinusoidal shape. The re-centered (in green) $\Psi _2$ distribution moves the peak to 0.0 radians and changes the width. The flattened (in blue) $\Psi _2$ distribution spread out the counts so that there is uniformity. Each calibration step preserves the integral.}}{6}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The first measurement of $v_{2}$ as a function of $p_T$ with the FVTXs event plane for the p+Au @ 200 GeV dataset. The default resolution as shown in table TBA is used. The left panel shows the event plane resolution corrected $v_2$. The black points show the $v_2$ measurement measured using all CNT tracks. The blue and red points show the $v_2$ measurement made with only the west and east arms respectively. It is apparent that there is a significant splitting of the measurement depending on what set of tracks are being used to calculate $v_2$ which implies there are some systematic errors present. The left panel quantifies the level of splitting by plotting the ratio of the east or west $v_2$ to the measurement made with all CNT tracks. The blue and red lines are constant fits to this ratio and the numbers in the legend are the constant fit parameter. So the east $v_2$ measurement is 16$\%$ higher on average from the all CNT track measurement and the west measurement is 28$\%$ lower on average.}}{8}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces A vector diagram illustrating the yellow and blue beam angle.}}{8}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces On the left is a cartoon diagram illustrating $\eta $ acceptance shift due to a beam offset in one of the FVTXs layers. The right plot shows the AMPT distribution of particles for pAu @ 200 GeV and the shifted $\eta $ acceptance. }}{11}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The first measurement of $v_2$ as a function of $p_T$ with the BBCs event plane for the p+Au @ 200 GeV dataset. Along with the FVTXs event plane measurement, the default resolution as show in table TBA is used. }}{12}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces These 4 panels show the FVTX $\phi $ dependent cluster weighting when calculating the FVTX event plane for each layer separately. }}{12}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces These 4 panels show the FVTX $\phi $ dependent cluster weighting when calculating the FVTX event plane for each layer separately. }}{13}{figure.1.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces These 4 panels show the FVTX $\phi $ dependent cluster weighting when calculating the FVTX event plane for each layer separately. }}{14}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces The distribution of the length of physics runs.}}{14}{figure.1.9}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Integrated luminosity from the p+Au dataset.}}{15}{figure.1.10}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Real data for BBC Charge South (Au-going direction) shown as open circles and Glauber Monte Carlo + NBD. The colors correspond to the various percentiles relative to the total inelastic p+Au cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Leve-1 trigger efficiency in all inelastic collisions and inelastic collisions producing a particle at midrapidity, respectively. The best fit NBD parameters are mu = 3.14, k = 0.47 , and the trigger firing on 84 +/- 3$\%$ of the total inelastic cross section [sigma = 1.76 barns].}}{15}{figure.1.11}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces TBA}}{16}{figure.1.12}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces These figures show the phi distribution of BBC PMT charge in a) the Run15 pp dataset and in b) the Run15 pAu dataset.}}{16}{figure.1.13}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces TBA}}{17}{figure.1.14}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces FVTX EP corrected with inverse $\phi $ weighting and 20 $\%$ cut.}}{17}{figure.1.15}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces TBA}}{18}{figure.1.16}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces BBC EP corrected with pp, pau ratio weighting.}}{18}{figure.1.17}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces A comparison of FVTX EP $v_2$ corrections on the inclusive measurement.}}{19}{figure.1.18}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces TBA}}{19}{figure.1.19}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces TBA}}{20}{figure.1.20}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces TBA}}{20}{figure.1.21}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces The left plot is an example of a normal event, the right plot is an example pile up event.}}{21}{figure.1.22}

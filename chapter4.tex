@@ -112,6 +112,78 @@ Res(\Psi_n^A) = \sqrt{\frac{\left<\left<\cos(n(\Psi_n^A - \phi^{CNT}))\right>\ri
 \end{equation}
 where there is a double average over each CNT track and each event.
 (\textbf{TO DO: Make a Table of Default Event Plane Resolutions})
+
+\section{Correcting for Beam Geometry}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.95\linewidth]{figs/fvtxs_default_ew.png}
+\caption{The first measurement of $v_{2}$ as a function of $p_T$ with the FVTXs event plane for the p+Au @ 200 GeV dataset. The default resolution as shown in table TBA is used. The left panel shows the event plane resolution corrected $v_2$. The black points show the $v_2$ measurement measured using all CNT tracks. The blue and red points show the $v_2$ measurement made with only the west and east arms respectively. It is apparent that there is a significant splitting of the measurement depending on what set of tracks are being used to calculate $v_2$ which implies there are some systematic errors present. The left panel quantifies the level of splitting by plotting the ratio of the east or west $v_2$ to the measurement made with all CNT tracks. The blue and red lines are constant fits to this ratio and the numbers in the legend are the constant fit parameter. So the east $v_2$ measurement is 16$\%$ higher on average from the all CNT track measurement and the west measurement is 28$\%$ lower on average.}
+\end{center}
+\end{figure}
+As shown above, there is an east west difference observed in the measurement of $v_2$ when using mid-rapidity particles in the west arm (-1 $<$ $\phi$ $<$ 1 ) and in the east arm ( 2 $<$ $\phi$ $<$ 4 as see in ). The ultimate explanation for this effect comes from beam geometry. 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.55\linewidth]{figs/beam_angle.png}
+\caption{A vector diagram illustrating the yellow and blue beam angle.}
+\label{fig:diagram2}
+\end{center}
+\end{figure}
+
+First of all, the collision vertex is significantly offset from the z-axis to which all of the PHENIX detectors are aligned. The other beam geometry effect, and the more significant of the two effects, comes from the fact that the beams are colliding at an angle of 3.6 milli-Radians in the x-z plane. The reason a non-ideal beam geometry creates an east west v2 measurement difference is because of the assumption that event plane angle is azimuthally isotropic during the event plane flattening calibration. In the translated and rotated frame where the beams aligned with the z-axis the event plane distribution would be uniform, but in the lab frame the event plane distribution in $\phi$ would have regions of enhancement and reduction.
+
+To correct for the collision vertex offset effect, PHENIX detector elements must have their position calculated with respect to the collision vertex rather than the origin. To correct for the beam rotation effect, PHENIX detector elements must be rotated into the beam frame where the beam is aligned with the z-axis. However, the detector elements being in the right place in the beam frame will not completely correct the event plane bias. 
+
+To explain the residual effect, consider a cylindrical disk with a hole in the middle centered in the z-axis (which is the shape of the FVTX layers and the BBC). For any given $\phi$ value of the detector, the $\eta$ range spanned by the disk is the same. However, if one were to tilt that disk, the $\eta$ range spanned by the disk would be $\phi$ dependent. This tilt would both shift the range in $\eta$ and increase or decrease the width of the range. The combination of the $\eta$ range changing and the $\eta$ distribution of charged particles not being flat means that that the average amount of charge particles going through the disk would be systematically $\phi$ dependent. If the average charge particle distribution is not uniform in $\phi$, the event plane distribution will not uniform in $\phi$ which will lead to the flatten procedure creating systematic effects such as the east west $v_2$ asymmetry. Even if the detector elements are in the right frame, the damage has already been done.
+
+In order to correct for this, we increase the weight on hits in $\phi$ regions with systematically less particles and decrease the weight on hits in $\phi$ regions with systematically more particles. One can analytically calculate this $\phi$ dependent weight factor using the geometry of the FVTXs and BBCs as well as using the $\eta$ distribution of charged particles. Unfortunately, the $\eta$ distribution of charged particles in pAu @ 200 GeV has not been measured by an experiment so we must rely on models which may be inaccurate. The model that was used during this study was AMPT.
+
+Another way to determine the weight factor is to use the data driven method of inverse $\phi$ weighting. For this method, the weight factor is determined by plotting all hits in a cylindrical disk detector vs $\phi$, normalizing this distribution to one, and then inverting it. When applying this weight factor to the data, it will produce uniform hit distributions in $\phi$ in the detectors it is applied to. This will, in turn, make the event plane distribution more uniform when measured in those detectors, thus correcting for the effect.
+
+It is apparent when plotting the analytic and data driven weighting together that the analytic method agrees with the data driven method for the FVTX where the $\eta$ distribution charged particles is better known. The decision was made to use the data driven inverse $\phi$ weighting method for the FVTXs in part because it isn't model dependent and in part that the method has the added benefit of also correcting for hot and cold $\phi$ regions in the detector. In order to get rid of significant hot or cold $\phi$ regions, $\phi$ regions with weight factors greater than 1.2 or less than 0.8 are set to 0.0. This correction is done for each FVTX layer, in z-vertex bins, and per run.
+
+For the BBCs another data driven method was used to correct for the non-uniform particle distribution. Using the distribution of particles in the BBC from the Run15 pp dataset as a baseline, one can apply an inverse $\phi$ weighting much like the one described in the previous paragraph. In the Run15 pp dataset, there was no issue with beam colliding at an angle and the average charge across all 64 PMTs in the BBCs is uniform. In this method, the weight for each PMT is calculated as the charge of the PMT times the average Run15 pp charge of the PMT divided by the average Run15 pAu charge of the PMT. This method does not agree with the analytic configuration but this is explained by the fact that the model that was used when calculating the correction may be incorrect for the BBC's $\eta$ acceptance. One effect of using this weighting method is that not only is the distribution of particles in the BBC uniform in $\phi$, the distribution is uniform in $\eta$ as well.
+
+The combined effect of all these corrections not only makes the east and west arm $v_2$ measurements using the FVTXs or the BBCs agree to much better degree, it makes the BBCs and FVTXs inclusive $v_2$ measurements agree as well.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.95\linewidth]{figs/tilt_effect.png}
+\caption{On the left is a cartoon diagram illustrating $\eta$ acceptance shift due to a beam offset in one of the FVTXs layers. The right plot shows the AMPT distribution of particles for pAu @ 200 GeV and the shifted $\eta$ acceptance. }
+\end{center}
+\end{figure}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.95\linewidth]{figs/bbcs_default_ew.png}
+\caption{The first measurement of $v_2$ as a function of $p_T$ with the BBCs event plane for the p+Au @ 200 GeV dataset. Along with the FVTXs event plane measurement, the default resolution as show in table TBA is used. }
+\end{center}
+\end{figure}
+\subsection{BBC Charge Weighting}
+\subsection{FVTX Inverse Phi Weighting}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.55\linewidth]{figs/fvtx_weighting.png}
+\caption{These 4 panels show the FVTX $\phi$ dependent cluster weighting when calculating the FVTX event plane for each layer separately. }
+\label{fig:diagram2}
+\end{center}
+\end{figure}
+
+\subsection{Applying Weighting to v2 and EP Resolution}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.55\linewidth]{figs/bbc_rings_average_ccharge.png}
+\caption{These 4 panels show the FVTX $\phi$ dependent cluster weighting when calculating the FVTX event plane for each layer separately. }
+\label{fig:diagram2}
+\end{center}
+\end{figure}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.55\linewidth]{figs/pmt_ratio_weight.png}
+\caption{These 4 panels show the FVTX $\phi$ dependent cluster weighting when calculating the FVTX event plane for each layer separately. }
+\label{fig:diagram2}
+\end{center}
+\end{figure}
+
 \subsection{Dataset Quality Assurance}
 A PHENIX "run" (lower case r) is defined a group of events that were taken over a single timespan of max length 90 minutes. The for p+Au dataset, there are on 
 average 5 million events per run and there are 339 runs. 
@@ -137,27 +209,6 @@ RHIC exceeded in delivering its integrated luminosity goals of (\textbf{TO DO: Q
 percentiles relative to the total inelastic p+Au cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Leve-1 trigger
 efficiency in all inelastic collisions and inelastic collisions producing a particle at midrapidity, respectively. The best fit NBD parameters are mu = 3.14, k = 0.47
 , and the trigger firing on 84 +/- 3$\%$ of the total inelastic cross section [sigma = 1.76 barns].}
-\end{center}
-\end{figure}
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=0.65\linewidth]{figs/bbc_ep_bf_af.png}
-\caption{BBC Psi2 EP distribution in different z vertex bins red before flattening, blue after flattening.}
-\end{center}
-\end{figure}
-\subsection{Correcting for Beam Geometry}
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=0.4\linewidth]{figs/fvtx_ew_diff_bf.png}
-\includegraphics[width=0.4\linewidth]{figs/bbc_ew_diff_bf.png}
-\caption{The left plot shows the FVTX EP East West Difference without any corrections and the right plot shows the BBC EP East West Difference without any corrections.}
-\end{center}
-\end{figure}
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=0.4\linewidth]{figs/fvtx_rot_vtx.png}
-\includegraphics[width=0.4\linewidth]{figs/bbc_rot_vtx.png}
-\caption{The left plot shows the FVTX EP East West Difference with beam rotation and vertex offset corrections and the right plot shows the BBC EP East West Difference with the same corrections.}
 \end{center}
 \end{figure}
 \begin{figure}[!h]
