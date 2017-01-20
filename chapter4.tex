@@ -1,31 +1,142 @@
 \chapter{Analysis}
 \section{Direct Observables: The Building Blocks of the Measurement}
-%\textbf{TO DO: ADD A FIGURE OF THE PHENIX COORDINATE SYSTEM}
+In this section, I will be detailing the relevant direct observables used in this measurement. They include parameters from central arm tracks, FVTX clusters, and BBC PMTs. Although the Central Arms, FVTX, and BBC have already been described in chapter 3, I will go into more detail into the parameters available and their mathematical precision. 
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.55\linewidth]{figs/phenix_coord.png}
+\caption{For reference, I will show the PHENIX coordinate system here. The origin is in the middle of the PHENIX detector at the collision point. North and south are parallel to beam axis. East and west are transverse to the beam axis. Central detectors have a west and an east arm on either side of the beam. Forward detectors have a north and a south arm relative to the origin.}
+\end{center}
+\end{figure}
+%-todo: list all parameters used in the analysis. show some performance plots
 \subsection{Central Arm Tracks}
-This analysis use central arm tracks. A central arm track is a charged particle emitted from the heavy ion collision and detected by the PHENIX central arms.
+%\textbf{TO DO: ADD A FIGURE CNT}
+This analysis uses central arm tracks. A central arm track is a charged particle emitted from the heavy ion collision and detected by the PHENIX central arms.
 There are 2 central arms and each one covers $\eta < |0.35|$ and $\frac{\pi}{2}$ in azimuth. The drift chamber provides momentum information and the
 pad chambers provide track quality metrics. The RICH provides electron identification. 
-The physics parameter of central arm tracks relevant to this analysis is the momentum vector: $p = (p_x, p_y, p_z)$. The momentum of CNT tracks is defined at the
-collision vertex. CNT have good momentum resolution (\textbf{TO DO: QUANTIFY THIS, ADD REF}). 
+
+One of the physical parameters of central arm tracks relevant to this analysis is the momentum vector: $p = (p_x, p_y, p_z)$ defined at the collision vertex. CNT have a good momentum resolution as seen in Fig \ref{fig:dc_mom_res}. The momentum components are used to calculate the azimuthal angle $\phi$ and the psuedo-rapidity $\eta$. The momentum range of the CA tracks used in this analysis is from 0.02 - 3.5 GeV/c.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.45\linewidth]{figs/dc_mom_res.png}
+\caption{Momentum resolution $|p_{reco}-p_{gen}|/p_{gen}$ (in percent) as a function of $p_{reco}$ where $p_{reco}$ is the reconstructed momentum and $p_{gen}$ is the generated momentum of simulated single particle events \cite{CA_spectro}.}
+\label{fig:dc_mom_res}
+\end{center}
+\end{figure}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.45\linewidth]{figs/cnt_pt_dist.png}
+\caption{The transverse momentum $p_{T}$ distribution of central arm tracks. This is shown without any cuts. There are some junk tracks at high $p_T$.}
+\label{fig:dc_mom_dist_T}
+\end{center}
+\end{figure}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.45\linewidth]{figs/n0_dist.png}
+\includegraphics[width=0.45\linewidth]{figs/zed_dist.png}
+\caption{The distribution of n0 (number of PMTs fired in the RICH) is plotted on the left. The zed distribution is plotted on the right. The structure in the zed variable is from the structure of the DC detector.}
+\label{fig:n0_and_zed}
+\end{center}
+\end{figure}
+
+\begin{table}[h!]
+\caption{DC track quality summary.}
+\begin{center}
+%    \begin{tabular}{| l | l | l | | | | | | }
+    \begin{tabular}{ccccc}
+    \hline
+    Quality & PC1 found  & PC1 unique & UV found & UV unique\\ \hline
+    17,18,19 & 1 & 0 & 0 & 0\\ \hline
+    21,22,23 & 1 & 0 & 1 & 0\\ \hline
+    29,30,31 & 1 & 0 & 1 & 1\\ \hline
+    49,50,51 & 1 & 1 & 1 & 0\\ \hline
+    61,62,63 & 1 & 1 & 1 & 1\\ \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+There are also a number of central arm track parameters which are used to ensure the quality of the track sample. These parameters include the pad chamber's sigmalized d$\phi$ and dz, n0, and the general track quality.  The sigmalization calibration of the pad chamber d$\phi$ and dz parameters is discussed in section 3.5. The n0 parameter determines whether the charged particle is an electron by counting the number of PMTs fired in the RICH that match the DC track projection.  The n0 and zed parameter distributions can be seen in Fig \ref{fig:n0_and_zed} and the $p_T$ distribution can be seen in Fig \ref{fig:dc_mom_dist_T}. Using these parameters ensures the track sample is a relatively clean collection of charged hadrons.
+
+\begin{table}[h!]
+\caption{Central Arm Track Cuts.}
+\begin{center}
+    \begin{tabular}{| l | l | l | }
+    \hline
+    $variable$ & cuts  & units\\ \hline
+    $p$ & 0.02 $< p < $ 10.0  & GeV/c\\ \hline
+    zed & $|zed| <$75  & cm \\ \hline
+    PC3 d$\phi$ & $|d\phi|<$2.0  & radians $\times10^{9}$ \\ \hline
+    PC3 dz & $|dz|<$2.0 & cm \\ \hline
+    n0 & n0$>=$0 & count \\ \hline
+    quality & 63 or 31& N/A \\ \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+\subsubsection{Pad Chamber 3 Sigmalization}
+The goal of PC3 variables is to match the $\phi$ angle and z-direction coordinate between pad chamber third layer and
+drift chamber. All the matching procedures are done in minimum bias sample and
+apply in other trigger samples.
+We did the matching in different transverse momentum bins and separate east
+arm or west arm, positive or negative particles. The d$\phi$ and dz distributions
+are fitted for a double-Gaussian function. Then the parameters are smoothed as
+a function of $p_T$ . Fig \ref{fig:pc3_sig} a) shows in 1.0 $< p_T <$ 1.1 (GeV/c) the matching fit of
+d$\phi$ distribution in both west arm, east arm and positive and negative charged
+particles. Fig \ref{fig:pc3_sig} b) shows in 1.0 $< p_T <$ 1.1 (GeV/c) the matching fit of dz distribution
+in both west arm, east arm and positive and negative charged particles.
+Then we fit the signal Gaussian mean and sigma by some polynomial functions.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.45]{figs/pc3dphi.png}
+\includegraphics[scale=0.45]{figs/pc3dz.png}
+\end{center}
+\label{fig:pc3_sig}
+\caption{The top 2 plots are the PC3 matching d$\phi$ fit in range 1.0 $< pT <$ 1.1 (GeV/c) as a example.
+The red line is the fit for the double Gaussian function, the blue line is the signal
+Gaussian function according to the fit and the pink line is the background Gaussian
+function. The bottom two plots are the same as the top 2 plots except the PC3 matching dz fit is shown instead.}
+\end{figure}
+
+Once the mean and sigma are calculated by the smooth fitting. We only keep
+the particles/tracks within 2$\sigma$ range.
+
+%\subsection{Central Arm Tracking}
+
 %In p+Au collisions, the average number of reconstructed CNT (before cuts) is (\textbf{TO DO: QUANTIFY THIS}).
 \subsection{FVTX Clusters}
-This analysis uses clusters from the forward vertex detector (FVTX). The FVTX detects charged particles traveling through its silicon layers. The intersection between the charged particle
-and the FVTX detector is recorded in each of the 4 layers the particle goes through. Each intersection is known as a cluster. Each cluster is thought to be produced from a single charged particle. These clusters have a position resolution in x and y ( or r and $\phi$)
-(\textbf{TO DO: QUANTIFY THIS}) and have a z resolution that is the width of the FVTX layer. The FVTX acceptance is $1 < | \eta | < 3$ and spans the full azimuth. (\textbf{ADD REF})
+This analysis uses clusters from the forward vertex detector (FVTX). The FVTX detects charged particles traveling through its silicon layers. The intersection of the charged particle and the FVTX detector is recorded in each of the 4 layers the particle goes through. Each intersection is known as a cluster. Each cluster is expected to be produced from a single charged particle. This assumption is a good one in the p+Au @ 200 GeV dataset because the of the low multiplicity. These clusters have a position resolution in x and y ( or r and $\phi$) of 50 $\mu$m  and have a z RMS that is the width of the FVTX layer ($\frac{200}{\sqrt{12}}$ $\mu$m). The FVTX acceptance is $1 < | \eta | < 3$ and spans the full azimuth \cite{Aidala201444}. In this analysis, only the clusters from the south arm are used due to the south arm being where most of the particles are from the Au-going direction. In a typical 0-5$\%$ central event, there are 1500 FVTX clusters in the south arm alone on average.
+%%check numbers in this section
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.55\linewidth]{figs/fvtx_clus_xy.png}
+\caption{The distribution of FVTX clusters in x and y for layers 1, 2, 3, and 4 for panels a), b), c), and d) respectively. The z-axis is counts.}
+\label{fig:dc_mom_res}
+\end{center}
+\end{figure}
+
 \subsection{BBC PMTs}
-This analysis uses photomultipliers (PMTS) from the beam beam counter (BBC). The BBC detects charged particles traveling through its scintillator material. The BBC acceptance is $3.1 < |\eta| < 3.9$ and spans the full azimuth. The BBC provides position information in x, y, and z and, like the FVTX, the x and y (r and $\phi$) resolution differ from the z resolution in that the z resolution is simply the width of the active area of the BBC. In addition to position information, the BBC provides charge information which is calibrated to roughly correspond to the number of charged particles detected by each PMT per event. Fig \ref{fig:bbc_rings} shows the layout of the PMTs for the BBC.
+This analysis uses photomultipliers (PMTS) from the beam beam counter (BBC). The BBC detects charged particles traveling through its quartz radiator material. The BBC acceptance is $3.1 < |\eta| < 3.9$ and spans the full azimuth. The BBC provides position information in x, y, and z and, like the FVTX, the x and y (r and $\phi$) resolution differ from the z resolution in that the z resolution is simply the width of the active area of the BBC. In addition to position information, the BBC provides charge information which is calibrated so that a value of 1.0 corresponds to a single particle signal. Fig \ref{fig:bbc_rings} shows the layout of the PMTs for the BBC. As discussed in section 3.2.1.1, the BBC's direct variables of PMT time and charge can be used to calculate the derived observable of collision z-vertex. This distribution can be seen in Fig 3.12. 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.55\linewidth]{figs/bbc_rings.png}
-\caption{A diagram showing the positions of the PMTs for the BBC south detector. Colored rings indicate PMTs of approximate common radius. Each color indicates a different radius. There are five rings.}
+\caption{A diagram showing the positions of the PMTs for the BBC south detector. Colored rings indicate PMTs at an approximate common radius. Each color indicates a different radius. There are five rings.}
 \label{fig:bbc_rings}
 \end{center}
 \end{figure}
+
+In this analysis, the BBC provides charged particle position information at forward rapidity, the z-vertex of the collision, and the centrality class of the event.
+
+%---to finish by jan 12 ish
+
 %\section{Two-particles Correlation}
 %\subsection{Measurement in p+p and p+Au}
+
+
 \section{Event Plane Method}
-The event plane method is a way of measuring the long range angular correlation in the spray of particles from a heavy ion collision. The event plane method works by calculating a mathematical object called an event plane
-from the data. This event plane is defined for each flow harmonic and is sometimes denoted as $\Psi_n$. The definition for $\Psi_n$ is related to the calculation of the Q-vector:
+%The event plane method is a way of measuring the long range angular correlation in the spray of particles from a heavy ion collision. 
+The event plane method works by calculating a mathematical object called an event plane angle from the data. This event plane angle is defined for each harmonic and is sometimes denoted as $\Psi_n$ where $n$ is the harmonic number. The definition for $\Psi_n$ is related to the calculation of the Q-vector:
 \begin{align}
 Q_x &= \sum_i( w_i * \cos(n * \phi_i)) \\
 Q_y &= \sum_i( w_i * \sin(n * \phi_i)) \\
@@ -33,14 +144,14 @@ Q_w &= \sum_i( w_i ) \\
 \Psi_n &= \arctan( \frac{Q_y}{Q_x} ),
 \label{eqn:general_ep_math}
 \end{align}
-where $i$ is the $i$the component of the detector, $\phi_i$ is the $\phi$ value of the detector component, and $n$ is the harmonic number.
-The $Q_w$ component of the Q-vector is only used during the event plane calibration.
+where $i$ is the $i$the component of the detector, $\phi_i$ is the azimuthal angle of the detector component, $w_i$ is the wight factor, and $n$ is the harmonic number.
+The $Q_w$ is the length of the Q-vector is only used during the event plane calibration.
 Once the event plane has been calculated, the flow harmonics ($v_n$) are calculated as
 \begin{equation}
 v_n = \frac{<<\cos(n(\phi - \Psi_n))>>}{Resolution(\Psi_n)},
 \end{equation}
-where $<<>>$ means averaged over each event and each $\phi$ value and the resolution of $\Psi_n$ is calculated using the 3-subevent method. It is important to note the the set of particles used to calculate $\Psi_n$ and $\phi$ must be different in order to avoid
-autocorrelations. This is usually done by imposing an $\eta$ gap between to two particle sets. \textbf{TO DO: ADD REF}
+where $<<>>$ means averaged over all particles in an event and all events \cite{PhysRevC.58.1671}. The resolution of $\Psi_n$ is calculated using the 3-subevent method. It is important to note the the set of particles used to calculate $\Psi_n$ and $\phi$ must be different in order to avoid
+autocorrelations. This is usually done by imposing an $\eta$ gap between to two particle sets.
 
 For this analysis, the event plane is calculated separately for each of the forward detectors mentioned above, the BBC and the FVTX.  For the FVTX, the Q-vector is calculated in each event as
 \begin{align}
@@ -48,7 +159,8 @@ Q_x &= \sum^{NClus}_i( \cos(n * \phi_i)) \\
 Q_y &= \sum^{NClus}_i( \sin(n * \phi_i)) \\
 \phi_i &= \arctan(\frac{Clus_{y}^i}{Clus_{x}^i})
 \end{align}
-where NClus is the number FVTX clusters in that event and $Clus_{y,x}^i$ are the $x$ and $y$ components of the $i$th FVTX Cluster in that event. This Q-vector is calculated with no cluster dependent weight factor as each cluster is taken to be equal weight (since no charge information is available in the FVTX). 
+where NClus is the number FVTX clusters in that event and $Clus_{y,x}^i$ are the $x$ and $y$ components of the $i$th FVTX Cluster in that event. This Q-vector is calculated with no cluster dependent weight factor as each cluster is taken to be equal weight.
+% (since no charge information is available in the FVTX). 
 
 For the BBC, the Q-vector is calculated in each event as
 \begin{align}
@@ -67,11 +179,11 @@ v_n = \frac{\left<\left<\cos(n(\phi^{CNT} - \Psi^{BBC,FVTX}_n))\right>\right>}{R
 In this analysis, I will be exclusively focusing on the second harmonic $v_2$ ($n$=2). The reason for this is two-fold:
 \begin{enumerate}
 	\item{The second harmonic is usually the largest and easiest to measure harmonic.}
-	\item{The second harmonic is physically interesting because it is thought to correspond with flow.}
+	\item{The second harmonic is physically interesting because it is thought to correspond with flow, along with others.}
 \end{enumerate}
 \subsection{Event Plane Flattening Calibration}
 In order for the event plane to be a useful in making a $v_n$ measurement, the event plane must be calibrated. For the event plane method, a physical assumption is made that the true
-distribution of $\Psi_n$ angles will be uniform. In other words, there is no preferred event plane angle in heavy ion collisions; on average there should an equivalent amount of events where the
+distribution of $\Psi_n$ angles will be uniform. In other words, there is no preferred event plane angle in heavy ion collisions; on average there should an equivalent number of events where the
 event plane is oriented at 0 radians and at $\frac{\pi}{2}$. If the measured $\Psi_n$ distribution is not flat then it could come from a variety of sources such as variations in the efficiency of detecting charged particles as a function of $\phi$. Thus, the event plane calibration seeks to restore the $\Psi_n$ distribution to the physical expectation of uniformity.
 
 The method used in this analysis to achieve this is a "re-centering" and "flattening" calibration. In order to better understand this calibration, it is useful to examine an example uncalibrated $\Psi_n$ distribution.
@@ -90,9 +202,10 @@ distribution is nonuniform, the more significant that the flattening calibration
 to provide the flattest possible $\Psi_2$ distribution before performing the flattening calibration.
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.65\linewidth]{figs/flattened_example.png}
-\caption{This is the FVTXs $\Psi_2$ distribution projected over all z-vertex bins at different steps during the calibration. The range of the $\Psi_2$ resolution is from -$\frac{\pi}{2}$ to $\frac{\pi}{2}$ because of the periodicity. 
-The raw (in red) $\Psi_2$ distribution has a sinusoidal shape. The re-centered (in green) $\Psi_2$ distribution moves the peak to 0.0 radians and changes the width. The flattened (in blue) 
+\includegraphics[width=0.65\linewidth]{figs/flattened_example_fvtx.png}
+\includegraphics[width=0.62\linewidth]{figs/flattened_example_bbc.png}
+\caption{This is the $\Psi_2$ distribution projected over all z-vertex bins at different steps during the calibration. The top is from the FVTX south and the bottom is from the BBC south. The range of the $\Psi_2$ resolution is from -$\frac{\pi}{2}$ to $\frac{\pi}{2}$ because of the periodicity. 
+The raw (in red) $\Psi_2$ distribution has a sinusoidal shape. The re-centered (in green) $\Psi_2$ distribution moves the peak and has a width. The flattened (in blue) 
 $\Psi_2$ distribution spread out the counts so that there is uniformity. Each calibration step preserves the integral.}
 \end{center}
 \label{fig:calibrated_psi}
@@ -106,23 +219,44 @@ The flattening calibration requires two steps to completely flatten the $\Psi_n$
 \end{equation}
 where $N$ is the number of components, $F^{\cos}_{i}(f(x))$ is the $i$th component of the cosine Fourier transform of $f(x)$, and $f(\Psi_n)$ is the $\Psi_n$ distribution.
 
-For this analysis, $N=$12 is a sufficient number of components to flatten the $\Psi_n$ distribution. The re-centering and flattening calibration is done 30 z-vertex bins.
+For this analysis, $N=$12 is a sufficient number of components to flatten the $\Psi_n$ distribution. The re-centering and flattening calibration is done in separate 30 z-vertex bins.
 
 \subsection{Event Plane Resolution Calculation}
 As mentioned above, the event plane resolution calculation is done using the standard 3-sub event method. The strategy of this method is to leverage the measurement of $\Psi_n$ in
 different detectors for the same event in order to constrain how well each detector measures $\Psi_n$. The definition of the event plane resolution is
 \begin{equation}
 Res(\Psi_n^A) = \sqrt{\frac{\left<\cos(n(\Psi_n^A - \Psi_n^B))\right>\left<\cos(n(\Psi_n^A - \Psi_n^C))\right>}{\left<\cos(n(\Psi_n^B - \Psi_n^C))\right>}},
+\label{eqn:res}
 \end{equation}
-where A,B, and C are three detectors measuring the same event, or each detector measuring a "sub event". (\textbf{ADD REF})
+where A,B, and C are three detectors measuring the same event, or each detector measuring a "sub event" assuming no decorrelation \cite{PhysRevC.58.1671}.
 
-In this analysis, the three detectors that are available are FVTXs, the BBCs, and the CNT which have $\eta$ ranges of $-3 <\eta < -1$, $-3.9 < \eta < 3.1$, and $|\eta| < 0.35$ respectively. 
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.85\linewidth]{figs/resolution_intermediate_calc.png}
+\caption{The intermediate resolution calculation steps. On the left are the raw difference between the two event planes angles and on the right is the cosine of two times that difference. The average of the distribution on the right is what is used in equation \ref{eqn:res}.}
+\label{fig:fvtx_ew_default}
+\end{center}
+\end{figure}
+
+In this analysis, the three detectors that are used are the FVTXs, the BBCs, and the CNT which have $\eta$ ranges of $-3 <\eta < -1$, $-3.9 < \eta < 3.1$, and $|\eta| < 0.35$ respectively. 
 However, due to the fact that the CNT detector does not have full azimuthal coverage, the CNT event plane is not well defined for a class of events where the event plane doesn't point into the CNT acceptance, therefore the event plane resolution is calculated via a modified yet mathematically equivalent definition to the one mentioned above. This modified method allows the resolution of the FVTX-S and the BBC-S to be calculated using the CNT without having to calculate CNT event plane. It is defined as
 \begin{equation}
 Res(\Psi_n^A) = \sqrt{\frac{\left<\left<\cos(n(\Psi_n^A - \phi^{CNT}))\right>\right>\left<\cos(n(\Psi_n^A - \Psi_n^C))\right>}{\left<\left<\cos(n(\phi^{CNT} - \Psi_n^C))\right>\right>}},
 \end{equation}
 where there is a double average over each CNT track and each event.
-(\textbf{TO DO: Make a Table of Default Event Plane Resolutions})
+%(\textbf{TO DO: Make a Table of Default Event Plane Resolutions})
+\begin{table}[h!]
+\caption{}
+\begin{center}
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    Detector & $n=2$ & $n=3$  \\ \hline
+    FVTXs & 0.216 & 0.010 \\ \hline
+    BBCs & 0.052 & 0.010  \\ \hline
+%    Wednesday & 10C & 21C & ... \\
+    \end{tabular}
+\end{center}
+\end{table}
 
 \section{Correcting for Beam Geometry}
 \begin{figure}[!h]
@@ -143,8 +277,8 @@ As shown in Fig \ref{fig:fvtx_ew_default}, there is an east west difference obse
 \label{fig:diagram2}
 \end{center}
 \end{figure}
-
-First of all, the collision vertex is significantly offset from the z-axis to which all of the PHENIX detectors are aligned. The other beam geometry effect, and the more significant of the two effects, comes from the fact that the beams are colliding at an angle of 3.6 milli-Radians in the x-z plane as show in Fig ~\ref{fig:diagram2} (TODO ADD BNL REF). The reason a non-ideal beam geometry creates an east west v2 measurement difference is because of the assumption that the ideal event plane angle is azimuthally isotropic during the event plane flattening calibration. In the translated and rotated frame where the beams are aligned with the z-axis the event plane distribution would be uniform, but in the lab frame the event plane distribution in $\phi$ would have regions of enhancement and reduction. The event plane flattening calibration algorithm restores a non-uniform distribution to a uniform one; however, if the true event plane distribution is non-uniform then forcing the measured distribution to be uniform would produce systematic errors.
+% (TODO ADD BNL REF)
+First of all, the collision vertex is significantly offset from the z-axis to which all of the PHENIX detectors are aligned. The other beam geometry effect, and the more significant of the two effects, comes from the fact that the beams are colliding at an angle of 3.6 milli-Radians in the x-z plane as show in Fig ~\ref{fig:diagram2} \cite{BNL_Run15_Operations}. The reason a non-ideal beam geometry creates an east west v2 measurement difference is because of the assumption that the ideal event plane angle is azimuthally isotropic during the event plane flattening calibration. In the translated and rotated frame where the beams are aligned with the z-axis the event plane distribution would be uniform, but in the lab frame the event plane distribution in $\phi$ would have regions of enhancement and reduction. The event plane flattening calibration algorithm restores a non-uniform distribution to a uniform one; however, if the true event plane distribution is non-uniform then forcing the measured distribution to be uniform would produce systematic errors.
 
 To correct for the collision vertex offset effect the PHENIX detector elements must have their position calculated with respect to the collision vertex rather than the origin and to correct for the beam rotation effect the PHENIX detector elements must be rotated into the beam frame where the beam is aligned with the z-axis. As shown in Fig \ref{fig:fvtx_ew_rot}, applying these corrections to the event plane when calculating $v_2$ reduces the magnitude of the splitting but not entirely. The detector elements being in the right place in the beam frame will not completely correct the event plane bias.
 
@@ -156,7 +290,6 @@ To correct for the collision vertex offset effect the PHENIX detector elements m
 \label{fig:fvtx_ew_rot}
 \end{center}
 \end{figure}
-
 
 To explain this residual effect, consider a cylindrical disk with a hole in the middle centered in the z-axis (which is the shape of the FVTX layers and the BBC) as shown in the left plot of Fig \ref{fig:tilt_effect}. For any given $\phi$ value of the detector, the $\eta$ range spanned by the disk is the same. However, if one were to tilt that disk, the $\eta$ range spanned by the disk would be $\phi$ dependent. This tilt would both shift the range in $\eta$ and increase or decrease the width of the range. Now consider that it is not the disk that is tilted but rather the beam orientation that is tilted. The previous statements about the effect on the $\eta$ range being $\phi$ dependent still apply. 
 
@@ -177,24 +310,41 @@ w_i = w^D_i*F(\phi,Vertex_Z)
 \end{equation}
 where $w^D_i$ is the default weighting associated with the detector element and $F(\phi,Vertex_Z)$ is the multiplicative weighting to correct for the beam geometry. $F(\phi,Vertex_Z)$ is dependent on $Vertex_Z$ in addition to $\phi$ because $\eta$ is dependent on the collision vertex. One can analytically calculate this $\phi$ dependent weight factor using the geometry of the FVTXs and BBCs as well as using the $\eta$ distribution of charged particles. Unfortunately, the $\eta$ distribution of charged particles in pAu @ 200 GeV has not been measured by an experiment so we must rely on models which may be inaccurate.
 
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.47\linewidth]{figs/eta_modification.png}
+\includegraphics[width=0.47\linewidth]{figs/analytic_correction.png}
+\caption{The left is the modification of the $\eta$ acceptance as a function of $\phi$ for the FVTX first layer. The right is the calculated correction factor from this.}
+\label{fig:analytic_corr}
+\end{center}
+\end{figure}
+
 Another way to determine the weight factor is to use a data driven method of measuring to what extent each $\phi$ region in a detector is has systematically more or less particles. Then an inverse weighting based on this measurement is applied to the $\phi$ regions to correct the detector's $\phi$ distribution to uniformity. The precise implementation of measuring and applying the uniformity of the $\phi$ regions in a detector will be examined further in the following sections.
 
 \subsection{FVTX Inverse Phi Weighting}
+\label{sec:FVTX_inv_phi_weight}
 For this method, the weight factor is determined by plotting all hits in a cylindrical disk detector vs $\phi$, normalizing this distribution to one, and then inverting it. When applying this weight factor to the data, it will produce uniform hit distributions in $\phi$ in the detectors it is applied to. This will, in turn, make the event plane distribution more uniform when measured in those detectors, thus correcting for the effect. The added benefit of using this method is also correcting for hot and cold $\phi$ regions in the detector. In order to get rid of significant hot or cold $\phi$ regions, $\phi$ regions with weight factors greater than 1.5 or less than 0.5 are set to 0.0. This correction is done for each FVTX layer, in z-vertex bins, and per run. The multiplicative weight function $F(\phi,Vertex_Z)$ for the FVTX disks is defined as 
 \begin{equation}
 F(\phi,Vertex_Z,layer) = \frac{\left<N_{CLUS}(Vertex_Z,layer)\right>}{N_{CLUS}(\phi,Vertex_Z,layer)},
 \end{equation}
-where $N_{CLUS}(\phi,Vertex_Z,layer)$ is the number of FVTX clusters as a function of $\phi$, $Vertex_Z$, and FVTX layer and $\left<N_{CLUS}(Vertex_Z,layer)\right>$ is the $\phi$ average of the number of clusters.
+where $N_{CLUS}(\phi,Vertex_Z,layer)$ is the number of FVTX clusters as a function of $\phi$, $Vertex_Z$, and FVTX layer and $\left<N_{CLUS}(Vertex_Z,layer)\right>$ is the $\phi$ average of the number of clusters. The weighting can be seen in Fig \ref{fig:fvtx_weighting}. A comparison between the FVTX weighting and the analytic correction is shown. The good agreement indicates the validity of the weighting.
 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.75\linewidth]{figs/fvtx_weighting.png}
 \caption{These 4 panels show the FVTX $\phi$ dependent cluster weighting when calculating the FVTX event plane for each layer separately for events with a collision vertex in z is around 0. As you can see there are some $\phi$ regions where weight factor is outside of the dotted line bounds. This indicates that either there was a severe deficit of clusters measure in the region or excess. Later, we will examine the effect of keeping these regions or cutting them out on the $v_2$ measurement.}
-\label{fig:diagram2}
+\label{fig:fvtx_weighting}
+\end{center}
+\end{figure}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.5\linewidth]{figs/comparison_of_weights.png}
+\caption{The black is the FVTX weighting and the blue is the analytic weighting. They have good agreement.}
 \end{center}
 \end{figure}
 
 \subsection{BBC Charge Weighting}
+\label{sec:bbc_charge_weight}
 For the BBC, another data driven method is used to correct for the non-uniform particle distribution. Using the distribution of particles in the BBC from the Run15 pp dataset as a baseline, one can apply an inverse weighting much like the one described in the previous paragraph. In the pp dataset, there was no issue with beam colliding at an angle and the average charge across all 64 PMTs in the BBCs is uniform. In this method, the multiplicative weight function $F(PMT,Vertex_Z)$ for the BBCs is defined as:
 \begin{equation}
 F(PMT,Vertex_Z) = \frac{\left<N^{pp}_{Charge}(Vertex_Z)\right>}{\left<N^{pAu}_{Charge}(PMT,Vertex_Z)\right>},
@@ -221,7 +371,124 @@ One effect of using this weighting method is that it will make the distribution 
 \end{center}
 \end{figure}
 
-%\subsection{Applying Weighting to v2 and EP Resolution}
+\subsection{Applying Weighting to v2}
+When applying the sophisticated weighting to the $v_2$ measurement, we can quantify how much the weighting corrects the east west $v_2$ asymmetry. This quantity is calculated by: 
+\begin{equation}
+ratio v_2 = \frac{\sum_{p_T}{eastv_2(p_T)}}{\sum_{p_T}{westv_2(p_T)}},
+\end{equation}
+and should be closest to 1.0 if the weighting is working.
+Shown in Fig \ref{fig:fvtx_corr_summary} is the correction summary for the FVTX $v_2$ measurement. The 20\% east west deviation is shown in the first column as the black circle. The red, blue and green analytic, inverse $\phi$ weighting, and inverse $\phi$ weighting respectively all bring the ratio quantity much closer to 1.0 indicating the weighting techniques are working. This last statement is true given that we exclude the third layer of the FVTX from our calculation. The rationale for this exclusion is due to FVTX layer three's unusual behavior in relation to the other FVTX layers. As we go from layer 1 to layer 4 the east west ratio quantity generally is trending down except for layer 3. Most likely there is something wrong with the layer data due to electronic or detector problems. 
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.5\linewidth]{figs/fvtx_correction_summary.png}
+\caption{Plotted is the FVTX correction summary where the y-axis is the east/west $v_2$ ratio and the x-axis is the different subset of clusters used to calculate the $v_2$. The black markers are with the default corrections as shown in Fig \ref{fig:fvtx_ew_default}. The red boxes are the corrections with the analytic weighting shown in Fig \ref{fig:analytic_corr}. The blue diamonds are the FVTX inverse $\phi$ weighting as shown is section \ref{sec:FVTX_inv_phi_weight}. Finally, the green crosses are the same as the blue diamonds except a hot cold filter of 20\% was applied additionally. The first column is using all the FVTX layers except for the 3rd layer (which will be explained more later). So the first columns should be approximately the average of columns 2, 3, and 5. Columns 2 through 5 show the ratio calculated from clusters only in that layer. The east west ratio is the worst in layer 3 across all correction methods which is why it was excluded from the first column. The blue, red and green corrections all give equivalent levels of correction.}
+\label{fig:fvtx_corr_summary}
+\end{center}
+\end{figure}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.5\linewidth]{figs/bbc_correction_summary.png}
+\caption{Plotted is the BBC correction summary where the y-axis is the east/west $v_2$ ratio and the x-axis is the different subset of PMTs used to calculate the $v_2$. The black markers are with the default corrections as shown in Fig \ref{fig:fvtx_ew_default}. The red boxes are the corrections with the analytic weighting shown in Fig \ref{fig:analytic_corr}. Finally, the blue diamonds are the BBC inverse $\phi$ charge weighting as shown is section \ref{sec:bbc_charge_weight}. The first column is the quantity calculated from all PMTs. columns 2 through 6 are using PMTs from certain rings as defined in Fig \ref{fig:bbc_rings}. Ring one is the hardest to correct. The first column should approximately be the average of all the other columns.}
+\label{fig:bbc_corr_summary}
+\end{center}
+\end{figure}
+
+Fig \ref{fig:fvtx_corrected_best} shows the $v_2$ vs $p_T$ with the green cross correction from Fig \ref{fig:fvtx_corr_summary}. This figure also shows $v_2$ vs $p_T$ with the blue diamonds from Fig \ref{fig:bbc_corr_summary}. Although the east west ratio does not become exactly 1.0, a ratio value of $\pm$10 $\%$ of 1.0 is good enough to reduce our systematics errors. This is true for the FVTX points but for the BBC points we never found a weighting scheme to correct the east west ratio to be between 0.9 and 1.1. This is in part why the primary measurement is done using the FVTX.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.75\linewidth]{figs/fvtx_corrected.png}
+\includegraphics[width=0.75\linewidth]{figs/bbc_pp_correction.png}
+\caption{The top plots are FVTX event plane measurement corrected with inverse $\phi$ weighting and 20 $\%$ cut. FVTX layer three is excluded. This correction effectively eliminates the east west difference shown on the right.. The bottom plots are BBC event plane measurement corrected with inverse $\phi$ weighting and 20 $\%$ cut. This correction reduces the east west difference significantly.}
+\label{fig:fvtx_corrected_best}
+\end{center}
+\end{figure}
+
+%\begin{figure}[!h]
+%\begin{center}
+%\includegraphics[width=0.5\linewidth]{figs/fvtx_incl_v2_comparison_corrections.png}
+%\caption{}
+%\end{center}
+%\end{figure}
+
+\section{Systematic Uncertainties}
+The main sources of systematic uncertainty in the $v_2(p_T)$ measurement are: (1) track background from photon conversion and weak decays, whose magnitude we determine at 2\% relative to the measured $v_2$ by varying the spatial matching windows in the PC3 from 3$\sigma$ to 2$\sigma$; (2) Multiple collisions per bunch crossing (i.e., event pile-up) that are observed to occur at an average rate of 8\% in the 0\%-5\% central p+Au collisions. Low luminosity and high-luminosity subsets of the data were analyzed separately and the systematic uncertainty in the $v_2(p_T)$ value is determined to be asymmetric  $^{+4\%}_{-0\%}$, since the $v_2$  values were found to decrease in the events that contain a larger fraction of pile-up, an example of a pile up event is shown in Fig \ref{fig:pile_up_example}; (3) Non-flow correlations from elementary processes that enhance the $v_2$ values, whose contribution we estimate from Fig.~\ref{fig:non_flow}, assigning a $p_T$-dependent asymmetric uncertainty with a maximum value of $^{+0}_{-23}\%$ for the highest $p_T$ bin. This can be compared to the corresponding $^{+0}_{-9}\%$~\cite{Adare:2014keg} and $^{+0}_{-7}\%$~\cite{PhysRevLett.115.142301} systematic uncertainties in d+Au and $\mbox{$^3\text{He}$+Au}$ collisions, respectively; (4) The asymmetry between the east ($\pi/2 < \phi < 3\pi/2$) and west ($-\pi/2 < \phi < \pi/2$) acceptance of the detectors due to an offset of 3.6 mrad between the colliding beams and the longitudinal axis of PHENIX, necessary for running p+Au at the same momentum per nucleon. We applied a corresponding counter-rotation to every central arm track and detector element in the FVTX and BBC, which were also reweighted to restore their uniformity in azimuth. We assign a value of $5\%$ for this systematic uncertainty by taking the difference of $v_2$ as measured independently in the east and the west arms after applying the above corrections; (5) The difference in the $v_2(p_T)$ values when measured independently using the BBC-S and FVTX event planes, which differ by $\pm$3\%. 
+
+Table~\ref{t:sys} summarizes of all these systematic
+uncertainties, categorized by type:
+
+(A) point-to-point uncorrelated between $p_T$ bins,
+
+(B) point-to-point correlated between $p_T$ bins,
+
+(C) overall normalization uncertainty in which all points are scaled by the same multiplicative factor.
+
+\begin{table}[!h]
+  \begin{center}
+  \caption{\label{t:sys}Systematic uncertainties given as a percent of the $v_2$ measurement. Note that the non-flow contribution is $p_T$ dependent and the value here quoted corresponds to the highest measured $p_T$.}
+    \begin{tabular}{ccc}
+      \hline
+      \hline
+      Source& Systematic Uncertainty & Type \\ \hline
+      Track Background &2.0\%& A\\ 
+      Event Pile-up    &$^{+4}_{-0}\%$& B\\
+      Non-Flow    &$^{+0}_{-23}\%$& B\\
+      Beam Angle &5.0\%& C\\  
+      Event-Plane Detectors & 3\% & C\\
+    \hline
+    \hline
+    \end{tabular}
+   \end{center}
+ \end{table}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.8\linewidth]{figs/example_pile_up_event.png}
+\caption{The distribution of BBC PMT timing values. The x-axis is the difference between the southern BBC PMT t0 - the mean t0 in the south. The left plot is an example of a normal event, the right plot is an example pile up event. A normal event is strongly peaked at 0. A pile up event has a broad distribution and may not be centered at 0. Pile up events are when 2 or more collisions happen in the same crossing.}
+\label{fig:pile_up_example}
+\end{center}
+\end{figure}
+
+\subsection{Non-Flow}
+Non-flow is the largest systematic uncertainty. 
+The scaled down reference $c_{2}$ is shown as blue squares in Fig.~\ref{fig:non_flow}, panel (a). The ratio of $c_2$ in the scaled-down p+p reference to that in p+Au is shown in panel (b). From this ratio, as calculated in \ref{eq:dilute}, it can be seen that the relative correlation strength in p+Au from elementary processes is at most 23$\%$ at the highest $p_T$. Since this procedure constitutes an approximation to quantify the non-flow correlation strength, it is not subtracted from the total signal, instead it is treated as a source of systematic uncertainty. Even though the p+Au and the p+p baseline data were collected in different years, where potential changes in detector performance could affect our results, it was verified that using p+p data from various run periods has an effect of at most 3$\%$ on the calculated non-flow contribution.
+\begin{equation}
+c_{2}^{{\rm pAu \; elementary}}(p_{T}) \simeq c_{2}^{p+p}(p_{T})
+\frac{\left( \sum Q^{{\rm \text{BBC-S}}} \right)_{p+p}}
+{\left( \sum Q^{{\rm \text{BBC-S}}} \right)_{{\rm pAu}}
+}.
+\label{eq:dilute}
+\end{equation}
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=0.6\linewidth]{figs/non_flow.pdf}
+\caption{(a) The second order harmonic coefficients $c_2(p_T)$ for long range angular correlations in
+0\%--5\% p+Au collisions, as well as for minimum bias p+p collisions. The latter are scaled down by the factor $\left( \sum Q^{{\rm \text{BBC-S}}} \right)_{p+p} / \left( \sum Q^{{\rm
+\text{BBC-S}}} \right)_{{\rm pAu}}$. (b)~The
+ratio of the two harmonics is plotted with the corresponding statistical errors.}
+\label{fig:non_flow}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\linewidth]{figs/glauber_event_display.png}
+\caption{TBA}
+\label{fig:glauber_event_display}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\linewidth]{figs/jet_corr_example.png}
+\caption{TBA}
+\label{fig:jet_corr_example}
+\end{center}
+\end{figure}
+
+
 %\subsection{Dataset Quality Assurance}
 %A PHENIX "run" (lower case r) is defined a group of events that were taken over a single timespan of max length 90 minutes. The for p+Au dataset, there are on 
 %average 5 million events per run and there are 339 runs. 

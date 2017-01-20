@@ -1,2 +1,13 @@
 \contentsline {part} {\tablenameToC }{\relax }{}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces An example Run15 p+Au 200 GeV relevant trigger configuration and parameters. A trigger's scale down number reduces its rate by 1/(1+scale down). }}{19}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Some relevant RHIC parameters from Run 15.}}{21}{table.3.2}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces DC track quality summary.}}{28}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Central Arm Track Cuts.}}{29}{table.4.2}
+\contentsline {table}{\numberline {4.3}{\ignorespaces }}{37}{table.4.3}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Systematic uncertainties given as a percent of the $v_2$ measurement. Note that the non-flow contribution is $p_T$ dependent and the value here quoted corresponds to the highest measured $p_T$.}}{50}{table.4.4}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Initial eccentricity $\varepsilon _2$ of small systems at $\sqrt {s}$ = 200 GeV for $0\%-5\%$ centrality from Monte Carlo Glauber initial conditions smeared with a two-dimensional Gaussian of width $\sigma =0.4$ fm, and IP-Glasma initial conditions.}}{56}{table.5.1}
