@@ -260,15 +260,24 @@ The physics analysis described in this thesis is sensitive to these beam geometr
 \caption{Integrated luminosity from the p+Au dataset.}
 \end{center}
 \end{figure}
-\subsection{centrality determination}
+\subsection{Centrality Determination}
+The centrality determination is done by adding up all BBC South (Au-going direction) PMT charges for every event and then splitting up that distribution into equivalent centrality bins. This procedure can be used to associate a centrality bin with number of binary collisions from Monte Carlo Glauber + Negative Binomial Distribution (NBD). An example of such an event for d+Au is seen in Fig \ref{fig:glauber_event_display}. 
+\label{centrality_determination}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\linewidth]{figs/glauber_event_display.png}
+\caption{A Monte Carlo Glauber d+Au event display. Each circle is a nucleon. The red nucleons are from the projectile (deuteron) and the green nucleons are participants from the target (gold). Glauber counts even a near miss as a full collision.}
+\label{fig:glauber_event_display}
+\end{center}
+\end{figure}
+
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.65\linewidth]{figs/centrality_determination.png}
 \caption{Real data for BBC Charge South (Au-going direction) shown as open circles and Glauber Monte Carlo + NBD. The colors correspond to the various
-percentiles relative to the total inelastic p+Au cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Leve-1 trigger
+percentiles relative to the total inelastic p+Au cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Level-1 trigger
 efficiency in all inelastic collisions and inelastic collisions producing a particle at midrapidity, respectively. The best fit NBD parameters are mu = 3.14, k = 0.47
 , and the trigger firing on 84 +/- 3$\%$ of the total inelastic cross section [sigma = 1.76 barns].}
-\label{centrality_determination}
 \end{center}
 \end{figure}
 

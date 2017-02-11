@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 JAN 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 FEB 2017 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,20 +290,20 @@ LaTeX Warning: Label `fig:fvtx_ew_default' multiply defined.
 )
 \openout1 = `mythesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
@@ -333,7 +333,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 58.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -343,9 +343,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
 
 (./mythesis.out) (./mythesis.out)
 \@outlinefile=\write3
@@ -353,11 +353,11 @@ LaTeX Info: Redefining \nameref on input line 83.
 
 
 Making Title Page
-LaTeX Font Info:    Try loading font information for U+msa on input line 83.
+LaTeX Font Info:    Try loading font information for U+msa on input line 58.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 83.
+LaTeX Font Info:    Try loading font information for U+msb on input line 58.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -388,15 +388,15 @@ Making ToC Page
 
 ]
 centered
-(./mythesis.toc [6
-
-] [7])
+(./mythesis.toc)
 \tf@toc=\write4
 \openout4 = `mythesis.toc'.
 
 
 Making LoT Page
-[8]
+[6
+
+] [7]
 centered
 (./mythesis.lot)
 \tf@lot=\write5
@@ -404,13 +404,13 @@ centered
 
 
 Making LoF Page
-[9
+[8
 
 ]
 centered
-(./mythesis.lof [10
+(./mythesis.lof [9
 
-] [11] [12] [13] [14] [15] [16] [17])
+] [10] [11] [12] [13])
 \tf@lof=\write6
 \openout6 = `mythesis.lof'.
 
@@ -420,313 +420,54 @@ centered
 -------------------Beginning Body----------------------
 
 
-[18] (./macros.tex
+[14] (./macros.tex
 \c@th@theorem=\count122
-) (./chapter1.tex
+) (./chapter4.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
 centered
-Missing character: There is no ¯ in font cmr10!
-Missing character: There is no ¯ in font cmr10!
-Missing character: There is no ¯ in font cmr10!
+<figs/phenix_coord.png, id=347, 514.92375pt x 353.32pt>
+File: figs/phenix_coord.png Graphic file (type png)
+
+<use figs/phenix_coord.png>
+Package pdftex.def Info: figs/phenix_coord.png used on input line 12.
+(pdftex.def)             Requested size: 258.36667pt x 177.28494pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [1
 
 
-]
-
-LaTeX Warning: Citation `Fermi01071950' on page 2 undefined on input line 19.
-
-<figs/qgp_evolution_timeline.png, id=618, 602.25pt x 397.485pt>
-File: figs/qgp_evolution_timeline.png Graphic file (type png)
-
-<use figs/qgp_evolution_timeline.png>
-Package pdftex.def Info: figs/qgp_evolution_timeline.png used on input line 37.
-
-(pdftex.def)             Requested size: 258.36667pt x 170.52704pt.
- [2]) (./chapter2.tex [3 <./figs/qgp_evolution_timeline.png>]
- \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
-centered
-<figs/elliptical_flow_cartoon.png, id=629, 482.80376pt x 173.64874pt>
-File: figs/elliptical_flow_cartoon.png Graphic file (type png)
-
-<use figs/elliptical_flow_cartoon.png>
-Package pdftex.def Info: figs/elliptical_flow_cartoon.png used on input line 5.
-
-(pdftex.def)             Requested size: 211.3883pt x 76.02942pt.
- [4
-
- <./figs/elliptical_flow_cartoon.png>]
-
-LaTeX Warning: Citation `PhysRevLett.111.212301' on page 5 undefined on input l
-ine 50.
-
-
-LaTeX Warning: Citation `Adare:2014keg' on page 5 undefined on input line 50.
-
-
-LaTeX Warning: Citation `Adare:2015ctn' on page 5 undefined on input line 50.
-
-
-LaTeX Warning: Citation `Adamczyk:2014fcx' on page 5 undefined on input line 50
-.
-
-
-LaTeX Warning: Citation `alice_long_2013' on page 5 undefined on input line 50.
-
-
-
-LaTeX Warning: Citation `atlas_observation_2012' on page 5 undefined on input l
-ine 50.
-
-
-LaTeX Warning: Citation `cms_observation_2012' on page 5 undefined on input lin
-e 50.
-
-
-LaTeX Warning: Citation `Khachatryan:2015lva' on page 5 undefined on input line
- 50.
-
-
-LaTeX Warning: Citation `Aad:2015gqa' on page 5 undefined on input line 50.
-
-
-LaTeX Warning: Citation `Khachatryan:2010gv' on page 5 undefined on input line 
-50.
-
-
-LaTeX Warning: Citation `Khachatryan:2016txc' on page 5 undefined on input line
- 50.
-
-<figs/he3au_simulation.png, id=636, 899.36pt x 230.8625pt>
-File: figs/he3au_simulation.png Graphic file (type png)
-
-<use figs/he3au_simulation.png>
-Package pdftex.def Info: figs/he3au_simulation.png used on input line 53.
-(pdftex.def)             Requested size: 211.3883pt x 54.26326pt.
- [5]
-<figs/initial_conditions.png, id=648, 414.54875pt x 690.58pt>
-File: figs/initial_conditions.png Graphic file (type png)
-
-<use figs/initial_conditions.png>
-Package pdftex.def Info: figs/initial_conditions.png used on input line 62.
-(pdftex.def)             Requested size: 211.3883pt x 352.13844pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapter3.tex [6 <./figs/he3au_simulation.png>] [7 <./figs/initial_conditio
-ns.png>]
- \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
-centered
-<figs/rhic-map.png, id=661, 3010.24625pt x 1978.39125pt>
-File: figs/rhic-map.png Graphic file (type png)
-
-<use figs/rhic-map.png>
-Package pdftex.def Info: figs/rhic-map.png used on input line 9.
-(pdftex.def)             Requested size: 305.33788pt x 200.65817pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8
-
-] [9 <./figs/rhic-map.png (PNG copy)>] [10]
-<figs/phenix_schematic.png, id=685, 472.76625pt x 672.5125pt>
-File: figs/phenix_schematic.png Graphic file (type png)
-
-<use figs/phenix_schematic.png>
-Package pdftex.def Info: figs/phenix_schematic.png used on input line 51.
-(pdftex.def)             Requested size: 234.87749pt x 334.12099pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/phenix_coord.png, id=686, 514.92375pt x 353.32pt>
-File: figs/phenix_coord.png Graphic file (type png)
-
-<use figs/phenix_coord.png>
-Package pdftex.def Info: figs/phenix_coord.png used on input line 58.
-(pdftex.def)             Requested size: 258.36667pt x 177.28494pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/bbc_pmt.png, id=688, 480.79625pt x 361.35pt>
-File: figs/bbc_pmt.png Graphic file (type png)
- <use figs/bbc_pmt.png>
-Package pdftex.def Info: figs/bbc_pmt.png used on input line 68.
-(pdftex.def)             Requested size: 234.87749pt x 176.52821pt.
-
-<figs/bbc_arm.png, id=689, 482.80376pt x 361.35pt>
-File: figs/bbc_arm.png Graphic file (type png)
- <use figs/bbc_arm.png>
-Package pdftex.def Info: figs/bbc_arm.png used on input line 69.
-(pdftex.def)             Requested size: 234.87749pt x 175.78937pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no ± in font cmr10!
-[11] <figs/fvtx_cutaway.png, id=697, 545.03625pt x 323.2075pt>
-File: figs/fvtx_cutaway.png Graphic file (type png)
-
-<use figs/fvtx_cutaway.png>
-Package pdftex.def Info: figs/fvtx_cutaway.png used on input line 95.
-(pdftex.def)             Requested size: 211.3883pt x 125.3501pt.
-
-<figs/fvtx_diagram.png, id=698, 524.96124pt x 400.49625pt>
-File: figs/fvtx_diagram.png Graphic file (type png)
-
-<use figs/fvtx_diagram.png>
-Package pdftex.def Info: figs/fvtx_diagram.png used on input line 96.
-(pdftex.def)             Requested size: 211.3883pt x 161.27121pt.
- [12 <./figs/phenix_schematic.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/dc_diagram.png, id=705, 470.75874pt x 438.63875pt>
-File: figs/dc_diagram.png Graphic file (type png)
-
-<use figs/dc_diagram.png>
-Package pdftex.def Info: figs/dc_diagram.png used on input line 110.
-(pdftex.def)             Requested size: 258.36667pt x 240.73668pt.
- [13 <./figs/phenix_coord.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no µ in font cmr10!
-<figs/dc_wire_diagram.png, id=716, 631.35875pt x 477.785pt>
-File: figs/dc_wire_diagram.png Graphic file (type png)
-
-<use figs/dc_wire_diagram.png>
-Package pdftex.def Info: figs/dc_wire_diagram.png used on input line 118.
-(pdftex.def)             Requested size: 258.36667pt x 195.5213pt.
- [14 <./figs/bbc_pmt.png> <./figs/bbc_arm.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[15 <./figs/fvtx_cutaway.png> <./figs/fvtx_diagram.png> <./figs/dc_diagram.png>
-] [16 <./figs/dc_wire_diagram.png>] [17]
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ± in font cmr10!
- [18]
-<figs/granule_diagram.png, id=745, 589.20125pt x 553.06625pt>
-File: figs/granule_diagram.png Graphic file (type png)
-
-<use figs/granule_diagram.png>
-Package pdftex.def Info: figs/granule_diagram.png used on input line 162.
-(pdftex.def)             Requested size: 258.36667pt x 242.52286pt.
- [19 <./figs/granule_diagram.png>]
-<figs/evb_diagram.png, id=753, 854.19125pt x 314.17375pt>
-File: figs/evb_diagram.png Graphic file (type png)
-
-<use figs/evb_diagram.png>
-Package pdftex.def Info: figs/evb_diagram.png used on input line 182.
-(pdftex.def)             Requested size: 342.91913pt x 126.12268pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20 <./figs/evb_diagram.png>]
-<figs/pAu_centrality_trigger.png, id=760, 597.23125pt x 410.53375pt>
-File: figs/pAu_centrality_trigger.png Graphic file (type png)
-
-<use figs/pAu_centrality_trigger.png>
-Package pdftex.def Info: figs/pAu_centrality_trigger.png used on input line 218
-.
-(pdftex.def)             Requested size: 328.4782pt x 225.79425pt.
- [21 <./figs/pAu_centrality_trigger.png>]
-<figs/beam_angle.png, id=768, 1072.005pt x 309.155pt>
-File: figs/beam_angle.png Graphic file (type png)
-
-<use figs/beam_angle.png>
-Package pdftex.def Info: figs/beam_angle.png used on input line 236.
-(pdftex.def)             Requested size: 399.2946pt x 115.14975pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/bbc_z_vertex_dist.png, id=769, 631.35875pt x 433.62pt>
-File: figs/bbc_z_vertex_dist.png Graphic file (type png)
-
-<use figs/bbc_z_vertex_dist.png>
-Package pdftex.def Info: figs/bbc_z_vertex_dist.png used on input line 244.
-(pdftex.def)             Requested size: 305.33788pt x 209.70996pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/hruntime.png, id=770, 682.55pt x 468.75125pt>
-File: figs/hruntime.png Graphic file (type png)
- <use figs/hruntime.png>
-Package pdftex.def Info: figs/hruntime.png used on input line 252.
-(pdftex.def)             Requested size: 305.33788pt x 209.69872pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/integrated_luminosity.png, id=771, 683.55376pt x 471.7625pt>
-File: figs/integrated_luminosity.png Graphic file (type png)
-
-<use figs/integrated_luminosity.png>
-Package pdftex.def Info: figs/integrated_luminosity.png used on input line 259.
-
-(pdftex.def)             Requested size: 305.33788pt x 210.73628pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/centrality_determination.png, id=772, 707.64375pt x 526.96875pt>
-File: figs/centrality_determination.png Graphic file (type png)
-
-<use figs/centrality_determination.png>
-Package pdftex.def Info: figs/centrality_determination.png used on input line 2
-66.
-(pdftex.def)             Requested size: 305.33788pt x 227.38014pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapter4.tex [22] [23 <./figs/beam_angle.png> <./figs/bbc_z_vertex_dist.pn
-g>] [24 <./figs/hruntime.png> <./figs/integrated_luminosity.png>] [25 <./figs/c
-entrality_determination.png>]
- \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
-centered
-File: figs/phenix_coord.png Graphic file (type png)
-<use figs/phenix_coord.png>
-Package pdftex.def Info: figs/phenix_coord.png used on input line 7.
-(pdftex.def)             Requested size: 258.36667pt x 177.28494pt.
- [26
-
-]
-<figs/dc_mom_res.png, id=800, 546.04pt x 585.18625pt>
+] <figs/dc_mom_res.png, id=354, 546.04pt x 585.18625pt>
 File: figs/dc_mom_res.png Graphic file (type png)
 
 <use figs/dc_mom_res.png>
-Package pdftex.def Info: figs/dc_mom_res.png used on input line 21.
+Package pdftex.def Info: figs/dc_mom_res.png used on input line 38.
 (pdftex.def)             Requested size: 211.3883pt x 226.54301pt.
 
-<figs/cnt_pt_dist.png, id=803, 625.33624pt x 439.6425pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/cnt_pt_dist.png, id=357, 625.33624pt x 439.6425pt>
 File: figs/cnt_pt_dist.png Graphic file (type png)
 
 <use figs/cnt_pt_dist.png>
-Package pdftex.def Info: figs/cnt_pt_dist.png used on input line 29.
+Package pdftex.def Info: figs/cnt_pt_dist.png used on input line 46.
 (pdftex.def)             Requested size: 211.3883pt x 148.61778pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/n0_dist.png, id=804, 624.3325pt x 427.5975pt>
+<figs/n0_dist.png, id=358, 624.3325pt x 427.5975pt>
 File: figs/n0_dist.png Graphic file (type png)
  <use figs/n0_dist.png>
-Package pdftex.def Info: figs/n0_dist.png used on input line 36.
+Package pdftex.def Info: figs/n0_dist.png used on input line 53.
 (pdftex.def)             Requested size: 211.3883pt x 144.77443pt.
 
-<figs/zed_dist.png, id=805, 623.32875pt x 420.57124pt>
+<figs/zed_dist.png, id=359, 623.32875pt x 420.57124pt>
 File: figs/zed_dist.png Graphic file (type png)
  <use figs/zed_dist.png>
-Package pdftex.def Info: figs/zed_dist.png used on input line 37.
+Package pdftex.def Info: figs/zed_dist.png used on input line 54.
 (pdftex.def)             Requested size: 211.3883pt x 142.62654pt.
 
 
@@ -735,339 +476,294 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27 <./figs/dc_mom_res.png>] [28 <./figs/cnt_pt_dist.png> <./figs/n0_dist.png> 
-<./figs/zed_dist.png>] <figs/pc3dphi.png, id=822, 617.30624pt x 295.1025pt>
+[2 <./figs/phenix_coord.png>]
+
+LaTeX Warning: Text page 3 contains only floats.
+
+
+Overfull \vbox (20.41084pt too high) has occurred while \output is active []
+
+
+[3 <./figs/dc_mom_res.png> <./figs/cnt_pt_dist.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./figs/n0_dist.png> <./figs/zed_dist.png>]
+<figs/pc3dphi.png, id=384, 617.30624pt x 295.1025pt>
 File: figs/pc3dphi.png Graphic file (type png)
-
-<use figs/pc3dphi.png>
-Package pdftex.def Info: figs/pc3dphi.png used on input line 92.
+ <use figs/pc3dphi.png>
+Package pdftex.def Info: figs/pc3dphi.png used on input line 128.
 (pdftex.def)             Requested size: 277.78523pt x 132.79489pt.
- <figs/pc3dz.png, id=823, 633.36626pt x 287.0725pt>
-File: figs/pc3dz.png Graphic file (type png)
 
-<use figs/pc3dz.png>
-Package pdftex.def Info: figs/pc3dz.png used on input line 93.
+<figs/pc3dz.png, id=385, 633.36626pt x 287.0725pt>
+File: figs/pc3dz.png Graphic file (type png)
+ <use figs/pc3dz.png>
+Package pdftex.def Info: figs/pc3dz.png used on input line 129.
 (pdftex.def)             Requested size: 285.01218pt x 129.18143pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/fvtx_clus_xy.png, id=825, 771.88374pt x 531.9875pt>
+<figs/fvtx_clus_xy.png, id=387, 771.88374pt x 531.9875pt>
 File: figs/fvtx_clus_xy.png Graphic file (type png)
 
 <use figs/fvtx_clus_xy.png>
-Package pdftex.def Info: figs/fvtx_clus_xy.png used on input line 113.
+Package pdftex.def Info: figs/fvtx_clus_xy.png used on input line 146.
 (pdftex.def)             Requested size: 258.36667pt x 178.06471pt.
- [29]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/bbc_rings.png, id=831, 552.0625pt x 527.9725pt>
+
+LaTeX Warning: Reference `sec:bbc_det_sec' on page 5 undefined on input line 15
+3.
+
+<figs/bbc_rings.png, id=389, 552.0625pt x 527.9725pt>
 File: figs/bbc_rings.png Graphic file (type png)
  <use figs/bbc_rings.png>
-Package pdftex.def Info: figs/bbc_rings.png used on input line 123.
+Package pdftex.def Info: figs/bbc_rings.png used on input line 156.
 (pdftex.def)             Requested size: 258.36667pt x 247.0998pt.
 
-[30 <./figs/pc3dphi.png> <./figs/pc3dz.png>]
+[5]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Text page 6 contains only floats.
 
-[31 <./figs/fvtx_clus_xy.png>] [32 <./figs/bbc_rings.png>] [33]
-<figs/flattened_example_fvtx.png, id=869, 567.11874pt x 444.66125pt>
+[6 <./figs/pc3dphi.png> <./figs/pc3dz.png> <./figs/fvtx_clus_xy.png>] [7 <./fig
+s/bbc_rings.png>] [8] [9] [10]
+<figs/flattened_example_fvtx.png, id=439, 567.11874pt x 444.66125pt>
 File: figs/flattened_example_fvtx.png Graphic file (type png)
 
 <use figs/flattened_example_fvtx.png>
-Package pdftex.def Info: figs/flattened_example_fvtx.png used on input line 205
+Package pdftex.def Info: figs/flattened_example_fvtx.png used on input line 253
 .
 (pdftex.def)             Requested size: 305.33788pt x 239.41464pt.
 
-<figs/flattened_example_bbc.png, id=870, 622.325pt x 437.635pt>
+<figs/flattened_example_bbc.png, id=440, 622.325pt x 437.635pt>
 File: figs/flattened_example_bbc.png Graphic file (type png)
 
 <use figs/flattened_example_bbc.png>
-Package pdftex.def Info: figs/flattened_example_bbc.png used on input line 206.
+Package pdftex.def Info: figs/flattened_example_bbc.png used on input line 254.
 
 (pdftex.def)             Requested size: 291.24579pt x 204.81369pt.
- [34] [35 <./figs/flattened_example_fvtx.png> <./figs/flattened_example_bbc.png
->]
-<figs/resolution_intermediate_calc.png, id=885, 761.84625pt x 365.365pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/resolution_intermediate_calc.png, id=443, 761.84625pt x 365.365pt>
 File: figs/resolution_intermediate_calc.png Graphic file (type png)
 
 <use figs/resolution_intermediate_calc.png>
 Package pdftex.def Info: figs/resolution_intermediate_calc.png used on input li
-ne 235.
+ne 283.
 (pdftex.def)             Requested size: 399.2946pt x 191.49057pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36] <figs/fvtxs_default_ew.png, id=893, 1305.87875pt x 602.25pt>
+[11] [12 <./figs/flattened_example_fvtx.png> <./figs/flattened_example_bbc.png>
+] <figs/fvtxs_default_ew.png, id=458, 1305.87875pt x 602.25pt>
 File: figs/fvtxs_default_ew.png Graphic file (type png)
 
 <use figs/fvtxs_default_ew.png>
-Package pdftex.def Info: figs/fvtxs_default_ew.png used on input line 264.
+Package pdftex.def Info: figs/fvtxs_default_ew.png used on input line 315.
 (pdftex.def)             Requested size: 399.2946pt x 184.14085pt.
 
-<figs/bbcs_default_ew.png, id=894, 1327.96124pt x 608.2725pt>
+<figs/bbcs_default_ew.png, id=459, 1327.96124pt x 608.2725pt>
 File: figs/bbcs_default_ew.png Graphic file (type png)
 
 <use figs/bbcs_default_ew.png>
-Package pdftex.def Info: figs/bbcs_default_ew.png used on input line 265.
+Package pdftex.def Info: figs/bbcs_default_ew.png used on input line 316.
 (pdftex.def)             Requested size: 399.2946pt x 182.89154pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[13 <./figs/resolution_intermediate_calc.png>]
+<figs/beam_angle.png, id=467, 1072.005pt x 309.155pt>
 File: figs/beam_angle.png Graphic file (type png)
+
 <use figs/beam_angle.png>
-Package pdftex.def Info: figs/beam_angle.png used on input line 275.
+Package pdftex.def Info: figs/beam_angle.png used on input line 326.
 (pdftex.def)             Requested size: 352.31624pt x 101.60161pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37 <./figs/resolution_intermediate_calc.png>] [38 <./figs/fvtxs_default_ew.png
-> <./figs/bbcs_default_ew.png>]
-<figs/fvtx_vertex_rot_only.png, id=912, 1333.98375pt x 608.2725pt>
+[14 <./figs/fvtxs_default_ew.png> <./figs/bbcs_default_ew.png>]
+<figs/fvtx_vertex_rot_only.png, id=477, 1333.98375pt x 608.2725pt>
 File: figs/fvtx_vertex_rot_only.png Graphic file (type png)
 
 <use figs/fvtx_vertex_rot_only.png>
-Package pdftex.def Info: figs/fvtx_vertex_rot_only.png used on input line 287.
+Package pdftex.def Info: figs/fvtx_vertex_rot_only.png used on input line 345.
 (pdftex.def)             Requested size: 399.2946pt x 182.06549pt.
 
-<figs/bbc_vertex_rot_only.png, id=913, 1326.9575pt x 600.2425pt>
+<figs/bbc_vertex_rot_only.png, id=478, 1326.9575pt x 600.2425pt>
 File: figs/bbc_vertex_rot_only.png Graphic file (type png)
 
 <use figs/bbc_vertex_rot_only.png>
-Package pdftex.def Info: figs/bbc_vertex_rot_only.png used on input line 288.
+Package pdftex.def Info: figs/bbc_vertex_rot_only.png used on input line 346.
 (pdftex.def)             Requested size: 399.2946pt x 180.61452pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[39] [40 <./figs/fvtx_vertex_rot_only.png> <./figs/bbc_vertex_rot_only.png>]
-<figs/tilt_effect.png, id=929, 844.15375pt x 348.30125pt>
+ [15 <./figs/beam_angle.png>] [16 <./figs/fvtx_vertex_rot_only.png> <./figs/bbc
+_vertex_rot_only.png>]
+<figs/tilt_effect.png, id=495, 844.15375pt x 348.30125pt>
 File: figs/tilt_effect.png Graphic file (type png)
 
 <use figs/tilt_effect.png>
-Package pdftex.def Info: figs/tilt_effect.png used on input line 300.
+Package pdftex.def Info: figs/tilt_effect.png used on input line 358.
 (pdftex.def)             Requested size: 446.2658pt x 184.1364pt.
- [41 <./figs/tilt_effect.png>]
-<figs/eta_modification.png, id=937, 629.35126pt x 439.6425pt>
+ [17 <./figs/tilt_effect.png>]
+<figs/eta_modification.png, id=503, 629.35126pt x 439.6425pt>
 File: figs/eta_modification.png Graphic file (type png)
 
 <use figs/eta_modification.png>
-Package pdftex.def Info: figs/eta_modification.png used on input line 315.
+Package pdftex.def Info: figs/eta_modification.png used on input line 374.
 (pdftex.def)             Requested size: 220.78542pt x 154.23271pt.
 
-<figs/analytic_correction.png, id=938, 628.3475pt x 438.63875pt>
+<figs/analytic_correction.png, id=504, 628.3475pt x 438.63875pt>
 File: figs/analytic_correction.png Graphic file (type png)
 
 <use figs/analytic_correction.png>
-Package pdftex.def Info: figs/analytic_correction.png used on input line 316.
+Package pdftex.def Info: figs/analytic_correction.png used on input line 375.
 (pdftex.def)             Requested size: 220.78542pt x 154.12154pt.
- [42 <./figs/eta_modification.png> <./figs/analytic_correction.png>]
-<figs/fvtx_weighting.png, id=946, 751.80875pt x 756.8275pt>
+ [18 <./figs/eta_modification.png> <./figs/analytic_correction.png>]
+<figs/fvtx_weighting.png, id=512, 751.80875pt x 756.8275pt>
 File: figs/fvtx_weighting.png Graphic file (type png)
 
 <use figs/fvtx_weighting.png>
-Package pdftex.def Info: figs/fvtx_weighting.png used on input line 334.
+Package pdftex.def Info: figs/fvtx_weighting.png used on input line 393.
 (pdftex.def)             Requested size: 352.31624pt x 354.66963pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/comparison_of_weights.png, id=947, 597.23125pt x 598.235pt>
+<figs/comparison_of_weights.png, id=513, 597.23125pt x 598.235pt>
 File: figs/comparison_of_weights.png Graphic file (type png)
 
 <use figs/comparison_of_weights.png>
-Package pdftex.def Info: figs/comparison_of_weights.png used on input line 341.
+Package pdftex.def Info: figs/comparison_of_weights.png used on input line 400.
 
 (pdftex.def)             Requested size: 234.87749pt x 235.2733pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/pmt_ratio_weight.png, id=951, 719.68875pt x 692.5875pt>
+<figs/pmt_ratio_weight.png, id=517, 719.68875pt x 692.5875pt>
 File: figs/pmt_ratio_weight.png Graphic file (type png)
 
 <use figs/pmt_ratio_weight.png>
-Package pdftex.def Info: figs/pmt_ratio_weight.png used on input line 358.
+Package pdftex.def Info: figs/pmt_ratio_weight.png used on input line 417.
 (pdftex.def)             Requested size: 234.87749pt x 226.02882pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43] [44 <./figs/fvtx_weighting.png>] [45 <./figs/comparison_of_weights.png> <.
+[19] [20 <./figs/fvtx_weighting.png>] [21 <./figs/comparison_of_weights.png> <.
 /figs/pmt_ratio_weight.png>]
-<figs/pp_pau_bbc_comparison.png, id=974, 771.88374pt x 374.39874pt>
+<figs/pp_pau_bbc_comparison.png, id=538, 771.88374pt x 374.39874pt>
 File: figs/pp_pau_bbc_comparison.png Graphic file (type png)
 
 <use figs/pp_pau_bbc_comparison.png>
-Package pdftex.def Info: figs/pp_pau_bbc_comparison.png used on input line 368.
+Package pdftex.def Info: figs/pp_pau_bbc_comparison.png used on input line 427.
 
 (pdftex.def)             Requested size: 352.31624pt x 170.8887pt.
 
-<figs/fvtx_correction_summary.png, id=978, 597.23125pt x 590.205pt>
+<figs/fvtx_correction_summary.png, id=542, 597.23125pt x 590.205pt>
 File: figs/fvtx_correction_summary.png Graphic file (type png)
 
 <use figs/fvtx_correction_summary.png>
-Package pdftex.def Info: figs/fvtx_correction_summary.png used on input line 38
-3.
+Package pdftex.def Info: figs/fvtx_correction_summary.png used on input line 44
+2.
 (pdftex.def)             Requested size: 234.87749pt x 232.11526pt.
- [46 <./figs/pp_pau_bbc_comparison.png>]
-<figs/bbc_correction_summary.png, id=991, 655.44875pt x 630.355pt>
+ [22 <./figs/pp_pau_bbc_comparison.png>]
+<figs/bbc_correction_summary.png, id=556, 655.44875pt x 630.355pt>
 File: figs/bbc_correction_summary.png Graphic file (type png)
 
 <use figs/bbc_correction_summary.png>
-Package pdftex.def Info: figs/bbc_correction_summary.png used on input line 391
+Package pdftex.def Info: figs/bbc_correction_summary.png used on input line 450
 .
 (pdftex.def)             Requested size: 234.87749pt x 225.87921pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47 <./figs/fvtx_correction_summary.png>]
-<figs/fvtx_corrected.png, id=1008, 762.85pt x 305.14pt>
+[23 <./figs/fvtx_correction_summary.png>]
+<figs/fvtx_corrected.png, id=574, 762.85pt x 305.14pt>
 File: figs/fvtx_corrected.png Graphic file (type png)
 
 <use figs/fvtx_corrected.png>
-Package pdftex.def Info: figs/fvtx_corrected.png used on input line 401.
+Package pdftex.def Info: figs/fvtx_corrected.png used on input line 460.
 (pdftex.def)             Requested size: 352.31624pt x 140.92482pt.
 
-<figs/bbc_pp_correction.png, id=1009, 704.6325pt x 288.07625pt>
+<figs/bbc_pp_correction.png, id=575, 704.6325pt x 288.07625pt>
 File: figs/bbc_pp_correction.png Graphic file (type png)
 
 <use figs/bbc_pp_correction.png>
-Package pdftex.def Info: figs/bbc_pp_correction.png used on input line 402.
+Package pdftex.def Info: figs/bbc_pp_correction.png used on input line 461.
 (pdftex.def)             Requested size: 352.31624pt x 144.03777pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Citation `Adare:2014keg' on page 48 undefined on input line 416.
-
-
-[48 <./figs/bbc_correction_summary.png>] [49 <./figs/fvtx_corrected.png> <./fig
+[24 <./figs/bbc_correction_summary.png>] [25 <./figs/fvtx_corrected.png> <./fig
 s/bbc_pp_correction.png>]
-<figs/example_pile_up_event.png, id=1026, 910.40125pt x 304.13625pt>
-File: figs/example_pile_up_event.png Graphic file (type png)
 
-<use figs/example_pile_up_event.png>
-Package pdftex.def Info: figs/example_pile_up_event.png used on input line 447.
+LaTeX Warning: Citation `Adare:2014keg' on page 26 undefined on input line 475.
 
-(pdftex.def)             Requested size: 375.80542pt x 125.54591pt.
- [50 <./figs/example_pile_up_event.png>]
-<figs/non_flow.pdf, id=1034, 569.12625pt x 450.68375pt>
-File: figs/non_flow.pdf Graphic file (type pdf)
-
-<use figs/non_flow.pdf>
-Package pdftex.def Info: figs/non_flow.pdf used on input line 466.
-(pdftex.def)             Requested size: 281.85585pt x 223.20947pt.
-
-<figs/glauber_event_display.png, id=1035, 499.8675pt x 464.73625pt>
-File: figs/glauber_event_display.png Graphic file (type png)
-
-<use figs/glauber_event_display.png>
-Package pdftex.def Info: figs/glauber_event_display.png used on input line 477.
-
-(pdftex.def)             Requested size: 234.87749pt x 218.36932pt.
-
-<figs/jet_corr_example.png, id=1036, 329.23pt x 325.215pt>
-File: figs/jet_corr_example.png Graphic file (type png)
-
-<use figs/jet_corr_example.png>
-Package pdftex.def Info: figs/jet_corr_example.png used on input line 485.
-(pdftex.def)             Requested size: 234.87749pt x 232.01584pt.
-) (./chapter5.tex [51 <./figs/non_flow.pdf, page is rotated 90 degrees>] [52 <.
-/figs/glauber_event_display.png> <./figs/jet_corr_example.png>]
- \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1.
-
-centered
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2.
-
-<figs/pau_points.png, id=1093, 684.5575pt x 667.49374pt>
-File: figs/pau_points.png Graphic file (type png)
-
-<use figs/pau_points.png>
-Package pdftex.def Info: figs/pau_points.png used on input line 8.
-(pdftex.def)             Requested size: 234.87749pt x 229.02263pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/three_system_comparison_result.pdf, id=1097, 569.12625pt x 549.05125pt>
-File: figs/three_system_comparison_result.pdf Graphic file (type pdf)
+[26
 
-<use figs/three_system_comparison_result.pdf>
-Package pdftex.def Info: figs/three_system_comparison_result.pdf used on input 
-line 38.
-(pdftex.def)             Requested size: 234.87749pt x 226.59534pt.
+] <figs/example_pile_up_event.png, id=597, 910.40125pt x 304.13625pt>
+File: figs/example_pile_up_event.png Graphic file (type png)
 
-<figs/initial_condition_comparison.png, id=1098, 639.38875pt x 462.72874pt>
-File: figs/initial_condition_comparison.png Graphic file (type png)
+<use figs/example_pile_up_event.png>
+Package pdftex.def Info: figs/example_pile_up_event.png used on input line 515.
 
-<use figs/initial_condition_comparison.png>
-Package pdftex.def Info: figs/initial_condition_comparison.png used on input li
-ne 45.
-(pdftex.def)             Requested size: 352.31624pt x 254.97466pt.
- [53
+(pdftex.def)             Requested size: 375.80542pt x 125.54591pt.
 
-] [54 <./figs/pau_points.png> <./figs/three_system_comparison_result.pdf, page 
-is rotated 90 degrees>] [55 <./figs/initial_condition_comparison.png>]
-<figs/v2_e2_ampt.png, id=1163, 673.51625pt x 463.7325pt>
-File: figs/v2_e2_ampt.png Graphic file (type png)
 
-<use figs/v2_e2_ampt.png>
-Package pdftex.def Info: figs/v2_e2_ampt.png used on input line 56.
-(pdftex.def)             Requested size: 281.85585pt x 194.0658pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/indepth_theory_comparison.png, id=1164, 1170.3725pt x 469.755pt>
-File: figs/indepth_theory_comparison.png Graphic file (type png)
+[27] <figs/jet_corr_example.png, id=604, 329.23pt x 325.215pt>
+File: figs/jet_corr_example.png Graphic file (type png)
 
-<use figs/indepth_theory_comparison.png>
-Package pdftex.def Info: figs/indepth_theory_comparison.png used on input line 
-63.
-(pdftex.def)             Requested size: 422.77661pt x 169.69226pt.
-) (./mythesis.bbl [56] [57 <./figs/v2_e2_ampt.png> <./figs/indepth_theory_compa
-rison.png>]
+<use figs/jet_corr_example.png>
+Package pdftex.def Info: figs/jet_corr_example.png used on input line 541.
+(pdftex.def)             Requested size: 234.87749pt x 232.01584pt.
+ [28 <./figs/example_pile_up_event.png>]
+<figs/non_flow.pdf, id=613, 569.12625pt x 450.68375pt>
+File: figs/non_flow.pdf Graphic file (type pdf)
+ <use figs/non_flow.pdf>
+Package pdftex.def Info: figs/non_flow.pdf used on input line 559.
+(pdftex.def)             Requested size: 281.85585pt x 223.20947pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./mythesis.bbl [29] [30 <./figs/jet_corr_example.png>] [31 <./figs/non_flow.
+pdf, page is rotated 90 degrees>]
 centered
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
- [58
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+ [32
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
-
-(./mythesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+ (./mythesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: C176C6E48B559C09E36B50733F8EC3E9;3635.
+(rerunfilecheck)             Checksum: 9D40541AD903E43D5888429F3E300F12;1372.
 
 
 LaTeX Warning: There were undefined references.
@@ -1075,34 +771,31 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 7055 strings out of 493089
- 104153 string characters out of 6134842
- 225566 words of memory out of 5000000
- 10152 multiletter control sequences out of 15000+600000
- 13371 words of font info for 50 fonts, out of 8000000 for 9000
+ 6757 strings out of 493089
+ 98372 string characters out of 6134842
+ 212619 words of memory out of 5000000
+ 9991 multiletter control sequences out of 15000+600000
+ 12724 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,41p,2126b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,38p,2126b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on mythesis.pdf (76 pages, 16660928 bytes).
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on mythesis.pdf (46 pages, 2296897 bytes).
 PDF statistics:
- 1282 PDF objects out of 1440 (max. 8388607)
- 1009 compressed objects within 11 object streams
- 231 named destinations out of 1000 (max. 500000)
- 681 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 587 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
