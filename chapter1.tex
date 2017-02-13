@@ -1,32 +1,161 @@
-\chapter{Introduction}
+\chapter{Physics Background}
+In order to give the proper context of the measurement shown in this thesis,  an overview of the physical theory relevant to the measurement is given in this chapter. We start with the SM (standard model of particle physics), narrow the focus down to QCD (Quantum Chromodynamics), and then narrow the focus even more to a specific state of matter governed by QCD known as QGP (Quark Gluon Plasma). Properties of QGP are discussed including energy loss and elliptic flow. A more comprehensive discussion on the topic of elliptic flow and small collision systems is in the next chapter.
 \section{The Standard Model}
-The SM (Standard Model of particle physics) is humanity's best understanding of how the fundamental building blocks reality behave. The SM as we know it today has evolved over many years, beginning with the unification of the electromagnetic and weak forces in the late 1960's. The current evolution of the SM
-includes four fundamental forces, listed in Table (TBA), and 17 fundamental particles, listed
-in Table (TBA).
-Calculations using the SM have been remarkably successful at making precise predictions
-which have been confirmed experimentally. It is one of the most rigorously tested
-theories in physics and has held up remarkably well to years of experimental testing.
-\section{Quantum Chromodynamics}
-In order to calculate things within the SM, we must turn to quantum field theory (QFT) to formally, mathematically describe the fundamental interactions in the SM.
-In order to calculate particles interacting via the strong force, the most relevant force at the high energies provided 
-by hadron-hadron collisions at RHIC, we turn to QCD. Quantum chromodynamics
-introduces an additional quantum number to the SM and is governed by the SU(3) symmetry
-group. This new quantum number, labeled color, can take three values referred to as
-red (r), green (g), and blue (b), in an analogy to the three colors in optics. Like the electric
-charge in QED, each color has an opposite, ?negative? value, carried by the antiquarks,
-referred to as anti-red (�r), anti-green (�g), and anti-blue(�b).
-\section{Heavy Ion Collisions}
-The idea of hot hadronic matter was developed in the early 1950s by various physicists including Enrico Fermi~\cite{Fermi01071950} . 
-This concept of applying statistical and hydrodynamical models to a strongly interacting particle ensemble ultimately evolved into the theory of QGP (Quark Gluon Plasma). 
-Since then, systematic studies of hot hadronic matter systems have produced a greater understanding of the state of matter hypothesized to be QGP. QGP has been roughly mapped out in the hadronic phase diagram. 
-The state of matter created in our laboratories is understood to be comparable to the universe about one microsecond after the big bang. And the evolution of the medium has been mapped from the initial heavy ion collision all the way to the final state particles. 
+The SM is the best understanding of how the fundamental building blocks reality behave. The SM as we know it today has evolved over many years, beginning with the unification of the electromagnetic and weak forces in the late 1960's. The current evolution of the SM includes four fundamental forces, listed in Table \ref{tbl:sm}, and the fundamental particles, listed in Figure \ref{fig:stnd_mdl_chart}.
+\begin{table}[h!]
+\caption{All four of the fundamental forces and the effective strengths of each relative to gravity. Gravity is not covered by the SM but is included for completeness.}
+\begin{center}
+%    \begin{tabular}{| l | l | l | | | | | | }
+    \begin{tabular}{ccccc}
+    \hline
+    Force &Current Theory  & Relative Strength & Range [m] &  Force Carriers\\ \hline
+    strong  & Quantum Chromodynamics (QCD) & $10^{41}$ & $10^-{15}$&  gluon\\
+    electromagnetic &Quantum Electrodynamics (QED) & $10^{38}$ & infinity &  photon\\
+    weak & Electroweak & $10^{25}$ &  $10^{-18}$ & $Z^0$,$W^{+/-}$\\
+    gravity & General Relativity & 1 & infinity & graviton?\\ \hline
+    \end{tabular}
+\end{center}
+\label{tbl:sm}
+\end{table}
 
-%%
-The idea of hot hadronic matter was developed in the early 1950s by various physicists including Enrico Fermi~\cite{Fermi01071950} . This concept of applying statistical and hydrodynamical models to a strongly interacting particle ensemble ultimately evolved into the theory of QGP (Quark Gluon Plasma). Since then, systematic studies of hot hadronic matter systems have produced a greater understanding of the state of matter hypothesized to be QGP. QGP has been roughly mapped out in the hadronic phase diagram. The state of matter created in our laboratories is understood to be comparable to the universe about one microsecond after the big bang. And the evolution of the medium has been mapped from the initial heavy ion collision all the way to the final state particles. \\
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.65\linewidth]{figs/standard_model_chart.png}
+\caption{The fundamental particles of the SM arranged to highlight flavor (horizontal) and charge (vertical) patterns among the particles. These are thought to be the smallest discrete pieces of matter which make up everything else in the universe \textbf{ADD REF}.}
+\end{center}
+\label{fig:stnd_mdl_chart}
+\end{figure}
 
-Here is the timeline overview of heavy ion collisions in general: At the moment when heavy ions collide relativistically ($\tau$=0), they are length contracted down to flat disks in the lab frame as seen in Figure 1. Then, the initial geometry resulting from the shape of the collision overlap region and fluctuations within the nuclei is transformed into the initial energy density of the medium ($\tau$ \texttildelow 1 fm/c). At that moment, the hot hadronic matter is thought to be made up of deconfined quarks and gluons in thermal equilibrium, otherwise known as QGP. The system then evolves hydrodynamically, expanding along the pressure gradients present in the initial energy density. At a certain point during this expansion, the medium has cooled down enough in order to form baryons and mesons out of the quark gluon soup in a process known as hadronization. It is important to note that the medium is still in thermal equilibrium at this point but it is no longer known as QGP but instead as hadron gas. Once the medium has cooled down and expanded sufficiently, kinetic freeze-out occurs and the hadron gas becomes a group of particles which have ceased self-interaction ($\tau$ \texttildelow 10 fm/c). It is this group of final state particles which can be detected much later ($\tau$ \texttildelow $10^{15}$ fm/c). Although detectable particles escape the medium at all times, the vast majority of particles we detect are produced at kinetic freeze-out. \\
+The SM has the capability of making quantifiable predictions which have been shown to be in agreement with experimental measurements to many decimal places. The SM has stood up to decades of meticulous experimental testing without the need for major revisions. The mathematical framework underpinning the SM is formally known as QFT (quantum field theory) which combines the continuous nature of field physics with the discrete nature of quantum physics. The fundamental symmetries of the SM are given by the combination of the $SU(3)XSU(2)XU(1)$ groups as defined in group theory. Each symmetry group represents the symmetry of each of the fundamental forces in the SM such that $SU(3)$, $SU(2)$, and $U(1)$ represent the strong, weak, and electromagnetic forces respectively. As mentioned in table \ref{tbl:sm}, each of the fundamental forces has a quantized theory associated with it. The electromagnetic and weak forces combine into a single theory at high energy density, known as the electroweak theory. No similar theory which has been experimentally verified has combined the strong and the electroweak upon writing of this thesis.
 
-Although the field of high-energy nuclear physics is still evolving, several measured properties of this state of matter have come together to make QGP the prevailing explanation. Among the best observations indicating QGP are jet quenching, J/$\psi$ melting, and elliptic flow. The observation of jets measured at much lower energies than expected imply that the jets are experiencing energy loss when interacting with a strongly coupled medium. The observation of a severe reduction in the number of expected J/$\psi$ particles matches a prediction that a strongly coupled medium with a temperature above the Hagedorn temperature will melt J/$\psi$ particles. Finally, an elliptic symmetry in the angular distribution of final state particles when viewed along the beam line has been observed. The translation of initial geometry into long-range angular correlations indicates collectivity in a strongly coupled medium.\\
+Any given interaction described by the SM starts with a set of initial particles, a series of interactions between those particles (which is represented by an exchange of virtual particles), and then a set of final state output particles. Experimentally, the only information available to the experimenter is the input particles and the output particles. The in-between step of the interaction of the particles is where QFT is used. Theoretical physicists use QFT to calculate the probabilities of each possible interaction diagram given a set of input particles or a set of output particles or both. To complicate things, there are infinite possible interaction diagrams for any given set of inputs and outputs; however, there is always leading diagrams which have the highest probability of occurring. Generally the simpler the interaction diagram, the higher the probability.
+
+In order to make predictions about physical systems dominated by the strong force, like the heavy ion collision systems studied in this thesis, we turn to QCD. 
+
+\subsection{Quantum Chromodynamics}
+Of the fundamental particles which make up the SM, the only 7 which interact exclusively through the strong force are the six quarks and the gluon. 
+These particles have a unique quantum number named color which can be one of three values referred to as
+red (r), green (g), and blue (b), in an analogy to three colors commonly used to form the basis of light in the visible spectrum. Like the electric
+charge in QED, each color has a negative value
+ referred to as anti-red (!r), anti-green (!g), and anti-blue(!b), making six possible states for the quantum number in total. Gluons have two color charge quantum numbers, one charge and one anti-charge. This fact means gluons interact with themselves which produces two important effects in QCD: confinement and asymptotic freedom.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.45\linewidth]{figs/coupling_constant.png}
+\caption{The strong coupling $\alpha_s$ as a function of energy $Q$. \textbf{ADD REF}.}
+\end{center}
+\label{fig:coupling_plot}
+\end{figure}
+
+In QED, electromagnetic fields decrease with distance away from a point charge. This functional form allows electromagnetically bound states to separate.
+However in QCD, the self interaction of the gluon means that as two quarks
+separate the force between them grows proportionally to the distance between them. As a
+quark-antiquark (qq) pair separates, the each component quark in the pair have so much strong potential energy that quarks from the vacuum bind to each quark to form two new pairs. 
+The outcome of this effect is that solitary quarks can never be observed in a vacuum, by the time we try to observe them they will have found another particle in the vacuum to bind too. The strong force's name is an understatement for how powerful it is: any non-zero color charge will nearly instantaneously be smothered by the universe. This means that quarks are confined to zero color charge (or color neutral) bound states. Color neutral bound states are defined as a color and anti-color state  (ex. rr¯, gg¯, b
+¯b),  known as mesons, or a tricolor state (ex. rgb or ¯r¯g¯b), known as baryons. The list of the two or three quarks which make up color neutral bound state are known as valence quarks. Valence quarks are in the outermost shell of energy states for the hadron in contrast to sea quarks which are qq pairs made from gluon annihilations and fill all the lower states. Quarks and gluons found in hadrons are known as partons and partons carry a fraction of the total hadron's momentum. Partons can have any momentum fraction of the total momentum, but it is most probable that valence quarks have one third of the total momentum where as gluons and sea quarks are more likely to have a much smaller momentum fraction.
+
+Color neutrality can arise from other combinations of quarks; from combinations of quarks and
+gluons; or even arrangements of gluons with no valence quarks. The first mentioned combinations are theoretical color neutral states of four or more quarks which have yet to be experimentally observed in multiple experiments. The second and third mentioned combinations are known as exotic mesons and experiments are searching for their signatures.
+
+Another related effect of the self interaction of the gluon is known as the screening of bare color charges. 
+Once again it is helpful to compare to the familiar effects in QED. In QED, electrically charged pairs from the vacuum screen the bare electric charge, causing
+the effective charge to decrease. This effect increases as distance to the electric charge increases because there is a greater quantity of electrically charged pairs between the observer and the charge. Back to QCD, qq pairs produce the same effect, providing a screening effect on the bare color charge, however short lived bare color charges are. Further complications arise when the color-carrying
+gluon in turn creates an anti-screening effect, ultimately the larger of the two effects. As one approaches a solitary color charge, the density of gluons becomes so large that the strong force counter-intuitively grows weaker. These screening effects alter the strong coupling constant known as $\alpha_s$ which is proportional to the local strong force magnitude. Figure \ref{fig:coupling_plot}, which depicts the $\alpha_s$ as a function of energy scale, shows the reduction of $\alpha_s$ at large energies. This behavior is known as asymptotic freedom because the smaller $\alpha_s$ is, the more quarks can move freely. Thus, there is an energy threshold where the strong force is weak enough where perturbative calculations are valid. The ability to make valid perturbative calculations for QCD is important for being able to make any in depth QCD calculations of complex systems.
+
+In addition to understanding the unique effects of QCD, understanding the phases of QCD matter is important. Figure \ref{fig:qcd_phase} is a phase diagram for quark matter by varying temperatures and baryonic densities. The type of quark matter which makes up the elements of normal matter is found in the figure under the heading of ``Nuclear Matter" which is the state of quarks and gluons for complex, relatively stable bound states known as nuclei. The ``hadronic phase" indicates a state of quark matter where bound states of quarks form hadrons but those hadrons behave like a non-interacting gas. At very large baryonic density, the ``color superconductivity" phase is where the possible quantum states of quarks and gluons are so full that an example of such a state of matter is a neutron star. Finally, under extreme conditions of temperature and bayonic density, quarks may break deconfinement and exist as solitary color charges. This phase of matter, known as QGP (Quark-Gluon Plasma), provides a medium where $\alpha_s$ becomes small enough to allow quarks and gluons to move with relative freedom. Although QGP has been observed by multiple experiments at RHIC (Relativistic Heavy Ion Collider) and the LHC (Large Hadron Collider) facilities, the critical temperature where the phase of quark matter is achieved is still unknown, although some recent experiments place the temperature at 170 MeV or 1.9$x10^{12}$ kelvin, which is hotter than the center of our sun \textbf{add ref}.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.55\linewidth]{figs/qcd_phase_diagram.png}
+\caption{QCD phase diagram of temperature and baryonic density \textbf{ADD REF}.}
+\end{center}
+\label{fig:qcd_phase}
+\end{figure}
+
+\section{Quark Gluon Plasma}
+QGP is a new state of matter created in scientists' laboratories and is thought to be the same as the universe approximately one microsecond after the big bang \textbf{ADD REF}. Thus, studying QGP and its properties in the laboratory can help cosmologists understand the state of the early universe.
+
+The idea of hot hadronic matter was developed in the early 1950s by various physicists including Enrico Fermi~\cite{Fermi01071950}. This concept of applying statistical and hydrodynamical models to a strongly interacting particle ensemble ultimately evolved into the theory of QGP. Since then, systematic studies of hot hadronic matter systems have produced a greater understanding of the state of matter hypothesized to be QGP and contributed to its approximate location on the hadronic phase diagram in Figure \ref{fig:qcd_phase}. Many unique properties about this new state of matter have been discovered, for example QGP behaves like a nearly perfect fluid and that is opaque to color charges. Enough research has been done to assemble a probable timeline of how the QGP evolves.
+
+\subsection{QGP Evolution Timeline}
+The timeline overview of QGP as made in the laboratory always begins with a high-energy heavy ion collision (Au-Au for example) thus the QGP timeline is embedded in the laboratory timeline. As is the case with all SM interactions, the beginning of QGP starts with initial state observable particles and the ends with final state observable particles, although the final state particles may have been produced at different points during the QGP evolution. Although only lasting $10^{-23}$ seconds or $10 fm/c$, several distinct stages occur during this time period and long after the evolution has ceased the final state particles are detected in the experiment 1 quadrillion QGP lifetimes later or 1 nanosecond \textbf{CHECK MATH}.
+
+At the moment when heavy ions collide relativistically ($\tau$=0), they are length contracted down to flat disks in the lab frame as seen in Figure \ref{fig:qgp_timeline}. Then, the initial geometry resulting from the shape of the collision overlap region and fluctuations within the nuclei is transformed into the initial energy density of the medium ($\tau$ $~$ 1 fm/c). At that moment, the hot hadronic matter is thought to be made up of deconfined quarks and gluons in thermal equilibrium, otherwise known as QGP. The system then evolves hydrodynamically, expanding along the pressure gradients present in the initial energy density. At a certain point during this expansion, the medium has cooled down enough in order to form baryons and mesons out of the quark gluon soup in a process known as hadronization. It is important to note that the medium is still in thermal equilibrium at this point but it is no longer known as QGP but instead as hadron gas. Once the medium has cooled down and expanded sufficiently, kinetic freeze-out occurs and the hadron gas becomes a group of particles which have ceased self-interaction ($\tau$ $~$ 10 fm/c). It is this group of final state particles which can be detected much later ($\tau$ $`~$ $10^{15}$ fm/c). Although detectable particles escape the medium at all times, the vast majority of particles we detect are produced at kinetic freeze-out. 
+
+Even though all of these phases are of interest to the study of QGP, of particular interest to QGP researchers is the thermal equilibrium phase when the QGP state is first achieved. It is during this phase where quarks are deconfined, the only time or place in the universe where this occurs. In this environment, features of QCD can be studied such as how do color charges experience energy loss and to what degree is collective behavior observed. 
+
+As is referred to in Figure ~\ref{fig:qgp_timeline}, many types of particles are emitted during the QGP evolution, some of which are emitted before the kinetic freeze-out time. The most common type of particle produced from QGP collisions are baryons and mesons made of up and down quarks (pions, Kaons, and nucleons), which are in abundant supply during and after the collision. Another type of particle produced from these collisions are photons. QGP being an extremely hot ball of matter, blackbody radiation in the form of thermal photons are emitted and whose spectrum can be used to estimate the temperature of the medium. These thermal photons escape the medium due to their lack of interaction with the strong force. Heavy quarks are produced primarily from initial hard parton-parton scatterings, ``hard" meaning here that there is a large momentum transfer in the collision. These heavy quarks, such as bottom or charm quarks, often fragment into a shower of less massive particles known as jets as they propagate through space.
+% maybe add lepton production later
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.78\linewidth]{figs/qgp_evolution_timeline.png}
+\caption{Relativistic heavy ion collision evolution timeline starting. Three distinct phases and their times are shown as well as the particles produced.}
+\end{center}
+\label{fig:qgp_timeline}
+\end{figure}
+
+\subsection{Emergent Properties of the QGP}
+Now that the foundation of the QGP timeline has been established, properties of the medium can be discussed in context. Although the label of QGP has been applied to state of matter produced from heavy ion collisions in this document up to this point, what evidence is there that this state of matter is a strongly coupled  medium made of deconfined quarks and gluons?
+
+Taking into account the field of high-energy heavy ion collision physics is still evolving, several measured properties of this state of matter have come together to make QGP the prevailing explanation. Among the best observations indicating QGP are particle energy loss and elliptic flow. The observation of hadrons measured at much lower yields than expected imply that the hadrons are experiencing energy loss when interacting with a strongly coupled medium.  An elliptic symmetry in the angular distribution of final state particles when viewed along the axis of collision has been observed. The translation of initial geometry into long-range angular correlations indicates collectivity in a strongly coupled medium.
+
+%The observation of a severe reduction in the number of expected J/$\psi$ particles matches a prediction that a strongly coupled medium with a temperature above the Hagedorn temperature will melt J/$\psi$ particles.
+
+\subsubsection{Particle Energy Loss}
+In order to study a new medium such as QGP, it is useful to measure things about the QGP relative to a more well known collision system such as p+p. By measuring the relative amount of hadrons produced at various momenta in both p+p and heavy ion collisions, QGP medium effects can be teased out.
+
+After the quarks are produced in p+p collisions, they will hadronize and freely travel to the experiment's detector. In heavy ion collisions, the quarks propagate through and interact
+with the QGP, exchanging energy and momentum with the medium along the way. The effect of energy loss on these quarks will modify their yield relative to the yield in p+p collisions.The nuclear modification factor $R_{AA}$ is the observable used is to quantify this modification which is defined for a given particle as:
+
+\begin{equation}\label{eqn:raa}
+ R_{AA}(p_T) = \frac{dN_{AA}/dp_T}{\left<N_{coll}\right>\times dN_{pp}/dp_T},
+\end{equation}
+where $dN_{AA}/dp_T$ and $dN_{pp}/dp_T$ is the yield of a given particle vs $p_T$ in heavy ion collisions and p+p collisions respectively and $N_{coll}$ is the average
+number of binary collisions for a given class of events. In summary the $R_{AA}$ is a ratio for how many particles are produced for the same system with a normalization factor of $N_{coll}$ to account for the differences in system size. The $N_{coll}$ value is usually determined using Monte Carlo Glauber simulations and will be discussed in more detail in chapter 2. If the particle on average does not interact with the medium, the $R_{AA}$ should be equal to 1.0. A value above 1.0 is interpreted as an enhancement of particles and a value below 1.0 is interpreted as a suppression of particles. 
+
+Figure \ref{fig:RAA_plot} shows a significant suppression in the $R_{AA}$ vs $p_T$ (transverse momentum) of $\pi^0$ mesons produced in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV at RHIC for large sized medium and small sized medium events (0-10$\%$ central and 80-92$\%$ central events respectively, centrality will be discussed in chapter 2). This large suppression across all  $p_T$ of the $\pi^0$ for large sized events as compared to small sized events indicate energy loss of quarks due to the medium which is consistent with a strongly coupled  medium.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.64\linewidth]{figs/raa_pi0_aa_cent_periph.png}
+\caption{The $R_{AA}$  vs $p_T$ of $\pi^0$ mesons produced in Au+Au collisions at $\sqrt{s_{NN}} = 200 GeV$ at RHIC for two different collision multiplicity classes. \textbf{ADD REF}}
+\end{center}
+\label{fig:RAA_plot}
+\end{figure}
+\clearpage
+%\subsubsection{J/$\psi$ Melting}
+
+\subsubsection{Collective Flow and Azimuthal Anisotropy}
+Another signal of a strongly coupled medium is evidence of collective behavior among the constituent particles which make up the medium. By analyzing patterns in the spray of particles emitted from heavy ion collisions, systematic effects can be determined. Nominally there should be no preference in direction for final state particles from a heavy ion collision, the presence of such a preference can indicate long-range angular correlations among the particles in the medium which can be measured by looking at the azimuthal anisotropy.
+
+Consider the collision of two heavy nuclei as depicted in Figure ~\ref{fig:flow_diagram_cart}. The overlap region between the two nuclei form an almond shaped region oriented to the plane of the initial collision geometry. After the collision the two nuclei remnants (the blue shapes) no longer participate and the yellow over lap region forms the QGP medium and starts to expand. This energy density distribution gives rise to a larger pressure gradient in the shorter direction rather than the longer direction. The larger the pressure gradient, the more momentum the particles will gain once the medium finishes evolving. This variation in the momentum of final state particles produces systematic effects in the azimuthal (relative to the collision axis) distribution of particles. Thus by measuring the azimuthal anisotropy of the final state particles, long-range angular correlation like those present in this cartoon can be measured. The initial state collision geometry being transformed into final state momentum anisotropy indicates collective behavior and flow of the particles.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.65\linewidth]{figs/flow_diagram_cartoon.png}
+\caption{A cartoon diagram of a heavy ion collision. The blue shapes are the two colliding nuclei and the elliptical yellow shape is the collision overlap region which forms the medium. In the next instant of time the two nuclei would travel father along the collision axis (into and out of the page) and the medium would expand along the direction of the arrows.}
+\end{center}
+\label{fig:flow_diagram_cart}
+\end{figure}
+
+In order to quantify the azimuthal anisotropy, the final state particle distribution is Fourier transformed:
+\begin{equation}\label{eqn:dndphi}
+  C(\Delta\phi) \propto 1 + \sum_{n=1}2 v_{n}\cos(n\Delta\phi]) 
+\end{equation}
+where $C(\Delta\phi)$ is correlation function defined by the distribution of the differences between the azimuth of particles from the event relative to other particles in the same event and $v_n$ are flow coefficients. The flow coefficients $v_n$ are proportional to the degree of anisotropy for each harmonic order $n$. A $v_n$ of 0.0 would indicate there is no azimuthal anisotropy. In addition to measuring the $v_n$ for various systems, a relativistic hydrodynamic calculation can be compared to the data. Figure \ref{fig:vn_aa_hydro} shows $v_n$ vs $p_T$ for both RHIC and LHC energy heavy ion collisions for mid-peripheral events like those depicted in Figure \ref{fig:flow_diagram_cart}. The substantial agreement with hydrodynamic calculations indications a medium which flows.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.65\linewidth]{figs/vn_aa_pbpb_hydro.PNG}
+\caption{$v_n$ vs $p_T$ for RHIC Au+Au $\sqrt{s_{NN}}$ = 200 GeV and for LHC Pb+Pb $\sqrt{s_{NN}}$ = 2.76 TeV for mid-peripheral events for harmonic orders n up to five. The colored curves are the hydrodynamic calculations. The $\eta/s$ is the viscosity parameter used in the calculations.\textbf{ADD REF}}
+\end{center}
+\label{fig:vn_aa_hydro}
+\end{figure}
+
+All of the discussion and results shown in this section have been relating to large collision systems such as Au+Au or Pb+Pb. Small collision systems such as p+Au, d+Au, or event p+p were thought to be too small to produce QGP thus were ideal as the control experiment to measure background effects of cold nuclei which may obscure the true signal of QGP. However, recent results have shown that small collision systems show signs of QGP formation. The next chapter will delve into small collision systems properties and measurements as well as give a more in depth discussion in calculating initial conditions and flow coefficients.
+
+\iffalse
 
 Small collision systems have been considered too small to create hot and dense matter. These systems were thought to be control experiments which could be used to measure cold nuclear matter effects. However, evidence of collectivity has recently been observed at RHIC in $^3He$+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV in the most central collisions ~\cite{PhysRevLett.115.142301}. Although, the $p_T$ dependent $v_N$ has been measured, what has not been measured in these small systems is the degree to which $v_N$ changes a function of rapidity. This is a particularly interesting measurement to make in an asymmetric collision system such as $^3He$+Au.\\
 
@@ -52,24 +181,9 @@ where $\Psi_n$ is the event plane angle, $\phi$ is the azimuth of tracks from th
 \end{equation}
 
 where $Res(\Psi_n)$ is the event plane resolution for each event. $v_N$ are further averaged over each event.\\
-%%
+
+\fi
 
 
-Here is the timeline overview of heavy ion collisions in general: At the moment when heavy ions collide relativistically ($\tau$=0), they are length contracted down to flat disks in the lab frame as seen in Figure .... 
-Then, the initial geometry resulting from the shape of the collision overlap region and fluctuations within the nuclei is transformed into the initial energy density of the medium ($\tau$  1 fm/c). 
-At that moment, the hot hadronic matter is thought to be made up of deconfined quarks and gluons in thermal equilibrium, otherwise known as QGP. 
-The system then evolves hydrodynamically, expanding along the pressure gradients present in the initial energy density.
-At a certain point during this expansion, the medium has cooled down enough in order to form baryons and mesons out of the quark gluon soup in a process known as hadronization. 
-It is important to note that the medium is still in thermal equilibrium at this point but it is no longer known as QGP but instead as hadron gas. 
-Once the medium has cooled down and expanded sufficiently, kinetic freeze-out occurs and the hadron gas becomes a group of particles which have ceased self-interaction ($\tau$  10 fm/c). 
-It is this group of final state particles which can be detected much later ($\tau$  $10^{15}$ fm/c). 
-Although detectable particles escape the medium at all times, the vast majority of particles we detect are produced at kinetic freeze-out. 
 
-Although the field of high-energy nuclear physics is still evolving, several measured properties of this state of matter have come together to make QGP the prevailing explanation. Among the best observations indicating QGP are jet quenching, J/$\psi$ melting, and elliptic flow. The observation of jets measured at much lower energies than expected imply that the jets are experiencing energy loss when interacting with a strongly coupled medium. The observation of a severe reduction in the number of expected J/$\psi$ particles matches a prediction that a strongly coupled medium with a temperature above the Hagedorn temperature will melt J/$\psi$ particles. Finally, an elliptic symmetry in the angular distribution of final state particles when viewed along the beam line has been observed. The translation of initial geometry into long-range angular correlations indicates collectivity in a strongly coupled medium.
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.55\linewidth]{figs/qgp_evolution_timeline.png}
-\caption{TBA}
-\end{center}
-\end{figure}
 
