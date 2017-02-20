@@ -1,7 +1,4 @@
 \contentsline {part} {\tablenameToC }{\relax }{}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Quality categorization of CA tracks, as a function of PC1 and DC wire hits. The quality parameters used in this analysis are 31 and 63.}}{2}{table.1.1}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Quality categorization of CA tracks, as a function of DC wire momentum information. The quality parameters used in this analysis are 31 and 63.}}{3}{table.1.2}
-\contentsline {table}{\numberline {1.3}{\ignorespaces Central Arm Track Cuts.}}{5}{table.1.3}
-\contentsline {table}{\numberline {1.4}{\ignorespaces }}{13}{table.1.4}
-\contentsline {table}{\numberline {1.5}{\ignorespaces Systematic uncertainties given as a percent of the $v_2$ measurement. Note that the non-flow contribution is $p_T$ dependent and the value here quoted corresponds to the highest measured $p_T$.}}{27}{table.1.5}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Dataset Variables Comparison listed in order: center of mass energy per nucleon, centrality, mid-rapidity charged particle multiplicity per unit of psuedo-rapidity, year, trigger (as defined in section .xxx) particle sample, trigger particle acceptance, event plane determination, $\Psi _2$ Resolution, condition of available non-flow estimate, and the eccentricity calculated by Monte Carlo Glauber \textbf {add ref}.}}{4}{table.1.1}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Initial eccentricity $\epsilon _2$ of small systems at $\sqrt {s}$ = 200 GeV for $0-5\%$ centrality from Monte Carlo Glauber initial conditions smeared with a two-dimensional Gaussian of width $\sigma =0.4$ fm, and IP-Glasma initial conditions.}}{8}{table.1.2}

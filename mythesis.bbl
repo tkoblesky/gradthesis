@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{CA_spectro}
 Event reconstruction in the \{PHENIX\} central arm spectrometers.
@@ -14,6 +14,23 @@ A.~et~al Adare.
   $^{3}\mathrm{He}+\mathrm{Au}$ collisions at $\sqrt{{s}_{NN}}=200\text{
   }\mathrm{GeV}$.
 \newblock {\em Phys. Rev. Lett.}, 115:142301, Sep 2015.
+
+\bibitem{PhysRevLett.91.072303}
+S.~S. et~al Adler.
+\newblock Absence of suppression in particle production at large transverse
+  momentum in $\sqrt{{s}_{NN}}=200\text{ }\text{
+  }\mathrm{G}\mathrm{e}\mathrm{V}$ $d+\mathrm{A}\mathrm{u}$ collisions.
+\newblock {\em Phys. Rev. Lett.}, 91:072303, Aug 2003.
+
+\bibitem{PhysRevD.86.010001}
+J.~et~al Beringer.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 86:010001, Jul 2012.
+
+\bibitem{Bethke2009}
+Siegfried Bethke.
+\newblock The 2009 world average of $\alpha$.
+\newblock {\em The European Physical Journal C}, 64(4):689--703, 2009.
 
 \bibitem{Aidala201444}
 C.~Aidala et~al.
@@ -35,6 +52,18 @@ K.~Adcox et~al.
 A~Fedotov.
 \newblock Progress of high-energy electron cooling for rhic.
 
+\bibitem{Fermi01071950}
+Enrico Fermi.
+\newblock High energy nuclear events.
+\newblock {\em Progress of Theoretical Physics}, 5(4):570--583, 1950.
+
+\bibitem{PhysRevLett.110.012302}
+Charles Gale, Sangyong Jeon, Bj\"orn Schenke, Prithwish Tribedy, and Raju
+  Venugopalan.
+\newblock Event-by-event anisotropic flow in heavy-ion collisions from combined
+  yang-mills and viscous fluid dynamics.
+\newblock {\em Phys. Rev. Lett.}, 110:012302, Jan 2013.
+
 \bibitem{Habich:2014jna}
 M.~Habich, J.~L. Nagle, and P.~Romatschke.
 \newblock Particle spectra and hbt radii for simulated central nuclear
@@ -47,9 +76,21 @@ A.~M. Poskanzer and S.~A. Voloshin.
   collisions.
 \newblock {\em Phys. Rev. C}, 58:1671--1678, Sep 1998.
 
+\bibitem{RAFELSKI2013155}
+Johann Rafelski.
+\newblock Connecting qgp-heavy ion physics to the early universe.
+\newblock {\em Nuclear Physics B - Proceedings Supplements}, 243:155 -- 162,
+  2013.
+
 \bibitem{ROSER200223}
 T.~Roser.
 \newblock Rhic performance.
 \newblock {\em Nuclear Physics A}, 698(1):23 -- 28, 2002.
+
+\bibitem{doi:10.1142/9789814689304_0031}
+XIAO-MING XU.
+\newblock {\em ORIGIN OF TEMPERATURE OF QUARK-GLUON PLASMA IN HEAVY ION
+  COLLISIONS}, pages 203--208.
+\newblock WORLD SCIENTIFIC, 2015.
 
 \end{thebibliography}
