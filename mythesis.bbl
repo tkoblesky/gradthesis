@@ -32,6 +32,17 @@ Siegfried Bethke.
 \newblock The 2009 world average of $\alpha$.
 \newblock {\em The European Physical Journal C}, 64(4):689--703, 2009.
 
+\bibitem{PhysRevD.10.186}
+Fred Cooper and Graham Frye.
+\newblock Single-particle distribution in the hydrodynamic and statistical
+  thermodynamic models of multiparticle production.
+\newblock {\em Phys. Rev. D}, 10:186--189, Jul 1974.
+
+\bibitem{PhysRevC.67.064905}
+S.~Eremin and S.~Voloshin.
+\newblock Nucleon participants or quark participants?
+\newblock {\em Phys. Rev. C}, 67:064905, Jun 2003.
+
 \bibitem{Aidala201444}
 C.~Aidala et~al.
 \newblock The \{PHENIX\} forward silicon vertex detector.
@@ -64,11 +75,42 @@ Charles Gale, Sangyong Jeon, Bj\"orn Schenke, Prithwish Tribedy, and Raju
   yang-mills and viscous fluid dynamics.
 \newblock {\em Phys. Rev. Lett.}, 110:012302, Jan 2013.
 
+\bibitem{Habich2015}
+M.~Habich, J.~L. Nagle, and P.~Romatschke.
+\newblock Particle spectra and hbt radii for simulated central nuclear
+  collisions of ~ journal=.
+
 \bibitem{Habich:2014jna}
 M.~Habich, J.~L. Nagle, and P.~Romatschke.
 \newblock Particle spectra and hbt radii for simulated central nuclear
   collisions of c+c, al+al, cu+cu, au+au, and pb+pb from sqrt(s)=62.4-2760 gev.
 \newblock {\em The European Physical Journal C}, 75(1):15, 2015.
+
+\bibitem{PhysRevC.72.064901}
+Zi-Wei Lin, Che~Ming Ko, Bao-An Li, Bin Zhang, and Subrata Pal.
+\newblock Multiphase transport model for relativistic heavy ion collisions.
+\newblock {\em Phys. Rev. C}, 72:064901, Dec 2005.
+
+\bibitem{PhysRevC.93.054911}
+Guo-Liang Ma and Zi-Wei Lin.
+\newblock Predictions for $\sqrt{{s}_{\mathit{NN}}}=5.02$ tev pb + pb
+  collisions from a multiphase transport model.
+\newblock {\em Phys. Rev. C}, 93:054911, May 2016.
+
+\bibitem{PhysRevLett.113.112301}
+J.~L. Nagle, A.~Adare, S.~Beckman, T.~Koblesky, J.~Orjuela Koop, D.~McGlinchey,
+  P.~Romatschke, J.~Carlson, J.~E. Lynn, and M.~McCumber.
+\newblock Exploiting intrinsic triangular geometry in relativistic
+  $^{3}\mathrm{He}+\mathrm{Au}$ collisions to disentangle medium properties.
+\newblock {\em Phys. Rev. Lett.}, 113:112301, Sep 2014.
+
+\bibitem{PhysRevC.92.054903}
+J.~D. Orjuela~Koop, A.~Adare, D.~McGlinchey, and J.~L. Nagle.
+\newblock Azimuthal anisotropy relative to the participant plane from a
+  multiphase transport model in central $p+\mathrm{Au}$, $d+\mathrm{Au}$, and
+  $^{3}\mathrm{He}+\phantom{\rule{4.pt}{0ex}}\mathrm{Au}$ collisions at
+  $\sqrt{{s}_{NN}}=200$ gev.
+\newblock {\em Phys. Rev. C}, 92:054903, Nov 2015.
 
 \bibitem{PhysRevC.58.1671}
 A.~M. Poskanzer and S.~A. Voloshin.
@@ -82,10 +124,39 @@ Johann Rafelski.
 \newblock {\em Nuclear Physics B - Proceedings Supplements}, 243:155 -- 162,
   2013.
 
+\bibitem{Romatschke2015}
+P.~Romatschke.
+\newblock Light-heavy-ion collisions: a window into pre-equilibrium qcd
+  dynamics?
+\newblock {\em The European Physical Journal C}, 75(7):305, 2015.
+
 \bibitem{ROSER200223}
 T.~Roser.
 \newblock Rhic performance.
 \newblock {\em Nuclear Physics A}, 698(1):23 -- 28, 2002.
+
+\bibitem{Schenke20141039}
+Björn Schenke and Raju Venugopalan.
+\newblock Collective effects in light–heavy ion collisions.
+\newblock {\em Nuclear Physics A}, 931:1039 -- 1044, 2014.
+\newblock \{QUARK\} \{MATTER\} 2014XXIV \{INTERNATIONAL\} \{CONFERENCE\} \{ON\}
+  \{ULTRARELATIVISTIC\} NUCLEUS-NUCLEUS \{COLLISIONS\}.
+
+\bibitem{Schlichting2014313}
+Sören Schlichting and Björn Schenke.
+\newblock The shape of the proton at high energies.
+\newblock {\em Physics Letters B}, 739:313 -- 319, 2014.
+
+\bibitem{PhysRevLett.111.222302}
+Wilke van~der Schee, Paul Romatschke, and Scott Pratt.
+\newblock Fully dynamical simulation of central nuclear collisions.
+\newblock {\em Phys. Rev. Lett.}, 111:222302, Nov 2013.
+
+\bibitem{PhysRevC.94.024919}
+Kevin Welsh, Jordan Singer, and Ulrich Heinz.
+\newblock Initial-state fluctuations in collisions between light and heavy
+  ions.
+\newblock {\em Phys. Rev. C}, 94:024919, Aug 2016.
 
 \bibitem{doi:10.1142/9789814689304_0031}
 XIAO-MING XU.

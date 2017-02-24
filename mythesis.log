@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.11)  20 FEB 2017 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.11)  23 FEB 2017 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -277,8 +277,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
+) (./mythesis.aux
+
+LaTeX Warning: Label `fig:pp_ridge_plot' multiply defined.
+
+
+LaTeX Warning: Label `fig:pp_ridge_plot' multiply defined.
+
+
+LaTeX Warning: Label `fig:pp_ridge_plot' multiply defined.
+
+
+LaTeX Warning: Label `fig:pp_ridge_plot' multiply defined.
+
+
+LaTeX Warning: Label `fig:pp_ridge_plot' multiply defined.
+
+
+LaTeX Warning: Label `fig:pp_ridge_plot' multiply defined.
+
 )
-No file mythesis.aux.
 \openout1 = `mythesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -295,7 +313,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
-(c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen121
@@ -339,6 +357,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 58.
 LaTeX Info: Redefining \pageref on input line 58.
 LaTeX Info: Redefining \nameref on input line 58.
+
+(./mythesis.out) (./mythesis.out)
 \@outlinefile=\write3
 \openout3 = `mythesis.out'.
 
@@ -379,252 +399,301 @@ Making ToC Page
 
 ]
 centered
+(./mythesis.toc)
 \tf@toc=\write4
 \openout4 = `mythesis.toc'.
+
 
 Making LoT Page
 [6
 
 ]
 centered
+(./mythesis.lot)
 \tf@lot=\write5
 \openout5 = `mythesis.lot'.
+
 
 Making LoF Page
 [7
 
 ]
 centered
+(./mythesis.lof
+
+LaTeX Warning: Citation `Khachatryan2010' on page viii undefined on input line 
+5.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page viii undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page viii undefined on input line 
+7.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page viii undefined on input line 
+8.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page viii undefined on input line 
+9.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page viii undefined on input line 
+10.
+
+[8
+
+]
+
+LaTeX Warning: Citation `Khachatryan2010' on page ix undefined on input line 11
+.
+
+)
 \tf@lof=\write6
 \openout6 = `mythesis.lof'.
+
 
 
 
 -------------------Beginning Body----------------------
 
 
-[8
-
-] (./macros.tex
+[9] (./macros.tex
 \c@th@theorem=\count122
-) (./chapter5.tex
+) (./chapter2.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
 centered
+<figs/elliptical_flow_cartoon.png, id=157, 482.80376pt x 173.64874pt>
+File: figs/elliptical_flow_cartoon.png Graphic file (type png)
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3.
+<use figs/elliptical_flow_cartoon.png>
+Package pdftex.def Info: figs/elliptical_flow_cartoon.png used on input line 6.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3.
+(pdftex.def)             Requested size: 211.3883pt x 76.02942pt.
+ [1
 
 
-LaTeX Warning: Reference `fig:pau_points_alone' on page 1 undefined on input li
-ne 4.
+ <./figs/elliptical_flow_cartoon.png>]
+<figs/pp_correlation_function_min_bias.png, id=165, 261.97874pt x 224.33812pt>
+File: figs/pp_correlation_function_min_bias.png Graphic file (type png)
 
-<figs/pau_points.png, id=50, 684.5575pt x 667.49374pt>
-File: figs/pau_points.png Graphic file (type png)
-
-<use figs/pau_points.png>
-Package pdftex.def Info: figs/pau_points.png used on input line 8.
-(pdftex.def)             Requested size: 305.33788pt x 297.73146pt.
-
-
-LaTeX Warning: Reference `fig:pau_points_alone_nf' on page 1 undefined on input
- line 15.
-
-[1
+<use figs/pp_correlation_function_min_bias.png>
+Package pdftex.def Info: figs/pp_correlation_function_min_bias.png used on inpu
+t line 51.
+(pdftex.def)             Requested size: 211.3883pt x 181.02141pt.
 
 
-] <figs/figure_w_nonflow_corr.png, id=61, 497.60907pt x 481.8pt>
-File: figs/figure_w_nonflow_corr.png Graphic file (type png)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<use figs/figure_w_nonflow_corr.png>
-Package pdftex.def Info: figs/figure_w_nonflow_corr.png used on input line 19.
-(pdftex.def)             Requested size: 305.33788pt x 295.63991pt.
+[2] <figs/pp_high_multiplicity_ridge.PNG, id=179, 224.33812pt x 186.6975pt>
+File: figs/pp_high_multiplicity_ridge.PNG Graphic file (type png)
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 26.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 26.
+<use figs/pp_high_multiplicity_ridge.PNG>
+Package pdftex.def Info: figs/pp_high_multiplicity_ridge.PNG used on input line
+ 71.
+(pdftex.def)             Requested size: 258.36667pt x 215.03944pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 26.
+LaTeX Warning: Citation `Khachatryan2010' on page 3 undefined on input line 72.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 26.
+
+LaTeX Warning: Citation `Khachatryan2010' on page 3 undefined on input line 72.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 26.
+[3 <./figs/pp_correlation_function_min_bias.png>]
+<figs/pPb_subtraction_correlation.PNG, id=189, 657.95813pt x 231.11343pt>
+File: figs/pPb_subtraction_correlation.PNG Graphic file (type png)
+
+<use figs/pPb_subtraction_correlation.PNG>
+Package pdftex.def Info: figs/pPb_subtraction_correlation.PNG used on input lin
+e 79.
+(pdftex.def)             Requested size: 399.2946pt x 140.25958pt.
 
 
-LaTeX Warning: Reference `tbl:species_compare' on page 2 undefined on input lin
-e 27.
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 80.
 
-[2 <./figs/pau_points.png>]
-Overfull \hbox (7.85019pt too wide) in paragraph at lines 32--46
- [] 
- []
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 80.
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/PbPb_v2_mass_ordering.PNG, id=190, 364.36125pt x 261.22594pt>
+File: figs/PbPb_v2_mass_ordering.PNG Graphic file (type png)
+
+<use figs/PbPb_v2_mass_ordering.PNG>
+Package pdftex.def Info: figs/PbPb_v2_mass_ordering.PNG used on input line 87.
+(pdftex.def)             Requested size: 225.48038pt x 161.65546pt.
+
+<figs/pPb_two_part_v2_mass_ordering.PNG, id=191, 386.19281pt x 249.93375pt>
+File: figs/pPb_two_part_v2_mass_ordering.PNG Graphic file (type png)
+
+<use figs/pPb_two_part_v2_mass_ordering.PNG>
+Package pdftex.def Info: figs/pPb_two_part_v2_mass_ordering.PNG used on input l
+ine 88.
+(pdftex.def)             Requested size: 225.48038pt x 145.92653pt.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 89.
+
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 89.
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pBp_v2_mass_ordering.PNG, id=192, 286.82156pt x 252.945pt>
+File: figs/pBp_v2_mass_ordering.PNG Graphic file (type png)
+
+<use figs/pBp_v2_mass_ordering.PNG>
+Package pdftex.def Info: figs/pBp_v2_mass_ordering.PNG used on input line 96.
+(pdftex.def)             Requested size: 258.36667pt x 227.85681pt.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 97.
+
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 97.
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/dhau_mass_ordering_phenix.PNG, id=193, 692.5875pt x 381.67593pt>
+File: figs/dhau_mass_ordering_phenix.PNG Graphic file (type png)
+
+<use figs/dhau_mass_ordering_phenix.PNG>
+Package pdftex.def Info: figs/dhau_mass_ordering_phenix.PNG used on input line 
+104.
+(pdftex.def)             Requested size: 305.33788pt x 168.26988pt.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 105
+.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 105
+.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/hedau_v2_v3.PNG, id=194, 642.90187pt x 432.86719pt>
+File: figs/hedau_v2_v3.PNG Graphic file (type png)
+
+<use figs/hedau_v2_v3.PNG>
+Package pdftex.def Info: figs/hedau_v2_v3.PNG used on input line 112.
+(pdftex.def)             Requested size: 352.31624pt x 237.21902pt.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 113
+.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 113
+.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/pp_pPb_PbPb_cumulants.PNG, id=195, 791.95876pt x 307.1475pt>
+File: figs/pp_pPb_PbPb_cumulants.PNG Graphic file (type png)
+
+<use figs/pp_pPb_PbPb_cumulants.PNG>
+Package pdftex.def Info: figs/pp_pPb_PbPb_cumulants.PNG used on input line 120.
+
+(pdftex.def)             Requested size: 305.33788pt x 118.41852pt.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 121
+.
+
+
+LaTeX Warning: Citation `Khachatryan2010' on page 4 undefined on input line 121
+.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig:v2_3_sys_compare_nohydro' on page 3 undefined on 
-input line 61.
-
-[3 <./figs/figure_w_nonflow_corr.png>]
-<figs/v2_3_sys_compare_nohydro.png, id=75, 1035.87pt x 1013.28563pt>
-File: figs/v2_3_sys_compare_nohydro.png Graphic file (type png)
-
-<use figs/v2_3_sys_compare_nohydro.png>
-Package pdftex.def Info: figs/v2_3_sys_compare_nohydro.png used on input line 6
-5.
-(pdftex.def)             Requested size: 305.33788pt x 298.68475pt.
+LaTeX Warning: Citation `PhysRevLett.111.212301' on page 4 undefined on input l
+ine 128.
 
 
-LaTeX Warning: Reference `fig:all_system_hydro' on page 4 undefined on input li
-ne 74.
+LaTeX Warning: Citation `Adare:2014keg' on page 4 undefined on input line 128.
 
 
-LaTeX Warning: Citation `Habich:2014jna' on page 4 undefined on input line 74.
+LaTeX Warning: Citation `Adare:2015ctn' on page 4 undefined on input line 128.
 
 
-LaTeX Warning: Citation `Habich:2014jna' on page 4 undefined on input line 74.
+LaTeX Warning: Citation `Adamczyk:2014fcx' on page 4 undefined on input line 12
+8.
 
 
-LaTeX Warning: Citation `Habich:2014jna' on page 4 undefined on input line 74.
-
-[4]
-<figs/three_system_comparison_result.png, id=82, 479.54156pt x 467.49657pt>
-File: figs/three_system_comparison_result.png Graphic file (type png)
-
-<use figs/three_system_comparison_result.png>
-Package pdftex.def Info: figs/three_system_comparison_result.png used on input 
-line 86.
-(pdftex.def)             Requested size: 305.33788pt x 297.67023pt.
+LaTeX Warning: Citation `alice_long_2013' on page 4 undefined on input line 128
+.
 
 
-LaTeX Warning: Reference `tbl:species_compare' on page 5 undefined on input lin
-e 92.
+LaTeX Warning: Citation `atlas_observation_2012' on page 4 undefined on input l
+ine 128.
 
 
-LaTeX Warning: Reference `fig:v2_divided_epsilon_all_sys' on page 5 undefined o
-n input line 93.
+LaTeX Warning: Citation `cms_observation_2012' on page 4 undefined on input lin
+e 128.
 
 
-LaTeX Warning: Reference `fig:v2_epsi2_ampt' on page 5 undefined on input line 
-97.
-
-<figs/v2_divided_epsilon_all_sys.PNG, id=83, 360.59718pt x 344.78813pt>
-File: figs/v2_divided_epsilon_all_sys.PNG Graphic file (type png)
-
-<use figs/v2_divided_epsilon_all_sys.PNG>
-Package pdftex.def Info: figs/v2_divided_epsilon_all_sys.PNG used on input line
- 102.
-(pdftex.def)             Requested size: 305.33788pt x 291.95068pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [5 <./figs/v2_3_sys_compare_nohydro.png>]
-
-LaTeX Warning: Reference `fig:initial_condition_comparison' on page 6 undefined
- on input line 116.
+LaTeX Warning: Citation `Khachatryan:2015lva' on page 4 undefined on input line
+ 128.
 
 
-LaTeX Warning: Reference `fig:v2_divided_epsilon_all_sys' on page 6 undefined o
-n input line 116.
+LaTeX Warning: Citation `Aad:2015gqa' on page 4 undefined on input line 128.
 
 
-LaTeX Warning: Reference `tbl:eccentricities' on page 6 undefined on input line
- 116.
+LaTeX Warning: Citation `Khachatryan:2010gv' on page 4 undefined on input line 
+128.
 
-[6 <./figs/three_system_comparison_result.png>]
-<figs/initial_condition_comparison.png, id=101, 639.38875pt x 462.72874pt>
-File: figs/initial_condition_comparison.png Graphic file (type png)
 
-<use figs/initial_condition_comparison.png>
-Package pdftex.def Info: figs/initial_condition_comparison.png used on input li
-ne 120.
-(pdftex.def)             Requested size: 352.31624pt x 254.97466pt.
+LaTeX Warning: Citation `Khachatryan:2016txc' on page 4 undefined on input line
+ 128.
+
+[4 <./figs/pp_high_multiplicity_ridge.PNG>]
+<figs/initial_conditions.png, id=204, 414.54875pt x 690.58pt>
+File: figs/initial_conditions.png Graphic file (type png)
+
+<use figs/initial_conditions.png>
+Package pdftex.def Info: figs/initial_conditions.png used on input line 136.
+(pdftex.def)             Requested size: 211.3883pt x 352.13844pt.
+ [5 <./figs/pPb_subtraction_correlation.PNG> <./figs/PbPb_v2_mass_ordering.PNG>
+ <./figs/pPb_two_part_v2_mass_ordering.PNG>]
+[6 <./figs/pBp_v2_mass_ordering.PNG> <./figs/dhau_mass_ordering_phenix.PNG>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/he3au_simulation.png, id=219, 899.36pt x 230.8625pt>
+File: figs/he3au_simulation.png Graphic file (type png)
+
+<use figs/he3au_simulation.png>
+Package pdftex.def Info: figs/he3au_simulation.png used on input line 143.
+(pdftex.def)             Requested size: 211.3883pt x 54.26326pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:v2_epsi2_ampt' on page 7 undefined on input line 
-139.
-
-
-LaTeX Warning: Reference `fig:v2_epsi2_ampt' on page 7 undefined on input line 
-145.
+) (./mythesis.bbl
+Overfull \vbox (132.90805pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `fig:v2_epsi2_ampt' on page 7 undefined on input line 
-149.
-
-
-LaTeX Warning: Reference `fig:v2:epsi2_ampt' on page 7 undefined on input line 
-161.
-
-[7 <./figs/v2_divided_epsilon_all_sys.PNG>] [8 <./figs/initial_condition_compar
-ison.png>] <figs/v2_e2_ampt.png, id=115, 673.51625pt x 463.7325pt>
-File: figs/v2_e2_ampt.png Graphic file (type png)
-
-<use figs/v2_e2_ampt.png>
-Package pdftex.def Info: figs/v2_e2_ampt.png used on input line 168.
-(pdftex.def)             Requested size: 281.85585pt x 194.0658pt.
-
-
-LaTeX Warning: Reference `tbl:eccentricities' on page 9 undefined on input line
- 190.
-
-
-LaTeX Warning: Reference `tbl:eccentricities' on page 9 undefined on input line
- 192.
-
-[9 <./figs/v2_e2_ampt.png>]
-
-LaTeX Warning: Reference `fig:indepth_comp_three' on page 10 undefined on input
- line 196.
-
-[10]
-
-LaTeX Warning: Reference `fig:indepth_comp_three' on page 11 undefined on input
- line 215.
-
-
-LaTeX Warning: Reference `tbl:eccentricities' on page 11 undefined on input lin
-e 219.
-
-
-LaTeX Warning: Reference `tbl:eccentricities' on page 11 undefined on input lin
-e 223.
-
-
-LaTeX Warning: Citation `Koop:2015wea' on page 11 undefined on input line 223.
-
-[11] <figs/indepth_theory_comparison.png, id=132, 1755.55875pt x 704.6325pt>
-File: figs/indepth_theory_comparison.png Graphic file (type png)
-
-<use figs/indepth_theory_comparison.png>
-Package pdftex.def Info: figs/indepth_theory_comparison.png used on input line 
-230.
-(pdftex.def)             Requested size: 469.75499pt x 188.54378pt.
-) (./mythesis.bbl [12 <./figs/indepth_theory_comparison.png>]
+[7 <./figs/hedau_v2_v3.PNG> <./figs/pp_pPb_PbPb_cumulants.PNG>] [8 <./figs/init
+ial_conditions.png> <./figs/he3au_simulation.png>]
 centered
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
 (c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
@@ -632,55 +701,63 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
- [13
+ [9
 
-])
+]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
- [14]
+ [10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
-
-(./mythesis.aux)
+ (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package rerunfilecheck Info: File `mythesis.out' has not changed.
+(rerunfilecheck)             Checksum: 00A5CF999D29548C651FF69BD41F558C;972.
 
-
-Package rerunfilecheck Warning: File `mythesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mythesis.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  CB61E5A46778D2F8F6201670E79FD970;592.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 6557 strings out of 493013
- 93960 string characters out of 6136993
- 187132 words of memory out of 5000000
- 9952 multiletter control sequences out of 15000+600000
- 13025 words of font info for 49 fonts, out of 8000000 for 9000
+ 6657 strings out of 493013
+ 95866 string characters out of 6136993
+ 191863 words of memory out of 5000000
+ 10009 multiletter control sequences out of 15000+600000
+ 15961 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,12n,42p,1545b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,38p,1144b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c
-:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on mythesis.pdf (22 pages, 642397 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.
+pfb>
+Output written on mythesis.pdf (19 pages, 1692552 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 63 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

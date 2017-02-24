@@ -1,4 +1,2 @@
 \contentsline {part} {\tablenameToC }{\relax }{}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Dataset Variables Comparison listed in order: center of mass energy per nucleon, centrality, mid-rapidity charged particle multiplicity per unit of psuedo-rapidity, year, trigger (as defined in section .xxx) particle sample, trigger particle acceptance, event plane determination, $\Psi _2$ Resolution, condition of available non-flow estimate, and the eccentricity calculated by Monte Carlo Glauber \textbf {add ref}.}}{4}{table.1.1}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Initial eccentricity $\epsilon _2$ of small systems at $\sqrt {s}$ = 200 GeV for $0-5\%$ centrality from Monte Carlo Glauber initial conditions smeared with a two-dimensional Gaussian of width $\sigma =0.4$ fm, and IP-Glasma initial conditions.}}{8}{table.1.2}
