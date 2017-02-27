@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{PhysRevC.80.014904}
+
+
 \bibitem{CA_spectro}
 Event reconstruction in the \{PHENIX\} central arm spectrometers.
 \newblock {\em Nucl.Instrum.Meth}, A482:491--512, 2002.
@@ -85,6 +88,23 @@ M.~Habich, J.~L. Nagle, and P.~Romatschke.
 \newblock Particle spectra and hbt radii for simulated central nuclear
   collisions of c+c, al+al, cu+cu, au+au, and pb+pb from sqrt(s)=62.4-2760 gev.
 \newblock {\em The European Physical Journal C}, 75(1):15, 2015.
+
+\bibitem{PhysRevC.77.044909}
+Tetsufumi Hirano, Ulrich Heinz, Dmitri Kharzeev, Roy Lacey, and Yasushi Nara.
+\newblock Mass ordering of differential elliptic flow and its violation for
+  \ensuremath{\phi} mesons.
+\newblock {\em Phys. Rev. C}, 77:044909, Apr 2008.
+
+\bibitem{Khachatryan2017193}
+V.~Khachatryan and et~al.
+\newblock Evidence for collectivity in pp collisions at the \{LHC\}.
+\newblock {\em Physics Letters B}, 765:193 -- 220, 2017.
+
+\bibitem{Khachatryan2010}
+V.~Khachatryan and {etal}.
+\newblock Observation of long-range, near-side angular correlations in
+  proton-proton collisions at the lhc.
+\newblock {\em Journal of High Energy Physics}, 2010(9):91, 2010.
 
 \bibitem{PhysRevC.72.064901}
 Zi-Wei Lin, Che~Ming Ko, Bao-An Li, Bin Zhang, and Subrata Pal.

@@ -1,13 +1,14 @@
-\BOOKMARK [0][-]{chapter.1}{Collectivity in QCD}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Conceptual Understanding of Collectivity and Flow}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Mathematical Introduction}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{A Review of Flow Measurements in Small Collision Systems}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{An Overview of Simulations}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.4.1}{Initial Condition}{section.1.4}% 6
-\BOOKMARK [3][-]{subsubsection.1.4.1.1}{Monte-Carlo Initial Condition Characterization}{subsection.1.4.1}% 7
-\BOOKMARK [3][-]{subsubsection.1.4.1.2}{IP Glasma}{subsection.1.4.1}% 8
-\BOOKMARK [2][-]{subsection.1.4.2}{Hydrodynamic Treatment}{section.1.4}% 9
-\BOOKMARK [3][-]{subsubsection.1.4.2.1}{SONIC}{subsection.1.4.2}% 10
-\BOOKMARK [3][-]{subsubsection.1.4.2.2}{SuperSONIC}{subsection.1.4.2}% 11
-\BOOKMARK [2][-]{subsection.1.4.3}{AMPT}{section.1.4}% 12
-\BOOKMARK [-1][-]{chapter*.6}{ Bibliography}{}% 13
+\BOOKMARK [0][-]{chapter.1}{Collectivity and Flow in QCD Systems}{}% 1
+\BOOKMARK [1][-]{section.1.1}{A Conceptual Understanding of Collectivity and Flow}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Initial Conditions}{section.1.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Mathematical Introduction to Measuring and Quantifying Flow}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{Two-Particle Correlations}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.2}{Flow Harmonics}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.3}{Cumulants}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.4}{Event Plane Formulation}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{A Review of Flow Measurements in Small Collision Systems}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{Nearside Ridge in Small Systems}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.2}{Mass Ordering in v2}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.3}{Multi-Particle Cumulants and Fluctuations}{section.1.3}% 12
+\BOOKMARK [2][-]{subsection.1.3.4}{Measurements Made at RHIC}{section.1.3}% 13
+\BOOKMARK [-1][-]{chapter*.6}{ Bibliography}{}% 14
