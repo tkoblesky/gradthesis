@@ -17,19 +17,21 @@ Conceptually, the story of flow is that patterns in the initial conditions of th
 \end{figure}
 
 \subsection{Initial Conditions}
-Before proceeding in describing flow mathematically, it is useful to talk about the initial conditions of heavy ion collisions.
-\begin{equation}
-\label{eqn:eccentricity_equation}
-\epsilon_n = \frac{\sqrt{<r^2 \cos(n\phi)>^2+<r^2 \sin(n\phi)>^2}}{<r^2>},
-\end{equation}
-
+Before proceeding in describing flow mathematically, it is useful to talk about the initial conditions of heavy ion collisions. When talking about collisions of spherically symmetric bodies, one of the most relevant parameters in characterizing collisions is known as the impact parameter. The impact parameter is the distance between the center of mass of each collision body, the larger the impact parameter, the more peripheral the collision. For heavy ion collisions, it is useful to consider peripheral collisions along with other types, as shown in Figure \ref{fig:centrality_diagram}. The degree in which the colliding nuclei overlap is known as the ``centrality." A small value for centrality, for example 0-10\%, corresponds to more central collision events, while a large value for centrality, for example 60-100\%, corresponds to more peripheral collisions. The method for quantifying the event's centrality is discussed in Chapter 3.
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.55\linewidth]{figs/centrality_impact_parameter_diagram.PNG}
-\caption{A diagram demonstrating the relation between initial state geometry being transformed into final state momentum anisotropy. The left depicts two spherical nuclei colliding parallel to the z-axis. The pair of nuclei leave behind ellipsoid corresponding to the almond-shaped elliptical overlap region present in the initial state collision geometry. This ellipsoid hydrodynamically evolves such that it expands along the steepest pressure gradient which corresponds to the transverse (x-y plane). The right depicts the elliptical pattern present in transverse momentum distribution of the final state particles after the medium has finished evolving.}
+\caption{A diagram of the possible initial conditions of heavy ion collisions. The impact parameter is the red line. The language used in heavy ion physics is as follows: the larger the overlap between the colliding nuclei, the more central it is, the smaller the overlap, the more peripheral it is.}
 \label{fig:centrality_diagram}
 \end{center}
 \end{figure}
+
+%The centrality determination 
+%\begin{equation}
+%\label{eqn:eccentricity_equation}
+%\varepsilon_n = \frac{\sqrt{<r^2 \cos(n\phi)>^2+<r^2 \sin(n\phi)>^2}}{<r^2>},
+%\end{equation}
+
 
 \section{Mathematical Introduction to Measuring and Quantifying Flow}
 
@@ -282,6 +284,8 @@ Figure \ref{fig:pp_pPb_PbPb_cumulants} shows the measurement of multi-particle c
 
 It is also interesting to note that for both systems, the $v_2\{4\}$, $v_2\{6\}$, $v_2\{8\}$, $v_2\{LYZ\}$ are in excellent agreement. The $v_2\{LYZ\}$ is $v_2$ measured taking into account the Lee-Yang zeros by removing all lower-order correlations. This excellent agreement indicates that $p+Pb$ is similar to $Pb+Pb$ in that it is a N-body correlation, not a two-body decay or back-to-back jets which produces correlations between particles. Although these types of processes are present, all particles feel the effects of the initial geometry.
 
+\iffalse
+
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.75\linewidth]{figs/pp_ppb_pbpb_vn_supersonic.PNG}
@@ -289,6 +293,8 @@ It is also interesting to note that for both systems, the $v_2\{4\}$, $v_2\{6\}$
 \label{fig:lhc_flow_moments_sonic}
 \end{center}
 \end{figure}
+
+\fi
 
 \subsection{Measurements Made at RHIC}
 
