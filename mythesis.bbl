@@ -81,7 +81,7 @@ Charles Gale, Sangyong Jeon, Bj\"orn Schenke, Prithwish Tribedy, and Raju
 \bibitem{Habich2015}
 M.~Habich, J.~L. Nagle, and P.~Romatschke.
 \newblock Particle spectra and hbt radii for simulated central nuclear
-  collisions of ~ journal=.
+  collisions of ~.
 
 \bibitem{Habich:2014jna}
 M.~Habich, J.~L. Nagle, and P.~Romatschke.
@@ -116,6 +116,12 @@ Guo-Liang Ma and Zi-Wei Lin.
 \newblock Predictions for $\sqrt{{s}_{\mathit{NN}}}=5.02$ tev pb + pb
   collisions from a multiphase transport model.
 \newblock {\em Phys. Rev. C}, 93:054911, May 2016.
+
+\bibitem{annurev.nucl.57.090506.123020}
+Stephen J.~Sanders Michael L.~Miller, Klaus~Reygers and Peter Steinberg.
+\newblock Glauber modeling in high-energy nuclear collisions.
+\newblock {\em Annual Review of Nuclear and Particle Science}, 57:205--243,
+  2007.
 
 \bibitem{PhysRevLett.113.112301}
 J.~L. Nagle, A.~Adare, S.~Beckman, T.~Koblesky, J.~Orjuela Koop, D.~McGlinchey,
@@ -155,6 +161,12 @@ T.~Roser.
 \newblock Rhic performance.
 \newblock {\em Nuclear Physics A}, 698(1):23 -- 28, 2002.
 
+\bibitem{PhysRevLett.108.252301}
+Bj\"orn Schenke, Prithwish Tribedy, and Raju Venugopalan.
+\newblock Fluctuating glasma initial conditions and flow in heavy ion
+  collisions.
+\newblock {\em Phys. Rev. Lett.}, 108:252301, Jun 2012.
+
 \bibitem{Schenke20141039}
 Björn Schenke and Raju Venugopalan.
 \newblock Collective effects in light–heavy ion collisions.
@@ -166,6 +178,12 @@ Björn Schenke and Raju Venugopalan.
 Sören Schlichting and Björn Schenke.
 \newblock The shape of the proton at high energies.
 \newblock {\em Physics Letters B}, 739:313 -- 319, 2014.
+
+\bibitem{Song2015}
+Huichao Song.
+\newblock Hydrodynamic modelling for relativistic heavy-ion collisions at rhic
+  and lhc.
+\newblock {\em Pramana}, 84(5):703--715, 2015.
 
 \bibitem{PhysRevLett.111.222302}
 Wilke van~der Schee, Paul Romatschke, and Scott Pratt.

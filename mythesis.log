@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.11)  27 FEB 2017 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.2.11)  3 MAR 2017 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,15 +381,15 @@ Making ToC Page
 
 ]
 centered
-(./mythesis.toc)
+(./mythesis.toc [6
+
+])
 \tf@toc=\write4
 \openout4 = `mythesis.toc'.
 
 
 Making LoT Page
-[6
-
-]
+[7]
 centered
 (./mythesis.lot)
 \tf@lot=\write5
@@ -397,17 +397,17 @@ centered
 
 
 Making LoF Page
-[7
+[8
 
 ]
 centered
-(./mythesis.lof [8
+(./mythesis.lof [9
 
 ]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [9])
+ [10])
 \tf@lof=\write6
 \openout6 = `mythesis.lof'.
 
@@ -417,7 +417,7 @@ Missing character: There is no ô in font cmr10!
 -------------------Beginning Body----------------------
 
 
-[10] (./macros.tex
+[11] (./macros.tex
 \c@th@theorem=\count122
 ) (./chapter2.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
@@ -425,52 +425,53 @@ centered
 [1
 
 
-] <figs/elliptical_flow_cartoon.png, id=227, 482.80376pt x 173.64874pt>
+] <figs/elliptical_flow_cartoon.png, id=288, 482.80376pt x 173.64874pt>
 File: figs/elliptical_flow_cartoon.png Graphic file (type png)
 
 <use figs/elliptical_flow_cartoon.png>
 Package pdftex.def Info: figs/elliptical_flow_cartoon.png used on input line 13
 .
 (pdftex.def)             Requested size: 258.36667pt x 92.92897pt.
- [2 <./figs/elliptical_flow_cartoon.png>]
-<figs/centrality_impact_parameter_diagram.PNG, id=234, 631.60968pt x 143.78719p
+
+<figs/centrality_impact_parameter_diagram.PNG, id=291, 631.60968pt x 143.78719p
 t>
 File: figs/centrality_impact_parameter_diagram.PNG Graphic file (type png)
  <use figs/centrality_impact_parameter_diagram.PNG>
 Package pdftex.def Info: figs/centrality_impact_parameter_diagram.PNG used on i
-nput line 28.
+nput line 23.
 (pdftex.def)             Requested size: 258.36667pt x 58.8171pt.
- [3 <./figs/centrality_impact_parameter_diagram.PNG>] [4]
-<figs/pp_correlation_function_min_bias.png, id=251, 261.97874pt x 224.33812pt>
+ [2 <./figs/elliptical_flow_cartoon.png>] [3 <./figs/centrality_impact_paramete
+r_diagram.PNG>] [4]
+<figs/pp_correlation_function_min_bias.png, id=313, 261.97874pt x 224.33812pt>
 File: figs/pp_correlation_function_min_bias.png Graphic file (type png)
 
 <use figs/pp_correlation_function_min_bias.png>
 Package pdftex.def Info: figs/pp_correlation_function_min_bias.png used on inpu
-t line 65.
+t line 67.
 (pdftex.def)             Requested size: 201.9912pt x 172.97365pt.
 
-<figs/pbpb_correlation_function_010.png, id=252, 341.02406pt x 225.84375pt>
+<figs/pbpb_correlation_function_010.png, id=314, 341.02406pt x 225.84375pt>
 File: figs/pbpb_correlation_function_010.png Graphic file (type png)
 
 <use figs/pbpb_correlation_function_010.png>
 Package pdftex.def Info: figs/pbpb_correlation_function_010.png used on input l
-ine 66.
+ine 68.
 (pdftex.def)             Requested size: 225.48038pt x 149.32611pt.
- [5] [6 <./figs/pp_correlation_function_min_bias.png> <./figs/pbpb_correlation_
-function_010.png>]
-<figs/1d_correlation_function_with_fourier.png, id=272, 462.72874pt x 429.605pt
+ [5 <./figs/pp_correlation_function_min_bias.png> <./figs/pbpb_correlation_func
+tion_010.png>]
+<figs/1d_correlation_function_with_fourier.png, id=329, 462.72874pt x 429.605pt
 >
 File: figs/1d_correlation_function_with_fourier.png Graphic file (type png)
  <use figs/1d_correlation_function_with_fourier.png>
 Package pdftex.def Info: figs/1d_correlation_function_with_fourier.png used on 
-input line 88.
+input line 90.
 (pdftex.def)             Requested size: 225.48038pt x 209.34145pt.
- [7 <./figs/1d_correlation_function_with_fourier.png>]
-<figs/reaction_plane_diagram.PNG, id=282, 426.09187pt x 292.09125pt>
+ [6] [7 <./figs/1d_correlation_function_with_fourier.png>]
+<figs/reaction_plane_diagram.PNG, id=345, 426.09187pt x 292.09125pt>
 File: figs/reaction_plane_diagram.PNG Graphic file (type png)
 
 <use figs/reaction_plane_diagram.PNG>
-Package pdftex.def Info: figs/reaction_plane_diagram.PNG used on input line 111
+Package pdftex.def Info: figs/reaction_plane_diagram.PNG used on input line 113
 .
 (pdftex.def)             Requested size: 319.42995pt x 218.98766pt.
 Missing character: There is no ‚ in font cmr10!
@@ -479,102 +480,151 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [8] [9 <./figs/reaction_plane_diagram.PNG>] <figs/pp_high_multiplicity_ridge.P
-NG, id=306, 224.33812pt x 186.6975pt>
+ [8] [9 <./figs/reaction_plane_diagram.PNG>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [10]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [11]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [12]
+<figs/glauber_auau_example.png, id=382, 419.31656pt x 201.00093pt>
+File: figs/glauber_auau_example.png Graphic file (type png)
+
+<use figs/glauber_auau_example.png>
+Package pdftex.def Info: figs/glauber_auau_example.png used on input line 219.
+(pdftex.def)             Requested size: 305.33788pt x 146.36447pt.
+ [13 <./figs/glauber_auau_example.png>]
+<figs/initial_conditions.png, id=393, 621.82312pt x 734.745pt>
+File: figs/initial_conditions.png Graphic file (type png)
+
+<use figs/initial_conditions.png>
+Package pdftex.def Info: figs/initial_conditions.png used on input line 249.
+(pdftex.def)             Requested size: 211.3883pt x 249.77635pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15 <./figs/initial_conditions.png>]
+<figs/he3au_simulation.png, id=410, 899.36pt x 230.8625pt>
+File: figs/he3au_simulation.png Graphic file (type png)
+
+<use figs/he3au_simulation.png>
+Package pdftex.def Info: figs/he3au_simulation.png used on input line 274.
+(pdftex.def)             Requested size: 324.13208pt x 83.20201pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [17 <./figs/he3au_simulation.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [18]
+<figs/pp_high_multiplicity_ridge.PNG, id=438, 224.33812pt x 186.6975pt>
 File: figs/pp_high_multiplicity_ridge.PNG Graphic file (type png)
 
 <use figs/pp_high_multiplicity_ridge.PNG>
 Package pdftex.def Info: figs/pp_high_multiplicity_ridge.PNG used on input line
- 213.
+ 304.
 (pdftex.def)             Requested size: 220.78542pt x 183.74855pt.
 File: figs/pp_correlation_function_min_bias.png Graphic file (type png)
 
 <use figs/pp_correlation_function_min_bias.png>
 Package pdftex.def Info: figs/pp_correlation_function_min_bias.png used on inpu
-t line 214.
+t line 305.
 (pdftex.def)             Requested size: 220.78542pt x 189.06917pt.
- [10]
-<figs/pPb_subtraction_correlation.PNG, id=318, 657.95813pt x 231.11343pt>
+ [19 <./figs/pp_high_multiplicity_ridge.PNG>]
+<figs/pPb_subtraction_correlation.PNG, id=448, 657.95813pt x 231.11343pt>
 File: figs/pPb_subtraction_correlation.PNG Graphic file (type png)
 
 <use figs/pPb_subtraction_correlation.PNG>
 Package pdftex.def Info: figs/pPb_subtraction_correlation.PNG used on input lin
-e 224.
+e 315.
 (pdftex.def)             Requested size: 399.2946pt x 140.25958pt.
- [11 <./figs/pp_high_multiplicity_ridge.PNG>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 230.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 230.
+(hyperref)                removing `math shift' on input line 321.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 230.
+(hyperref)                removing `subscript' on input line 321.
 
-<figs/PbPb_v2_mass_ordering.PNG, id=326, 364.36125pt x 261.22594pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 321.
+
+[20 <./figs/pPb_subtraction_correlation.PNG>]
+<figs/PbPb_v2_mass_ordering.PNG, id=457, 364.36125pt x 261.22594pt>
 File: figs/PbPb_v2_mass_ordering.PNG Graphic file (type png)
 
 <use figs/PbPb_v2_mass_ordering.PNG>
-Package pdftex.def Info: figs/PbPb_v2_mass_ordering.PNG used on input line 235.
+Package pdftex.def Info: figs/PbPb_v2_mass_ordering.PNG used on input line 326.
 
 (pdftex.def)             Requested size: 225.48038pt x 161.65546pt.
 
-<figs/pPb_two_part_v2_mass_ordering.PNG, id=327, 386.19281pt x 249.93375pt>
+<figs/pPb_two_part_v2_mass_ordering.PNG, id=458, 386.19281pt x 249.93375pt>
 File: figs/pPb_two_part_v2_mass_ordering.PNG Graphic file (type png)
 
 <use figs/pPb_two_part_v2_mass_ordering.PNG>
 Package pdftex.def Info: figs/pPb_two_part_v2_mass_ordering.PNG used on input l
-ine 236.
+ine 327.
 (pdftex.def)             Requested size: 225.48038pt x 145.92653pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12 <./figs/pPb_subtraction_correlation.PNG>] [13 <./figs/PbPb_v2_mass_ordering
-.PNG> <./figs/pPb_two_part_v2_mass_ordering.PNG>]
-<figs/pp_pPb_PbPb_cumulants.PNG, id=350, 791.95876pt x 307.1475pt>
+ [21 <./figs/PbPb_v2_mass_ordering.PNG> <./figs/pPb_two_part_v2_mass_ordering.P
+NG>]
+<figs/pp_pPb_PbPb_cumulants.PNG, id=476, 791.95876pt x 307.1475pt>
 File: figs/pp_pPb_PbPb_cumulants.PNG Graphic file (type png)
 
 <use figs/pp_pPb_PbPb_cumulants.PNG>
-Package pdftex.def Info: figs/pp_pPb_PbPb_cumulants.PNG used on input line 277.
+Package pdftex.def Info: figs/pp_pPb_PbPb_cumulants.PNG used on input line 368.
 
 (pdftex.def)             Requested size: 446.2658pt x 173.07936pt.
- [14]
-<figs/pp_ppb_pbpb_vn_supersonic.PNG, id=361, 1185.67969pt x 335.75438pt>
-File: figs/pp_ppb_pbpb_vn_supersonic.PNG Graphic file (type png)
-
-<use figs/pp_ppb_pbpb_vn_supersonic.PNG>
-Package pdftex.def Info: figs/pp_ppb_pbpb_vn_supersonic.PNG used on input line 
-287.
-(pdftex.def)             Requested size: 352.31624pt x 99.76392pt.
- [15 <./figs/pp_pPb_PbPb_cumulants.PNG> <./figs/pp_ppb_pbpb_vn_supersonic.PNG>]
-
-<figs/hedau_v2_v3.PNG, id=371, 642.90187pt x 432.86719pt>
+ [22] [23 <./figs/pp_pPb_PbPb_cumulants.PNG>] <figs/hedau_v2_v3.PNG, id=494, 64
+2.90187pt x 432.86719pt>
 File: figs/hedau_v2_v3.PNG Graphic file (type png)
 
 <use figs/hedau_v2_v3.PNG>
-Package pdftex.def Info: figs/hedau_v2_v3.PNG used on input line 299.
+Package pdftex.def Info: figs/hedau_v2_v3.PNG used on input line 394.
 (pdftex.def)             Requested size: 352.31624pt x 237.21902pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/dhau_mass_ordering_phenix.PNG, id=374, 692.5875pt x 381.67593pt>
+<figs/dhau_mass_ordering_phenix.PNG, id=497, 692.5875pt x 381.67593pt>
 File: figs/dhau_mass_ordering_phenix.PNG Graphic file (type png)
 
 <use figs/dhau_mass_ordering_phenix.PNG>
 Package pdftex.def Info: figs/dhau_mass_ordering_phenix.PNG used on input line 
-309.
+404.
 (pdftex.def)             Requested size: 352.31624pt x 194.16293pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16] [17 <./figs/hedau_v2_v3.PNG> <./figs/dhau_mass_ordering_phenix.PNG>])
-(./mythesis.bbl [18]
+[24] [25 <./figs/hedau_v2_v3.PNG> <./figs/dhau_mass_ordering_phenix.PNG>])
+(./mythesis.bbl [26]
 centered
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
 (c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
@@ -582,7 +632,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
- [19
+ [27
 
 ]
 Missing character: There is no √ in font cmr10!
@@ -594,30 +644,26 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ∂ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ∂ in font cmr10!
- [20])
+ [28])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
- [21]
+ [29]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
 
 (./mythesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
-(rerunfilecheck)             Checksum: 525E730EB238D76A03D750AD998EF5A8;1112.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: F01D2E83B33217BBB3F6DC02B12D70D5;1850.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 6704 strings out of 493013
- 96994 string characters out of 6136993
- 206167 words of memory out of 5000000
- 10023 multiletter control sequences out of 15000+600000
- 15961 words of font info for 60 fonts, out of 8000000 for 9000
+ 6760 strings out of 493013
+ 97979 string characters out of 6136993
+ 207724 words of memory out of 5000000
+ 10047 multiletter control sequences out of 15000+600000
+ 16582 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,41p,1447b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,41p,1527b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-di
@@ -631,12 +677,12 @@ texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/201
 t/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.p
-fb>
-Output written on mythesis.pdf (31 pages, 1630155 bytes).
+cm/cmsy9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on mythesis.pdf (40 pages, 2013507 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 422 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 638 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
