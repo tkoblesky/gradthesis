@@ -1,23 +1,9 @@
-\BOOKMARK [0][-]{chapter.1}{Collectivity and Flow in QCD Systems}{}% 1
-\BOOKMARK [1][-]{section.1.1}{A Conceptual Understanding of Collectivity and Flow}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{Initial Conditions}{section.1.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Mathematical Introduction to Measuring and Quantifying Flow}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.2.1}{Two-Particle Correlations}{section.1.2}% 5
-\BOOKMARK [2][-]{subsection.1.2.2}{Flow Harmonics}{section.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.2.3}{Cumulants}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.4}{Event Plane Formulation}{section.1.2}% 8
-\BOOKMARK [1][-]{section.1.3}{An Overview of Heavy Ion Models}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.3.1}{Initial Condition Models}{section.1.3}% 10
-\BOOKMARK [3][-]{subsubsection.1.3.1.1}{Monte-Carlo Glauber}{subsection.1.3.1}% 11
-\BOOKMARK [3][-]{subsubsection.1.3.1.2}{IP-Glasma}{subsection.1.3.1}% 12
-\BOOKMARK [3][-]{subsubsection.1.3.1.3}{Comparison between IP-Glasma and MC-Glauber}{subsection.1.3.1}% 13
-\BOOKMARK [2][-]{subsection.1.3.2}{Medium Evolution Models}{section.1.3}% 14
-\BOOKMARK [3][-]{subsubsection.1.3.2.1}{Hydrodynamic Modeling}{subsection.1.3.2}% 15
-\BOOKMARK [3][-]{subsubsection.1.3.2.2}{Hybrid Models: SONIC and superSONIC}{subsection.1.3.2}% 16
-\BOOKMARK [2][-]{subsection.1.3.3}{AMPT}{section.1.3}% 17
-\BOOKMARK [1][-]{section.1.4}{A Review of Flow Measurements in Small Collision Systems}{chapter.1}% 18
-\BOOKMARK [2][-]{subsection.1.4.1}{Nearside Ridge in Small Systems}{section.1.4}% 19
-\BOOKMARK [2][-]{subsection.1.4.2}{Mass Ordering in v2}{section.1.4}% 20
-\BOOKMARK [2][-]{subsection.1.4.3}{Multi-Particle Cumulants and Fluctuations}{section.1.4}% 21
-\BOOKMARK [2][-]{subsection.1.4.4}{Measurements Made at RHIC}{section.1.4}% 22
-\BOOKMARK [-1][-]{chapter*.6}{ Bibliography}{}% 23
+\BOOKMARK [0][-]{chapter.1}{Physics Overview}{}% 1
+\BOOKMARK [1][-]{section.1.1}{The Standard Model}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Quantum Chromodynamics}{section.1.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Quark Gluon Plasma}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{QGP Evolution Timeline}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.2}{Emergent Properties of the QGP}{section.1.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.2.1}{Particle Energy Loss}{subsection.1.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.2.2}{Collective Flow and Azimuthal Anisotropy}{subsection.1.2.2}% 8
+\BOOKMARK [-1][-]{chapter*.6}{ Bibliography}{}% 9
