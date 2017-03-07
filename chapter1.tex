@@ -64,15 +64,17 @@ Color neutrality can arise from other combinations of quarks; from combinations 
 
 Another related effect of the self-interaction of the gluon is known as the screening of bare color charges.  Once again it is helpful to compare to the familiar effects in QED. In QED, electrically charged pairs from the vacuum screen out the bare electric charge, causing the effective charge to decrease. This effect increases as the distance to the electric charge increases because there is a larger quantity of electrically charged pairs between the observer and the charge. Back to QCD, qq pairs produce the same effect, providing a screening effect on the bare color charge, however short-lived the bare color charges are. Further complications arise when the color-carrying gluon in turn creates an anti-screening effect, which is the larger of the two effects. As one approaches a solitary color charge, the density of gluons becomes so large that the strong force counter-intuitively grows weaker. These screening effects alter the strong coupling constant known as $\alpha_s$ which is proportional to the local strong force magnitude. Figure \ref{fig:coupling_plot}, which depicts the $\alpha_s$ as a function of energy scale, shows the reduction of $\alpha_s$ at large energies. This behavior is known as asymptotic freedom because the smaller $\alpha_s$ is, the more quarks can move freely. Thus, there is an energy threshold where the strong force is weak enough where perturbative calculations are valid. The ability to make valid perturbative calculations for QCD is important for being able to make any in-depth QCD calculations of complex systems. Apart from perturbative QCD calculations, lattice QCD is a non-perturbative approach which is formulated on a lattice of space-time points. Although lattice QCD calculations are computationally complex, physical phenomena such as quark confinement can be treated analytically.
 
-In addition to understanding the unique effects of QCD, understanding the phases of QCD matter is important. Figure \ref{fig:qcd_phase} is a phase diagram for quark matter with temperature  and net baryonic density on the axes. The type of quark matter which makes up the elements of normal matter is found in the figure under the heading of ``Nuclear Matter" which is the state of quarks and gluons for complex, relatively stable bound states known as nuclei. The ``hadronic phase" indicates a state of quark matter where bound states of quarks form hadrons but those hadrons behave like a non-interacting gas. At very large baryonic density, the ``color superconductivity" phase is where the possible quantum states of quarks and gluons are so full that an example of such a state of matter is a neutron star. Finally, under extreme conditions of temperature and bayonic density, quarks may break deconfinement and exist as solitary color charges in a plasma. This phase of matter, known as QGP (Quark-Gluon Plasma), provides a medium where screening effects are and $\alpha_s$ becomes small enough to allow quarks and gluons to move with relative freedom. Although QGP has been observed by multiple experiments at RHIC (Relativistic Heavy Ion Collider) and LHC (Large Hadron Collider) facilities, the critical temperature at which the phase of quark matter is achieved is still unknown, although some recent experiments place the temperature at 170 MeV or 1.9$\times10^{12}$ kelvin, which is much hotter than the center of our sun~\cite{doi:10.1142/9789814689304_0031}.
+In addition to understanding the unique effects of QCD, understanding the phases of QCD matter is important. Figure \ref{fig:qcd_phase} is a phase diagram for quark matter with temperature  and net baryonic density on the axes. The type of quark matter which makes up the elements of normal matter is found in the figure under the heading of ``Nuclear Matter" which is the state of quarks and gluons for complex, relatively stable bound states known as nuclei. The ``hadronic phase" indicates a state of quark matter where bound states of quarks form hadrons but those hadrons behave like a non-interacting gas. At very large baryonic density, the ``color superconductivity" phase is where the possible quantum states of quarks and gluons are so full that an example of such a state of matter is a neutron star. Finally, under extreme conditions of temperature and bayonic density, quarks may be deconfined and exist as solitary color charges in a plasma. This phase of matter, known as QGP (Quark-Gluon Plasma), provides a medium where screening effects are dominant and $\alpha_s$ becomes small enough to allow quarks and gluons to move with relative freedom. Although QGP has been observed by multiple experiments at RHIC (Relativistic Heavy Ion Collider) and LHC (Large Hadron Collider) facilities, the critical temperature at which the phase of quark matter is achieved is still unknown, although some recent experiments place the temperature at 170 MeV or 1.9$\times10^{12}$ kelvin, which is much hotter than the center of our sun~\cite{doi:10.1142/9789814689304_0031}.
 
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.55\linewidth]{figs/qcd_phase_diagram.png}
-\caption{QCD phase diagram of with temperature on the y-axis and net baryonic density on the x-axis.}
+\caption{QCD phase diagram of with temperature on the y-axis and net baryonic density on the x-axis~\cite{Bhalerao:2014owa}.}
 \end{center}
 \label{fig:qcd_phase}
 \end{figure}
+
+Lattice QCD calculations have been done to examine the relationship of the number of massless degrees of freedom and the temperature of the medium as which provide insight in how QGP and the early universe transition into normal matter. Figure \ref{fig:lattice_degrees} shows a curve of a quantity inversely proportional to the number of massless degrees of freedom. As the temperature drops, the less massive particles annihilate and disappear from the thermal universe, reducing the degrees of freedom. The points on Figure \ref{fig:lattice_degrees_calc} are the numerical results from a lattice QCD calculation of the Equation of State (EoS). The y-axis for the points on this plot is the energy density divided the temperature to the fourth power $\frac{\epsilon}{T^4}$ which has been shown to be inversely proportional to the number of massless degrees of freedom~\cite{PhysRevD.81.054504}. It is noteworthy that the points increase around the transition indicating the disappearance of the degrees of freedom around the transition temperature of the medium.
 
 \begin{figure}[!ht]
 \begin{center}
@@ -81,6 +83,14 @@ In addition to understanding the unique effects of QCD, understanding the phases
 and how this affects the fractional drop of temperature compared to red-shift~\cite{1742-6596-509-1-012014}.}
 \end{center}
 \label{fig:lattice_degrees}
+\end{figure}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.55\linewidth]{figs/lattice_degrees_calculation.png}
+\caption{The energy density $\epsilon$ divided by $T^4$ vs temperature $T$ at the physical value of the light quark mass~\cite{PhysRevD.81.054504}.}
+\end{center}
+\label{fig:lattice_degrees_calc}
 \end{figure}
 
 \section{Quark Gluon Plasma}
@@ -101,7 +111,7 @@ As is referred to in Figure ~\ref{fig:qgp_timeline}, many types of particles are
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.78\linewidth]{figs/qgp_evolution_timeline.png}
-\caption{Relativistic heavy ion collision evolution timeline starting. Three distinct phases and their times are shown as well as the particles produced.}
+\caption{Relativistic heavy ion collision evolution timeline starting. Three distinct phases and their times are shown as well as the particles produced~\cite{Heinz:2013wva}.}
 \end{center}
 \label{fig:qgp_timeline}
 \end{figure}
@@ -122,8 +132,7 @@ with, the QGP, exchanging energy and momentum with the medium along the way. The
 \begin{equation}\label{eqn:raa}
  R_{AA}(p_T) = \frac{dN_{AA}/dp_T}{\left<N_{coll}\right>\times dN_{pp}/dp_T},
 \end{equation}
-where $dN_{AA}/dp_T$ and $dN_{pp}/dp_T$ is the yield of a given particle vs $p_T$ in heavy ion collisions and p+p collisions respectively and $N_{coll}$ is the average
-number of binary collisions for a given class of events. In summary, the $R_{AA}$ is a ratio for how many particles are produced for the same system with a normalization factor of $N_{coll}$ to account for the differences in system size. The $\left<N_{coll}>\right$ value is usually determined using Monte Carlo Glauber simulations and will be discussed in more detail in Chapter 2. If the particles do not interact with the medium, the $R_{AA}$ should be equal to 1.0. A value above 1.0 is interpreted as an enhancement of particles and a value below 1.0 is interpreted as a suppression of particles. 
+where $dN_{AA}/dp_T$ and $dN_{pp}/dp_T$ is the yield of a given particle vs $p_T$ in heavy ion collisions and p+p collisions respectively and $N_{coll}$ is the average number of binary collisions for a given class of events. In summary, the $R_{AA}$ is a ratio for how many particles are produced for the same system with a normalization factor of $N_{coll}$ to account for the differences in system size. The $\left<N_{coll}\right>$ value is usually determined using Monte Carlo Glauber simulations and will be discussed in more detail in Chapter 2. If the particles do not interact with the medium, the $R_{AA}$ should be equal to 1.0. A value above 1.0 is interpreted as an enhancement of particles and a value below 1.0 is interpreted as a suppression of particles. 
 
 Figure \ref{fig:RAA_plot} shows a significant suppression in the $R_{AA}$ vs $p_T$ (transverse momentum) of $\pi^0$ mesons produced in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV at RHIC for large and small sized QGP events, 0-10$\%$ central and 80-92$\%$ central events respectively (centrality will be discussed in Chapter 2). This large suppression across all  $p_T$ of the $\pi^0$ for large-sized events as compared to small-sized events indicate energy loss of quarks due to the medium, which is consistent with a strongly coupled  medium.
 
@@ -144,8 +153,8 @@ Consider the collision of two heavy nuclei as depicted in Figure ~\ref{fig:flow_
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=0.65\linewidth]{figs/flow_diagram_cartoon.png}
-\caption{A diagram of a heavy ion collision. The blue shapes are the two colliding nuclei and the elliptical yellow shape is the collision overlap region which forms the medium. In the next instant of time the two nuclei would travel father along the collision axis (into and out of the page) and the medium would expand along the direction of the arrows.}
+\includegraphics[width=0.5\linewidth]{figs/flow_diagram_cartoon.png}
+\caption{A diagram of a heavy ion collision. The blue shapes are the two colliding nuclei and the elliptical yellow shape is the collision overlap region which forms the medium. In the next instant of time the two nuclei would travel father along the collision axis (into and out of the page) and the medium would expand along the direction of the arrows~\cite{Qin:2015nma}.}
 \end{center}
 \label{fig:flow_diagram_cart}
 \end{figure}
