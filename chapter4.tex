@@ -1,7 +1,6 @@
 \chapter{Analysis}
-
-\textbf{TODO:ROADMAP!!!!!!, which includes sort of a table of contents for the chapter}
-First we will talk about the building blocks of the measurement and then we will talk about the event plane analysis techniques.
+%\textbf{TODO:ROADMAP!!!!!!, which includes sort of a table of contents for the chapter}
+This chapter is an extensive discussion on the information and data analysis techniques used to extract the measurement. First we will talk about the building blocks of the measurement and then we will talk about the event plane analysis techniques.
 \section{The Building Blocks of the Measurement}
 Prior to any analysis, the raw data collected by various PHENIX subsystems must be reconstructed into well-defined software objects encapsulating the physical properties of the particles that traversed the detector. Although we have already discussed the subsystems used in this analysis in chapter III, this section provides in-depth information on central arm tracks, FVTX clusters, and BBC photomultiplier tubes (PMTs), and the physics variables they contain. 
 
@@ -13,7 +12,6 @@ Prior to any analysis, the raw data collected by various PHENIX subsystems must 
 \caption{Reference coordinate system for the PHENIX detector. The origin is set at the collision point, around which the detector is centered. The beam runs paralell to the (longitudinal) $z-$axis, where the direction of positive $z$ is defined as \emph{north}. The \emph{east} and \emph{west} directions are defined as perpendicular to the longitudinal direction, where the direction of positive $x$ is defined as west.}
 \end{center}
 \end{figure}
-
 
 %\begin{figure}[!h]
 %\begin{center}
@@ -328,7 +326,6 @@ As shown in Fig \ref{fig:fvtx_ew_default}, $v_2$ is different when measured usin
 \label{fig:diagram2}
 \end{center}
 \end{figure}
-% (TODO ADD BNL REF)
 
 First of all, the collision vertex is significantly offset from the z-axis to which all of the PHENIX detectors are aligned. The other beam geometry effect, and the more significant of the two effects, comes from the fact that the beams are colliding at an angle of 3.6 milli-Radians in the x-z plane as show in Fig ~\ref{fig:diagram2} \cite{BNL_Run15_Operations}. The reason a non-ideal beam geometry creates an east west v2 measurement difference is because of the assumption that the ideal event plane angle is azimuthally isotropic during the event plane flattening calibration. In the translated and rotated frame where the beams are aligned with the z-axis the event plane distribution would be uniform, but in the lab frame the event plane distribution in $\phi$ would have regions of enhancement and reduction. The event plane flattening calibration algorithm restores a non-uniform distribution to a uniform one; however, if the true event plane distribution is non-uniform then forcing the measured distribution to be uniform would produce systematic errors.
 
