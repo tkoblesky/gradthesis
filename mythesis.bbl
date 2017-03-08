@@ -11,6 +11,18 @@ Event reconstruction in the \{PHENIX\} central arm spectrometers.
 Rhic operations with asymmetric collisions in 2015.
 \newblock 2015.
 
+\bibitem{Aamodt2012249}
+K.~Aamodt and et~al.
+\newblock Harmonic decomposition of two particle angular correlations in
+  pb–pb collisions at.
+\newblock {\em Physics Letters B}, 708(3–5):249 -- 264, 2012.
+
+\bibitem{Aaron2012}
+F.~D. et~al Aaron.
+\newblock Inclusive deep inelastic scattering at high q2 with longitudinally
+  polarised lepton beams at hera.
+\newblock {\em Journal of High Energy Physics}, 2012(9):61, 2012.
+
 \bibitem{PhysRevLett.115.142301}
 A.~et~al Adare.
 \newblock Measurements of elliptic and triangular flow in high-multiplicity
@@ -25,6 +37,12 @@ S.~S. et~al Adler.
   }\mathrm{G}\mathrm{e}\mathrm{V}$ $d+\mathrm{A}\mathrm{u}$ collisions.
 \newblock {\em Phys. Rev. Lett.}, 91:072303, Aug 2003.
 
+\bibitem{Akiba:2015jwa}
+Yasuyuki Akiba et~al.
+\newblock {The Hot QCD White Paper: Exploring the Phases of QCD at RHIC and the
+  LHC}.
+\newblock 2015.
+
 \bibitem{PhysRevD.86.010001}
 J.~et~al Beringer.
 \newblock Review of particle physics.
@@ -35,11 +53,36 @@ Siegfried Bethke.
 \newblock The 2009 world average of $\alpha$.
 \newblock {\em The European Physical Journal C}, 64(4):689--703, 2009.
 
+\bibitem{Bhalerao:2014owa}
+Rajeev~S. Bhalerao.
+\newblock {Relativistic heavy-ion collisions}.
+\newblock In {\em {Proceedings, 1st Asia-Europe-Pacific School of High-Energy
+  Physics (AEPSHEP): Fukuoka, Japan, October 14-27, 2012}}, pages 219--239,
+  2014.
+
+\bibitem{PhysRevLett.113.252301}
+Adam Bzdak and Guo-Liang Ma.
+\newblock Elliptic and triangular flow in $p$-pb and peripheral pb-pb
+  collisions from parton scatterings.
+\newblock {\em Phys. Rev. Lett.}, 113:252301, Dec 2014.
+
+\bibitem{PhysRevD.81.054504}
+M.~Cheng, S.~Ejiri, P.~Hegde, F.~Karsch, O.~Kaczmarek, E.~Laermann, R.~D.
+  Mawhinney, C.~Miao, S.~Mukherjee, P.~Petreczky, C.~Schmidt, and W.~Soeldner.
+\newblock Equation of state for physical quark masses.
+\newblock {\em Phys. Rev. D}, 81:054504, Mar 2010.
+
 \bibitem{PhysRevD.10.186}
 Fred Cooper and Graham Frye.
 \newblock Single-particle distribution in the hydrodynamic and statistical
   thermodynamic models of multiparticle production.
 \newblock {\em Phys. Rev. D}, 10:186--189, Jul 1974.
+
+\bibitem{PhysRevLett.108.262001}
+Kevin Dusling and Raju Venugopalan.
+\newblock Azimuthal collimation of long range rapidity correlations by strong
+  color fields in high multiplicity hadron-hadron collisions.
+\newblock {\em Phys. Rev. Lett.}, 108:262001, Jun 2012.
 
 \bibitem{PhysRevC.67.064905}
 S.~Eremin and S.~Voloshin.
@@ -71,6 +114,11 @@ Enrico Fermi.
 \newblock High energy nuclear events.
 \newblock {\em Progress of Theoretical Physics}, 5(4):570--583, 1950.
 
+\bibitem{Frawley:2012hv}
+A.~D. Frawley.
+\newblock {Cold Nuclear Matter Effects and Heavy Quark Production in PHENIX}.
+\newblock {\em Nucl. Phys.}, A910-911:123--130, 2013.
+
 \bibitem{PhysRevLett.110.012302}
 Charles Gale, Sangyong Jeon, Bj\"orn Schenke, Prithwish Tribedy, and Raju
   Venugopalan.
@@ -89,6 +137,11 @@ M.~Habich, J.~L. Nagle, and P.~Romatschke.
   collisions of c+c, al+al, cu+cu, au+au, and pb+pb from sqrt(s)=62.4-2760 gev.
 \newblock {\em The European Physical Journal C}, 75(1):15, 2015.
 
+\bibitem{Heinz:2013wva}
+Ulrich~W. Heinz.
+\newblock {Towards the Little Bang Standard Model}.
+\newblock {\em J. Phys. Conf. Ser.}, 455:012044, 2013.
+
 \bibitem{PhysRevC.77.044909}
 Tetsufumi Hirano, Ulrich Heinz, Dmitri Kharzeev, Roy Lacey, and Yasushi Nara.
 \newblock Mass ordering of differential elliptic flow and its violation for
@@ -106,10 +159,21 @@ V.~Khachatryan and {etal}.
   proton-proton collisions at the lhc.
 \newblock {\em Journal of High Energy Physics}, 2010(9):91, 2010.
 
+\bibitem{Kolb:2003dz}
+Peter~F. Kolb and Ulrich~W. Heinz.
+\newblock {Hydrodynamic description of ultrarelativistic heavy ion collisions}.
+\newblock 2003.
+
 \bibitem{PhysRevC.72.064901}
 Zi-Wei Lin, Che~Ming Ko, Bao-An Li, Bin Zhang, and Subrata Pal.
 \newblock Multiphase transport model for relativistic heavy ion collisions.
 \newblock {\em Phys. Rev. C}, 72:064901, Dec 2005.
+
+\bibitem{PhysRevC.78.034915}
+Matthew Luzum and Paul Romatschke.
+\newblock Conformal relativistic viscous hydrodynamics: Applications to rhic
+  results at $\sqrt{{s}_{\mathit{NN}}}=200$ gev.
+\newblock {\em Phys. Rev. C}, 78:034915, Sep 2008.
 
 \bibitem{PhysRevC.93.054911}
 Guo-Liang Ma and Zi-Wei Lin.
@@ -122,6 +186,12 @@ Stephen J.~Sanders Michael L.~Miller, Klaus~Reygers and Peter Steinberg.
 \newblock Glauber modeling in high-energy nuclear collisions.
 \newblock {\em Annual Review of Nuclear and Particle Science}, 57:205--243,
   2007.
+
+\bibitem{PhysRevC.92.011901}
+J.~Scott Moreland, Jonah~E. Bernhard, and Steffen~A. Bass.
+\newblock Alternative ansatz to wounded nucleon and binary collision scaling in
+  high-energy nuclear collisions.
+\newblock {\em Phys. Rev. C}, 92:011901, Jul 2015.
 
 \bibitem{PhysRevLett.113.112301}
 J.~L. Nagle, A.~Adare, S.~Beckman, T.~Koblesky, J.~Orjuela Koop, D.~McGlinchey,
@@ -138,17 +208,41 @@ J.~D. Orjuela~Koop, A.~Adare, D.~McGlinchey, and J.~L. Nagle.
   $\sqrt{{s}_{NN}}=200$ gev.
 \newblock {\em Phys. Rev. C}, 92:054903, Nov 2015.
 
+\bibitem{PhysRevLett.111.042001}
+A.~Ortiz~Velasquez, P.~Christiansen, E.~Cuautle~Flores, I.~A.
+  Maldonado~Cervantes, and G.~Pai\ifmmode~\acute{c}\else \'{c}\fi{}.
+\newblock Color reconnection and flowlike patterns in $pp$ collisions.
+\newblock {\em Phys. Rev. Lett.}, 111:042001, Jul 2013.
+
 \bibitem{PhysRevC.58.1671}
 A.~M. Poskanzer and S.~A. Voloshin.
 \newblock Methods for analyzing anisotropic flow in relativistic nuclear
   collisions.
 \newblock {\em Phys. Rev. C}, 58:1671--1678, Sep 1998.
 
+\bibitem{Qin:2015nma}
+Guang-You Qin.
+\newblock {Anisotropic Flow and Jet Quenching in Relativistic Nuclear
+  Collisions}.
+\newblock {\em Int. J. Mod. Phys.}, E24(02):1530001, 2015.
+
 \bibitem{RAFELSKI2013155}
 Johann Rafelski.
 \newblock Connecting qgp-heavy ion physics to the early universe.
 \newblock {\em Nuclear Physics B - Proceedings Supplements}, 243:155 -- 162,
   2013.
+
+\bibitem{1742-6596-509-1-012014}
+Johann Rafelski and Jeremiah Birrell.
+\newblock Traveling through the universe: Back in time to the quark-gluon
+  plasma era.
+\newblock {\em Journal of Physics: Conference Series}, 509(1):012014, 2014.
+
+\bibitem{Richardson:2012pka}
+Eric~Michael Richardson.
+\newblock {\em {Elliptic flow at forward rapidity in $\sqrt{s_{NN}}$ = 200 GeV
+  Au+Au collisions}}.
+\newblock PhD thesis, Maryland U., 2012.
 
 \bibitem{Romatschke2015}
 P.~Romatschke.
@@ -189,6 +283,13 @@ Huichao Song.
 Wilke van~der Schee, Paul Romatschke, and Scott Pratt.
 \newblock Fully dynamical simulation of central nuclear collisions.
 \newblock {\em Phys. Rev. Lett.}, 111:222302, Nov 2013.
+
+\bibitem{Voloshin1996}
+S.~Voloshin and Y.~Zhang.
+\newblock Flow study in relativistic nuclear collisions by fourier expansion of
+  azimuthal particle distributions.
+\newblock {\em Zeitschrift f{\"u}r Physik C Particles and Fields},
+  70(4):665--671, 1996.
 
 \bibitem{PhysRevC.94.024919}
 Kevin Welsh, Jordan Singer, and Ulrich Heinz.
