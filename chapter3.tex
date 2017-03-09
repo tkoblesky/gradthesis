@@ -2,7 +2,7 @@
 \section{RHIC}
 The Relativistic Heavy Ion Collider (RHIC) is a superconducting charged hadron collider located at Brookhaven National Labs (BNL) in Upton, NY, United States. RHIC is capable of accelerating heavy ions such as Au (gold) or Cu (copper) nuclei to energies of $\sim	$100 GeV per nucleon. RHIC is also capable of accelerating lighter ions such as protons, deuteron, and helium to $\sim	$100 GeV per nucleon and $\sim	$250 GeV per proton in the case of protons. The machine has been demonstrated the ability to reliably create the so called QGP (Quark Gluon Plasma) matter.
 
-There are two major detector experiments currently operating in interaction regions around the RHIC ring: PHENIX (Pioneering High Energy Nuclear Interaction eXperiment) and STAR (Solenoidal Tracker at RHIC). Figure \ref{fig:rhic_heli_photo} shows the locations of the experiments and the accelerator chain. A typical operation schedule for RHIC is to run the accelerator for five and a half months every year in what is called a "Run". There have been 16 Runs so far but the relevant run for this thesis was the 15th run taken in 2015 which ran proton colliding with gold ions (p+Au) \sqsn = 200 GeV for part of its running. Specific details about this dataset are found in section \ref{sec:Run_15}.
+There are two major detector experiments currently operating in interaction regions around the RHIC ring: PHENIX (Pioneering High Energy Nuclear Interaction eXperiment) and STAR (Solenoidal Tracker at RHIC). Figure \ref{fig:rhic_heli_photo} shows the locations of the experiments and the accelerator chain. A typical operation schedule for RHIC is to run the accelerator for five and a half months every year in what is called a "Run". There have been 16 Runs so far but the relevant run for this thesis was the 15th run taken in 2015 which ran proton colliding with gold ions (\pau) \sqsn = 200 GeV for part of its running. Specific details about this dataset are found in section \ref{sec:Run_15}.
 
 \begin{figure}[!ht]
 \begin{center}
@@ -80,7 +80,7 @@ The BBC is used to mark the event start time for the entire PHENIX detector by a
 z = c \frac{T_S - T_N}{2},
 \end{equation}
 where $T_S, T_N$ are the particle's average arrival times for each arm and $c$ is the speed of light.%check numbers here:
-For p+Au at \sqsn = 200 GeV collisions, the BBC has a timing resolution of ps $\sim$40 ps and a z-vertex resolution of $\sim$ 1.0-2.0 cm, depending on the event charged particle multiplicity. This rough estimate of the vertex is used during triggering. Specific details about triggers are in section \ref{sec:PHENIX_DAQ}.
+For \pau at \sqsn = 200 GeV collisions, the BBC has a timing resolution of ps $\sim$40 ps and a z-vertex resolution of $\sim$ 1.0-2.0 cm, depending on the event charged particle multiplicity. This rough estimate of the vertex is used during triggering. Specific details about triggers are in section \ref{sec:PHENIX_DAQ}.
 
 The BBC also provides the centrality classification, as described in Chapter 2 Section \ref{sec:initial_condition}, of a collision event in PHENIX. Details of how BBC data is used to compute the centrality are given later in this Chapter in section \ref{sec:central_determin}.
 
@@ -148,11 +148,11 @@ The trigger which is given the largest bandwidth is the minimum bias (minbias) t
 In Run 15, a unique high multiplicity trigger was implemented to enhance event statistics for events producing the most amount of particles. This trigger consisted of requiring at least 35 out of 64 PMTs in the south arm of the BBC. More details about this trigger are located in section \ref{sec:Run_15}.
 \begin{table}[h!]
 \centering
-\caption{An example Run15 p+Au 200 GeV relevant trigger configuration and parameters. A trigger's scale down number reduces its rate by 1/(1+scale down). }%numbers from run435737
+\caption{An example Run15 \pau 200 GeV relevant trigger configuration and parameters. A trigger's scale down number reduces its rate by 1/(1+scale down). }%numbers from run435737
     $\begin{array}{|c|c|c|c|c|}
     \hline 
     %\toprule
-    %Collision Species & p+p & p+Au & units & a \\ \hline
+    %Collision Species & \pp & \pau & units & a \\ \hline
     Trigger\thinspace Name & Scale\thinspace down & Trigger\thinspace rate & Vertex\thinspace cut & Part\thinspace of\thinspace minbias \\ \hline
      Clock & 196077 & 45 Hz  & N/A & no \\ \hline
     BBC(>0\thinspace PMTs)  & 100 &  695 Hz & � 10 cm & yes\\ \hline
@@ -195,13 +195,13 @@ Granules send the data packets to the specific SEB assigned to that granule. The
 
 \subsection{Run 15}
 \label{sec:Run_15}
-Run 15 is the RHIC running period in the year 2015  which marks fifteen consecutive years of RHIC running since the year 2000. Run 15 began in January 2015 and ended in June of 2015. There were approximately eleven weeks of research viable, polarized p+p collisions at $sqrt{s}=$ 200 GeV, approximately 5 weeks of research viable polarized p+Au collisions at $\sqrt{s}=$ 200 GeV, and approximately one week of research viable p+Al collisions $sqrt{s}=$ 200 GeV. Of interest to this thesis are the p+p and p+Au datasets. 
+Run 15 is the RHIC running period in the year 2015  which marks fifteen consecutive years of RHIC running since the year 2000. Run 15 began in January 2015 and ended in June of 2015. There were approximately eleven weeks of research viable, polarized \pp collisions at \sqs = 200 GeV, approximately 5 weeks of research viable polarized \pau collisions at \sqsn = 200 GeV, and approximately one week of research viable \pal collisions \sqsn = 200 GeV. Of interest to this thesis are the \pp and \pau datasets. 
 \begin{table}[h!]
 \caption{Some relevant RHIC parameters from Run 15.}
 \begin{center}
     \begin{tabular}{| l | l | l | l |}
     \hline
-    Collision Species & p+p & p+Au & units\\ \hline
+    Collision Species & \pp & \pau & units\\ \hline
     Total Particle Energy & 100.2 & 103.9 + 100.0  & GeV/nucleon \\ \hline
     Ions per Bunch & 225 &  225 + 1.6 & number $\times10^{9}$ \\ \hline
     Number of Bunches & 111& 111 & number\\ \hline
@@ -212,7 +212,7 @@ Run 15 is the RHIC running period in the year 2015  which marks fifteen consecut
 \end{center}
 \end{table}
 
-In addition to providing the min-bias trigger for Run 15, the BBC was used to implement a high-multiplicity trigger in order to enhance the amount of the top $5\%$ highest multiplicity events. The high-multiplicity trigger requires 35 of the 64 BBC south arm PMTs to be above threshold in a given event to be satisfied. The relevant BBC arm for p+Au is the south arm since that is the Au-going direction so the multiplicity is much higher in the south arm. The enhancement can be seen in Figure \ref{fig:pau_centrality_trig}. 
+In addition to providing the min-bias trigger for Run 15, the BBC was used to implement a high-multiplicity trigger in order to enhance the amount of the top $5\%$ highest multiplicity events. The high-multiplicity trigger requires 35 of the 64 BBC south arm PMTs to be above threshold in a given event to be satisfied. The relevant BBC arm for \pau is the south arm since that is the Au-going direction so the multiplicity is much higher in the south arm. The enhancement can be seen in Figure \ref{fig:pau_centrality_trig}. 
 
 %Also, the BBC was used to determine the event centrality by summing the charge collection of each
 %BBC element; it is assumed the larger the charge collection the more central the
@@ -223,13 +223,13 @@ In addition to providing the min-bias trigger for Run 15, the BBC was used to im
 \begin{center}
 \includegraphics[scale=0.55]{figs/pAu_centrality_trigger.png}
 \end{center}
-\caption{The distribution of BBC charges in p+Au 200 GeV events for different triggers. The black curve is the distribution of charges for the minbias trigger. The blue and red curves are the distributions of charges for the high multiplicity trigger. The red curve being scaled by a factor of 1/40 to show agreement with with the black curve. The definition of the top 5\% more central events are BBC south charges $>=$ 48.0. The plot shows the large enhancement of the number of 0-5\% centrality events that are gained using the high multiplicity trigger compared to the number of 0-5\% centrality from the minbias trigger alone.}\label{fig:pau_centrality_trig}
+\caption{The distribution of BBC charges in \pau at \sqsn 200 GeV events for different triggers. The black curve is the distribution of charges for the minbias trigger. The blue and red curves are the distributions of charges for the high multiplicity trigger. The red curve being scaled by a factor of 1/40 to show agreement with with the black curve. The definition of the top 5\% more central events are BBC south charges $>=$ 48.0. The plot shows the large enhancement of the number of 0-5\% centrality events that are gained using the high multiplicity trigger compared to the number of 0-5\% centrality from the minbias trigger alone.}\label{fig:pau_centrality_trig}
 
 \end{figure}
 
 \subsubsection{Beam Collision Geometry}
-For Run 15 p+Au 200 GeV running, RHIC's blue and yellow beams were not in perfect accordance to the PHENIX coordinate system. This was manifested in two separate ways.
-First of all, the collision vertex is significantly offset from the z-axis to which all of the PHENIX detectors are aligned. This is a typical situation in PHENIX datasets but it must be addressed. The other effect, and the more significant of the two, comes from the fact that the beams are colliding at an angle of 3.6 milli-Radians in the x-z plane as illustrated in Fig \ref{fig:beam_angle}. This is a result of configuring RHIC magnets for the specific charge to mass ratios of the p+Au collision species.
+For Run 15 \pau 200 GeV running, RHIC's blue and yellow beams were not in perfect accordance to the PHENIX coordinate system. This was manifested in two separate ways.
+First of all, the collision vertex is significantly offset from the z-axis to which all of the PHENIX detectors are aligned. This is a typical situation in PHENIX datasets but it must be addressed. The other effect, and the more significant of the two, comes from the fact that the beams are colliding at an angle of 3.6 milli-Radians in the x-z plane as illustrated in Fig \ref{fig:beam_angle}. This is a result of configuring RHIC magnets for the specific charge to mass ratios of the \pau collision species.
 The collision vertex in x and y is known as the beam center. The beam center varies over the course of data taking but its values on average are $(x,y) = (0.206,0.065) (cm)$. The distribution of z-vertices from collision events can be see in Fig \ref{fig:bbc_z_vtx_dist}. Due to the fact that the beams are colliding at an angle in the x-z plane, the x-component of the beam center will have a z-vertex dependence with a slope of -0.0036 cm of x per 1 cm of z.
 Apart from how the beam angle effects the beam center values, it also violates the expectation of a uniform $\phi$ distribution of particles with respect to PHENIX detectors. PHENIX detectors are designed and aligned with respect to the PHENIX coordinate system with the expectation of geometric symmetry. A significant beam collision angle with respect to PHENIX detectors would be equivalent to PHENIX detectors being tilted which would violate geometric symmetry.
 The physics analysis described in this thesis is sensitive to these beam geometry effects. A discussion on how to account for these effects will be in chapter 4.
@@ -248,7 +248,7 @@ The physics analysis described in this thesis is sensitive to these beam geometr
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.65\linewidth]{figs/bbc_z_vertex_dist.png}
-\caption{The distribution of BBC calculated z-vertex positions for events in p+Au 200 GeV. There are more events between -10 and 10 cm because of the BBC narrow trigger.}\label{fig:bbc_z_vtx_dist}
+\caption{The distribution of BBC calculated z-vertex positions for events in \pau at \sqsn = 200 GeV. There are more events between -10 and 10 cm because of the BBC narrow trigger.}\label{fig:bbc_z_vtx_dist}
 
 \end{center}
 \end{figure}
@@ -263,7 +263,7 @@ The physics analysis described in this thesis is sensitive to these beam geometr
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.65\linewidth]{figs/integrated_luminosity.png}
-\caption{Integrated luminosity from the p+Au dataset.}
+\caption{Integrated luminosity from the \pau dataset.}
 \end{center}
 \end{figure}
 \subsection{Centrality Determination}
@@ -282,7 +282,7 @@ The centrality determination is done by adding up all BBC South (Au-going direct
 \begin{center}
 \includegraphics[width=0.65\linewidth]{figs/centrality_determination.png}
 \caption{Real data for BBC Charge South (Au-going direction) shown as open circles and Glauber Monte Carlo + NBD. The colors correspond to the various
-percentiles relative to the total inelastic p+Au cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Level-1 trigger
+percentiles relative to the total inelastic \pau cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Level-1 trigger
 efficiency in all inelastic collisions and inelastic collisions producing a particle at midrapidity, respectively. The best fit NBD parameters are mu = 3.14, k = 0.47
 , and the trigger firing on 84 +/- 3$\%$ of the total inelastic cross section [sigma = 1.76 barns].}
 \end{center}
