@@ -133,7 +133,7 @@ The bottom plots show the result of the d$z$ sigmalization, done in the same way
 
 %\subsection{Central Arm Tracking}
 
-%In p+Au collisions, the average number of reconstructed CNT (before cuts) is (\textbf{TO DO: QUANTIFY THIS}).
+%In \pau collisions, the average number of reconstructed CNT (before cuts) is (\textbf{TO DO: QUANTIFY THIS}).
 \subsection{FVTX Clusters}
 The FVTX consists of four silicon layers in the north and south directions, covering an acceptance of $1 < | \eta | < 3$ and spanning the full azimuth. FVTX clusters correspond to the spatial location where charged particles hit one of the silicon layers. Each cluster is expected to correspond to a single charged particle in the case of \pau collisions, because of the low multiplicity relative to Au+Au collisions. These clusters have a spatial resolution in $x$ and $y$ of 50 $\mu$m, and have an RMS along the $z$-direction that corresponds to the width of an FVTX layer, of $\frac{200}{\sqrt{12}}$ $\mu$m \cite{Aidala201444}. Due to the \pau collision system's inherent asymmetry, the majority of particles are produced in Au-going (i.e., south) direction. Taking into account this asymmetry, only the clusters from the south arm are used for calculations in this analysis. In a typical 0-5$\%$ centrality event, there are on average ~1500 FVTX clusters in the south arm alone.
 
@@ -157,7 +157,7 @@ The BBC provides information on the position, time of arrival, and number of cha
 \end{figure}
 
 %\section{Two-particles Correlation}
-%\subsection{Measurement in p+p and p+Au}
+%\subsection{Measurement in p+p and \pau}
 
 \section{The Event Plane Method}
 Some details of the event plane were given in Chapter 2 Section \ref{sec:event_plane}.
@@ -282,7 +282,7 @@ As discussed in the previous section, distortions in the raw $\Psi_2$ distributi
 \begin{center}
 \includegraphics[width=0.85\linewidth]{figs/fvtxs_default_ew.png}
 \includegraphics[width=0.85\linewidth]{figs/bbcs_default_ew.png}
-\caption{First attempt at measuring $v_{2} (p_T)$ with the event plane as calculated with the FVTXs (top left) and the BBCs (bottom left) in the p+Au at \sqsn = 200 GeV dataset, using the default resolution as shown in Table \ref{tbl:std_resolutions}. The black points show $v_2$ measured using all CNT tracks. The blue and red points show $v_2$ measured using only tracks in the west and east arms, respectively. The ratios are fit with a constant, whose value is shown in the legend.}
+\caption{First attempt at measuring $v_{2} (p_T)$ with the event plane as calculated with the FVTXs (top left) and the BBCs (bottom left) in the \pau at \sqsn = 200 GeV dataset, using the default resolution as shown in Table \ref{tbl:std_resolutions}. The black points show $v_2$ measured using all CNT tracks. The blue and red points show $v_2$ measured using only tracks in the west and east arms, respectively. The ratios are fit with a constant, whose value is shown in the legend.}
 \label{fig:fvtx_ew_default}
 \end{center}
 \end{figure}
@@ -298,7 +298,7 @@ In Figure \ref{fig:fvtx_ew_rot}, $R_{v_2^{FVTXs}}$ can be extracted by taking th
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.75\linewidth]{figs/beam_angle.png}
-\caption{Diagram illustrating the angle at which the yellow and blue beams collide relative to the longitudinal $z-$axis of the detector. The yellow beam corresponds to the Au (south-going) beam, and blue corresponds to the proton (north-going) beam. Due to a necessity of running p+Au collisions at \sqsn = 200 GeV at RHIC, the beams collide at an angle of 3.6 mrad.}
+\caption{Diagram illustrating the angle at which the yellow and blue beams collide relative to the longitudinal $z-$axis of the detector. The yellow beam corresponds to the Au (south-going) beam, and blue corresponds to the proton (north-going) beam. Due to a necessity of running \pau collisions at \sqsn = 200 GeV at RHIC, the beams collide at an angle of 3.6 mrad.}
 \label{fig:diagram2}
 \end{center}
 \end{figure}
@@ -311,7 +311,7 @@ As shown in Fig \ref{fig:fvtx_ew_rot}, applying these corrections prior to calcu
 \begin{center}
 \includegraphics[width=0.85\linewidth]{figs/fvtx_vertex_rot_only.png}
 \includegraphics[width=0.85\linewidth]{figs/bbc_vertex_rot_only.png}
-\caption{A corrected measurement of $v_{2}$ as a function of $p_T$ with the FVTXs (top two panels) and the BBCs (bottom two panels) event plane for the p+Au \sqsn = 200 GeV dataset. The default resolution as shown in table \ref{tbl:std_resolutions} is used. The plotting conventions are the same as described in the caption of Fig \ref{fig:fvtx_ew_default}. }
+\caption{A corrected measurement of $v_{2}$ as a function of $p_T$ with the FVTXs (top two panels) and the BBCs (bottom two panels) event plane for the \pau \sqsn = 200 GeV dataset. The default resolution as shown in table \ref{tbl:std_resolutions} is used. The plotting conventions are the same as described in the caption of Fig \ref{fig:fvtx_ew_default}. }
 \label{fig:fvtx_ew_rot}
 \end{center}
 \end{figure}
@@ -323,7 +323,7 @@ The combination of the $\eta$ acceptance changing, and the $\eta$ distribution o
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.95\linewidth]{figs/tilt_effect.png}
-\caption{(left) Cartoon diagram illustrating $\eta$ acceptance shift due to a beam offset in one of the FVTXs layers. (right) Pseudorapidity distribution of charged particles from the AMPT Monte Carlo generator for p+Au \sqsn = 200 GeV, showing the shift in $\eta$ acceptance.}
+\caption{(left) Cartoon diagram illustrating $\eta$ acceptance shift due to a beam offset in one of the FVTXs layers. (right) Pseudorapidity distribution of charged particles from the AMPT Monte Carlo generator for \pau \sqsn = 200 GeV, showing the shift in $\eta$ acceptance.}
 \label{fig:tilt_effect}
 \end{center}
 \end{figure}
@@ -333,7 +333,7 @@ In order to correct for this effect, an additional weight factor is introduced f
 w_i = w^D_i*F(\phi,Vertex_Z)
 \label{eqn:modified_weight}
 \end{equation}
-where $w^D_i$ is the default weighting associated with the detector element, and $F(\phi,Vertex_Z)$ is the multiplicative weighting to correct for the beam geometry. $F(\phi,Vertex_Z)$ is dependent on $Vertex_Z$, in addition to $\phi$, because $\eta$ is dependent on the collision vertex. One can analytically calculate this $\phi$ dependent weight factor using the geometry of the FVTXs and BBCs as well as using the $\eta$ distribution of charged particles. Unfortunately, the $\eta$ distribution of charged particles in p+Au \sqsn = 200 GeV has not been measured by an experiment, so we must rely on models that may be inaccurate.
+where $w^D_i$ is the default weighting associated with the detector element, and $F(\phi,Vertex_Z)$ is the multiplicative weighting to correct for the beam geometry. $F(\phi,Vertex_Z)$ is dependent on $Vertex_Z$, in addition to $\phi$, because $\eta$ is dependent on the collision vertex. One can analytically calculate this $\phi$ dependent weight factor using the geometry of the FVTXs and BBCs as well as using the $\eta$ distribution of charged particles. Unfortunately, the $\eta$ distribution of charged particles in \pau \sqsn = 200 GeV has not been measured by an experiment, so we must rely on models that may be inaccurate.
 
 \begin{figure}[h!]
 \begin{center}
@@ -372,9 +372,9 @@ where $N_{CLUS}(\phi,Vertex_Z,layer)$ is the number of FVTX clusters as a functi
 \label{sec:bbc_charge_weight}
 For the BBC, we used another data driven method to correct for the non-uniform particle distribution. Using the distribution of particles in the BBC from the 2015 p+p $\sqrt{s}$ = 200 dataset as a baseline, we applied an inverse weighting much like the method described in the previous paragraph. In the p+p dataset, there was no issue with beam colliding at an angle and the average charge across all 64 PMTs in the BBCs is uniform. In this method, the multiplicative weight function $F(PMT,Vertex_Z)$ for the BBCs is defined as:
 \begin{equation}
-F(PMT,Vertex_Z) = \frac{\left<N^{p+p}_{Charge}(Vertex_Z)\right>}{\left<N^{p+Au}_{Charge}(PMT,Vertex_Z)\right>},
+F(PMT,Vertex_Z) = \frac{\left<N^{p+p}_{Charge}(Vertex_Z)\right>}{\left<N^{\pau}_{Charge}(PMT,Vertex_Z)\right>},
 \end{equation}
-where $<N^{p+p,p+Au}_{Charge}(PMT,Vertex_Z)>$ is the event averaged charge as a function of PMT and $Vertex_z$ for the p+p and p+Au datasets respectively. 
+where $<N^{p+p,\pau}_{Charge}(PMT,Vertex_Z)>$ is the event averaged charge as a function of PMT and $Vertex_z$ for the p+p and \pau datasets respectively. 
 This weight function is shown in Fig \ref{fig:bbc_weight_function} and is applied directly to the event plane calculation using Eqns \ref{eqn:modified_weight} and \ref{eqn:bbc_ep_eqns}. 
 Although the weight function could be defined as a function of $\phi$ like in the FVTX case, the positions of the PMTs in the BBC are fixed and it is more direct to take the ratio between PMTs.
 
@@ -386,12 +386,12 @@ Although the weight function could be defined as a function of $\phi$ like in th
 \end{center}
 \end{figure}
 
-One effect of using this weighting method is that it will make the distribution of particles in the BBC in $\phi$ and $\eta $ uniform. This can be illustrated by looking at Fig \ref{fig:bbc_pmt_phi_pp_pau}. It is apparent that the p+p average charge is much more uniform than the p+Au average charge as a function of $\phi$ and ring. After applying the p+p/p+Au ratio weighting, which is essentially dividing the left plot by the right plot in Fig \ref{fig:bbc_pmt_phi_pp_pau}, the PMT charges in ring 1 for the p+Au dataset will be deweighted so that their corrected average charge will be uniform in $\phi$, and in agreement with the average charge for the other rings. If all the BBC rings have the same average charge, this means that the average charge as a function of $\eta$ for the BBC will be approximately uniform. This is one reason why this method (p+p/p+Au ratio weighting) is preferred for the BBC, because the variations in the average charge between the rings are normalized. One could apply the FVTX method of inverse $\phi$ weighting by inverting the right plot of Fig \ref{fig:bbc_pmt_phi_pp_pau} to find the weight function. However, although using only the p+Au dataset would normalize the average charge as a function of $\phi$, it would not normalize the charge as a function of $\eta$. Both methods applied to the data are shown in the next section but the p+p/p+Au ratio method does better.
+One effect of using this weighting method is that it will make the distribution of particles in the BBC in $\phi$ and $\eta $ uniform. This can be illustrated by looking at Fig \ref{fig:bbc_pmt_phi_pp_pau}. It is apparent that the p+p average charge is much more uniform than the \pau average charge as a function of $\phi$ and ring. After applying the p+p/\pau ratio weighting, which is essentially dividing the left plot by the right plot in Fig \ref{fig:bbc_pmt_phi_pp_pau}, the PMT charges in ring 1 for the \pau dataset will be deweighted so that their corrected average charge will be uniform in $\phi$, and in agreement with the average charge for the other rings. If all the BBC rings have the same average charge, this means that the average charge as a function of $\eta$ for the BBC will be approximately uniform. This is one reason why this method (p+p/\pau ratio weighting) is preferred for the BBC, because the variations in the average charge between the rings are normalized. One could apply the FVTX method of inverse $\phi$ weighting by inverting the right plot of Fig \ref{fig:bbc_pmt_phi_pp_pau} to find the weight function. However, although using only the \pau dataset would normalize the average charge as a function of $\phi$, it would not normalize the charge as a function of $\eta$. Both methods applied to the data are shown in the next section but the p+p/\pau ratio method does better.
 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.75\linewidth]{figs/pp_pau_bbc_comparison.png}
-\caption{These plots depict the average PMT charge per event versus $\phi$ in the a) the p+p $\sqrt{s}$ = 200 GeV and b) p+Au \sqsn = 200 GeV. The PMTs are separated by color, which corresponds to the rings of approximate common radius as shown in Fig \ref{fig:bbc_rings}. The left plot shows near uniformity as a function of $\phi$ and ring. However, the right plot shows a significant deviation from uniformity especially for the innermost rings (rings 1 and 2). In addition to the $\phi$ variation for the right plot, the innermost rings have the largest average charge when compared to the other rings. This is in part due to the fact the innermost rings cover the a slightly larger $\eta$ range. However, the innermost rings in the left plot also cover the largest $\eta$ range and do not exhibit this separation in rings. }
+\caption{These plots depict the average PMT charge per event versus $\phi$ in the a) the p+p $\sqrt{s}$ = 200 GeV and b) \pau \sqsn = 200 GeV. The PMTs are separated by color, which corresponds to the rings of approximate common radius as shown in Fig \ref{fig:bbc_rings}. The left plot shows near uniformity as a function of $\phi$ and ring. However, the right plot shows a significant deviation from uniformity especially for the innermost rings (rings 1 and 2). In addition to the $\phi$ variation for the right plot, the innermost rings have the largest average charge when compared to the other rings. This is in part due to the fact the innermost rings cover the a slightly larger $\eta$ range. However, the innermost rings in the left plot also cover the largest $\eta$ range and do not exhibit this separation in rings. }
 \label{fig:bbc_pmt_phi_pp_pau}
 \end{center}
 \end{figure}
@@ -407,7 +407,7 @@ The previously discussed corrections are applied when calculating the raw $\Psi_
 \end{center}
 \end{figure}
 
-Similarly, Figure \ref{fig:bbc_corr_summary} is the correction summary for the BBCs $v_2$ measurement where $R_{v_2^{BBCs}}$ is the y-axis. The first column corresponds to $R_{v_2^{BBCs}}$ calculated using all five BBCs rings. Compared to the $R_{v_2^{BBCs}}$ when calculated with no weighting, $R_{v_2^{BBCs}}$ when calculated with the data driven and p+p/p+Au ratio weighting is modestly closer to 1.0. By looking at $R_{v_2^{BBCs}}$ calculated with PMTs in individual BBCs rings for the weighted points, $R_{v_2^{BBCs}}$ is generally trending downward as a function of ring number. Applying the weighting corrections to $R_{v_2^{BBCs}}$ calculated by ring 1, the innermost ring, over-corrects $R_{v_2^{BBCs}}$. This may be explained by the fact that ring 1 covers the largest $\eta$ acceptance range, causing the correction to be inconsistent. The reason why ring 1 is not excluded from the inclusive $v_2$ calculation, like FVTXs layer 3 excluded, is because there is no reasonable justification to exclude it other than its over-corrected $R_{v_2^{BBCs}}$ values. While FVTXs layer 3 breaks the trend of $R_{v_2^{FVTXs}}$ decreasing, BBCs ring 1 follows the $R_{v_2^{BBCs}}$ ring trend.
+Similarly, Figure \ref{fig:bbc_corr_summary} is the correction summary for the BBCs $v_2$ measurement where $R_{v_2^{BBCs}}$ is the y-axis. The first column corresponds to $R_{v_2^{BBCs}}$ calculated using all five BBCs rings. Compared to the $R_{v_2^{BBCs}}$ when calculated with no weighting, $R_{v_2^{BBCs}}$ when calculated with the data driven and p+p/\pau ratio weighting is modestly closer to 1.0. By looking at $R_{v_2^{BBCs}}$ calculated with PMTs in individual BBCs rings for the weighted points, $R_{v_2^{BBCs}}$ is generally trending downward as a function of ring number. Applying the weighting corrections to $R_{v_2^{BBCs}}$ calculated by ring 1, the innermost ring, over-corrects $R_{v_2^{BBCs}}$. This may be explained by the fact that ring 1 covers the largest $\eta$ acceptance range, causing the correction to be inconsistent. The reason why ring 1 is not excluded from the inclusive $v_2$ calculation, like FVTXs layer 3 excluded, is because there is no reasonable justification to exclude it other than its over-corrected $R_{v_2^{BBCs}}$ values. While FVTXs layer 3 breaks the trend of $R_{v_2^{FVTXs}}$ decreasing, BBCs ring 1 follows the $R_{v_2^{BBCs}}$ ring trend.
 
 \begin{figure}[!h]
 \begin{center}
@@ -423,7 +423,7 @@ Fig \ref{fig:fvtx_corrected_best} shows the $v_2(p_T)$ with the inverse $\phi$ w
 \begin{center}
 \includegraphics[width=0.75\linewidth]{figs/fvtx_corrected.png}
 \includegraphics[width=0.75\linewidth]{figs/bbc_pp_correction.png}
-\caption{ FVTXs $v_2$ event plane measurement corrected with inverse $\phi$ weighting and 20 $\%$ cut with FVTXs layer 3 is excluded (top) and BBCs $v_2$ event plane measurement corrected with p+p/p+Au ratio weighting (bottom).}
+\caption{ FVTXs $v_2$ event plane measurement corrected with inverse $\phi$ weighting and 20 $\%$ cut with FVTXs layer 3 is excluded (top) and BBCs $v_2$ event plane measurement corrected with p+p/\pau ratio weighting (bottom).}
 \label{fig:fvtx_corrected_best}
 \end{center}
 \end{figure}
@@ -436,7 +436,7 @@ Fig \ref{fig:fvtx_corrected_best} shows the $v_2(p_T)$ with the inverse $\phi$ w
 %\end{figure}
 
 \section{Systematic Uncertainties}
-The dominant systematic uncertainties associated with the $v_2(p_T)$ measurement are as follows: (1) track background from photonic conversions and weak decays, which we estimate at 2\% relative to $v_2$ by varying the windows in the PC3 matching variables from 3$\sigma$ to 2$\sigma$; (2) many collisions occurring in the same bunch crossing, that occur at a rate of 8\% in 0-5\% central p+Au collisions. Low-luminosity and high-luminosity subsets of the data were analyzed, and the systematic uncertainty was determined to be $^{+4\%}_{-0\%}$, since the $v_2$  was found to decrease in the events that contain a pile-up; (3) non-flow correlations which enhance the $v_2$, whose contribution we estimate from Fig.~\ref{fig:non_flow}, assigning a $p_T$-dependent asymmetric uncertainty with a maximum value of $^{+0}_{-23}\%$; (4) as discussed in the previous section, the beam alignment effects on the determination of $\Psi_2$. We assign a value of $5\%$ for this systematic uncertainty by taking the difference of $v_2$ when measured independently in the east and the west arms after applying the necessary corrections; (5) the difference in the $v_2(p_T)$ values when measured independently using the BBCs and FVTXs event planes, which differ by $\pm$3\%. 
+The dominant systematic uncertainties associated with the $v_2(p_T)$ measurement are as follows: (1) track background from photonic conversions and weak decays, which we estimate at 2\% relative to $v_2$ by varying the windows in the PC3 matching variables from 3$\sigma$ to 2$\sigma$; (2) many collisions occurring in the same bunch crossing, that occur at a rate of 8\% in 0-5\% central \pau collisions. Low-luminosity and high-luminosity subsets of the data were analyzed, and the systematic uncertainty was determined to be $^{+4\%}_{-0\%}$, since the $v_2$  was found to decrease in the events that contain a pile-up; (3) non-flow correlations which enhance the $v_2$, whose contribution we estimate from Fig.~\ref{fig:non_flow}, assigning a $p_T$-dependent asymmetric uncertainty with a maximum value of $^{+0}_{-23}\%$; (4) as discussed in the previous section, the beam alignment effects on the determination of $\Psi_2$. We assign a value of $5\%$ for this systematic uncertainty by taking the difference of $v_2$ when measured independently in the east and the west arms after applying the necessary corrections; (5) the difference in the $v_2(p_T)$ values when measured independently using the BBCs and FVTXs event planes, which differ by $\pm$3\%. 
 
 Table~\ref{t:sys} summarizes of all these systematic
 uncertainties, categorized by type:
@@ -508,10 +508,10 @@ Fig \ref{fig:jet_corr_example} shows the characteristic two-particle correlation
 \end{center}
 \end{figure}
 
-In order to estimate the degree of presence of non-flow, we can measure the $c_2$ from p+p events which should be devoid of any hydrodynamic flow but should have many of the sources of non-flow present. In order to compare p+p with p+Au, we must scale-up the p+p quantity by the dilution factor defined in eq \ref{eq:dilute}.
-The scaled down reference $c_{2}$ is shown as blue squares in Fig.~\ref{fig:non_flow}, panel (a). The ratio of $c_2$ in the scaled-down p+p reference to that in p+Au is shown in panel (b). 
+In order to estimate the degree of presence of non-flow, we can measure the $c_2$ from p+p events which should be devoid of any hydrodynamic flow but should have many of the sources of non-flow present. In order to compare p+p with \pau, we must scale-up the p+p quantity by the dilution factor defined in eq \ref{eq:dilute}.
+The scaled down reference $c_{2}$ is shown as blue squares in Fig.~\ref{fig:non_flow}, panel (a). The ratio of $c_2$ in the scaled-down p+p reference to that in \pau is shown in panel (b). 
 
-From this ratio, as calculated in \ref{eq:dilute}, it can be seen that the relative correlation strength in p+Au from elementary processes is at most 23$\%$ at the highest $p_T$. Since this procedure constitutes an approximation to quantify the non-flow correlation strength, it is not subtracted from the total signal, instead it is treated as a source of systematic uncertainty. Even though the p+Au and the p+p baseline data were collected in different years, such that potential changes in detector performance could affect our results, it was verified that using p+p data from various run periods has an effect of at most 3$\%$ on the calculated non-flow contribution.
+From this ratio, as calculated in \ref{eq:dilute}, it can be seen that the relative correlation strength in \pau from elementary processes is at most 23$\%$ at the highest $p_T$. Since this procedure constitutes an approximation to quantify the non-flow correlation strength, it is not subtracted from the total signal, instead it is treated as a source of systematic uncertainty. Even though the \pau and the p+p baseline data were collected in different years, such that potential changes in detector performance could affect our results, it was verified that using p+p data from various run periods has an effect of at most 3$\%$ on the calculated non-flow contribution.
 \begin{equation}
 c_{2}^{{\rm pAu \; elementary}}(p_{T}) \simeq c_{2}^{p+p}(p_{T})
 \frac{\left( \sum Q^{{\rm \text{BBC-S}}} \right)_{p+p}}
@@ -524,7 +524,7 @@ c_{2}^{{\rm pAu \; elementary}}(p_{T}) \simeq c_{2}^{p+p}(p_{T})
 \begin{center}
 \includegraphics[width=0.6\linewidth]{figs/non_flow.pdf}
 \caption{(a) The second order harmonic coefficients $c_2(p_T)$ for long range angular correlations in
-0\%--5\% p+Au collisions, as well as for minimum bias p+p collisions. The latter are scaled down by the factor $\left( \sum Q^{{\rm \text{BBC-S}}} \right)_{p+p} / \left( \sum Q^{{\rm
+0\%--5\% \pau collisions, as well as for minimum bias p+p collisions. The latter are scaled down by the factor $\left( \sum Q^{{\rm \text{BBC-S}}} \right)_{p+p} / \left( \sum Q^{{\rm
 \text{BBC-S}}} \right)_{{\rm pAu}}$. (b)~The
 ratio of the two harmonics is plotted with the corresponding statistical errors.}
 \label{fig:non_flow}
@@ -542,7 +542,7 @@ ratio of the two harmonics is plotted with the corresponding statistical errors.
 
 
 %\subsection{Dataset Quality Assurance}
-%A PHENIX "run" (lower case r) is defined a group of events that were taken over a single timespan of max length 90 minutes. The for p+Au dataset, there are on 
+%A PHENIX "run" (lower case r) is defined a group of events that were taken over a single timespan of max length 90 minutes. The for \pau dataset, there are on 
 %average 5 million events per run and there are 339 runs. 
 %\begin{figure}[!h]
 %\begin{center}
@@ -555,7 +555,7 @@ ratio of the two harmonics is plotted with the corresponding statistical errors.
 %\begin{figure}[!h]
 %\begin{center}
 %\includegraphics[width=0.65\linewidth]{figs/integrated_luminosity.png}
-%\caption{Integrated luminosity from the p+Au dataset.}
+%\caption{Integrated luminosity from the \pau dataset.}
 %\end{center}
 %\end{figure}
 %\section{bbc charge}
@@ -563,7 +563,7 @@ ratio of the two harmonics is plotted with the corresponding statistical errors.
 %\begin{center}
 %\includegraphics[width=0.65\linewidth]{figs/centrality_determination.png}
 %\caption{Real data for BBC Charge South (Au-going direction) shown as open circles and Glauber Monte Carlo + NBD. The colors correspond to the various
-%percentiles relative to the total inelastic p+Au cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Leve-1 trigger
+%percentiles relative to the total inelastic \pau cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Leve-1 trigger
 %efficiency in all inelastic collisions and inelastic collisions producing a particle at midrapidity, respectively. The best fit NBD parameters are mu = 3.14, k = 0.47
 %, and the trigger firing on 84 +/- 3$\%$ of the total inelastic cross section [sigma = 1.76 barns].}
 %\end{center}
