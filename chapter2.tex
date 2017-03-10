@@ -182,11 +182,11 @@ Initial condition models use a variety of methods to simulate the colliding nucl
 \label{eqn:eccentricity_equation_ch2}
 \varepsilon_n = \frac{\sqrt{<r^2 \cos(n\phi)>^2+<r^2 \sin(n\phi)>^2}}{<r^2>}
 \end{equation}
-where $r$ is the radius of the participant nucleon, relative to the center of mass. This quantity is important because $v_n \propto \varepsilon_n$ in the limit of ideal hydrodynamics.
+where $r$ is the radius of the participant nucleon, relative to the center of mass. This quantity is important because $v_n \propto \varepsilon_n$ in the limit of ideal hydrodynamics~\cite{PhysRevC.81.054905}.
 
 A key part in simulating initial the conditions of heavy ion collisions is understanding event-to-event fluctuations.  An important source of fluctuations, generic to all models of quantum fluctuations, are fluctuations in the distributions of nucleons in the nuclear wavefunctions. In addition, there are fluctuations in the color charge distributions inside a nucleon. This, combined with Lorentz contraction, results in “lumpy” transverse projections of color charge configurations that vary event to event. There are more sophisticated models where there are simple constituent quark models with the three color charge centers in the nucleon~\cite{PhysRevC.94.024919}. The scale of this lumpiness is given on average by the nuclear saturation scale $Q_s$ which corresponds to distance scales smaller than the nucleon size . For each such configuration of color charges, the Quantum Chromo-Dynamics (QCD) parton model predicts dynamical event-by-event fluctuations in the multiplicities, the impact parameters, and the rapidities of produced gluons \cite{PhysRevLett.108.252301}.
 
-\subsubsection{Monte-Carlo Glauber}
+\subsubsection{Monte-Carlo Glauber}%reword section to avoid plagiarism
 There are two main Glauber models: the so called ``optical" Glauber model which assumes a smooth density described by a Fermi distribution in the radial direction; and the Monte-Carlo-based Glauber model where individual nucleons are stochastically distributed on an event basis and collision properties are determined by averaging over multiple events. The optical form of Glauber does not locate nucleons at specific spatial coordinates like the Monte Carlo form of Glauber. While both models give consistent results for determining simple quantities such as $\langle N_{part}\rangle$ and $b$, the impact parameter, the more statistical Monte-Carlo approach has given $\varepsilon_n$ values that are necessary for the described experimental data. One benefit of the Monte-Carlo approach for quantities like $N_{part}$ is its simplicity and ability to simultaneously simulate experimentally observable quantities, such as charged particle multiplicity distribution.
 
 The Monte-Carlo Glauber (MC Glauber) model calculation is performed in two steps. At first, the nucleon positions in each nucleus are stochastically determined. Then, the two nuclei are collided, assuming the nucleons travel in a straight line along the beam axis (known as the Eikonal approximation), such that nucleons are tagged as wounded (participating) or spectator.
@@ -232,7 +232,7 @@ where $\sigma_{x,y}^2$ are the $x$ and $y$ variances for participating nucleons 
 %\end{center}
 %\end{figure}
 
-\subsubsection{IP-Glasma}
+\subsubsection{IP-Glasma}%reword section to avoid plagiarism
 Another initial state model is known as IP-Glasma. This model calculates the initial conditions within a Color Glass Condensate (CGC) framework by combining the impact parameter dependent saturation model (IP-Sat) with the Classical Yang-Mills (CYM) description of initial Glasma fields. Calculating initial state dynamics by flowing Glasma gluon fields is thought to be an \textit{ab initio}, or from first principles, approach, although some of the parameters of the model are fixed by diffractive e+p DIS data. The IP-Glasma computation starts by sampling the positions of the constituent nucleons from a Fermi distribution. Then the saturation scale $Q^2_{s,(p)}(x,\textbf{b})$ is obtained from IP-Sat dipole cross section for each nucleus, where $b$ is the impact parameter relative to each participant nucleon's center. Once the saturation scale and the color charge density are obtained, random color charges are sampled from a transverse lattice \cite{PhysRevLett.108.252301}.
 
 A benefit of the IP-Glasma model is that it explicitly includes multiple types of quantum fluctuations, including fluctuations of color charges within the nucleons. It is useful to compare the calculations of IP-Glasma to MC-Glauber in order to gain a greater understanding of both.
@@ -250,7 +250,7 @@ Figure \ref{fig:ipg_mcg_comp} depicts the energy density distributions calculate
 \subsection{Medium Evolution Models}
 Once an energy density distribution is calculated from the initial condition models, it used as the input to a medium evolution model. The most commonly used medium evolution model is the relativistic hydrodynamic model.
 
-\subsubsection{Hydrodynamic Modeling}
+\subsubsection{Hydrodynamic Modeling}%reword section to avoid plagiarism
 Relativistic hydrodynamics is a macroscopic tool to simulate the evolution of a strongly coupled QGP medium. It is based on the foundational physical principles of conservation of energy, momentum, and net charge current which are written as:
 \begin{align}
 \delta_{\mu} T^{\mu\nu}(x) &= 0,\\
@@ -279,7 +279,7 @@ A hybrid model matches hydrodynamic descriptions of the expanding QGP to microsc
 The ``Super hybrid mOdel simulatioN for relativistic heavy-Ion Collisions" (SONIC) combines pre-equilibrium dynamics with hydrodynamics~\cite{PhysRevC.78.034915} and a late-stage hadronic cascade~\cite{PhysRevC.92.011901}. In effect, SONIC has only a limited number of parameters, namely those specifying the properties of the incoming nuclei, equation of states as input to from lattice QCD, and shear and bulk viscosities in the QGP. As discussed when describing initial conditions models, fluctuations play a large role in determining the hydrodynamic flow. In order to study the effects of fluctuations in simulation, SONIC is an event-by-event simulation is created by inputing fluctuating initial conditions, evolving each system separately, and then averaging the results.
 
 SuperSONIC is the next generation of the SONIC model, differing from SONIC by incorporating pre-equilibrium dynamics with a calculation in the framework of the AdS/CFT correspondence \cite{Romatschke2015}. The SONIC and superSONIC models agree well with the data within uncertainties.
-\subsection{AMPT}
+\subsection{AMPT}%reword section to avoid plagiarism
 A Multi-Phase Transport (AMPT) model combines partonic and hadronic scattering in a single model. AMPT is the culmination of many models together. It is in an alternative to the hydrodynamic approach of medium evolution by using partonic strings instead of fluid cells as the building blocks of the model. The use of partonic strings preserve discrete particle information throughout the simulation which is useful in dissecting simulations. Despite the fact that AMPT is not a hydrodynamic model, it still is consistent with substantial flow coefficients as will be shown in Chapter 5.
 
 AMPT consists of four main components: the initial conditions, partonic interactions, the conversion from the partonic to the hadronic matter, and hadronic interactions. AMPT uses the Heavy Ion Jet Interaction Generator (HIJING) for generating the initial conditions, Zhang's Parton Cascade (ZPC) for modeling partonic scatterings, the Lund string fragmentation model or a quark coalescence model for hadronization, and A Relativistic Transport (ART) model for treating hadronic scatterings. The HIJING model converts the initial incident energy to the production of hard minijet partons and soft strings, with excited strings further converting to partons in the AMPT model with string melting. Then ZPC is used to model the interactions among partons. An implementation of the Lund string fragmentation converts the excited strings to hadrons. The ART model is used for for describing interactions among hadrons \cite{PhysRevC.72.064901}.
@@ -377,7 +377,6 @@ It is also interesting to note that for both systems, the $v_2\{4\}$, $v_2\{6\}$
 \fi
 
 \subsection{Measurements Made at RHIC}
-
 Flow measurements in small systems have also be made at the lower energy accelerator, RHIC. Small collision systems, \dau, \hau, and $p+Au$ at \sqsn = 200 GeV per nucleon were taken at RHIC in 2008, 2014, and 2015, respectively. The 2008 \dau dataset was intended to measure cold nuclear matter effects; however, RHIC experiments such as PHENIX had the capability to go back and measure $v_2(\pt)$. PHENIX was able to measure $v_2$ for \dau and for \hau for the 0-5\% most central events, as shown in Figure \ref{fig:dhau_v2_v3}. A substantial $v_2$ is observed for both \dau and \hau events with a strong \pt dependence, which is similar to that seen in \ppb at the LHC. Instead of subtracting the non-flow component, as was done in Figure \ref{fig:pPb_ridge_subtraction}, the non-flow is incorporated as a systematic uncertainty. In addition to the $v_2$ measurement, a substantial $v_3$ is measured for the \hau dataset. This measurement is significant because the observation of more than one flow indicates the system is exhibiting complex behavior. A single flow harmonic could be explained by a variety of causes, whereas two flow harmonics from the same system narrow the range of possible explanations.
 
 \begin{figure}[h!]
