@@ -44,13 +44,13 @@ PHENIX's detectors throughout the years include (in no particular order) the Dri
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.7\linewidth]{figs/phenix_schematic.png}
-\caption{A cross section diagram of the PHENIX detector from the incoming beam's perspective (top) and a cross section diagram of the PHENIX detector from the top down (bottom). The central arm detectors are not present in the bottom diagram[21].}
+\includegraphics[width=0.55\linewidth]{figs/phenix_schematic.png}
+\caption{A cross section diagram of the PHENIX detector from the incoming beam's perspective (top) and a cross section diagram of the PHENIX detector from the top down (bottom). The central arm detectors are not present in the bottom diagram~\cite{Aidala201444}.}
 \label{fig:phenix_schematic}
 \end{center}
 \end{figure}
 
- For this thesis, the relevant detectors installed in 2015 are the DC, PC, RICH, BBC, and FVTX. The DC, PC, and RICH are located in the mid-rapidity region relative to collisions (Central Arms) and the BBC and FVTX are located in the forward (and backward) rapidity region relative to collisions (Forward Arms) \cite{Adcox2003469}. 
+For this thesis, the relevant detectors installed in 2015 are the DC, PC, RICH, BBC, and FVTX. The DC, PC, and RICH are located in the mid-rapidity region relative to collisions (Central Arms) and the BBC and FVTX are located in the forward (and backward) rapidity region relative to collisions (Forward Arms) \cite{Adcox2003469}. 
 
 PHENIX makes use of the three powerful magnets in order to bend charged the particles' trajectories: the Central Magnet (CM), the North Muon Magnet (MMN), and the South Muon Magnet (MMS).
 
@@ -60,13 +60,13 @@ For reference, Figure \ref{fig:ch3_coord_sys} depicts the PHENIX coordinate syst
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.55\linewidth]{figs/phenix_coord.png}
-\caption{The PHENIX coordinate system. The origin is in the middle of the PHENIX detector at the collision point. North and south are parallel to beam axis. East and west are transverse to the beam axis. Central detectors have a west and an east arm on either side of the beam. Forward detectors have a north and a south arm relative to the origin.}
+\caption{The PHENIX coordinate system. The origin is in the middle of the PHENIX detector at the collision point. North and south are parallel to beam axis. East and west are transverse to the beam axis. Central detectors have a west and an east arm on either side of the beam. Forward detectors have a north and a south arm relative to the origin \textbf{add ref}.}
 \label{fig:ch3_coord_sys}
 \end{center}
 \end{figure}
 
 \subsection{PHENIX Magnet System}
- The CM magnet has two circular coils which can be configurated in the same direction (++ or $-$ $-$) of the opposite direction (+$-$). The +$-$ configuration is used for ``zero-field" running which is used for alignment purposes. Figure \ref{fig:magnet_figures} shows the magnetic field lines and strength produced by the PHENIX magnets. The magnetic field lines at mid-rapidity, $|Z| < 0.3$m on the plot, have a peak strength of $\sim$0.9 T near the beam pipe and are very uniform in direction out to $\sim$R = 2 m. The right panel of \ref{fig:magnet_figures} depicts the magnetic field strength as a function of distance from the center of PHENIX. For any of the possible CM magnet configurations, the magnetic field strength is very small at 2 m.
+ The CM magnet has two circular coils which can be configured in the same direction (++ or $-$ $-$) of the opposite direction (+$-$). The +$-$ configuration is used for ``zero-field" running which is used for alignment purposes. Figure \ref{fig:magnet_figures} shows the magnetic field lines and strength produced by the PHENIX magnets. The magnetic field lines at mid-rapidity, $|Z| < 0.3$m on the plot, have a peak strength of $\sim$0.9 T near the beam pipe and are very uniform in direction out to $\sim$R = 2 m. The right panel of \ref{fig:magnet_figures} depicts the magnetic field strength as a function of distance from the center of PHENIX. For any of the possible CM magnet configurations, the magnetic field strength is very small at 2 m.
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.45\linewidth]{figs/magnet_map.png}
@@ -75,15 +75,15 @@ For reference, Figure \ref{fig:ch3_coord_sys} depicts the PHENIX coordinate syst
 \label{fig:magnet_figures}
 \end{center}
 \end{figure}
-\subsection{Forward Rapidity Detectors}
+%\subsection{Forward Rapidity Detectors}
 %The general design philosophy for PHENIX forward rapidity detectors 
-\subsubsection{Beam Beam Counter}
-The BBC is a forward detector used to determine the event start time, vertex, centrality, and event plane. The BBC is composed of two mirror image arrays, a South and a North Arm, that surround the beam pipe 144 cm on opposite sides of the nominal collision point just behind the Central Magnet, covering $3.0 < |\eta| < 3.9$ and 2$\pi$ radians in azimuth. Each BBC arm is made of 64 elements each composed of a 3-cm length quartz Cherenkov radiator connected to a 2.5 cm diameter Hamamatsu R6178 mesh dynode PMT (photomultiplier tube), as shown in Fig \ref{fig:bbc_dector}. The outer and inner diameters of the BBC are 30 cm and 10 cm, respectively.% allowing for a 1 cm clearance of the beam pipe.
+\subsection{Beam Beam Counter}
+The BBC is a forward detector used to determine the event start time, vertex, centrality, and event plane. The BBC is composed of two mirror image arrays, a South and a North Arm, that surround the beam pipe 144 cm on opposite sides of the nominal collision point just behind the Central Magnet, covering $3.0 < |\eta| < 3.9$ and 2$\pi$ radians in azimuth. Each BBC arm is made of 64 elements each composed of a 3-cm length quartz Cherenkov radiator connected to a 2.5 cm diameter Hamamatsu R6178 mesh dynode PMT (photomultiplier tube), as shown in Figure \ref{fig:bbc_dector}. The outer and inner diameters of the BBC are 30 cm and 10 cm, respectively.% allowing for a 1 cm clearance of the beam pipe.
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.45\linewidth]{figs/bbc_pmt.png}
 \includegraphics[width=0.45\linewidth]{figs/bbc_arm.png}
-\caption{Photographs of the BBC detector. The left is of a single detector element consisting of a quartz Cherenkov and a PMT. The right is of one of the BBC arms, consisting of 64 detector elements.\textbf{add ref}}
+\caption{Photographs of the BBC detector. The left is of a single detector element consisting of a quartz Cherenkov and a PMT. The right is of one of the BBC arms, consisting of 64 detector elements~\cite{Adcox2003469}.}
 \label{fig:bbc_dector}
 \end{center}
 \end{figure}
@@ -107,20 +107,20 @@ The BBC also provides the centrality classification, as described in Chapter 2, 
 %\end{center}
 %\end{figure}
 %[LIST PHENIX forward rapidity detectors (muon ID, muon tracker, muon trigger, FVTX, RPC (maybe forget about the big list! yes it is a waste of time)]
-\subsubsection{Forward Vertex Detector}
+\subsection{Forward Vertex Detector}
 %[talk about how it is a new upgrade in 2012, talk about ]
 The FVTX is a PHENIX detector upgrade that became operational in 2012 for taking physics data. The FVTX uses charged particle tracking, collision vertex determination, and event plane determination \cite{Aidala201444}. The FVTX consists of two identical endcaps covering a combined psuedorapidity range of 1 $<|\eta|<$ 3 and full azimuth coverage. Each endcap has four stations of silicon mini-strip sensors with a pitch of 75 $\mu m$ arranged in the radial direction around the beam pipe. The basic unit of construction is a wedge that has a silicon strip sensor and read-out chips. There are four FVTX layers in each endcap. The inner most layer (on each side) of the FVTX has a smaller radius. Figure \ref{fig:fvtx_cutaway} is a photograph of the FVTX disks and an engineering drawing of the FVTX and support structure. The FVTX is used in this thesis to calculate an event plane.
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.45\linewidth]{figs/fvtx_cutaway.png}
 \includegraphics[width=0.45\linewidth]{figs/fvtx_diagram.png}
-\caption{A photograph of half of the FVTX. The FVTX are the half disks on either end of the picture (left) and a schematic of the FVTX at a slightly different angle (right). The FVTX is only 20 cm in the z direction from the PHENIX coordinate system origin (the center of each picture).\textbf{add ref}}
+\caption{A photograph of half of the FVTX. The FVTX are the half disks on either end of the picture (left) and a schematic of the FVTX at a slightly different angle (right). The FVTX is only 20 cm in the $z$ direction from the PHENIX coordinate system origin (the center of each picture)~\cite{Aidala201444}.}
 \label{fig:fvtx_cutaway}
 \end{center}
 \end{figure}
 %\subsubsection{FVTX Clustering}
-\subsection{Midrapidity Detectors}
-\subsubsection{Drift Chamber}
+%\subsection{Midrapidity Detectors}
+\subsection{Drift Chamber}
 The DC consists of two gas multi-wire chambers, one located in each arm. The DC is used to measure particle trajectories in the r-$\phi$ plane.
 The DC is located $\sim$2 m from the z-axis, placing it in a very small residual magnetic field from the CM. Apart from the VTX, the DC is the first detector encountered by a particle in mid-rapidity. 
 
@@ -130,28 +130,29 @@ As a charged particle passes through the DC volume, the gases are ionized to cre
 \begin{center}
 \includegraphics[width=0.45\linewidth]{figs/dc_diagram.png}
 \includegraphics[width=0.45\linewidth]{figs/dc_wire_diagram.png}
-\caption{A diagram of the DC titanium frame which encloses the detector (left) and a diagram of the X, U, and V wires in the DC (right).}
+\caption{A diagram of the DC titanium frame which encloses the detector (left) and a diagram of the X, U, and V wires in the DC (right)~\cite{Adcox2003469}.}
 \label{fig:dc_diagram}
 \end{center}
 \end{figure}
 
-Each identical DC arm is cylindrical in design and covers 2.5 m along the beam direction and is 0.4 m thick as seen on the left in Fig \ref{fig:dc_diagram}. A gas mixture of $50\%$ Argon and $50\%$ Ethane is used in each arm of the DC. Each arm is divided into 20 equal sectors covering 4.5 degrees in $\phi$. Each sector contains six types of wire modules stacked radially and labeled X1, U1, V1, X2, U2, V2, respectively, from the inside out. The X wires run parallel to the beam to perform precise $\phi$ measurements while the U and V wires are set at small angles of about six degrees relative to the X wires to provide information about the z position of the track. A diagram of the wire layout in each sector is shown on the right in Figure \ref{fig:dc_diagram}. In total, the DC consists of 6500 anode wires leading to 13,000 readout channels, with a measured single wire resolution of 165 m and a spatial resolution of  2 mm.
+Each identical DC arm is cylindrical in design and covers 2.5 m along the beam direction and is 0.4 m thick as seen on the left in Figure \ref{fig:dc_diagram}. A gas mixture of $50\%$ Argon and $50\%$ Ethane is used in each arm of the DC. Each arm is divided into 20 equal sectors covering 4.5 degrees in $\phi$. Each sector contains six types of wire modules stacked radially and labeled X1, U1, V1, X2, U2, V2, respectively, from the inside out. The X wires run parallel to the beam to perform precise $\phi$ measurements while the U and V wires are set at small angles of about six degrees relative to the X wires to provide information about the z position of the track. A diagram of the wire layout in each sector is shown on the right in Figure \ref{fig:dc_diagram}. In total, the DC consists of 6500 anode wires leading to 13,000 readout channels, with a measured single wire resolution of 165 m and a spatial resolution of  2 mm.
 
 %\clearpage
-\subsubsection{Pad Chambers}
+\subsection{Pad Chambers}
 The PCs are multi-wire proportional chambers which consist of three separate layers of detectors measuring precise hit positions in the PHENIX tracking system. The innermost layer, PC1, is located in both the East and West arms immediately outside the DC, providing a measurement of the $z$ position at the back plane of the DC. The second layer, PC2, is located behind the RICH in the West arm only. The outer layer, PC3, is in both arms and provides a second point on the straight line trajectories of the tracks through the detector, outside of the CM magnetic field as shown in Figure \ref{fig:magnet_figures}. PC1 hits are used to reduce the track background.
 
-\subsubsection{Ring Imaging Cherenkov Detector}
+\subsection{Ring Imaging Cherenkov Detector}
 The RICH detector is located immediately behind the PC1 and provides the primary electron identification for PHENIX. The RICH consists of two identical detectors in CA. Each detector contains 48 mirro panels which focus Cherenkov light onto PMTs. The RICH is filled with radiator gas, which is CO$_2$ for for the \pau running. The RICH provides e/$\pi$ (electron over pion) discrimination below the $\pi$ Cherenkov threshold of $\sim$4 GeV/c. Figure \ref{fig:rich_discrim_ep} shows the energy over momentum $E$/$p$ distribution in \auau = \sqsn 200 GeV collisions. When RICH hits are required in conjunction with DC tracks, a clear electron signal peak can be seen at $E$/$p$ = 1.0.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.55\linewidth]{figs/e_over_p_rich_discrimination.png}
 \caption{Ratio of energy to momentum for all Drift Chamber tracks (dashed-dotted line), and tracks associated with RICH hits (solid line) in \auau = \sqsn 200 GeV collisions. The \pt range is given in the title~\cite{Aizawa2003508}.}
 \label{fig:rich_discrim_ep}
 \end{center}
 \end{figure}
-\subsubsection{Electromagnetic Calorimeter}
+
+\subsection{Electromagnetic Calorimeter}
 The EMCAL is the outermost subsystem in the central arms and is designed primarily to measure the energies and positions of photons and electrons. It also plays a key role in particle identification, as well as providing triggering because rare events. Two different EMCAL designs were utilized with 6 sectors based on a lead-scintillator design and 2 sectors based on a lead-glass design. The two different designs were chosen deliberately as each provides advantages and disadvantages; for instance the lead glass has a better energy resolution, while the lead scintillator has better linearity and timing.
 \subsection{PHENIX Data Acquisition System}
 \label{sec:PHENIX_DAQ}
@@ -260,7 +261,7 @@ First of all, the collision vertex is significantly offset from the z-axis to wh
 \end{center}
 \end{figure}
 
-The collision vertex in x and y is known as the beam center. The beam center varies over the course of data taking but its values on average are $(x,y) = (0.206,0.065) (cm)$. The distribution of z-vertices from collision events can be see in Fig \ref{fig:bbc_z_vtx_dist}. Due to the fact that the beams are colliding at an angle in the x-z plane, the x-component of the beam center will have a z-vertex dependence with a slope of -0.0036 cm of x per 1 cm of z.
+The collision vertex in x and y is known as the beam center. The beam center varies over the course of data taking but its values on average are $(x,y) = (0.206,0.065) (cm)$. The distribution of z-vertices from collision events can be see in Figure \ref{fig:bbc_z_vtx_dist}. Due to the fact that the beams are colliding at an angle in the x-z plane, the x-component of the beam center will have a z-vertex dependence with a slope of -0.0036 cm of x per 1 cm of z.
 Apart from how the beam angle effects the beam center values, it also violates the expectation of a uniform $\phi$ distribution of particles with respect to PHENIX detectors. PHENIX detectors are designed and aligned, with respect to the PHENIX coordinate system, with the expectation of geometric symmetry. A significant beam collision angle with respect to PHENIX detectors would be equivalent to PHENIX detectors being tilted which would violate geometric symmetry.
 The physics analysis described in this thesis is sensitive to these beam geometry effects. A discussion on how to account for these effects will be in Chapter 4.
 
@@ -268,22 +269,19 @@ The physics analysis described in this thesis is sensitive to these beam geometr
 %creates an east west v2 measurement difference is because of the assumption that event plane angle is azimuthally
 % isotropic during the event plane flattening calibration. In the translated and rotated frame where the beams aligned with the z-axis the event plane distribution would be %uniform, but in the lab frame the event plane distribution in $\phi$ would have regions of enhancement and reduction.
 
-
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.65\linewidth]{figs/bbc_z_vertex_dist.png}
-\caption{The BBC $z$-vertex distribution in a typical \pau run for different triggers a described in Table \ref{tbl:trigger_config}.  The teal curve is the BBC(>0\thinspace PMTs)\thinspace novertex trigger, the blue is the BBC(>0\thinspace PMTs), and the magneta is the BBC(>0\thinspace PMTs)\thinspace narrowvertex.}
+\caption{The BBC $z$-vertex distribution in a typical \pau run for different triggers a described in Table \ref{tbl:trigger_config}.  The teal curve is the BBC($>$0\thinspace PMTs)\thinspace novertex trigger, the blue is the BBC($>$0\thinspace PMTs), and the magneta is the BBC($>$0\thinspace PMTs)\thinspace narrowvertex.}
 \label{fig:bbc_z_vtx_dist}
 \end{center}
 \end{figure}
 
-
-
 \subsection{Centrality Determination}
 \label{sec:central_determin}
-The centrality determination is done by adding up all BBC South (Au-going direction) PMT charges for every event and then splitting up that distribution into equivalent centrality bins. This procedure can be used to associate a centrality bin with number of binary collisions from Monte Carlo Glauber + Negative Binomial Distribution (NBD). An example of such an event for d+Au is seen in Fig \ref{fig:glauber_event_display}.  
+The centrality determination is done by adding up all BBC South (BBCs) (Au-going direction) PMT charges for every event and then splitting up that distribution into equivalent centrality bins. This procedure, which is the same used for \dau, is used to associate a centrality bin with number of binary collisions from Monte Carlo Glauber (MC-Glauber), as discussed in Chapter 2 Section \ref{sec:ch2_mc_glaub}, + Negative Binomial Distribution (NBD). An example of such MC-Glauber event for d+Au is seen in Figure \ref{fig:glauber_event_display}.  
 \label{centrality_determination}
-\begin{figure}
+\begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.5\linewidth]{figs/glauber_event_display.png}
 \caption{A Monte Carlo Glauber d+Au event display. Each circle is a nucleon. The red nucleons are from the projectile (deuteron) and the green nucleons are participants from the target (gold). Glauber counts even a near miss as a full collision~\cite{PhysRevC.90.034902}.}
@@ -291,15 +289,29 @@ The centrality determination is done by adding up all BBC South (Au-going direct
 \end{center}
 \end{figure}
 
+In this procedure, total BBCs charge assumed to be proportional to the number of binary collisions in a \pau collision $N_{COL}$, with fluctuations being described probabilistically via the NBD as defined:
+\begin{equation}
+   \textrm{NBD}(x;\mu,\kappa) = \left(1+\frac{\mu}{\kappa}\right)\frac{(\kappa+x-1)!}{x!(\kappa-1)!}\left(\frac{\mu}{\mu+\kappa}\right)^x
+\end{equation}
+where $\mu$ and $\kappa$ are mean and positive exponent parameters. The NBD was chosen for this situation due to the linear scaling of the NBD parameters, i.e. randomly sampling from $n$NBD($\mu$,$\kappa$) becomes NBD($n\mu$,$n\kappa$). We fold the MC-Glauber with the NBD such that the charge distribution is described as
+\begin{equation}
+   P(x) = \sum^{N_{COL}\textrm{max}}_{n=1} \textrm{Gl}(n)\times \textrm{NBD}(x;n\mu;n\kappa),
+\end{equation}
+where $x$ is the BBCs charge and Gl($n$) is the event normalized Glauber distribution~\cite{PhysRevC.90.034902}. The two parameters $\mu$ and $\kappa$ are fit to the experimental BBCs charge distribution, as shown in Figure \ref{fig:cent_determination_plot}. This figure shows good agreement between the data and the MC-Glauber + NBD fit. The best fit NBD parameters are $\mu$ = 3.14, $\kappa$ = 0.47. 
+
+There is a deviation at small BBCs charge because the minbias trigger is inefficient due to the fact that a PMT must be hit in both the BBC South and North. The bottom panel of Figure \ref{fig:cent_determination_plot} is the ratio of the data to the theory curve shows that the agreement is good at a charge of 10 and greater. This ratio is fit to determine the minbias trigger efficiency as it ``turns on." This fit has good agreement with the turn-on curve which can be integrated to determine that the minbias trigger is 84\% efficient. By combining the theoretically determined \pau cross section with the 84\% trigger efficiency, we determine the the total inelastic \pau cross section $\sigma$ = 1.76 barnes. Thus, centrality is defined as a percentage of the total inelastic cross section.
+
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.65\linewidth]{figs/centrality_determination.png}
-\caption{Real data for BBC Charge South (Au-going direction) shown as open circles and Glauber Monte Carlo + NBD. The colors correspond to the various
-percentiles relative to the total inelastic \pau cross section, the most central 0-5$\%$ in solid red. The blue and red curves correspond to the Level-1 trigger
-efficiency in all inelastic collisions and inelastic collisions producing a particle at midrapidity, respectively. The best fit NBD parameters are mu = 3.14, k = 0.47
-, and the trigger firing on 84 +/- 3$\%$ of the total inelastic cross section [sigma = 1.76 barns].}
+\caption{Real data for BBCs charge shown as open circles and MC-Glauber + NBD (top). The colors correspond to the various percentiles relative to the total inelastic \pau cross section, from right to left: 0--5$\%$, 5--10\%, 10--20\%, 20--30\%, 30--40\%, 40--50\%, 50--60\%, 60-70\%, and 70-84\%. The blue and red curves correspond to the minbias trigger efficiency in all inelastic collisions and inelastic collisions producing a particle at mid-rapidity, respectively (bottom).}
+\label{fig:cent_determination_plot}
 \end{center}
 \end{figure}
+
+%It is important to note that an extra correction is applied to the centrality determination in the form of centrality bias factors. This centrality bias is 
+
+\iffalse
 
 \begin{figure}[!h]
 \begin{center}
@@ -315,7 +327,7 @@ efficiency in all inelastic collisions and inelastic collisions producing a part
 \end{center}
 \end{figure}
 
-
+\fi
 
 %\section{Event Reconstruction and Characterization}
 %[not sure about this section]
