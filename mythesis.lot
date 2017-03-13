@@ -6,11 +6,12 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces An example Run15 \unhbox \voidb@x \hbox {$p$+Au}\xspace 200 GeV relevant trigger configuration and parameters. A trigger's scale down number reduces its rate by 1/(1+scale down). }}{55}{table.3.1}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Some relevant RHIC parameters from Run 15.}}{57}{table.3.2}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Quality categorization of CA tracks, as a function of PC1 and DC wire hits. The quality parameters used in this analysis are 31 and 63.}}{61}{table.4.1}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Quality categorization of CA tracks, as a function of DC wire momentum information. The quality parameters used in this analysis are 31 and 63.}}{62}{table.4.2}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Central Arm Track Cuts.}}{64}{table.4.3}
-\contentsline {table}{\numberline {4.4}{\ignorespaces }}{70}{table.4.4}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Systematic uncertainties given as a percent of the $v_2$ measurement. Note that the non-flow contribution is $p_T$ dependent and the value here quoted corresponds to the highest measured $p_T$.}}{86}{table.4.5}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Quality categorization of CA tracks, as a function of PC1 and DC wire hits. The quality parameters used in this analysis are 31 and 63.}}{63}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Quality categorization of CA tracks, as a function of DC wire momentum information. The quality parameters used in this analysis are 31 and 63.}}{64}{table.4.2}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Central Arm Track Cuts.}}{66}{table.4.3}
+\contentsline {table}{\numberline {4.4}{\ignorespaces }}{72}{table.4.4}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Systematic uncertainties given as a percent of the $v_2$ measurement. Note that the non-flow contribution is $p_T$ dependent and the value here quoted corresponds to the highest measured $p_T$.}}{88}{table.4.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Dataset Variables Comparison listed in order: center of mass energy per nucleon, centrality, mid-rapidity charged particle multiplicity per unit of psuedo-rapidity from\nobreakspace {}\cite {PhysRevC.93.024901}, year, trigger (as defined in section \ref {sec:event_plane}) particle sample, trigger particle acceptance, event plane determination, $\Psi _2$ Resolution, condition of available non-flow estimate.}}{93}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Initial eccentricity $\varepsilon _2$ of small systems at \unhbox \voidb@x \hbox {$\sqrt {s}$}\xspace = 200 GeV for0--5\% centrality from Monte Carlo Glauber initial conditions smeared with a two-dimensional Gaussian of width $\sigma =0.4$ fm, and IP-Glasma initial conditions.}}{96}{table.5.2}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Dataset Variables Comparison listed in order: center of mass energy per nucleon, centrality, mid-rapidity charged particle multiplicity per unit of psuedo-rapidity from\nobreakspace {}\cite {PhysRevC.93.024901}, year, trigger (as defined in section \ref {sec:event_plane}) particle sample, trigger particle acceptance, event plane determination, $\Psi _2$ Resolution, condition of available non-flow estimate.}}{95}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Initial eccentricity $\varepsilon _2$ of small systems at \unhbox \voidb@x \hbox {$\sqrt {s}$}\xspace = 200 GeV for 0--5\% centrality from Monte Carlo Glauber initial conditions smeared with a two-dimensional Gaussian of width $\sigma =0.4$ fm, and IP-Glasma initial conditions.}}{98}{table.5.2}
+\addvspace {10\p@ }

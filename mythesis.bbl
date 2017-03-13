@@ -1,8 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{PhysRevC.80.014904}
-
-
 \bibitem{CA_spectro}
 Event reconstruction in the \{PHENIX\} central arm spectrometers.
 \newblock {\em Nucl.Instrum.Meth}, A482:491--512, 2002.
@@ -22,6 +19,18 @@ F.~D. et~al Aaron.
 \newblock Inclusive deep inelastic scattering at high q2 with longitudinally
   polarised lepton beams at hera.
 \newblock {\em Journal of High Energy Physics}, 2012(9):61, 2012.
+
+\bibitem{PhysRevC.90.034902}
+A.~Adare and et~al.
+\newblock Centrality categorization for ${R}_{p(d)+A}$ in high-energy
+  collisions.
+\newblock {\em Phys. Rev. C}, 90:034902, Sep 2014.
+
+\bibitem{PhysRevC.93.024901}
+A.~Adare and et~al.
+\newblock Transverse energy production and charged-particle multiplicity at
+  midrapidity in various systems from $\sqrt{{s}_{NN}}=7.7$ to 200 gev.
+\newblock {\em Phys. Rev. C}, 93:024901, Feb 2016.
 
 \bibitem{PhysRevLett.115.142301}
 A.~et~al Adare.
@@ -61,6 +70,12 @@ Yasuyuki Akiba et~al.
 \newblock {The Hot QCD White Paper: Exploring the Phases of QCD at RHIC and the
   LHC}.
 \newblock 2015.
+
+\bibitem{PhysRevC.81.054905}
+B.~Alver and G.~Roland.
+\newblock Collision-geometry fluctuations and triangular flow in heavy-ion
+  collisions.
+\newblock {\em Phys. Rev. C}, 81:054905, May 2010.
 
 \bibitem{Aronson2003480}
 S.H. Aronson and et~al.
@@ -136,6 +151,7 @@ K.~Adcox et~al.
 \bibitem{fedotov2007progress}
 A~Fedotov.
 \newblock Progress of high-energy electron cooling for rhic.
+\newblock 2007.
 
 \bibitem{Fermi01071950}
 Enrico Fermi.
@@ -157,7 +173,8 @@ Charles Gale, Sangyong Jeon, Bj\"orn Schenke, Prithwish Tribedy, and Raju
 \bibitem{Habich2015}
 M.~Habich, J.~L. Nagle, and P.~Romatschke.
 \newblock Particle spectra and hbt radii for simulated central nuclear
-  collisions of ~.
+  collisions of.
+\newblock {\em The European Physical Journal C}, 75(1):15, 2015.
 
 \bibitem{Habich:2014jna}
 M.~Habich, J.~L. Nagle, and P.~Romatschke.
@@ -191,6 +208,12 @@ V.~Khachatryan and {etal}.
 Peter~F. Kolb and Ulrich~W. Heinz.
 \newblock {Hydrodynamic description of ultrarelativistic heavy ion collisions}.
 \newblock 2003.
+
+\bibitem{PhysRevC.93.044910}
+J.~D.~Orjuela Koop, R.~Belmont, P.~Yin, and J.~L. Nagle.
+\newblock Exploring the beam-energy dependence of flow-like signatures in
+  small-system $d+\mathrm{Au}$ collisions.
+\newblock {\em Phys. Rev. C}, 93:044910, Apr 2016.
 
 \bibitem{PhysRevC.72.064901}
 Zi-Wei Lin, Che~Ming Ko, Bao-An Li, Bin Zhang, and Subrata Pal.
@@ -227,6 +250,11 @@ J.~L. Nagle, A.~Adare, S.~Beckman, T.~Koblesky, J.~Orjuela Koop, D.~McGlinchey,
 \newblock Exploiting intrinsic triangular geometry in relativistic
   $^{3}\mathrm{He}+\mathrm{Au}$ collisions to disentangle medium properties.
 \newblock {\em Phys. Rev. Lett.}, 113:112301, Sep 2014.
+
+\bibitem{PhysRevC.80.014904}
+Jean-Yves Ollitrault, Arthur~M. Poskanzer, and Sergei~A. Voloshin.
+\newblock Effect of flow fluctuations and nonflow on elliptic flow methods.
+\newblock {\em Phys. Rev. C}, 80:014904, Jul 2009.
 
 \bibitem{PhysRevC.92.054903}
 J.~D. Orjuela~Koop, A.~Adare, D.~McGlinchey, and J.~L. Nagle.
