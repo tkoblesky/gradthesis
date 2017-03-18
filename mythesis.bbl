@@ -8,6 +8,12 @@ Event reconstruction in the \{PHENIX\} central arm spectrometers.
 Rhic operations with asymmetric collisions in 2015.
 \newblock 2015.
 
+\bibitem{Aaij:2015tga}
+Roel Aaij et~al.
+\newblock {Observation of $J/\psi p$ Resonances Consistent with Pentaquark
+  States in $\Lambda_b^0 \to J/\psi K^- p$ Decays}.
+\newblock {\em Phys. Rev. Lett.}, 115:072001, 2015.
+
 \bibitem{Aamodt2012249}
 K.~Aamodt and et~al.
 \newblock Harmonic decomposition of two particle angular correlations in
@@ -86,6 +92,12 @@ S.H. Aronson and et~al.
 \newblock The Relativistic Heavy Ion Collider Project: \{RHIC\} and its
   Detectors.
 
+\bibitem{Belmont:2012pka}
+Eric~Michael Belmont.
+\newblock {\em {Elliptic flow at forward rapidity in $\sqrt{s_{NN}}$ = 200 GeV
+  Au+Au collisions}}.
+\newblock PhD thesis, Vanderbelt, 2012.
+
 \bibitem{PhysRevD.86.010001}
 J.~et~al Beringer.
 \newblock Review of particle physics.
@@ -102,6 +114,12 @@ Rajeev~S. Bhalerao.
 \newblock In {\em {Proceedings, 1st Asia-Europe-Pacific School of High-Energy
   Physics (AEPSHEP): Fukuoka, Japan, October 14-27, 2012}}, pages 219--239,
   2014.
+
+\bibitem{BILENKY198273}
+S.M. Bilenky and J.~Hošek.
+\newblock Glashow-weinberg-salam theory of electroweak interactions and the
+  neutral currents.
+\newblock {\em Physics Reports}, 90(2):73 -- 157, 1982.
 
 \bibitem{PhysRevLett.113.252301}
 Adam Bzdak and Guo-Liang Ma.
@@ -310,6 +328,11 @@ P.~Romatschke.
 T.~Roser.
 \newblock Rhic performance.
 \newblock {\em Nuclear Physics A}, 698(1):23 -- 28, 2002.
+
+\bibitem{SATZ20114}
+Helmut Satz.
+\newblock The quark-gluon plasma – a short introduction.
+\newblock {\em Nuclear Physics A}, 862:4 -- 12, 2011.
 
 \bibitem{PhysRevLett.108.252301}
 Bj\"orn Schenke, Prithwish Tribedy, and Raju Venugopalan.
