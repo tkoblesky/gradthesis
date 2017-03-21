@@ -6,6 +6,7 @@
 \usepackage{hyperref}		% PDF hyperreferences??
 \usepackage{amsmath}
 \usepackage{xspace}
+\usepackage[numbers,sort&compress]{natbib}
 %\usepackage[utf8]{inputenc}
 %\usepackage{bm}% bold math
 %\usepackage{tocloft}
@@ -23,7 +24,7 @@
 
 %\usepackage[titletoc]{appendix}
 
-\title{Measurement of Elliptic Flow in p+Au Collisions at \sqsn = 200 GeV using the PHENIX Detector at RHIC}
+\title{Measurement of Elliptic Flow in \pau Collisions at \sqsn = 200 GeV using the PHENIX Detector at RHIC}
 \author{Theodore}{Koblesky}
 \otherdegrees{B.S., University of Illinois, 2011}
 \degree{Doctor of Philosophy}		%  #1 {long descr.}
@@ -32,8 +33,10 @@
 	{Physics}		%  #2 {name}
 \advisor{Professor}				%  #1 {title}
 	{James Nagle}			%  #2 {name}
-\reader{Prof.~Standin}		%  2nd person to sign thesis
-\readerThree{Ms.~Standin}		%  3rd person to sign thesis
+\reader{Professor Kevin Stenson}		%  2nd person to sign thesis
+\readerThree{Professor Dennis Perepelitsa}		%  2nd person to sign thesis
+\readerFour{Professor Oliver DeWolfe}		%  2nd person to sign thesis
+\readerFive{Professor Juri Toomre}		%  3rd person to sign thesis
 
 %\frontmatter
 %\maketitle
@@ -41,7 +44,12 @@
 \input macros.tex
 
 \abstract{\OnePageChapter	% because it is very short	
-Quark Gluon Plasma (QGP), a hot and dense state of matter in which quarks are not confined inside hadrons, is thought to be the same as the universe approximately one microsecond after the big bang. In \auau collisions at \sqsn = 200 GeV at the Relativistic Heavy Ion Collider (RHIC) and \pbpb collisions at \sqsn = 2.76 TeV at the Large Hadron Collider (LHC), QGP has been discovered to have unique properties, such as its opacity to color charges and the fact it behaves like a near-perfect fluid. Collective behavior in the form of a substantial elliptical azimuthal anisotropy ($v_2$) in the momentum distribution of final state particles has been observed, indicating a strongly-coupled, hydrodynamically flowing medium. Recently, features of collectivity have been detected in high-multiplicity, small collision systems thought to be too small to produce QGP, such as \hau and \dau at \sqsn = 200 GeV, \ppb at \sqsn = 5 TeV, and in \pp at \sqs = 13 TeV events. In order to constrain models seeking to describe this phenomena, collision systems with distinct initial collision geometries were run at RHIC: \hau for triangular geometry, \dau for elliptical geometry, and \pau for circular geometry. This thesis is the completion of that set of three measurements, by measuring $v_2$ in the \pau. Comparisons of $v_2$ in the three collision systems and various theoretical models are made.
+The Quark Gluon Plasma (QGP), a hot and dense state of matter in which quarks are not confined inside hadrons, is thought to be the same as the matter compromising the entire universe approximately one microsecond after the big bang. In \auau collisions at \sqsn = 200 GeV at the Relativistic Heavy Ion Collider (RHIC) and \pbpb collisions at \sqsn = 2.76 TeV at the Large Hadron Collider (LHC), QGP has been discovered to have unique properties, such as its opacity to color charges and the fact it behaves like a near-perfect fluid. Collective behavior in the form of a substantial elliptical azimuthal anisotropy ($v_2$) in the momentum distribution of final state particles has been observed, indicating a strongly-coupled, hydrodynamically flowing medium. 
+
+Recently, features of collectivity have been detected in high-multiplicity, small collision systems thought to be too small to produce the QGP, such as \hau and \dau at \sqsn = 200 GeV, \ppb at \sqsn = 5 TeV, and in \pp at \sqs = 13 TeV events. In order to constrain models seeking to describe this phenomena, collision systems with distinct initial collision geometries were run at RHIC: \hau for triangular geometry, \dau for elliptical geometry, and \pau for circular geometry. This thesis is the completion of that set of three measurements, by measuring $v_2$ in the \pau system. Comparisons of $v_2$ in the three collision systems and various theoretical models are made and it appears to be consistent with a QGP is being formed.
+
+Together with coauthors, in a theoretical paper published in 2014 we proposed the suite of measurements measurements at RHIC of the three collision systems~\cite{PhysRevLett.113.112301} and I am a coauthor on the experimental paper with these thesis results which has been accepted and in press in Physical Review Letters C~\cite{Aidala:2016vgl}.
+
 }
 
 \dedication[Dedication]{	% NEVER use \OnePageChapter here.
@@ -79,7 +87,7 @@ Quark Gluon Plasma (QGP), a hot and dense state of matter in which quarks are no
 \input chapter6.tex
 
 %%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
-\bibliographystyle{plain}	% or "siam", or "alpha", etc.
+\bibliographystyle{unsrtnat}	% or "siam", or "alpha", etc.
 \nocite{*}		% list all refs in database, cited or not
 \bibliography{refs}		% Bib database in "refs.bib"
 
