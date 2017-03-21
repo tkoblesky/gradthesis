@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: mythesis.aux
+The style file: unsrtnat.bst
+Database file #1: refs.bib
+Name 1 in "Michael L. Miller, Klaus Reygers, Stephen J. Sanders, and Peter Steinberg" has a comma at the end for entry annurev.nucl.57.090506.123020
+while executing---line 1233 of file unsrtnat.bst
+Warning--empty journal in Aidala:2016vgl
+Warning--empty journal in Akiba:2015jwa
+Warning--empty journal in Alver:2008aq
+Name 1 in "Michael L. Miller, Klaus Reygers, Stephen J. Sanders, and Peter Steinberg" has a comma at the end for entry annurev.nucl.57.090506.123020
+while executing---line 1315 of file unsrtnat.bst
+Name 1 in "Michael L. Miller, Klaus Reygers, Stephen J. Sanders, and Peter Steinberg" has a comma at the end for entry annurev.nucl.57.090506.123020
+while executing---line 1315 of file unsrtnat.bst
+Warning--empty journal in Kolb:2003dz
+Warning--empty author in BNL_Run15_Operations
+Warning--empty journal in BNL_Run15_Operations
+Warning--empty author in CA_spectro
+Warning--empty journal in fedotov2007progress
+You've used 71 entries,
+            2481 wiz_defined-function locations,
+            1125 strings with 22888 characters,
+and the built_in function-call counts, 29671 in all, are:
+= -- 2625
+> -- 1501
+< -- 52
++ -- 591
+- -- 448
+* -- 2503
+:= -- 4928
+add.period$ -- 357
+call.type$ -- 71
+change.case$ -- 139
+chr.to.int$ -- 70
+cite$ -- 81
+duplicate$ -- 1360
+empty$ -- 2554
+format.name$ -- 564
+if$ -- 6249
+int.to.chr$ -- 2
+int.to.str$ -- 72
+missing$ -- 70
+newline$ -- 507
+num.names$ -- 207
+pop$ -- 393
+preamble$ -- 1
+purify$ -- 71
+quote$ -- 0
+skip$ -- 779
+stack$ -- 0
+substring$ -- 1375
+swap$ -- 185
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 494
+warning$ -- 8
+while$ -- 207
+width$ -- 0
+write$ -- 1205
+(There were 3 error messages)

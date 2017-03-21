@@ -21,7 +21,7 @@ Prior to any analysis, the raw data collected by various PHENIX subsystems must 
 %\end{figure}
 %-todo: list all parameters used in the analysis. show some performance plots
 \subsection{Central Arm Tracks}
-Central Arm (CA) tracks are the representation of charged particles emitted from the heavy ion collision, which are detected by detectors in the PHENIX central arms. There are two central arms, each one covering an acceptance of $\pm 0.35$ in psuedorapidity and a total azimuth acceptance of $\frac{\pi}{2}$. The relevant detectors in the CA for this analysis include the Drift Chamber (DC), the Pad Chambers (PC) and the Ring Imaging Cerenkov (RICH) detector. As discussed in Chapter 3, the DC provides momentum information; the PC provide track quality metrics; and the RICH provides electron identification. 
+Central Arm (CA) tracks are the representation of charged particles emitted from the heavy ion collision, which are detected by detectors in the PHENIX central arms. There are two central arms, each one covering an acceptance of $\pm 0.35$ in pseudorapidity and a total azimuth acceptance of $\frac{\pi}{2}$. The relevant detectors in the CA for this analysis include the Drift Chamber (DC), the Pad Chambers (PC) and the Ring Imaging Cerenkov (RICH) detector. As discussed in Chapter 3, the DC provides momentum information; the PC provide track quality metrics; and the RICH provides electron identification. 
 
 The main physical parameter of CA tracks is the momentum vector $\vec{p} = (p_x, p_y, p_z)$ of the particles, defined at the collision vertex. This analysis uses tracks with momentum 0.02 GeV/c $< |\pt| < 3.5$ GeV/c, a \pt range where the momentum resolution is good, as shown in the left panel of Figure \ref{fig:dc_mom_res}. The right panel of Figure \ref{fig:dc_mom_res} shows the \pt distribution of CA tracks up to 10 GeV/c: a smooth linearly falling distribution on a log scale with a small number of fake tracks at high \pt. The azimuthal angle and pseudorapidity of the track are calculated from the components of its momentum vector, as follows: 
 \begin{align}
@@ -52,12 +52,12 @@ In addition to momentum, CA tracks provide a number of other parameters that can
 \begin{itemize}
 \item the $zed$ variable corresponds to the longitudinal position of the track in the DC, as shown in Fig. \ref{fig:n0_and_zed} (right panel);
 \item the d$\phi$ and d$z$ variables quantify the distance between a track projection and its associated hits in the PC. In order to make standard cuts on these variables, their distribution must be calibrated to a standard Gaussian in a procedure known as sigmalization, described in subsection \ref{sec:pc_sigmala};
-\item the $n0$ variable, used for electron identification, corresponds to the the number of PMTs fired in the RICH that match the DC track projection, as shown in Fig. \ref{fig:n0_and_zed};
+\item the $n0$ variable, used for electron identification, corresponds to the number of PMTs fired in the RICH that match the DC track projection, as shown in Fig. \ref{fig:n0_and_zed};
 \item the track quality category, which is based on the PC1 and DC wire hits used as well as DC wire momentum information, defined in Tables \ref{tbl:dc_track_quality_pc1} and \ref{tbl:dc_track_quality_x1}.
 \end{itemize}
 
 \begin{table}[!ht]
-\caption{Quality categorization of CA tracks, as a function of PC1 and DC wire hits. The quality parameters used in this analysis are 31 and 63 to maximize information avaliable. Table from Ref~\cite{Belmont:2012pka}.}
+\caption{Quality categorization of CA tracks, as a function of PC1 and DC wire hits. The quality parameters used in this analysis are 31 and 63 to maximize information available. Table from Ref~\cite{Belmont:2012pka}.}
 \begin{center}
 %    \begin{tabular}{| l | l | l | | | | | | }
     \begin{tabular}{ccccc}
@@ -74,7 +74,7 @@ In addition to momentum, CA tracks provide a number of other parameters that can
 \end{table}
 
 \begin{table}[!ht]
-\caption{Quality categorization of CA tracks, as a function of DC wire momentum information. The quality parameters used in this analysis are 31 and 63 to maximize information avaliable. Table from Ref~\cite{Belmont:2012pka}.}
+\caption{Quality categorization of CA tracks, as a function of DC wire momentum information. The quality parameters used in this analysis are 31 and 63 to maximize information available. Table from Ref~\cite{Belmont:2012pka}.}
 \begin{center}
 %    \begin{tabular}{| l | l | l | | | | | | }
     \begin{tabular}{ccc}
@@ -99,7 +99,7 @@ The quality cuts Table \ref{tbl:cent_arm_trk_cut} summarizes the CA track cuts u
     zed & $|zed| <$75  & cm \\ \hline
     PC3 d$\phi$ & $|d\phi|<$2.0  & radians $\times10^{9}$ \\ \hline
     PC3 dz & $|dz|<$2.0 & cm \\ \hline
-    n0 & n0$<=$0 & count \\ \hline
+    n0 & n0$<$1 & count \\ \hline
     quality & 63 or 31& N/A \\ \hline
     \end{tabular}
 \end{center}
@@ -112,7 +112,7 @@ The goal of PC variables d$\phi$ and d$z$ is to provide criteria to determine if
 We did the sigmalization procedure for tracks in different transverse momentum bins, separately in the east
 and west arms, and for positive and negative particles. The d$\phi$ and $d$z distributions
 were fitted with a double-Gaussian function (one Gaussian for the signal and one Gaussian for the background) and then the parameters were interpolated as
-a function of $p_T$ . Fig. \ref{fig:pc3_sig} a) shows a fit to the sigmalized
+a function of $p_T$. Fig. \ref{fig:pc3_sig} a) shows a fit to the sigmalized
 d$\phi$ distribution, and Fig. \ref{fig:pc3_sig} b) shows a fit to the sigmalized d$z$ distribution for tracks with 1.0 $< p_T <$ 1.1 (GeV/c)
 in both the west and east arms as well as both positively and negatively charged particles.
 Then we fit the signal Gaussian mean and sigma to a polynomial function.  Once these variables had been sigmalized, we selected only
@@ -174,9 +174,9 @@ Once the event plane has been calculated, the flow harmonics ($v_n$) are defined
 \begin{equation}
 v_n = \frac{\langle \langle\cos(n(\phi - \Psi_n))\rangle \rangle}{Res(\Psi_n)},
 \end{equation}
-where $\langle \langle \rangle \rangle$ indicates that $\cos(2\phi-\Psi_n))$ is averaged over all particles in the same event, and the resulting $v_2$ must be averaged over many events \cite{PhysRevC.58.1671}. Note, the event plane angle and the Q-vector are defined at the event level.
+where $\langle \langle \rangle \rangle$ indicates that $\cos(2(\phi-\Psi_n))$ is averaged over all particles in the same event, and the resulting $v_2$ must be averaged over many events \cite{PhysRevC.58.1671}. Note, the event plane angle and the Q-vector are defined at the event level.
   
-As discussed in Chapter 2, Section \ref{sec:event_plane}, the event plane angle is a measurement which attempts to correspond to the physical participant plane angle. Thus, the event plane is an imperfect representation of the reaction plane and thus needs to be corrected. This correction is known as the event plane resolution $Res(\Psi_n)$, and is calculated using the 3-subevent method. It is important to note the the set of particles used to calculate $\Psi_n$ and $\phi$ must be different in order to avoid autocorrelations. This is usually done by imposing an $\eta$ gap (at least a half of a unit of pseudorapidity)between the two particle sets.
+As discussed in Chapter 2, Section \ref{sec:event_plane}, the event plane angle is a measurement which attempts to correspond to the physical participant plane angle. Thus, the event plane is an imperfect representation of the reaction plane and needs to be corrected. This correction is known as the event plane resolution $Res(\Psi_n)$, and is calculated using the 3-subevent method. It is important to note the set of particles used to calculate $\Psi_n$ and $\phi$ must be different in order to avoid autocorrelations. This is usually done by imposing an $\eta$ gap (at least a half of a unit of pseudorapidity)between the two particle sets.
 
 For this analysis, the event plane is calculated separately for each of the forward detectors mentioned above, i.e., the BBC and the FVTX. We only use the south (Au-going) side of each detector, referred to here as the BBCS and the FVTXS.
 For the FVTXS, the Q-vector is calculated in each event as
@@ -185,7 +185,7 @@ Q_x &= \sum^{N_{\rm cluster}}_{i=1}( \cos(n\phi_i)) \\
 Q_y &= \sum^{N_{\rm cluster}}_{i=1}( \sin(n\phi_i)) \\
 \phi_i &= \arctan\left(\frac{y^i_{\rm cluster}}{x^i_{\rm cluster}}\right)
 \end{align}
-where $N_{\rm cluster}$ is the number FVTXS clusters in that event and $Clus^i$ are the $x$ and $y$ components of the $i$th FVTXS Cluster in that event. At this point, this Q-vector is calculated with no cluster dependent weight factor because each cluster is taken to be the representation of one particle in each layer.
+where $N_{\rm cluster}$ is the number FVTXS clusters in that event and $x^i_cluster$ and $y^i_cluster$are the $x$ and $y$ components of the $i$th FVTXS cluster in that event. At this point, this Q-vector is calculated with no cluster dependent weight factor because each cluster is taken to be the representation of one particle in each layer.
 
 For the BBCS, the Q-vector is calculated in each event as
 \begin{align}
@@ -204,7 +204,7 @@ v_n = \frac{\left<\left<\cos(n(\phi^{CA} - \Psi^{BBCS,FVTXS}_n))\right>\right>}{
 In this analysis, we are concerned only with measuring the second-order harmonic $v_2$.
 
 \subsection{Event Plane Resolution Calculation}%bulk up this section with more background
-As mentioned above, the event plane resolution is calculated using the standard 3-subevent method~\cite{PhysRevC.58.1671}. The strategy of this method is to measure $\Psi_2$ with three different detectors in the same event, and then algebraically . The event plane resolution is defined as
+As mentioned above, the event plane resolution is calculated using the standard 3-subevent method~\cite{PhysRevC.58.1671}. The strategy of this method is to measure $\Psi_2$ with three different detectors in the same event, and then algebraically. The event plane resolution is defined as
 \begin{equation}
 Res(\Psi_2^A) = \sqrt{\frac{\left<\cos(2(\Psi_2^A - \Psi_2^B))\right>\left<\cos(2(\Psi_2^A - \Psi_2^C))\right>}{\left<\cos(2(\Psi_2^B - \Psi_2^C))\right>}},
 \label{eqn:res}
@@ -250,7 +250,7 @@ In order for the event plane to be useful in making a $v_n$ measurement, the eve
 %\label{fig:raw_psi}
 %\end{figure}
 
-Figure~\ref{fig:calibrated_psi} shows and example $\Psi_2$ distributions for the BBCS at the different stages of the calibration. The raw $\Psi_2$ (shown in red) has a significant deviation from uniformity which needs to be corrected. The flattening calibration attempts to correct for this lack of uniformity by shifting the $\Psi_2$ value of each individual event by an amount corresponding to the deviation of the overall distribution for all events. Although this procedure results in a uniform $\Psi_2$ distribution, applying too large of a correction arising from an exceedingly distorted initial distribution can lead to systematic effects on the $v_2$ measurement, which will be discussed in the next section. Therefore, it is important to address any systematic effects that would affect the uniformity of the $\Psi_2$ distribution.
+Figure~\ref{fig:calibrated_psi} shows an example of $\Psi_2$ distributions for the BBCS at the different stages of the calibration. The raw $\Psi_2$ (shown in red) has a significant deviation from uniformity which needs to be corrected. The flattening calibration attempts to correct for this lack of uniformity by shifting the $\Psi_2$ value of each individual event by an amount corresponding to the deviation of the overall distribution for all events. Although this procedure results in a uniform $\Psi_2$ distribution, applying too large of a correction arising from an exceedingly distorted initial distribution can lead to systematic effects on the $v_2$ measurement, which will be discussed in the next section. Therefore, it is important to address any systematic effects that would affect the uniformity of the $\Psi_2$ distribution.
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.65\linewidth]{figs/flattened_example_fvtx.png}
@@ -278,7 +278,7 @@ As discussed in the previous section, distortions in the raw $\Psi_2$ distributi
 
 As shown in Figure~\ref{fig:fvtx_ew_default}, $v_2$ is different when measured using tracks in the west (-1 $<$ $\phi$ $<$ 1) and east arm (2 $<$ $\phi$ $<$ 4) of the CA. This is a systematic effect explained by the colliding beams not being parallel to the longitudinal axis of PHENIX. When examining beam alignment effects on the $v_2$ measurement, we can quantify the east-west $v_2$ asymmetry by calculating $R_{v_2}$ which is calculated by: 
 \begin{equation}
-R_{v_2} = \frac{\sum_{p_T}{v_2^{\rm east}(p_T)}}{\sum_{p_T}{v_2^{\rm west}(p_T)}}.
+R_{v_2} = \frac{\int{v_2^{\rm east}(p_T)d\pt}}{\int{v_2^{\rm west}(p_T)d\pt}}.
 \end{equation}
 In Figure \ref{fig:fvtx_ew_default}, $R_{v_2^{\rm FVTXS}}$ can be extracted by taking the ratio of the numbers in the legend of the upper right plot and $R_{v_2^{\rm BBCS}}$ can be extracted the same way for the numbers in the bottom left plot's legend. The $R_{v_2^{\rm FVTXS}}$ = 1.61 while the $R_{v_2^{\rm BBCS}}$ = 0.43, indicating large east west asymmetry in both measurements, although the difference in the BBCS is bigger. It is interesting to note that the splitting of the east and west $v_2$ measurements goes in opposite directions for the BBCS as compared to the FVTXS. To understand where the discrepancy in these $v_2$ measurements comes from, we examine the effects of the beam alignment on the $v_2$ measurement.
 \section{Correcting for the Effects of Beam Alignment}
@@ -324,7 +324,7 @@ where $w^D_i$ is the default weighting associated with the detector element, and
 \subsection{Analytic Correction Method}
 One can analytically calculate this $\phi$ dependent weight factor using the geometry of the FVTXS and BBCS as well as using the $\eta$ distribution of charged particles. Unfortunately, the $\eta$ distribution of charged particles in \pau \sqsn = 200 GeV has not been measured by an experiment, so we must rely on models that cannot be fully checked. We can simulate 0--2 fm impact parameter \pau at \sqsn = 200 GeV events in AMPT and determine the simulated $dN_{ch}$/$d\eta$ as shown in the right panel of Figure \ref{fig:tilt_effect}. 
 
-The left panel of Figure \ref{fig:analytic_corr} shows the $\phi$ dependence of the $\eta$ acceptance with a beam angle (solid line) and without a beam angle (dotted line). By taking the ratio of the $\eta$ acceptance after with a beam angle to the $\eta$ acceptance without a beam angle for each $\phi$ angle we calculate the correction factor shown in the right panel of Figure \ref{fig:analytic_corr}. This correction factor is the multiplicative weight factor $w_i$ as defined in the last section.
+The left panel of Figure \ref{fig:analytic_corr} shows the $\phi$ dependence of the $\eta$ acceptance with a beam angle (solid line) and without a beam angle (dotted line). By taking the ratio of the $\eta$ acceptance with a beam angle to the $\eta$ acceptance without a beam angle, for each $\phi$ angle we calculate the correction factor shown in the right panel of Figure \ref{fig:analytic_corr}. This correction factor is the multiplicative weight factor $w_i$ as defined in the previous section.
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.47\linewidth]{figs/eta_modification.png}
@@ -346,7 +346,7 @@ where $N_{\rm cluster}(\phi,z_{\rm vertex},layer)$ is the number of FVTX cluster
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.75\linewidth]{figs/fvtx_weighting.png}
-\caption{These four panels show the FVTX $\phi$ dependent cluster weighting when calculating the FVTX event plane for each layer separately for events with a collision vertex in z is around 0. There are some $\phi$ regions where weight factor is outside of the dotted line bounds. This indicates that either there was a severe deficit or excess of clusters measured in the region. Later, we will examine the effect of keeping these regions or cutting them out on the $v_2$ measurement.}
+\caption{These four panels show the FVTX $\phi$ dependent cluster weighting when calculating the FVTX event plane for each layer separately for events when a collision vertex in $z$ is around 0. There are some $\phi$ regions where weight factor is outside of the dotted line bounds. This indicates that either there was a severe deficit or excess of clusters measured in the region. Later, we will examine the effect of keeping these regions or cutting them out on the $v_2$ measurement.}
 \label{fig:fvtx_weighting}
 \end{figure}
 \begin{figure}[!ht]
@@ -362,8 +362,8 @@ For the BBC, we used another data driven method to correct for the non-uniform p
 \begin{equation}
 F(PMT,z_{\rm vertex}) = \frac{\left<N^{\pp}_{Charge}(z_{\rm vertex})\right>}{\left<N^{\pau}_{Charge}(PMT,z_{\rm vertex})\right>},
 \end{equation}
-where $\langle N^{\pp,\pau}_{Charge}(PMT,z_{\rm vertex})\rangle$ is the event averaged charge as a function of PMT and $z_{\rm vertex}$ for the \pp and \pau datasets respectively. 
-This weight function is shown in Figure~\ref{fig:bbc_weight_function} and is applied directly to the event plane calculation using Eqns \ref{eqn:modified_weight} and \ref{eqn:bbc_ep_eqns}. 
+where $\langle N^{\pp,\pau}_{Charge}(PMT,z_{\rm vertex})\rangle$ is the event averaged charge as a function of PMT and $z_{\rm vertex}$ for the \pp and \pau datasets, respectively. 
+This weight function is shown in Figure~\ref{fig:bbc_weight_function} and is applied directly to the event plane calculation using Equations \ref{eqn:bbc_ep_eqns} and  \ref{eqn:modified_weight}. 
 Although the weight function could be defined as a function of $\phi$ like in the FVTX case, the positions of the PMTs in the BBC are fixed and it is more direct to take the ratio between PMTs.
 
 \begin{figure}[!ht]
@@ -374,7 +374,7 @@ Although the weight function could be defined as a function of $\phi$ like in th
 \end{center}
 \end{figure}
 
-One effect of using this weighting method is that it will make the distribution of particles in the BBC in $\phi$ and $\eta $ uniform. This can be illustrated by looking at Figure~\ref{fig:bbc_pmt_phi_pp_pau}. It is apparent that the \pp average charge is much more uniform than the \pau average charge as a function of $\phi$ and ring. After applying the \pp/\pau ratio weighting, which is essentially dividing the left plot by the right plot in Figure~\ref{fig:bbc_pmt_phi_pp_pau}, the PMT charges in ring 1 for the \pau dataset will be deweighted so that their corrected average charge will be uniform in $\phi$, and in agreement with the average charge for the other rings. If all the BBC rings have the same average charge, this means that the average charge as a function of $\eta$ for the BBC will be approximately uniform. This is one reason why this method (\pp/\pau ratio weighting) is preferred for the BBC, because the variations in the average charge between the rings are normalized. One could apply the FVTX method of inverse $\phi$ weighting by inverting the right plot of Figure~\ref{fig:bbc_pmt_phi_pp_pau} to find the weight function. However, although using only the \pau dataset would normalize the average charge as a function of $\phi$, it would not normalize the charge as a function of $\eta$. Both methods are applied to the data and shown in the next section. Note that the \pp/\pau ratio method does better.
+One effect of using this weighting method is that it will make the distribution of particles in the BBC in $\phi$ and $\eta $ uniform. This can be illustrated by looking at Figure~\ref{fig:bbc_pmt_phi_pp_pau}. It is apparent that the \pp average charge is much more uniform than the \pau average charge as a function of $\phi$ and ring. After applying the \pp/\pau ratio weighting, which is essentially dividing the left plot by the right plot in Figure~\ref{fig:bbc_pmt_phi_pp_pau}, the PMT charges in ring 1 for the \pau dataset will be deweighted so that their corrected average charge will be uniform in $\phi$, and in agreement with the average charge for the other rings. If all the BBC rings have the same average charge, this means that the average charge as a function of $\eta$ for the BBC will be approximately uniform. This is one reason why this method (\pp/\pau ratio weighting) is preferred for the BBC, because the variations in the average charge between the rings are normalized. One could apply the FVTX method of inverse $\phi$ weighting by inverting the right plot of Figure~\ref{fig:bbc_pmt_phi_pp_pau} to find the weight function. However, although using only the \pau dataset would normalize the average charge as a function of $\phi$, it would not normalize the charge as a function of $\eta$. Both methods are applied to the data and shown in the next section.
 
 \begin{figure}[!ht]
 \begin{center}
@@ -395,16 +395,17 @@ The previously discussed corrections are applied when calculating the raw $\Psi_
 \end{center}
 \end{figure}
 
+Similarly, Figure \ref{fig:bbc_corr_summary} is the correction summary for the BBCS $v_2$ measurement where $R_{v_2^{\rm BBCS}}$ is the y-axis. The first column corresponds to $R_{v_2^{\rm BBCS}}$ calculated using all five BBCS rings. Compared to the $R_{v_2^{\rm BBCS}}$ when calculated with no weighting, $R_{v_2^{\rm BBCS}}$ when calculated with the data driven and \pp/\pau ratio weighting is modestly closer to 1.0. By looking at $R_{v_2^{\rm BBCS}}$ calculated with PMTs in individual BBCS rings for the weighted points, $R_{v_2^{\rm BBCS}}$ is generally trending downward as a function of ring number. Applying the weighting corrections to $R_{v_2^{\rm BBCS}}$ calculated by ring 1, the innermost ring, over-corrects $R_{v_2^{\rm BBCS}}$. This may be explained by the fact that ring 1 covers the largest $\eta$ acceptance range, causing the correction to be inconsistent. The reason ring 1 is not excluded from the inclusive $v_2$ calculation, like the FVTXS layer 3 is excluded, is because there is no reasonable justification to exclude it other than its over-corrected $R_{v_2^{\rm BBCS}}$ values. While FVTXS layer 3 breaks the trend of $R_{v_2^{\rm FVTXS}}$ decreasing, BBCS ring 1 follows the $R_{v_2^{\rm BBCS}}$ ring trend. See appendix \ref{sec:appendix} for the full $v_2(\pt)$ measurements for each event plane detector, each correction, and each layer or ring.
 
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.5\linewidth]{figs/bbc_correction_summary.png}
-\caption{Plotted is the BBC correction summary where the y-axis is the east/west $v_2$ ratio and the x-axis is the different subset of PMTs used to calculate the $v_2$. The black markers correspond to the default corrections. The red boxes correspond to the corrections with the analytic weighting shown in Figure~\ref{fig:analytic_corr}. Finally, the blue diamonds correspond to the BBC inverse $\phi$ charge weighting as shown is section \ref{sec:bbc_charge_weight}. The first column is the quantity calculated from all PMTs. Columns 2 through 6 are using PMTs from certain rings as defined in Figure~\ref{fig:bbc_rings}. Ring 1 is the hardest to correct. The first column should approximately be the average of all the other columns.}
+\caption{Plotted is the BBC correction summary where the y-axis is the east/west $v_2$ ratio and the $x$-axis is the different subset of PMTs used to calculate the $v_2$. The black markers correspond to the default corrections. The red boxes correspond to the corrections with the analytic weighting shown in Figure~\ref{fig:analytic_corr}. Finally, the blue diamonds correspond to the BBC inverse $\phi$ charge weighting as shown in Section \ref{sec:bbc_charge_weight}. The first column is the quantity calculated from all PMTs. Columns 2 through 6 are using PMTs from certain rings as defined in Figure~\ref{fig:bbc_rings}. Ring 1 is the hardest to correct. The first column should approximately be the average of all the other columns.}
 \label{fig:bbc_corr_summary}
 \end{center}
 \end{figure}
 
-Figure~\ref{fig:fvtx_corrected_best} shows the $v_2(p_T)$ with the inverse $\phi$ weighting and 20\% cut from Figure \ref{fig:fvtx_corr_summary}. This figure also shows $v_2(p_T)$ with the pp/pAu ratio weighting from Figure~\ref{fig:bbc_corr_summary}. Although the east and west $v_2^{\rm BBCS}$ measurements do not collapse together like the east and west $v_2^{\rm FVTXS}$ measurements, the result is good enough to be incorporated in our systematics uncertainties. Due to the fact that $R_{v_2^{\rm FVTXS}}$ is corrected to within $\pm10\%$ and the fact that $v_2^{\rm FVTXS}(p_T)$ has smaller a statistical uncertainty, the primary $v_2(p_T)$ measurement is done using the FVTXS.
+Figure~\ref{fig:fvtx_corrected_best} shows the $v_2(p_T)$ with the inverse $\phi$ weighting and 20\% cut from Figure \ref{fig:fvtx_corr_summary}. This figure also shows $v_2(p_T)$ with the pp/pAu ratio weighting from Figure~\ref{fig:bbc_corr_summary}. Although the east and west $v_2^{\rm BBCS}$ measurements do not collapse together like the east and west $v_2^{\rm FVTXS}$ measurements, the result is good enough to be incorporated in our systematics uncertainties. Due to the fact that $R_{v_2^{\rm FVTXS}}$ is corrected to within $\pm10\%$ and the fact that $v_2^{\rm FVTXS}(p_T)$ has a smaller statistical uncertainty, the primary $v_2(p_T)$ measurement is done using the FVTXS.
 
 \begin{figure}[!h]
 \begin{center}
@@ -426,6 +427,7 @@ In order to estimate the contribution of this systematic uncertainty, we assume 
 %\end{figure}
 
 \section{Other Sources of Systematic Uncertainty}
+In this section, other sources of systematic uncertainty are described and the sum of the systematic uncertainties are shown.
 \subsection{Effect of Event Pile-Up}
 Pile-up events occur when there are two or more collisions within the same bunch crossing. Pile-up events are an issue for this analysis because they:
 \begin{enumerate}
@@ -445,7 +447,7 @@ Pile-up events occur at a rate of 8\% in 0-5\% central \pau collisions. Low-lumi
 \end{center}
 \end{figure}
 
-\subsection{Event-Plane Detectors}
+\subsection{Event Plane Detectors}
 We expect that the value of $v_2$ should be consistent when measured in different detectors, after applying corrections. Any remaining difference of $v_2$ measured independently in the FVTXS and BBCS indicates a source of systematic uncertainty. The difference is calculated after applying corrections to beam alignment $v_2$, as shown in Figure \ref{fig:v2_fvtx_bbc_compare}. The right panel of the figure shows the average difference to be around 0.97. Thus, the systematic uncertainty estimated is $\pm$3\%.
 \begin{figure}[!h]
 \begin{center}
@@ -469,18 +471,17 @@ As discussed in Chapter 2, non-flow is a catch-all term used to categorize all t
 \item momentum conservation.
 \end{enumerate}
 
-Figure~\ref{fig:jet_corr_example} shows the characteristic two-particle correlations arising from non-flow associated with dijets. The near-side peak at (0,0) is from the cone of particles in a single jet all at a similar location in $\eta$ and $\phi$. The away-side ridge around $\phi$ = $\pi$ originates from particles pairs, where each particle belongs to a different jet. The two jets are completely back-to-back in $\Delta\phi$, but have a spread in $\Delta\eta$. This correlation function yields a substantial $c_2$ very similar to that from the hydrodynamic flow signal we are seeking. In order to minimize the contribution of dijet events, the standard flow analysis procedure is to select regions outside of the red dotted lines seen in Figure~\ref{fig:jet_corr_example} ($|\Delta\eta| > \eta_{min}$, where $\eta_{min}$ is usually of order 1.0 unit of pseudorapidity).
+Figure~\ref{fig:jet_corr_example} shows the characteristic two-particle correlations arising from non-flow associated with dijets. The near-side peak at (0,0) is from the cone of particles in a single jet all at a similar location in $\eta$ and $\phi$. The awayside ridge around $\phi$ = $\pi$ originates from particles pairs, where each particle belongs to a different jet. The two jets are completely back-to-back in $\Delta\phi$, but have a spread in $\Delta\eta$. This correlation function yields a substantial $c_2$ very similar to that from the hydrodynamic flow signal we are seeking. In order to minimize the contribution of dijet events, the standard flow analysis procedure is to select regions outside of the red dotted lines seen in Figure~\ref{fig:jet_corr_example} ($|\Delta\eta| > \eta_{min}$, where $\eta_{min}$ is usually on the order of 1.0 units of pseudorapidity).
 
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.5\linewidth]{figs/jet_corr_example.png}
-\caption{Plotted here is the 2D profile of a correlation function in $\Delta\eta \Delta\phi$ space of a dijet event. The area in red dotted lines represent the exclusion zone in $\Delta\eta$, such that the measurement is made only using data from outside of the exclusion zone to reduce non-flow contributions.}
+\caption{2D profile of a correlation function in $\Delta\eta \Delta\phi$ space of a dijet event. The area bounded by red dotted lines represents the exclusion zone in $\Delta\eta$, such that the measurement is made only using data from outside of the exclusion zone to reduce non-flow contributions.}
 \label{fig:jet_corr_example}
 \end{center}
 \end{figure}
 
-In order to estimate the degree of presence of non-flow, we can measure the $c_2$ from \pp events which should be devoid of any hydrodynamic flow but should have many of the sources of non-flow present. In order to compare \pp with \pau, we must scale-up the \pp quantity by the dilution factor defined in eq \ref{eq:dilute}.
-The scaled down reference $c_{2}$ is shown as blue squares in Fig.~\ref{fig:non_flow}, panel (a). The ratio of $c_2$ in the scaled-down \pp reference to that in \pau is shown in panel (b). 
+In order to estimate the degree of presence of non-flow, we can measure the $c_2$ from \pp events which should be devoid of any hydrodynamic flow but should have many of the sources of non-flow present. In order to compare \pp with \pau, we must scale-up the \pp quantity by the dilution factor defined in Equation \ref{eq:dilute}. The scaled down reference $c_{2}$ is shown as blue squares in Fig.~\ref{fig:non_flow}, panel a). The ratio of $c_2$ in the scaled-down \pp reference to that in \pau is shown in panel b). 
 
 From this ratio, as calculated in Equation \ref{eq:dilute}, it can be seen that the relative correlation strength in \pau from elementary processes is at most 23$\%$ at the highest $p_T$. Since this procedure constitutes an approximation to quantify the non-flow correlation strength, it is not subtracted from the total signal, instead it is treated as a source of systematic uncertainty. Even though the \pau and the \pp baseline data were collected in different years, such that potential changes in detector performance could affect our results, it was verified that using \pp data from various run periods has an effect of at most 3$\%$ on the calculated non-flow contribution. The non-flow correlations which enhance the $v_2$, whose contribution we estimate from Figure~\ref{fig:non_flow}, assigning a $p_T$-dependent asymmetric uncertainty with a maximum value of $^{+0}_{-23}\%$
 \begin{equation}
@@ -508,7 +509,7 @@ Table \ref{tbl:sys_uncert} summarizes the sources of systematic uncertainty for 
 \item point-to-point correlated between $p_T$ bins,
 \item overall normalization uncertainty in which all points are scaled by the same multiplicative factor.
 \end{enumerate}
-We total the five sources of systematic uncertainty, by adding them in quadrature. The total systematic uncertainty varies from $^{+7.2}_{-13.4}\%$ at low \pt to $^{+7.3}_{-23.8}\%$ at high \pt. Now that the systematic uncertainties have been estimated, we show the $v_2$ physics result in the next Chapter 5.
+We total the five sources of systematic uncertainty, by adding them in quadrature. The total systematic uncertainty varies from $^{+7.2}_{-13.4}\%$ at low \pt to $^{+7.3}_{-23.8}\%$ at high \pt. Now that the systematic uncertainties have been estimated, we show the $v_2$ physics result in the next chapter.
 
 \begin{table}[!h]
   \begin{center}
