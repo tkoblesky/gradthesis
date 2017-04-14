@@ -1,7 +1,7 @@
 \chapter{Analysis}
 This chapter contains an extensive discussion of the data analysis techniques in the physics measurement. First we describe the building blocks of the  $v_2$ measurement, then we examine the event plane analysis techniques and the sources of systematic uncertainty.
 \section{The Building Blocks of the Measurement}
-Prior to any analysis, the raw data collected by various PHENIX subsystems must be reconstructed into well-defined software objects encapsulating information of the particles that traversed the detector. Although we have already discussed the subsystems used in this analysis in Chapter 3, this section provides in-depth information on central arm tracks, FVTX clusters, and BBC photomultiplier tubes (PMTs), and the physics variables they contain. Figure \ref{fig:phenix_coord_system} displays the coordinate system for PHENIX and the particle parameters that are in relation to it.
+Prior to any analysis, the raw data collected by various PHENIX subsystems must be reconstructed into well-defined software objects encapsulating information of the particles that traversed the detector. Although we have already discussed the subsystems used in this analysis in Chapter 3, this section provides in-depth information on central arm tracks, FVTX clusters, and BBC photomultiplier tubes (PMTs), and the physics variables they contain. Figure \ref{fig:phenix_coord_system} displays the coordinate system for PHENIX.
 
 %In this section, I will be detailing the relevant direct observables used in this measurement. They include parameters from central arm tracks, FVTX clusters, and BBC PMTs. Although the Central Arms, FVTX, and BBC have already been described in chapter 3, I will go into more detail into the parameters available and their mathematical precision. 
 
@@ -21,9 +21,9 @@ Prior to any analysis, the raw data collected by various PHENIX subsystems must 
 %\end{figure}
 %-todo: list all parameters used in the analysis. show some performance plots
 \subsection{Central Arm Tracks}
-Central Arm (CA) tracks are the representation of charged particles emitted from the heavy ion collision, which are detected by detectors in the PHENIX central arms. There are two central arms, each one covering an acceptance of $\pm 0.35$ in pseudorapidity and a total azimuth acceptance of $\frac{\pi}{2}$. The relevant detectors in the CA for this analysis include the Drift Chamber (DC), the Pad Chambers (PC) and the Ring Imaging Cerenkov (RICH) detector. As discussed in Chapter 3, the DC provides momentum information; the PC provide track quality metrics; and the RICH provides electron identification. 
+Central Arm (CA) tracks are the representation of charged particles emitted from the heavy ion collision that are detected by detectors in the PHENIX central arms. There are two central arms, each one covering an acceptance of $\pm 0.35$ in pseudorapidity and a total azimuth acceptance of $\frac{\pi}{2}$. The relevant detectors in the CA for this analysis include the Drift Chamber (DC), the Pad Chambers (PC) and the Ring Imaging Cerenkov (RICH) detector. As discussed in Chapter 3, the DC provides momentum information; the PC provide track quality metrics; and the RICH provides electron identification. 
 
-The main physical parameter of CA tracks is the momentum vector $\vec{p} = (p_x, p_y, p_z)$ of the particles, defined at the collision vertex. This analysis uses tracks with momentum 0.02 GeV/c $< |\pt| < 3.5$ GeV/c, a \pt range where the momentum resolution is good, as shown in the left panel of Figure \ref{fig:dc_mom_res}. The right panel of Figure \ref{fig:dc_mom_res} shows the \pt distribution of CA tracks up to 10 GeV/c: a smooth linearly falling distribution on a log scale with a small number of fake tracks at high \pt. The azimuthal angle and pseudorapidity of the track are calculated from the components of its momentum vector, as follows: 
+The main physical parameter of CA tracks is the momentum vector $\vec{p} = (p_x, p_y, p_z)$ of the particles, defined at the collision vertex. This analysis uses tracks with momentum 0.2 GeV/c $< |\pt| < 3$ GeV/c, a \pt range where the momentum resolution is good, as shown in the left panel of Figure \ref{fig:dc_mom_res}. The right panel of Figure \ref{fig:dc_mom_res} shows the \pt distribution of CA tracks up to 10 GeV/c: a smooth linearly falling distribution on a log scale with a small number of fake tracks at high \pt. The azimuthal angle and pseudorapidity of the track are calculated from the components of its momentum vector, as follows: 
 \begin{align}
 \phi &= \arctan( \frac{p_y}{p_x} ),\\
 \eta &= \operatorname{arsinh}(\frac{p_z}{p_T}). 
@@ -132,7 +132,7 @@ the tracks within a $\pm$2$\sigma$ cut.
 
 %In \pau collisions, the average number of reconstructed CNT (before cuts) is (\textbf{TO DO: QUANTIFY THIS}).
 \subsection{FVTX Clusters}
-The FVTX consists of four silicon layers in each of the north and south directions, covering an acceptance of $1 < | \eta | < 3$ and spanning the full azimuth. FVTX clusters correspond to the spatial location where charged particles hit one of the silicon layers. Each cluster is expected to correspond to a single charged particle in the case of \pau collisions, because of the low multiplicity relative to Au+Au collisions. These clusters have a spatial resolution in $r$ and $\phi$ of 50 $\mu$m and 0.14 radians, respectively, and have an RMS along the $z$-direction that corresponds to the width of an FVTX layer, of $\frac{200}{\sqrt{12}}$ $\mu$m \cite{Aidala201444}. Due to the \pau collision system's inherent asymmetry, the majority of particles are produced in Au-going (south or backward) direction. Taking into account this asymmetry, only the clusters from the south arm are used for calculations in this analysis. In a typical 0--5$\%$ centrality event, there are on average $\sim$1500 FVTX clusters in the south arm alone. Average hit distributions are shown in Figure \ref{fig:fvtx_clusxy}.
+The FVTX consists of four silicon layers in each of the north and south directions, covering an acceptance of $1 < | \eta | < 3$ and spanning the full azimuth. FVTX clusters correspond to the spatial location where charged particles hit one of the silicon layers. Each cluster is expected to correspond to a single charged particle in the case of \pau collisions, because of the low multiplicity relative to Au+Au collisions. These clusters have a spatial resolution in $r$ and $\phi$ of 50 $\mu$m and 0.14 radians, respectively, and have an RMS along the $z$-direction that corresponds to the width of an FVTX layer, of $\frac{200}{\sqrt{12}}$ $\mu$m \cite{Aidala201444}. Due to the \pau collision system's inherent asymmetry, the majority of particles are produced in the Au-going (south or backward) direction. Taking into account this asymmetry, only the clusters from the south arm are used for calculations in this analysis. In a typical 0--5$\%$ centrality event, there are on average $\sim$1500 FVTX clusters in the south arm alone. Average hit distributions are shown in Figure \ref{fig:fvtx_clusxy}. The clusters are used for calculating the event plane.
 
 %%check numbers in this section
 \begin{figure}[!ht]
@@ -185,7 +185,7 @@ Q_x &= \sum^{N_{\rm cluster}}_{i=1}( \cos(n\phi_i)) \\
 Q_y &= \sum^{N_{\rm cluster}}_{i=1}( \sin(n\phi_i)) \\
 \phi_i &= \arctan\left(\frac{y^i_{\rm cluster}}{x^i_{\rm cluster}}\right)
 \end{align}
-where $N_{\rm cluster}$ is the number FVTXS clusters in that event and $x^i_cluster$ and $y^i_cluster$are the $x$ and $y$ components of the $i$th FVTXS cluster in that event. At this point, this Q-vector is calculated with no cluster dependent weight factor because each cluster is taken to be the representation of one particle in each layer.
+where $N_{\rm cluster}$ is the number FVTXS clusters in that event and $x^i_{cluster}$ and $y^i_{cluster}$are the $x$ and $y$ components of the $i$th FVTXS cluster in that event. At this point, this Q-vector is calculated with no cluster dependent weight factor because each cluster is taken to be the representation of one particle in each layer.
 
 For the BBCS, the Q-vector is calculated in each event as
 \begin{align}
@@ -204,7 +204,7 @@ v_n = \frac{\left<\left<\cos(n(\phi^{CA} - \Psi^{BBCS,FVTXS}_n))\right>\right>}{
 In this analysis, we are concerned only with measuring the second-order harmonic $v_2$.
 
 \subsection{Event Plane Resolution Calculation}%bulk up this section with more background
-As mentioned above, the event plane resolution is calculated using the standard 3-subevent method~\cite{PhysRevC.58.1671}. The strategy of this method is to measure $\Psi_2$ with three different detectors in the same event, and then algebraically. The event plane resolution is defined as
+As mentioned above, the event plane resolution is calculated using the standard 3-subevent method~\cite{PhysRevC.58.1671}. The strategy of this method is to measure $\Psi_2$ with three different detectors in the same event with the expectation that all three are measuring the same event plane angle. The event plane resolution is defined as
 \begin{equation}
 Res(\Psi_2^A) = \sqrt{\frac{\left<\cos(2(\Psi_2^A - \Psi_2^B))\right>\left<\cos(2(\Psi_2^A - \Psi_2^C))\right>}{\left<\cos(2(\Psi_2^B - \Psi_2^C))\right>}},
 \label{eqn:res}
@@ -267,7 +267,7 @@ The flattening calibration requires two steps to completely flatten the $\Psi_n$
 where $N$ is the number of components, $F^{\cos}_{i}(f(x))$ is the $i$th component of the cosine Fourier transform of $f(x)$, and $f(\Psi_n)$ is the $\Psi_n$ distribution. For this analysis, $N = $12 is a sufficient number of components to flatten the $\Psi_n$ distribution. The re-centering and flattening calibration is done in separate 30 $z$-vertex bins since the detector acceptance in $\phi$ will vary with z-vertex.
 
 \section{East West $v_2$ Discrepancy}
-As discussed in the previous section, distortions in the raw $\Psi_2$ distribution can cause distortions in the measurement of $v_2$. In this section, we discuss how the beam alignment effects the raw $\Psi-2$ distribution and how it can be corrected for.
+As discussed in the previous section, distortions in the raw $\Psi_2$ distribution can cause distortions in the measurement of $v_2$. In this section, we discuss how the beam alignment affects the raw $\Psi_2$ distribution and how it can be corrected.
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.85\linewidth]{figs/fvtxs_default_ew.png}
@@ -276,13 +276,13 @@ As discussed in the previous section, distortions in the raw $\Psi_2$ distributi
 \label{fig:fvtx_ew_default}
 \end{figure}
 
-As shown in Figure~\ref{fig:fvtx_ew_default}, $v_2$ is different when measured using tracks in the west (-1 $<$ $\phi$ $<$ 1) and east arm (2 $<$ $\phi$ $<$ 4) of the CA. This is a systematic effect explained by the colliding beams not being parallel to the longitudinal axis of PHENIX. When examining beam alignment effects on the $v_2$ measurement, we can quantify the east-west $v_2$ asymmetry by calculating $R_{v_2}$ which is calculated by: 
+As shown in Figure~\ref{fig:fvtx_ew_default}, $v_2$ is different when measured using tracks in the west ($-$1 $<$ $\phi$ $<$ 1) and east arm (2 $<$ $\phi$ $<$ 4) of the CA. This is a systematic effect explained by the colliding beams not being parallel to the longitudinal axis of PHENIX. When examining beam alignment effects on the $v_2$ measurement, we can quantify the east-west $v_2$ asymmetry by calculating $R_{v_2}$ which is calculated by: 
 \begin{equation}
 R_{v_2} = \frac{\int{v_2^{\rm east}(p_T)d\pt}}{\int{v_2^{\rm west}(p_T)d\pt}}.
 \end{equation}
-In Figure \ref{fig:fvtx_ew_default}, $R_{v_2^{\rm FVTXS}}$ can be extracted by taking the ratio of the numbers in the legend of the upper right plot and $R_{v_2^{\rm BBCS}}$ can be extracted the same way for the numbers in the bottom left plot's legend. The $R_{v_2^{\rm FVTXS}}$ = 1.61 while the $R_{v_2^{\rm BBCS}}$ = 0.43, indicating large east west asymmetry in both measurements, although the difference in the BBCS is bigger. It is interesting to note that the splitting of the east and west $v_2$ measurements goes in opposite directions for the BBCS as compared to the FVTXS. To understand where the discrepancy in these $v_2$ measurements comes from, we examine the effects of the beam alignment on the $v_2$ measurement.
+In Figure \ref{fig:fvtx_ew_default}, $R_{v_2^{\rm FVTXS}}$ can be extracted by taking the ratio of the numbers in the legend of the upper right plot and $R_{v_2^{\rm BBCS}}$ can be extracted the same way for the numbers in the bottom right plot's legend. The $R_{v_2^{\rm FVTXS}}$ = 1.61 while the $R_{v_2^{\rm BBCS}}$ = 0.43, indicating large east west asymmetry in both measurements, although the difference in the BBCS is bigger. It is interesting to note that the splitting of the east and west $v_2$ measurements goes in opposite directions for the BBCS as compared to the FVTXS. To understand where the discrepancy in these $v_2$ measurements comes from, we examine the effects of the beam alignment on the $v_2$ measurement.
 \section{Correcting for the Effects of Beam Alignment}
-As discussed in Chapter 3, Section \ref{sec:ch2_beam_col_geo}, due to the nature of running \pau at \sqsn = 200 GeV at RHIC, the beam geometry was not in accordance with the PHENIX coordinate system. First of all, the collision vertex is significantly offset from the z-axis to which all of the PHENIX detectors are aligned. The other beam geometry effect, and the more significant of the two effects, comes from the fact that the beams are colliding at an angle of 3.6 mRad in the x-z plane as show in Figure~\ref{fig:diagram2}~\cite{BNL_Run15_Operations}. The reason a non-ideal beam geometry creates an east west $v_2$ measurement difference is because of the assumption that the ideal event plane angle is azimuthally isotropic during the event plane flattening calibration. In the translated and rotated frame where the beams are aligned with the z-axis the event plane distribution would be uniform, but in the lab frame the event plane distribution in $\phi$ would have regions of enhancement and reduction. The event plane flattening calibration algorithm restores a non-uniform distribution to a uniform one; however, if the true event plane distribution is non-uniform then forcing the measured distribution to be uniform produces a systematic offset.
+As discussed in Section \ref{sec:ch2_beam_col_geo}, due to the nature of running \pau at \sqsn = 200 GeV at RHIC, the beam geometry was not in accordance with the PHENIX coordinate system. First of all, the collision vertex is significantly offset from the z-axis to which all of the PHENIX detectors are aligned. The other beam geometry effect, and the more significant of the two effects, comes from the fact that the beams are colliding at an angle of 3.6 mRad in the x-z plane as show in Figure~\ref{fig:diagram2}~\cite{BNL_Run15_Operations}. The reason a non-ideal beam geometry creates an east west $v_2$ measurement difference is because of the assumption that the ideal event plane angle is azimuthally isotropic during the event plane flattening calibration. In the translated and rotated frame where the beams are aligned with the z-axis the event plane distribution would be uniform, but in the lab frame the event plane distribution in $\phi$ would have regions of enhancement and reduction. The event plane flattening calibration algorithm restores a non-uniform distribution to a uniform one; however, if the true event plane distribution is non-uniform then forcing the measured distribution to be uniform produces a systematic offset.
 
 \begin{figure}[!ht]
 \centering
@@ -293,7 +293,7 @@ As discussed in Chapter 3, Section \ref{sec:ch2_beam_col_geo}, due to the nature
 
 We correct for the offset of the collision vertex by shifting the origin of the PHENIX global coordinate system to the true collision vertex. To correct for the effect of the beam angle, we apply a global rotation of the PHENIX coordinate to align its longitudinal axis with that of the beams. In practice, these transformations are accomplished by individually applying a global rotation and translation to every CA track, FVTX cluster, and BBC PMT. 
 
-As shown in Figure~\ref{fig:fvtx_ew_rot}, applying these corrections prior to calculating $v_2$ reduces the magnitude of the east-west discrepancy. The new $R_{v_2^{\rm FVTXS}}$ = 1.43, and $R_{v_2^{\rm BBCS}}$ = 0.66, are reduced from the east-west difference measured without any corrections. However, even after rotating the PHENIX global coordinate system to be in alignment with the beam axis, $\Psi_2$ is, there is a residual effect from the beam rotation which still effects the $v_2$ measurement. 
+As shown in Figure~\ref{fig:fvtx_ew_rot}, applying these corrections prior to calculating $v_2$ reduces the magnitude of the east-west discrepancy. The new $R_{v_2^{\rm FVTXS}}$ = 1.43, and $R_{v_2^{\rm BBCS}}$ = 0.66, are reduced from the east-west difference measured without any corrections. However, even after rotating the PHENIX global coordinate system to be in alignment with the beam axis when calculating $\Psi_2$, there is a residual effect from the beam rotation, which still affects the $v_2$ measurement. 
 
 \begin{figure}[!ht]
 \centering
@@ -337,7 +337,7 @@ The left panel of Figure \ref{fig:analytic_corr} shows the $\phi$ dependence of 
 \label{sec:FVTX_inv_phi_weight}
 Another way to determine the weight factor is to use a data driven method of measuring the extent to which each $\phi$ region in a detector has systematically more or less particles. Then an inverse weighting based on this measurement is applied to the $\phi$ regions to correct the $\phi$ distribution of the detector to uniformity.
 
-For the FVTX implementation of this, first the rotation and offset correction are applied. Then, the weight factor is determined by plotting all hits in a cylindrical disk detector vs $\phi$, normalizing this distribution to one, and then inverting it. Applying this weight factor to the data will produce uniform hit distributions in $\phi$ in each of the detectors to which it is applied. This will, in turn, make the event plane distribution more uniform when measured in those detectors, thus correcting for the effect. The added benefit of using this method is that it also corrects for hot and cold $\phi$ regions in the detector. In order to get rid of significant hot or cold $\phi$ regions, $\phi$ regions with weight factors greater than 1.5 or less than 0.5 are set to 0.0. This correction is done for each FVTX layer, in z-vertex bins, and on a run-by-run basis. The multiplicative weight function $F(\phi,z_{\rm vertex})$ for the FVTX disks is defined as 
+For the FVTX implementation of this, first the rotation and offset correction are applied. Then, the weight factor is determined by plotting all hits in a cylindrical disk detector vs $\phi$, normalizing this distribution to one, and then inverting it. Applying this weight factor to the data will produce uniform hit distributions in $\phi$ in each of the detectors to which it is applied. This will, in turn, make the event plane distribution more uniform when measured in those detectors, thus correcting for the effect. The added benefit of using this method is that it also corrects for efficient and inefficient $\phi$ regions in the detector. In order to get rid of significant hot or cold $\phi$ regions, $\phi$ regions with weight factors greater than 1.5 or less than 0.5 are set to 0.0. This correction is done for each FVTX layer, in z-vertex bins, and on a run-by-run basis. The multiplicative weight function $F(\phi,z_{\rm vertex})$ for the FVTX disks is defined as 
 \begin{equation}
 F(\phi,z_{\rm vertex},layer) = \frac{\left<N_{\rm cluster}(z_{\rm vertex},layer)\right>}{N_{\rm cluster}(\phi,z_{\rm vertex},layer)},
 \end{equation}
@@ -379,13 +379,13 @@ One effect of using this weighting method is that it will make the distribution 
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.75\linewidth]{figs/pp_pau_bbc_comparison.png}
-\caption{These plots depict the average PMT charge per event versus $\phi$ in the a) the \pp $\sqrt{s}$ = 200 GeV and b) \pau \sqsn = 200 GeV. The PMTs are separated by color, which corresponds to the rings of approximate common radius as shown in Figure~\ref{fig:bbc_rings}. The left plot shows near uniformity as a function of $\phi$ and ring. However, the right plot shows a significant deviation from uniformity especially for the innermost rings (rings 1 and 2). In addition to the $\phi$ variation for the right plot, the innermost rings have the largest average charge when compared to the other rings. This is in part due to the fact the innermost rings cover the a slightly larger $\eta$ range. However, the innermost rings in the left plot also cover the largest $\eta$ range and do not exhibit this separation in rings. }
+\caption{These plots depict the average PMT charge per event versus $\phi$ in the a) the \pp $\sqrt{s}$ = 200 GeV and b) \pau \sqsn = 200 GeV. The PMTs are separated by color, which corresponds to the rings of approximate common radius as shown in Figure~\ref{fig:bbc_rings}. The left plot shows near uniformity as a function of $\phi$ and ring. However, the right plot shows a significant deviation from uniformity especially for the innermost rings (rings 1 and 2). In addition to the $\phi$ variation for the right plot, the innermost rings have the largest average charge when compared to the other rings. This is in part due to the fact the innermost rings cover a slightly larger $\eta$ range. However, the innermost rings in the left plot also cover the largest $\eta$ range and do not exhibit this separation in rings. }
 \label{fig:bbc_pmt_phi_pp_pau}
 \end{center}
 \end{figure}
 
 \subsection{Applying Weighting to v2}
-The previously discussed corrections are applied when calculating the raw $\Psi_2^{\rm FVTXS}$ used in the $v_2$ measurement. Shown in Figure \ref{fig:fvtx_corr_summary} is the correction summary for the FVTXS $v_2$ measurement where $R_{v_2^{\rm FVTXS}}$ is the y-axis. The first column, which corresponds to $R_{v_2^{\rm FVTXS}}$ calculated using FVTXS layers 1, 2, and 4, with layer 3 being excluded, is explained shortly. The black, red, blue, and green points correspond to no weighting, analytic weighting, inverse $\phi$ weighting, and inverse $\phi$ weighting with cuts, respectively. Compared to the $R_{v_2^{\rm FVTXS}}$ calculated with no weighting, $R_{v_2^{\rm FVTXS}}$ calculated with each of the corrections brings the ratio quantity much closer to 1.0, indicating the weighting techniques are working.  In order to better understand the effect of the corrections, $R_{v_2^{\rm FVTXS}}$ is measured separately with each FVTXS layer. The rationale for this exclusion is due to FVTXS layer 3's unusual behavior in relation to the other FVTXS layers. As we go from layer 1 to layer 4, the $R_{v_2^{\rm FVTXS}}$ generally is trending downward except for layer 3. Although the reason for this was never definitively determined, it is likely there is some issue with the layer data due to electronic or detector problems. Thus, the measurement of $v_2^{\rm FVTXS}$ is calculated without any clusters in the third layer.
+The previously discussed corrections are applied when calculating the raw $\Psi_2^{\rm FVTXS}$ used in the $v_2$ measurement. Shown in Figure \ref{fig:fvtx_corr_summary} is the correction summary for the FVTXS $v_2$ measurement where $R_{v_2^{\rm FVTXS}}$ is the y-axis. The first column, which corresponds to $R_{v_2^{\rm FVTXS}}$ calculated using FVTXS layers 1, 2, and 4, with layer 3 being excluded, is explained shortly. The black, red, blue, and green points correspond to no weighting, analytic weighting, inverse $\phi$ weighting, and inverse $\phi$ weighting with cuts, respectively. Compared to the $R_{v_2^{\rm FVTXS}}$ calculated with no weighting, $R_{v_2^{\rm FVTXS}}$ calculated with each of the corrections brings the ratio quantity closer to 1.0, indicating the weighting techniques are working.  In order to better understand the effect of the corrections, $R_{v_2^{\rm FVTXS}}$ is measured separately with each FVTXS layer. The rationale for this exclusion is due to FVTXS layer 3's unusual behavior in relation to the other FVTXS layers. As we go from layer 1 to layer 4, the $R_{v_2^{\rm FVTXS}}$ generally is trending downward except for layer 3. Although the reason for this was never definitively determined, it is likely there is some issue with the layer data due to electronic or detector problems. Thus, the measurement of $v_2^{\rm FVTXS}$ is calculated without any clusters in the third layer.
 
 \begin{figure}[!h]
 \begin{center}
@@ -411,7 +411,7 @@ Figure~\ref{fig:fvtx_corrected_best} shows the $v_2(p_T)$ with the inverse $\phi
 \begin{center}
 \includegraphics[width=0.75\linewidth]{figs/fvtx_corrected.png}
 \includegraphics[width=0.75\linewidth]{figs/bbc_pp_correction.png}
-\caption{ FVTXS $v_2$ event plane measurement corrected with inverse $\phi$ weighting and 20 $\%$ cut with FVTXS layer 3 is excluded (top) and BBCS $v_2$ event plane measurement corrected with \pp/\pau ratio weighting (bottom).}
+\caption{ FVTXS $v_2$ event plane measurement corrected with inverse $\phi$ weighting and 20$\%$ cut with FVTXS layer 3 excluded (top) and BBCS $v_2$ event plane measurement corrected with \pp/\pau ratio weighting (bottom).}
 \label{fig:fvtx_corrected_best}
 \end{center}
 \end{figure}
@@ -442,7 +442,7 @@ Pile-up events occur at a rate of 8\% in 0-5\% central \pau collisions. Low-lumi
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.8\linewidth]{figs/example_pile_up_event.png}
-\caption{The distribution of BBC PMT timing values. The x-axis is the difference between the southern BBC PMT $t_0$ - the mean $t_0$ in the south. An example of a normal event (left) and an example pile-up event (right), are shown.}
+\caption{The distribution of BBC PMT timing values. The x-axis is the difference between the southern BBC PMT $t_0$ $-$ the mean $t_0$ in the south. An example of a normal event (left) and an example pile-up event (right), are shown.}
 \label{fig:pile_up_example}
 \end{center}
 \end{figure}
@@ -509,7 +509,7 @@ Table \ref{tbl:sys_uncert} summarizes the sources of systematic uncertainty for 
 \item point-to-point correlated between $p_T$ bins,
 \item overall normalization uncertainty in which all points are scaled by the same multiplicative factor.
 \end{enumerate}
-We total the five sources of systematic uncertainty, by adding them in quadrature. The total systematic uncertainty varies from $^{+7.2}_{-13.4}\%$ at low \pt to $^{+7.3}_{-23.8}\%$ at high \pt. Now that the systematic uncertainties have been estimated, we show the $v_2$ physics result in the next chapter.
+We total the five sources of systematic uncertainty, by adding them in quadrature. The total systematic uncertainty varies from $^{+7}_{-13}\%$ at low \pt to $^{+7}_{-23}\%$ at high \pt. Now that the systematic uncertainties have been estimated, we show the $v_2$ physics result in the next chapter.
 
 \begin{table}[!h]
   \begin{center}
@@ -518,10 +518,10 @@ We total the five sources of systematic uncertainty, by adding them in quadratur
       \hline
       \hline
       Source& Systematic Uncertainty & Type \\ \hline
-      Track Background &2.0\%& 1\\ 
+      Track Background &2\%& 1\\ 
       Event Pile-up    &$^{+4}_{-0}\%$& 2\\
       Non-Flow    &$^{+0}_{-23}\%$& 2\\
-      Beam Angle &5.0\%& 3\\  
+      Beam Angle &5\%& 3\\  
       Event Plane Detectors & 3\% & 3\\
     \hline
     \hline
