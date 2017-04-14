@@ -7,7 +7,7 @@ There are two major detector experiments currently operating in interaction regi
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.65\linewidth]{figs/rhic-map.png}
-\caption{A helicopter's view of the accelerator chain in BNL starting at the Tandems (in gold) and ending at the RHIC ring (in blue and yellow for the two counter-circulating beams). STAR and PHENIX can be seen at two of the interaction regions. The ring is 2.38 miles in circumference~\cite{Tannenbaum:2013wkn}.}
+\caption{An aerial view of the accelerator chain in BNL starting at the Tandems (in gold) and ending at the RHIC ring (in blue and yellow for the two counter-circulating beams). STAR and PHENIX can be seen at two of the interaction regions. The ring is 2.38 miles in circumference~\cite{Tannenbaum:2013wkn}.}
 \label{fig:rhic_heli_photo}
 \end{figure}
 
@@ -16,7 +16,7 @@ The RHIC ring is at the end of a chain of smaller accelerators that are used to 
 \begin{enumerate}
   \item{} A pulsed sputter Au ion source generates negative ions in the Tandem Van De Graaff.
   \item{} The ions are passed through an electron stripping foil to achieve a positive +12 $e$ charge and accelerated to $\sim$1 MeV per nucleon.
-  \item{} The ions pass through bending magnets and another foil to further strip electrons and filter charge, yielding to a positive +32 $e$ charge state.
+  \item{} The ions pass through bending magnets and another foil to further strip electrons and filter charge, yielding a positive +32 $e$ charge state.
   \item{} The ions are sent to the Booster Synchrotron, which accelerates them to 95 MeV per nucleon and leaves them at a positive +77 $e$ charge.
   \item{} The ions enter the Alternating Gradient Synchrotron (AGS) in bunches of 24 around the ring. The ions are debunched and rebunched into four bunches and then accelerated to 10.8 GeV per nucleon.
   \item{}  The bunches then exit the AGS one at a time, where their Au ions are stripped of their two remaining electrons, yielding a final charge state of positive +79 $e$. Finally, the bunches are transferred to their respective buckets in RHIC. 
@@ -63,7 +63,7 @@ For reference, Figure \ref{fig:ch3_coord_sys} depicts the PHENIX coordinate syst
 \end{figure}
 
 \subsection{PHENIX Magnet System}
- The CM has two circular coils which can be configured in the same direction (++ or $-$ $-$), the opposite direction (+$-$ or $-$ $+$), or with the inner magnet off (+0 or $-$0). The magnets can also be run in the ``zero-field" configuration which is used for alignment purposes. Figure \ref{fig:magnet_figures} shows the magnetic field lines and strength produced by the PHENIX magnets. The magnetic field lines at mid-rapidity, $|Z| < 0.3$m on the plot, have a peak strength of $\sim$0.9 T near the beam pipe and extend out to R $\approx$ 2 m, just before the DC. The right panel of Figure \ref{fig:magnet_figures} depicts the magnetic field strength as a function of distance from the center of PHENIX. For any of the possible CM magnet configurations, the magnetic field strength is very small for $r > $ 2 m.
+ The CM has two circular coils which can be configured in the same direction (++ or $-$ $-$), the opposite direction (+$-$ or $-$ $+$), or with the inner magnet off (+0 or $-$0). The magnets can also be run in the ``zero-field" configuration for alignment purposes. Figure \ref{fig:magnet_figures} shows the magnetic field lines and strength produced by the PHENIX magnets. The magnetic field lines at mid-rapidity, $|Z| < 0.3$m on the plot, have a peak strength of $\sim$0.9 T near the beam pipe and extend out to R $\approx$ 2 m, just before the DC. The right panel of Figure \ref{fig:magnet_figures} depicts the magnetic field strength as a function of distance from the center of PHENIX. For any of the possible CM magnet configurations, the magnetic field strength is very small for $r > $ 2 m.
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.45\linewidth]{figs/magnet_map.png}
@@ -75,7 +75,7 @@ For reference, Figure \ref{fig:ch3_coord_sys} depicts the PHENIX coordinate syst
 %The general design philosophy for PHENIX forward rapidity detectors 
 \subsection{Beam Beam Counter}
 \label{sec:bbc_det_sec}
-The BBC is a forward detector used to determine the event start time, vertex, centrality, and event plane. The BBC is composed of two mirror image arrays, a South and a North Arm, that surround the beam pipe 144 cm on opposite sides of the nominal collision point just behind the Central Magnet, covering $3.0 < |\eta| < 3.9$ and 2$\pi$ radians in azimuth. Each BBC arm is made of 64 elements composed of a 3-cm length quartz Cherenkov radiator connected to a 2.5 cm diameter Hamamatsu R6178 mesh dynode PMT (photomultiplier tube), as shown in Figure \ref{fig:bbc_dector}. The outer and inner diameters of the BBC, with respect to the beam axis, are 30 cm and 10 cm, respectively.% allowing for a 1 cm clearance of the beam pipe.
+The BBC is a forward detector used to determine the event start time, vertex, centrality, and event plane. The BBC is composed of two mirror image arrays, a South and a North Arm, that surround the beam pipe 144 cm on opposite sides of the nominal collision point just behind the Central Magnet, covering $3.0 < |\eta| < 3.9$ and 2$\pi$ radians in azimuth. Each BBC arm is made of 64 elements composed of a 3-cm quartz Cherenkov radiator connected to a 2.5 cm diameter Hamamatsu R6178 mesh dynode PMT (photomultiplier tube), as shown in Figure \ref{fig:bbc_dector}. The outer and inner diameters of the BBC, with respect to the beam axis, are 30 cm and 10 cm, respectively.% allowing for a 1 cm clearance of the beam pipe.
 \begin{figure}[!ht]
 \centering
 \includegraphics[width=0.45\linewidth]{figs/bbc_pmt.png}
@@ -93,8 +93,9 @@ where $T_S, T_N$ are the particle's average arrival times for each arm and $c$ i
 
 For \pau collisions at \sqsn = 200 GeV, the BBC has a timing resolution of $\sigma_t$ $\sim$50 ps and a corresponding $z$-vertex resolution of $\sim$1.0--2.0 cm, depending on the event charged particle multiplicity. A coarser estimate of the vertex is used during triggering, to select events of interest. Specific details about triggers are in Section \ref{sec:PHENIX_DAQ}.
 
-The BBC also provides the centrality classification, as described in Chapter 2, Section \ref{sec:initial_condition}, of a collision event in PHENIX. Details of how BBC data is used to compute the centrality are given later in this Chapter in Section \ref{sec:central_determin}.
+The BBC also provides the centrality classification, as described in Section \ref{sec:initial_condition}, of a collision event in PHENIX. Details of how BBC data is used to compute the centrality are given in Section \ref{sec:central_determin}.
 
+Additionally, the BBC is used to calculate the event plane in the event, which is described in Section 4.2.
 %\begin{figure}[!h]
 %\begin{center}
 %\includegraphics[width=0.4\linewidth]{figs/bbc_ring_schematic.png}
@@ -105,7 +106,7 @@ The BBC also provides the centrality classification, as described in Chapter 2, 
 %[LIST PHENIX forward rapidity detectors (muon ID, muon tracker, muon trigger, FVTX, RPC (maybe forget about the big list! yes it is a waste of time)]
 \subsection{Forward Vertex Detector}
 %[talk about how it is a new upgrade in 2012, talk about ]
-The FVTX is a PHENIX detector upgrade that became operational in 2012 for taking physics data. The FVTX provides charged particle tracking, collision vertex determination, and event plane determination \cite{Aidala201444}. The FVTX consists of two identical endcaps covering a combined pseudorapidity range of 1 $<|\eta|<$ 3 and full azimuth coverage. Each endcap has four stations of silicon mini-strip sensors with a pitch of 75 $\mu$m arranged in the radial direction around the beam pipe. The basic unit of construction is a wedge that has silicon strip sensors and associated read-out chips. The inner most layer (on each side) of the FVTX has a smaller radius. Figure \ref{fig:fvtx_cutaway} is a photograph of the FVTX disks and an engineering drawing of the FVTX and its support structure. The FVTX is used in this thesis to calculate the event plane.
+The FVTX is a PHENIX detector upgrade that became operational in 2012. The FVTX provides charged particle tracking, collision vertex determination, and event plane determination \cite{Aidala201444}. The FVTX consists of two identical endcaps covering a combined pseudorapidity range of 1 $<|\eta|<$ 3 and full azimuth coverage. Each endcap has four stations of silicon mini-strip sensors with a pitch of 75 $\mu$m arranged in the radial direction around the beam pipe. The basic unit of construction is a wedge that has silicon strip sensors and associated read-out chips. The inner most layer (on each side) of the FVTX has a smaller radius. Figure \ref{fig:fvtx_cutaway} is a photograph of the FVTX disks and an engineering drawing of the FVTX and its support structure. The FVTX is used in this thesis to calculate the event plane, as discussed in Section 4.2.
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.45\linewidth]{figs/fvtx_cutaway.png}
@@ -116,7 +117,7 @@ The FVTX is a PHENIX detector upgrade that became operational in 2012 for taking
 %\subsubsection{FVTX Clustering}
 %\subsection{Midrapidity Detectors}
 \subsection{Drift Chamber}
-The DC consists of two gas multi-wire proportional chambers, one located in each arm. The DC is used to measure particle trajectories in the $r$-$\phi$ plane.
+The DC covers an pseudorapidity acceptance of $|\eta| < 0.35$ and consists of two gas multi-wire proportional chambers, one located in each arm. The DC is used to measure particle trajectories in the $r\phi$ plane.
 The DC is located $\sim$2 m from the $z$-axis, placing it in a very small residual magnetic field from the CM. Apart from the VTX, the DC is the first detector encountered by a particle produced at mid-rapidity. 
 
 As a charged particle passes through the DC volume, a gas mixture of 50\% Argon and 50\% Ethane are ionized to create free electrons. These electrons cause a chain reaction of ionizations which are measured by an anode wire. The DC is designed in such a way that the drift velocities of the elections are predicable enough to relate time and position together. 
@@ -125,18 +126,18 @@ As a charged particle passes through the DC volume, a gas mixture of 50\% Argon 
 \centering
 \includegraphics[width=0.45\linewidth]{figs/dc_diagram.png}
 \includegraphics[width=0.45\linewidth]{figs/dc_wire_diagram.png}
-\caption{A diagram of the DC titanium frame which encloses the detector (left) and a diagram of the X, U, and V wires in the DC (right)~\cite{Adcox2003469}.}
+\caption{A diagram of the DC titanium frame that encloses the detector (left) and a diagram of the X, U, and V wires in the DC (right)~\cite{Adcox2003469}.}
 \label{fig:dc_diagram}
 \end{figure}
 
-Each identical DC arm is cylindrical in design and covers 2.5 m along the beam direction and is 0.4 m deep (in radius) as seen in the left panel in Figure \ref{fig:dc_diagram}. Each arm is divided into 20 equal sectors covering 4.5 degrees in $\phi$. Each sector contains six types of wire modules stacked radially and labeled X1, U1, V1, X2, U2, V2, respectively, from the inside out. The X wires run parallel to the beam to perform precise $\phi$ measurements while the U and V wires are set at small angles of about six degrees relative to the X wires to provide information about the $z$ position of the track. A diagram of the wire layout in each sector is shown in the right panel in Figure \ref{fig:dc_diagram}. In total, the DC consists of about 6,500 anode wires with 13,000 readout channels. The  resolution for a single wire is 165 $\mu$m in $r$-$\phi$, a single wire efficiency better than 99\%, and a spatial resolution of  2 mm in the $z$ direction.
+Each identical DC arm is cylindrical in design and covers 2.5 m along the beam direction and is 0.4 m deep (in radius) as seen in the left panel in Figure \ref{fig:dc_diagram}. Each arm is divided into 20 equal sectors covering 4.5 degrees in $\phi$. Each sector contains six types of wire modules stacked radially and labeled X1, U1, V1, X2, U2, V2, respectively, from the inside out. The X wires run parallel to the beam to provide precise $\phi$ measurements while the U and V wires are set at small angles of about six degrees relative to the X wires to provide information about the $z$ position of the track. A diagram of the wire layout in each sector is shown in the right panel in Figure \ref{fig:dc_diagram}. In total, the DC consists of about 6,500 anode wires with 13,000 readout channels. The  resolution for a single wire is 165 $\mu$m in $r$-$\phi$, a single wire efficiency better than 99\%, and a spatial resolution of  2 mm in the $z$ direction.
 
 %\clearpage
 \subsection{Pad Chambers}
-The PCs are multi-wire proportional chambers consisting of three separate layers of detectors measuring precise hit positions in the PHENIX tracking system. The innermost layer, PC1, is located in both the east and west arms immediately outside the DC, providing a measurement of the $x, y, z$ position at the back plane of the DC. The second layer, PC2, is located behind the RICH in the west arm only. The outer layer, PC3, is in both arms and provides a second space point on the straight line trajectories of the tracks through the detector, outside of the CM magnetic field as shown in Figure \ref{fig:magnet_figures}. PC1 hits are used as an input to the pattern recognition to reduce the track background.
+The PCs are multi-wire proportional chambers consisting of three separate layers of detectors measuring precise hit positions in the PHENIX tracking system which have the pseudorapidity acceptance as the DC. The innermost layer, PC1, is located in both the east and west arms immediately outside the DC, providing a measurement of the $x, y, z$ position at the back plane of the DC. The second layer, PC2, is located behind the RICH in the west arm only. The outer layer, PC3, is in both arms and provides a second space point on the straight line trajectories of the tracks through the detector, outside of the CM magnetic field as shown in Figure \ref{fig:magnet_figures}. PC1 hits are used as an input to the pattern recognition to reduce the track background.
 
 \subsection{Ring Imaging Cherenkov Detector}
-The RICH detector is located immediately behind the PC1 and provides the primary electron identification for PHENIX. The RICH consists of two identical detectors in the CA. Each detector contains 48 mirror panels which focus Cherenkov light onto PMTs. The RICH is filled with radiator gas, CO$_2$, for the \pau running. The RICH provides e/$\pi$ (electron to pion) discrimination below the $\pi$ Cherenkov threshold of $\sim$4.5 GeV/c. Figure \ref{fig:rich_discrim_ep} shows the energy over momentum $E$/$p$ distribution in \auau \sqsn = 200 GeV collisions. The $E$ comes from the EMCAL and the $p$ comes from the DC tracks. When RICH hits are required in conjunction with DC tracks, a electron signal peak can be seen at $E$/$p$ = 1.0, as expected for electrons deposited their full energy in the EMCAL.
+The RICH detector is located immediately behind the PC1 and provides the primary electron identification for PHENIX. The RICH consists of two identical detectors in the CA. Each detector contains 48 mirror panels that focus Cherenkov light onto PMTs. The RICH is filled with radiator gas, CO$_2$, for the \pau running. The RICH provides e/$\pi$ (electron to pion) discrimination below the $\pi$ Cherenkov threshold of $\sim$4.5 GeV/c. Figure \ref{fig:rich_discrim_ep} shows the energy over momentum $E$/$p$ distribution in \auau \sqsn = 200 GeV collisions. The $E$ comes from the EMCAL and the $p$ comes from the DC tracks. When RICH hits are required in conjunction with DC tracks, a electron signal peak can be seen near $E$/$p$ = 1.0, as expected for electrons depositing their full energy in the EMCAL.
 
 \begin{figure}[!ht]
 \centering
@@ -146,11 +147,11 @@ The RICH detector is located immediately behind the PC1 and provides the primary
 \end{figure}
 
 \subsection{Electromagnetic Calorimeter}
-The EMCAL is the outermost subsystem in the central arms and is designed primarily to measure the energies and positions of photons and electrons. It also plays a key role in particle identification, as well as providing triggering on rare events of interest. Two different EMCAL designs were utilized with six sectors based on a lead-scintillator design and two sectors based on a lead-glass design. The two different designs were chosen deliberately as each provides advantages and disadvantages; for instance the lead glass has a better energy resolution, while the lead scintillator has better linearity and timing.
+The EMCAL is the outermost subsystem in the central arms and is designed primarily to measure the energies and positions of photons and electrons which have the pseudorapidity acceptance as the DC. It also plays a key role in particle identification, as well as providing triggering on rare events of interest. Two different EMCAL designs were utilized with six sectors based on a lead-scintillator design and two sectors based on a lead-glass design. The two different designs were chosen deliberately as each provides advantages and disadvantages; for instance the lead glass has a better energy resolution, while the lead scintillator has better linearity and timing.
 
 \subsection{PHENIX Data Acquisition System}
 \label{sec:PHENIX_DAQ}
-PHENIX makes use of a fast DAQ to manage the transfer and collation of hundreds of kB of event data (per event) from over two dozen independent detector subsystems at a rate of over 6 kHz. This amounts to writing to disk hundreds of MB/s, a data writing rate which the PHENIX DAQ consistently achieves for months of constant use. 
+PHENIX makes use of a fast DAQ to manage the transfer and collation of hundreds of kB of event data (per event) from over two dozen independent detector subsystems at a rate of over 6 kHz. This amounts to writing to disk hundreds of MB/s, a data writing rate that the PHENIX DAQ consistently achieves for months of constant use. 
 
 The collection of a  Granule Timing Module (GTM), Front End Modules (FEM), and a Data Collection Modules (DCM) is known as a ``granule" and is the minimal combination of DAQ hardware sufficient for data collection, as shown in Figure \ref{fig:granule_diag}. The output data of each detector subsystem is managed by a granule. Pipelined Field Programmable Gate Arrays (FPGA) with carefully controlled dead time are used to calculate the trigger decisions. The FPGAs are fed information from the experiment. Once the FPGAs compute the trigger decision, the trigger signals are monitored by the GTM. If the trigger decision is positive, the GTMs instruct the FEMs to release their data from their buffers and send them to the DCM of their granules. If the decision is negative, the FEMs are instructed to dump the data.  Once the FEM is instructed to send its data downstream, it goes to the DCM and then is sent to the Event Builder (EvB).
 
@@ -159,7 +160,7 @@ PHENIX runs 32 distinct triggers simultaneously. Each of the triggers has a scal
 
 The PHENIX trigger is tied to the clock of the blue beam, one of the two counter circulating rings of which RHIC is comprised. The clock rate is fixed at 9.38 MHz and is tied to the rate at which RHIC overlaps bunches of ions in the interaction regions. Every time a bunch of ions from the blue ring overlap with a bunch of ions from the yellow ring, there is a blue clock trigger. This clock is stable by necessity of the precision required to run a complex accelerator like RHIC.
 
-One critical trigger that is used in this analysis is the minimum bias trigger. As the name suggests, the trigger seeks to mark the detection of an ion collision while reducing to a minimum the bias to the type of the collision. To achieve this, data from the BBC are used. Although what constitutes a minimum observation varies with collision species, the BBC minimum bias trigger is generally defined as $>$0 PMTs in each arm above threshold. Not only is this condition a good indication that a ion collision occurred, it is also the minimum information necessary to calculate the collision vertex position using the BBC. The vertex information is important because it is used to select collisions which occur in the narrow range of acceptance of the current PHENIX detector configuration. This range is -10 cm $< z<$ 10 cm. For completeness, PHENIX takes BBC minimum bias triggers with z vertex cuts of 30 cm, 10 cm, and with no vertex cut. The collection of all these triggers is what is considered to be the PHENIX minimum bias trigger.
+One critical trigger that is used in this analysis is the minimum bias trigger. As the name suggests, the trigger seeks to mark the detection of an ion collision while reducing to a minimum the bias to the type of the collision. To achieve this, data from the BBC are used. Although what constitutes a minimum observation varies with collision species, the BBC minimum bias trigger is generally defined as $>$0 PMTs in each arm above threshold. Not only is this condition a good indication that a ion collision occurred, it is also the minimum information necessary to calculate the collision vertex position using the BBC. The vertex information is important because it is used to select collisions that occur in the narrow range of acceptance of the current PHENIX detector configuration. This range is $-$10 cm $< z<$ 10 cm. For completeness, PHENIX takes BBC minimum bias triggers with z vertex cuts of 30 cm, 10 cm, and with no vertex cut. The collection of all these triggers is what is considered to be the PHENIX minimum bias trigger.
 
 In Run 15, a high multiplicity trigger was implemented to enhance event statistics for events producing the largest number of particles (i.e. the most central, violent collisions). This trigger was given a large fraction of the bandwidth and consisted of requiring at least 35 out of 64 PMTs in the south arm (Au-going direction) of the BBC. More details about this trigger are located in Section \ref{sec:Run_15}.
 \begin{table}[h!]
@@ -253,7 +254,7 @@ The reason for this is because of the accelerator ring magnet requirements for r
 \label{fig:beam_angle}
 \end{figure}
 
-The collision vertex in $x$ and $y$ is known as the beam center. The beam center varies over the course of data taking but its values on average are $(x,y) = (0.206,0.065) (\rm cm)$. The distribution of z-vertices from collision events can be see in Figure \ref{fig:bbc_z_vtx_dist}. Due to the fact that the beams are colliding at an angle in the $x$-$z$ plane, the $x$-component of the beam center will have a z-vertex dependence with a slope of -0.0036 cm of $x$ per 1 cm of $z$.
+The average collision vertex location in $x$ and $y$ is known as the beam center. The beam center varies over the course of data taking but its values on average are $(x,y) = (0.206,0.065)$ cm. The distribution of vertices in $z$ from collision events can be see in Figure \ref{fig:bbc_z_vtx_dist}. Due to the fact that the beams are colliding at an angle in the $x$-$z$ plane, the $x$-component of the beam center will have a z-vertex dependence with a slope of -0.0036 cm of $x$ per 1 cm of $z$.
 Apart from how the beam angle effects the beam center values, it also violates the expectation of a uniform $\phi$ distribution of particles with respect to PHENIX detectors. PHENIX detectors are designed and aligned, with respect to the PHENIX coordinate system, with the expectation of geometric symmetry. A significant beam collision angle with respect to PHENIX detectors would be equivalent to PHENIX detectors being tilted, which would violate geometric symmetry.
 The physics analysis described in this thesis is sensitive to these beam geometry effects. A discussion on how to account for these effects will be in Chapter 4.
 
@@ -270,7 +271,7 @@ The physics analysis described in this thesis is sensitive to these beam geometr
 
 \subsection{Centrality Determination}
 \label{sec:central_determin}
-The centrality determination is done by adding up all BBC South (BBCs) (Au-going direction) PMT charges for every event and then splitting up that distribution into equivalent centrality bins. This procedure, which is the same used for \dau, as documented in Ref~\cite{PhysRevC.90.034902}, is used to associate a centrality bin with number of binary collisions from Monte Carlo Glauber (MC-Glauber), as discussed in Chapter 2 Section \ref{sec:ch2_mc_glaub}. An example of such MC-Glauber event for \dau is seen in Figure \ref{fig:glauber_event_display}.  
+The centrality determination is done by adding up all BBC South (BBCs) (Au-going direction) PMT charges for every event and then splitting up that distribution into equivalent centrality bins. This procedure, which is the same used for \dau, as documented in Ref~\cite{PhysRevC.90.034902}, is used to associate a centrality bin with the number of binary collisions from Monte Carlo Glauber (MC-Glauber), as discussed in Section \ref{sec:ch2_mc_glaub}. An example of such a MC-Glauber event for \dau is seen in Figure \ref{fig:glauber_event_display}.  
 \label{centrality_determination}
 \begin{figure}[!ht]
 \centering
@@ -279,7 +280,7 @@ The centrality determination is done by adding up all BBC South (BBCs) (Au-going
 \label{fig:glauber_event_display}
 \end{figure}
 
-In this procedure, the total BBC charge is assumed to be proportional to the number of binary collisions in a \pau collision. Fluctuations are described probabilistically via the Negative Binomial Distribution (NBD) as defined:
+In this procedure, the total BBC charge is assumed to be proportional to the number of binary collisions in a \pau collision. Fluctuations in nucleon positions are described probabilistically via the Negative Binomial Distribution (NBD) as defined:
 \begin{equation}
    \textrm{NBD}(x;\mu,\kappa) = \left(1+\frac{\mu}{\kappa}\right)\frac{(\kappa+x-1)!}{x!(\kappa-1)!}\left(\frac{\mu}{\mu+\kappa}\right)^x
 \end{equation}
