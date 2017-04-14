@@ -6,6 +6,7 @@
 \usepackage{hyperref}		% PDF hyperreferences??
 \usepackage{amsmath}
 \usepackage{xspace}
+
 \usepackage[numbers,sort&compress]{natbib}
 %\usepackage[utf8]{inputenc}
 %\usepackage{bm}% bold math
@@ -33,22 +34,22 @@
 	{Physics}		%  #2 {name}
 \advisor{Professor}				%  #1 {title}
 	{James Nagle}			%  #2 {name}
-\reader{Professor Kevin Stenson}		%  2nd person to sign thesis
-\readerThree{Professor Dennis Perepelitsa}		%  2nd person to sign thesis
-\readerFour{Professor Oliver DeWolfe}		%  2nd person to sign thesis
-\readerFive{Professor Juri Toomre}		%  3rd person to sign thesis
+\reader{Professor Dennis Perepelitsa}		%  2nd person to sign thesis
 
 %\frontmatter
 %\maketitle
 %\makecommitteepage
 \input macros.tex
 
+
 \abstract{\OnePageChapter	% because it is very short	
-The Quark Gluon Plasma (QGP), a hot and dense state of matter in which quarks are not confined inside hadrons, is thought to be the same as the matter compromising the entire universe approximately one microsecond after the Big Bang. In \auau collisions at \sqsn = 200 GeV at the Relativistic Heavy Ion Collider (RHIC) and \pbpb collisions at \sqsn = 2.76 TeV at the Large Hadron Collider (LHC), QGP has been discovered to have unique properties, such as its opacity to color charges and the fact it behaves like a near-perfect fluid. Collective behavior in the form of a substantial elliptical azimuthal anisotropy ($v_2$) in the momentum distribution of final state particles has been observed, indicating a strongly-coupled, hydrodynamically flowing medium. 
+The Quark Gluon Plasma (QGP), a hot and dense state of matter in which quarks are not confined inside hadrons, is thought to be the same as the matter comprising the entire universe approximately one microsecond after the Big Bang. In \auau collisions at \sqsn = 200 GeV at the Relativistic Heavy Ion Collider (RHIC) and \pbpb collisions at \sqsn = 2.76 TeV at the Large Hadron Collider (LHC), QGP has been discovered to have unique properties, such as its opacity to color charges and the fact that it behaves like a near-perfect fluid. Collective behavior in the form of a substantial elliptical azimuthal anisotropy ($v_2$) in the momentum distribution of final state particles has been observed, indicating a strongly-coupled, hydrodynamically flowing medium. 
 
-Recently, features of collectivity have been detected in high-multiplicity, small collision systems thought to be too small to produce the QGP, such as \hau and \dau at \sqsn = 200 GeV, \ppb at \sqsn = 5 TeV, and in \pp at \sqs = 13 TeV events. In order to constrain models seeking to describe this phenomena, collision systems with distinct initial collision geometries were run at RHIC: \hau for triangular geometry, \dau for elliptical geometry, and \pau for circular geometry. This thesis is the completion of that set of three measurements, by measuring $v_2$ in the \pau system. Comparisons of $v_2$ in the three collision systems and various theoretical models are made and it appears to be consistent with a QGP being formed.
+Recently, features of collectivity have been detected in high-multiplicity, small collision systems thought to be too small to produce the QGP, such as \hau and \dau at \sqsn = 200 GeV, \ppb at \sqsn = 5 TeV, and in \pp at \sqs = 13 TeV events. In order to constrain models seeking to describe this phenomena, collision systems with distinct initial collision geometries were run at RHIC: \hau for triangular geometry, \dau for elliptical geometry, and \pau for circular geometry. Together with coauthors, in a theory paper published in 2014, we proposed the suite of measurements at RHIC of the three collision systems~\cite{PhysRevLett.113.112301}.
 
-Together with coauthors, in a theory paper published in 2014, we proposed the suite of measurements at RHIC of the three collision systems~\cite{PhysRevLett.113.112301}. I am a coauthor on the experimental paper with these thesis results which has been accepted and is in press in Physical Review Letters C~\cite{Aidala:2016vgl}.
+This thesis is the completion of that set of three measurements, by measuring $v_2$ in the \pau system. This thesis gives details on the analysis techniques used to make the measurement including the quality assurance of the data, the optimization of the midrapidity charged hadron cuts, and the event plane angle calibration. Special attention is given to correcting the systematic effects produced by the beam alignment unique to the \pau dataset in order to make the $v_2$ measurement with sufficient precision. Comparisons of $v_2$ in the three collision systems and various theoretical models are made and it appears to be consistent with a QGP being formed. I am a coauthor on the experimental paper with these thesis results which has been published in Physical Review C~\cite{Aidala:2016vgl}.
+
+%In conjunction with the PHENIX group at Vanderbilt, the author produced and analyzed the terabytes of raw data to make the final $v_2$ measurement in the \pau dataset. Unique analysis techniques were necessary to make the first $v_2$ measurement in \pau collisions at \sqsn = 200 GeV. The author spent six months engineering and refining the unique customized weighting used in the event plane analysis method which was necessary in making $v_2$ measurement with sufficient precision.
 
 }
 
@@ -59,6 +60,8 @@ Together with coauthors, in a theory paper published in 2014, we proposed the su
 \acknowledgements{	\OnePageChapter	% *MUST* BE ONLY ONE PAGE!
 	
 	}
+	
+%\input glossary.tex
 
 \begin{document}
 
@@ -77,6 +80,7 @@ Together with coauthors, in a theory paper published in 2014, we proposed the su
 %%%%%%%%%%%%%%%         BEGIN DOCUMENT...                                                             %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 %\mainmatter
 
 \input chapter1.tex
@@ -94,7 +98,8 @@ Together with coauthors, in a theory paper published in 2014, we proposed the su
 %%%%%%%%%   then the Appendices, if any   %%%%%%%%%
 \appendix
 \input appendixA.tex
-%\input appendixB.tex
+\input appendixB.tex
+
 
 
 \end{document}
