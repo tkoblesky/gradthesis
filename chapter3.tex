@@ -117,10 +117,10 @@ The FVTX is a PHENIX detector upgrade that became operational in 2012. The FVTX 
 %\subsubsection{FVTX Clustering}
 %\subsection{Midrapidity Detectors}
 \subsection{Drift Chamber}
-The DC covers an pseudorapidity acceptance of $|\eta| < 0.35$ and consists of two gas multi-wire proportional chambers, one located in each arm. The DC is used to measure particle trajectories in the $r\phi$ plane.
+The DC covers an pseudorapidity acceptance of $|\eta| < 0.35$ and is composed of two gas multi-wire proportional chambers in each of the central arms. The DC is used to measure particle trajectories in the $r\phi$ plane and their momentum.
 The DC is located $\sim$2 m from the $z$-axis, placing it in a very small residual magnetic field from the CM. Apart from the VTX, the DC is the first detector encountered by a particle produced at mid-rapidity. 
 
-As a charged particle passes through the DC volume, a gas mixture of 50\% Argon and 50\% Ethane are ionized to create free electrons. These electrons cause a chain reaction of ionizations which are measured by an anode wire. The DC is designed in such a way that the drift velocities of the elections are predicable enough to relate time and position together. 
+As a charged particle passes through the DC volume, a gas mixture of 50\% Ethane and 50\% Argon are ionized to create free electrons. These electrons cause a chain reaction of ionizations which are measured by an anode wire. The DC is designed in such a way that the drift velocities of the elections are predicable enough to relate time and position together. 
 
 \begin{figure}[!ht]
 \centering
@@ -130,14 +130,14 @@ As a charged particle passes through the DC volume, a gas mixture of 50\% Argon 
 \label{fig:dc_diagram}
 \end{figure}
 
-Each identical DC arm is cylindrical in design and covers 2.5 m along the beam direction and is 0.4 m deep (in radius) as seen in the left panel in Figure \ref{fig:dc_diagram}. Each arm is divided into 20 equal sectors covering 4.5 degrees in $\phi$. Each sector contains six types of wire modules stacked radially and labeled X1, U1, V1, X2, U2, V2, respectively, from the inside out. The X wires run parallel to the beam to provide precise $\phi$ measurements while the U and V wires are set at small angles of about six degrees relative to the X wires to provide information about the $z$ position of the track. A diagram of the wire layout in each sector is shown in the right panel in Figure \ref{fig:dc_diagram}. In total, the DC consists of about 6,500 anode wires with 13,000 readout channels. The  resolution for a single wire is 165 $\mu$m in $r$-$\phi$, a single wire efficiency better than 99\%, and a spatial resolution of  2 mm in the $z$ direction.
+Each of the two identical DC arm is cylindrical design and covers 2.5 m along the beam direction and is 0.4 m deep (in radius) as seen in the left panel in Figure \ref{fig:dc_diagram}. Each arm is divided into 20 equal sectors covering 4.5 degrees in $\phi$. Each sector contains six types of wire modules stacked radially and labeled X1, X2, V1, V2, U1, U2. The X wires run parallel to the beam to provide precise $\phi$ measurements while the U and V wires are set at small angles of about six degrees relative to the X wires to provide information about the $z$ position of the track. A diagram of the wire layout in each sector is shown in the right panel in Figure \ref{fig:dc_diagram}. In total, the DC consists of about 6,500 anode wires with 13,000 readout channels. The  resolution for a single wire is 165 $\mu$m in $r$-$\phi$, a single wire efficiency better than 99\%, and a spatial resolution of  2 mm in the $z$ direction.
 
 %\clearpage
 \subsection{Pad Chambers}
-The PCs are multi-wire proportional chambers consisting of three separate layers of detectors measuring precise hit positions in the PHENIX tracking system which have the pseudorapidity acceptance as the DC. The innermost layer, PC1, is located in both the east and west arms immediately outside the DC, providing a measurement of the $x, y, z$ position at the back plane of the DC. The second layer, PC2, is located behind the RICH in the west arm only. The outer layer, PC3, is in both arms and provides a second space point on the straight line trajectories of the tracks through the detector, outside of the CM magnetic field as shown in Figure \ref{fig:magnet_figures}. PC1 hits are used as an input to the pattern recognition to reduce the track background.
+The PCs are multi-wire proportional chambers composed of three separate layers of detectors measuring precise hit positions in the PHENIX tracking system which have the pseudorapidity acceptance as the DC. PC1 is the innermost layer and is located in both the east and west arms directly outside of the DC, providing a measurement of the $x, y, z$ position at the back plane of the DC. PC2 is the second layer and is located near the RICH only in the west arm. PC3 is the outer layer and is located in both arms. PC3 gives a second space point on the straight line trajectories of the tracks through the detector, outside of the CM magnetic field as shown in Figure \ref{fig:magnet_figures}. PC1 hits are used in this analysis as an input to the pattern recognition to reduce the track background.
 
 \subsection{Ring Imaging Cherenkov Detector}
-The RICH detector is located immediately behind the PC1 and provides the primary electron identification for PHENIX. The RICH consists of two identical detectors in the CA. Each detector contains 48 mirror panels that focus Cherenkov light onto PMTs. The RICH is filled with radiator gas, CO$_2$, for the \pau running. The RICH provides e/$\pi$ (electron to pion) discrimination below the $\pi$ Cherenkov threshold of $\sim$4.5 GeV/c. Figure \ref{fig:rich_discrim_ep} shows the energy over momentum $E$/$p$ distribution in \auau \sqsn = 200 GeV collisions. The $E$ comes from the EMCAL and the $p$ comes from the DC tracks. When RICH hits are required in conjunction with DC tracks, a electron signal peak can be seen near $E$/$p$ = 1.0, as expected for electrons depositing their full energy in the EMCAL.
+The RICH detector is located directly behind the PC1 and produces the primary electron identification for PHENIX in the CA. The RICH is composed of two identical detectors in the CA. Each detector contains 48 mirror panels that focus Cherenkov light onto PMTs. The RICH is filled with radiator gas, CO$_2$, for the \pau running. The RICH provides e/$\pi$ (electron to pion) discrimination below the $\pi$ Cherenkov threshold of $\sim$4.5 GeV/c. Figure \ref{fig:rich_discrim_ep} shows the energy over momentum $E$/$p$ distribution in \auau \sqsn = 200 GeV collisions. The $E$ comes from the EMCAL and the $p$ comes from the DC tracks. When RICH hits are required in conjunction with DC tracks, a electron signal peak can be seen near $E$/$p$ = 1.0, as expected for electrons depositing their full energy in the EMCAL.
 
 \begin{figure}[!ht]
 \centering
@@ -145,9 +145,6 @@ The RICH detector is located immediately behind the PC1 and provides the primary
 \caption{Ratio of energy to momentum for all Drift Chamber tracks (dashed-dotted line), and tracks associated with RICH hits (solid line) in \auau \sqsn = 200 GeV collisions. The $p$ range is 1.1 -- 1.2 GeV/c ~\cite{Aizawa2003508}.}
 \label{fig:rich_discrim_ep}
 \end{figure}
-
-\subsection{Electromagnetic Calorimeter}
-The EMCAL is the outermost subsystem in the central arms and is designed primarily to measure the energies and positions of photons and electrons which have the pseudorapidity acceptance as the DC. It also plays a key role in particle identification, as well as providing triggering on rare events of interest. Two different EMCAL designs were utilized with six sectors based on a lead-scintillator design and two sectors based on a lead-glass design. The two different designs were chosen deliberately as each provides advantages and disadvantages; for instance the lead glass has a better energy resolution, while the lead scintillator has better linearity and timing.
 
 \subsection{PHENIX Data Acquisition System}
 \label{sec:PHENIX_DAQ}
