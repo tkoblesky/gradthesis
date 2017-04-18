@@ -158,26 +158,6 @@ The BBC provides information on the position, time of arrival, and number of cha
 Details of the event plane method were given in Chapter 2 Section \ref{sec:event_plane}.
 The goal of this thesis is to measure $v_2$, which is related to collective behavior as evidenced by correlations among particles. These correlations exist relative to the orientation of the collision. The event plane method measures the azimuthal anisotropy in final state particles. The event plane method uses final state particles to calculate the event plane angle from the data. A different set of final state particles are used to define the event plane in the FVTX or BBC and measure the $v_2$ in the CA. 
 
-An event plane angle is defined for each harmonic, and is denoted as $\Psi_n$ where $n$ is the harmonic number. The definition for $\Psi_n$ is related to the calculation of the Q-vector. For an event with $N$ particles, define the flow vector $\vec{Q}$ as follows:
-
-\begin{align}
-Q_x &= \sum_{i=1}^{N}( w_i \cos(n \phi_i)) \\
-Q_y &= \sum_{i=1}^{N}( w_i \sin(n \phi_i)) \\
-Q_w &= \sum_{i=1}^{N}( w_i )
-%\Psi_n &= \arctan( \frac{Q_y}{Q_x} ),
-\label{eqn:general_ep_math}
-\end{align}
-where $i$ is the $i$th particle in the event, $\phi_i$ is the azimuthal angle of the particle, $w_i$ is the weight factor, and $n$ is the harmonic number. We define the $n$th order event plane as
-$\Psi_n = \arctan \left( \frac{Q_y}{Q_x} \right). $
-
-Once the event plane has been calculated, the flow harmonics ($v_n$) are defined as
-\begin{equation}
-v_n = \frac{\langle \langle\cos(n(\phi - \Psi_n))\rangle \rangle}{Res(\Psi_n)},
-\end{equation}
-where $\langle \langle \rangle \rangle$ indicates that $\cos(2(\phi-\Psi_n))$ is averaged over all particles in the same event, and the resulting $v_2$ must be averaged over many events \cite{PhysRevC.58.1671}. Note, the event plane angle and the Q-vector are defined at the event level.
-  
-As discussed in Chapter 2, Section \ref{sec:event_plane}, the event plane angle is a measurement which attempts to correspond to the physical participant plane angle. Thus, the event plane is an imperfect representation of the reaction plane and needs to be corrected. This correction is known as the event plane resolution $Res(\Psi_n)$, and is calculated using the 3-subevent method. It is important to note the set of particles used to calculate $\Psi_n$ and $\phi$ must be different in order to avoid autocorrelations. This is usually done by imposing an $\eta$ gap (at least a half of a unit of pseudorapidity)between the two particle sets.
-
 For this analysis, the event plane is calculated separately for each of the forward detectors mentioned above, i.e., the BBC and the FVTX. We only use the south (Au-going) side of each detector, referred to here as the BBCS and the FVTXS.
 For the FVTXS, the Q-vector is calculated in each event as
 \begin{align}
